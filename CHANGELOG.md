@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0rc4.dev0 — per-reader handoffs
+
+- Add read-only MCP tools for page changes and independent acknowledgements per reader.
+- Support complete Markdown reads from operator-selected Notion pages and a local workspace source.
+- Add lossless handoff packets, multiple-reader tests and a setup guide. Credentialed live Notion REST validation is pending.
+
 ## 0.7.0rc3 — initial public preview
 
 - Add explicit-topic reviewed source ranges with source-set and revision invalidation in fresh snapshots.

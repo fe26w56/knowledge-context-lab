@@ -2,7 +2,13 @@
 
 **Evidence-preserving context retrieval for local AI agents.** Keep original sources, return reviewed source ranges for known topics, and withhold stale context when supporting documents change.
 
-Experimental preview **0.7.0rc3** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
+Development preview **0.7.0rc4.dev0** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
+
+## Per-agent Notion handoffs
+
+Each agent keeps its own acknowledged version of each page. `read_changes` returns a full first read or a delta since that agent's last receipt. `ack_changes` records successful delivery after the host has retained and verified the result. Configure a separate reader ID for each agent. The stdio server runs on the MCP host and stores receipts on its persistent disk.
+
+[Setup and read/ack example](docs/workspace-handoff.md#agent-facing-mcp) · [Installable wheel](releases/0.7.0rc4.dev0/knowledge_context_lab-0.7.0rc4.dev0-py3-none-any.whl) · [Reader tests](tests/test_reader_mcp.py)
 
 ## Try it
 
@@ -67,7 +73,7 @@ Use a new output directory each time. First-time tokenizer setup downloads a dic
 
 ## Boundaries
 
-This library does not authenticate agents, synchronize Notion, provide a hosted service, or infer a topic from arbitrary language. Caller identities are trusted local strings. Keep the workspace behind your own authorization boundary. Scope/owner transitions are currently rejected; this is not a complete revocation service. Fresh snapshots scan the visible store, and an old in-memory snapshot is not automatically refreshed.
+The Notion reader fetches complete Markdown on demand from explicitly selected pages. Caller identities are trusted local settings. The MCP process runs on the agent host and uses its persistent disk for acknowledgements. Keep the workspace behind your own authorization boundary. Scope/owner transitions are currently rejected; this is not a complete revocation service. Fresh snapshots scan the visible store, and an old in-memory snapshot is not automatically refreshed.
 
 A token ceiling can lose required evidence. The older search and experimental retrieval modules remain available for comparisons, but no profile guarantees completeness. SQLite supplies history and consistent updates; retrieval savings are not database savings. [Security](SECURITY.md)
 

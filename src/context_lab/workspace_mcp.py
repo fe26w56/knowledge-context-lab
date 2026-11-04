@@ -7,12 +7,16 @@ from __future__ import annotations
 
 import json
 from importlib.metadata import version
+from pathlib import Path
 import sys
 from typing import Any
 
 from .workspace import Workspace
 from .store import StoreError, ValidationError
 from .observations import ObservationSink
+from .reader_handoff import ReaderHandoff
+from .notion_reader import NotionPages
+from .workspace_cli import _handoff_pages
 
 PROTOCOL = "2025-11-25"
 TOOLS = {
@@ -24,6 +28,16 @@ TOOLS = {
     "get_topic": "Read a topic record",
     "publish_topic": "Write an explicitly reviewed topic record",
     "export_bundle": "Export a portable workspace bundle",
+}
+READER_TOOLS = {
+    "read_changes": {
+        "description": "Read one page since this reader last acknowledged it. Request fresh if your retained copy is missing.",
+        "inputSchema": {"type": "object", "additionalProperties": False, "required": ["page_id"],
+                        "properties": {"page_id": {"type": "string"}, "fresh": {"type": "boolean"}}}},
+    "ack_changes": {
+        "description": "After retaining and verifying the packet, acknowledge its receipt and reconstructed head.",
+        "inputSchema": {"type": "object", "additionalProperties": False, "required": ["page_id", "receipt", "head"],
+                        "properties": {"page_id": {"type": "string"}, "receipt": {"type": "string"}, "head": {"type": "string"}}}},
 }
 
 
@@ -113,7 +127,8 @@ def dispatch(method: str, params: dict[str, Any], workspace: Workspace) -> Any:
     raise ValueError(f"unknown tool: {method}")
 
 
-def handle(message: dict[str, Any], workspace: Workspace, *, initialized: bool = False) -> dict[str, Any] | None:
+def handle(message: dict[str, Any], workspace: Workspace | None, *, initialized: bool = False,
+           reader: ReaderHandoff | None = None) -> dict[str, Any] | None:
     if message.get("jsonrpc") != "2.0" or not isinstance(message.get("method"), str):
         return _error(-32600, "invalid JSON-RPC request", message.get("id"))
     request_id = message.get("id")
@@ -134,13 +149,23 @@ def handle(message: dict[str, Any], workspace: Workspace, *, initialized: bool =
         if method == "ping":
             return {"jsonrpc": "2.0", "id": request_id, "result": {}}
         if method == "tools/list":
-            return {"jsonrpc": "2.0", "id": request_id, "result": {"tools": _tools()}}
+            tools = _tools() if reader is None else [{"name": k, **v} for k, v in READER_TOOLS.items()]
+            return {"jsonrpc": "2.0", "id": request_id, "result": {"tools": tools}}
         if method == "tools/call":
             params = dict(message.get("params") or {})
             name = params.pop("name", "")
             arguments = params.pop("arguments", {})
-            if params or name not in TOOLS or not isinstance(arguments, dict):
+            if params or not isinstance(arguments, dict) or name not in (READER_TOOLS if reader else TOOLS):
                 raise ValueError("invalid tool call")
+            if reader is not None:
+                action = reader.read if name == "read_changes" else reader.acknowledge
+                try:
+                    text = json.dumps(action(**arguments), ensure_ascii=False)
+                    result = {"content": [{"type": "text", "text": text}]}
+                except (OSError, ValueError) as exc:
+                    result = {"isError": True, "content": [{"type": "text", "text": str(exc)}]}
+                return {"jsonrpc": "2.0", "id": request_id, "result": result}
+            assert workspace is not None
             try:
                 value = dispatch(name, arguments, workspace)
             except StoreError as exc:
@@ -157,13 +182,43 @@ def main(argv: list[str] | None = None) -> int:
     # Configuration is passed as process arguments, never per-tool secret data.
     import argparse
     p = argparse.ArgumentParser(prog="context-lab-workspace-mcp")
-    p.add_argument("--db", required=True)
+    source = p.add_mutually_exclusive_group(required=True)
+    source.add_argument("--db")
+    source.add_argument("--notion-page", action="append", help="allowed Notion page UUID; repeat per page")
     p.add_argument("--actor", required=True)
+    p.add_argument("--reader", help="stable agent/consumer identity; exposes only the handoff tools")
+    p.add_argument("--handoff-state", type=Path, help="private directory for durable reader receipts")
+    p.add_argument("--notion-workspace", help="stable workspace identifier for Notion receipt isolation")
+    p.add_argument("--authorized-view", help="trusted complete manifest for an imported workspace")
+    p.add_argument("--scope", choices=("shared", "private"), default="shared")
     p.add_argument("--observe-dir")
     p.add_argument("--observation-kind", choices=("diagnostic", "operational"), default="diagnostic")
     args = p.parse_args(argv)
+    if bool(args.reader) != bool(args.handoff_state):
+        p.error("--reader and --handoff-state are required together")
+    if args.notion_page and not (args.reader and args.notion_workspace):
+        p.error("--notion-page requires --reader, --handoff-state and --notion-workspace")
+    if args.authorized_view and not (args.db and args.reader):
+        p.error("--authorized-view applies only to imported workspace reader mode")
+    if args.notion_workspace and not args.notion_page:
+        p.error("--notion-workspace requires --notion-page")
     observer = ObservationSink(args.observe_dir, kind=args.observation_kind) if args.observe_dir else None
-    ws = Workspace(args.db, observer=observer)
+    ws = Workspace(args.db, observer=observer) if args.db else None
+    reader = None
+    if args.reader:
+        if ws is None:
+            source_id = "notion:" + args.notion_workspace
+            try:
+                current = NotionPages(args.notion_page)
+            except ValueError as exc:
+                p.error(str(exc))
+        else:
+            source_id = "workspace:" + str(ws.store.path)
+            def current(page_id):
+                visible = _handoff_pages(ws, args.actor, args.scope, args.authorized_view)
+                return {k: visible[k] for k in ("body/" + page_id, "metadata/" + page_id) if k in visible}
+        reader = ReaderHandoff(args.handoff_state, source=source_id, actor=args.actor,
+                               reader=args.reader, scope=args.scope, current=current)
     initialized = False
     for line in sys.stdin:
         if not line.strip():
@@ -171,7 +226,7 @@ def main(argv: list[str] | None = None) -> int:
         try:
             message = json.loads(line)
             # Bind configured actor; a caller cannot override it in arguments.
-            if isinstance(message.get("params"), dict):
+            if reader is None and isinstance(message.get("params"), dict):
                 message["params"] = dict(message["params"])
                 if message.get("method") == "tools/call":
                     call_args = message["params"].get("arguments")
@@ -190,7 +245,7 @@ def main(argv: list[str] | None = None) -> int:
             if message.get("method") not in {"initialize", "ping", "notifications/initialized"} and not initialized:
                 response = _error(-32002, "initialize is required before tools", message.get("id"))
             else:
-                response = handle(message, ws, initialized=initialized)
+                response = handle(message, ws, initialized=initialized, reader=reader)
             if message.get("method") == "initialize" and response and "result" in response:
                 initialized = True
             if response is not None:

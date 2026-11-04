@@ -1,5 +1,7 @@
 # Local knowledge workspace guide
 
+For per-reader, per-page Notion or local workspace deltas, see [Agent-facing MCP](workspace-handoff.md#agent-facing-mcp).
+
 This guide demonstrates the local migration candidate against the fictional raw-page fixture in `fixtures/phase2-migration-v2`. It is a diagnostic OSS example, not a production service or an independent benchmark. The fixture contains no private user material. Use an access-filtered source export; do not copy real Notion pages into a public package.
 
 The workspace separates two things that are easy to mix in a page system:
