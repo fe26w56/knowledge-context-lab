@@ -1,0 +1,290 @@
+[
+  {
+    "id": "final-01",
+    "category": "current_policy",
+    "project": "atlas",
+    "mode": "current",
+    "variants": [
+      "Atlasの申請を開始するための3条件は何ですか。",
+      "Atlas申請の事前確認をすべて挙げてください。",
+      "Atlasで受付を始める前に揃える記録は何ですか。"
+    ],
+    "required_source_ids": [
+      "st-fin-01"
+    ],
+    "required_quotes": [
+      "本人確認、申請番号、承認者記録が揃えば開始する。"
+    ],
+    "expected_answer_fragments": [
+      "本人確認",
+      "申請番号",
+      "承認者記録"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-02",
+    "category": "conditional_exception",
+    "project": "birch",
+    "mode": "current",
+    "variants": [
+      "Birchの海外申請と住所確認失敗時の扱いは何ですか。",
+      "Birchで海外案件に加える確認と、失敗時の判断を教えてください。",
+      "Birchの審査例外ではどの条件で止めますか。"
+    ],
+    "required_source_ids": [
+      "st-fin-02"
+    ],
+    "required_quotes": [
+      "海外申請は追加の住所確認を行う。",
+      "住所確認が失敗した場合は審査を再開しない。"
+    ],
+    "expected_answer_fragments": [
+      "追加の住所確認",
+      "再開しない"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-03",
+    "category": "history",
+    "project": "cinder",
+    "mode": "history",
+    "variants": [
+      "Cinderの9月までの集計頻度と10月の変更を教えてください。",
+      "Cinderは日次から何に変わりましたか。",
+      "Cinderの履歴上の集計方針を時系列で説明してください。"
+    ],
+    "required_source_ids": [
+      "st-fin-03"
+    ],
+    "required_quotes": [
+      "2026年9月までは日次集計だった。",
+      "10月から週次集計に変更され、旧方針は現行判断に使わない。"
+    ],
+    "expected_answer_fragments": [
+      "日次集計",
+      "週次集計",
+      "10月"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-04",
+    "category": "proposal_not_approved",
+    "project": "delta",
+    "mode": "current",
+    "variants": [
+      "Deltaの上限値案は承認済みですか。適用条件も答えてください。",
+      "Deltaの変更案の状態と、実施を待つ条件を説明してください。",
+      "Deltaの新上限は今すぐ使えますか。"
+    ],
+    "required_source_ids": [
+      "st-fin-04"
+    ],
+    "required_quotes": [
+      "新しい上限値は提案中で、承認済みではない。",
+      "監査と利用者通知が終わるまで適用しない。"
+    ],
+    "expected_answer_fragments": [
+      "提案中",
+      "適用しない"
+    ],
+    "forbidden_answer_fragments": [
+      "承認済み"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "final-05",
+    "category": "cross_document",
+    "project": "ember",
+    "mode": "current",
+    "variants": [
+      "Emberのラベル別在庫数と金ラベルの払い出し条件を教えてください。",
+      "Emberで銀と金は何個あり、金はいつ使えますか。",
+      "Emberの棚卸し結果と払い出し規則を合わせて説明してください。"
+    ],
+    "required_source_ids": [
+      "st-fin-05"
+    ],
+    "required_quotes": [
+      "銀ラベルは8個、金ラベルは3個である。",
+      "金ラベルは責任者の確認後だけ払い出す。"
+    ],
+    "expected_answer_fragments": [
+      "8個",
+      "3個",
+      "責任者の確認後"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-06",
+    "category": "all_items",
+    "project": "fern",
+    "mode": "current",
+    "variants": [
+      "Fernの受付分類をすべて列挙してください。",
+      "Fernで使う3つの分類は何ですか。",
+      "Fernの問い合わせ分類一覧を省略せずに答えてください。"
+    ],
+    "required_source_ids": [
+      "st-fin-06"
+    ],
+    "required_quotes": [
+      "技術、請求、契約の3分類を使う。"
+    ],
+    "expected_answer_fragments": [
+      "技術",
+      "請求",
+      "契約"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-07",
+    "category": "privacy",
+    "project": "glint",
+    "mode": "current",
+    "variants": [
+      "Glintの共有フォルダは誰が見られますか。",
+      "Glintで共有資料を閲覧できる範囲を教えてください。",
+      "Glintの公開領域のアクセス単位は何ですか。"
+    ],
+    "required_source_ids": [
+      "st-fin-07"
+    ],
+    "required_quotes": [
+      "共有フォルダはプロジェクトメンバーが閲覧できる。"
+    ],
+    "expected_answer_fragments": [
+      "プロジェクトメンバー"
+    ],
+    "forbidden_answer_fragments": [
+      "個人メモ"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "final-08",
+    "category": "conditional_exception",
+    "project": "helios",
+    "mode": "current",
+    "variants": [
+      "Heliosの通常拡大条件と課金変更の例外を説明してください。",
+      "Heliosはいつ50%へ進め、課金変更では何を待ちますか。",
+      "Heliosの段階導入の閾値と制限を教えてください。"
+    ],
+    "required_source_ids": [
+      "st-fin-08"
+    ],
+    "required_quotes": [
+      "10%を20分観測し、失敗率が2%未満なら50%へ進める。",
+      "課金変更は10%から拡大せず、財務承認を待つ。"
+    ],
+    "expected_answer_fragments": [
+      "10%を20分",
+      "2%未満",
+      "50%へ"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-09",
+    "category": "cross_document",
+    "project": "indigo",
+    "mode": "current",
+    "variants": [
+      "Indigoを完了とするために必要な二つのIDは何ですか。",
+      "Indigoの承認と実施の証跡条件を説明してください。",
+      "Indigoで片方の記録しかない場合、完了扱いできますか。"
+    ],
+    "required_source_ids": [
+      "st-fin-09"
+    ],
+    "required_quotes": [
+      "承認IDIN-Aと実施IDIN-Lが両方あれば完了とする。"
+    ],
+    "expected_answer_fragments": [
+      "IN-A",
+      "IN-L"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-10",
+    "category": "unknown",
+    "project": "juniper",
+    "mode": "current",
+    "variants": [
+      "Juniperの受付番号JU-999は完了していますか。",
+      "Juniperで指定された受付の処理結果を確認してください。",
+      "Juniperの受付状態は現資料から分かりますか。"
+    ],
+    "required_source_ids": [],
+    "required_quotes": [],
+    "expected_answer_fragments": [],
+    "forbidden_answer_fragments": [
+      "処理結果"
+    ],
+    "answerable": false
+  },
+  {
+    "id": "final-11",
+    "category": "history",
+    "project": "cinder",
+    "mode": "history",
+    "variants": [
+      "Cinderの過去の集計頻度を確認してください。",
+      "Cinderの日次運用から週次運用への変更を説明してください。",
+      "Cinderで現行判断に使わない履歴方針は何でしたか。"
+    ],
+    "required_source_ids": [
+      "st-fin-03"
+    ],
+    "required_quotes": [
+      "2026年9月までは日次集計だった。",
+      "10月から週次集計に変更され、旧方針は現行判断に使わない。"
+    ],
+    "expected_answer_fragments": [
+      "2026年9月",
+      "日次集計",
+      "週次集計"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-12",
+    "category": "all_items",
+    "project": "koala",
+    "mode": "current",
+    "variants": [
+      "Koalaの4つの確認項目を一覧にしてください。",
+      "Koalaの受付チェックリストを全件示してください。",
+      "Koalaで確認する項目を漏れなく教えてください。"
+    ],
+    "required_source_ids": [
+      "st-fin-11"
+    ],
+    "required_quotes": [
+      "氏名、契約ID、連絡先、同意の4項目を確認する。"
+    ],
+    "expected_answer_fragments": [
+      "氏名",
+      "契約ID",
+      "連絡先",
+      "同意"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  }
+]

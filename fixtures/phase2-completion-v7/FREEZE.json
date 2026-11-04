@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-30T09:53:47.877069+00:00",
+  "corpus_documents": 80,
+  "corpus_sections": 160,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "a3f4893ebf2e635102877b77cbda28eecc801c9441ad7197693aadbd55cf4654",
+    "dev.json": "aef8d3a1724d8cc401b265ee64f42753f1c54d121c635b6353806a40781c7029",
+    "final.json": "e47815190c42a9e269252251d1f4bac34e181ae4a9d55e7277891a7cca55fdf6",
+    "grading.json": "fd13108744fc2068ef9b2828daa6d9422b15912d6dd92197e91be329c5762026",
+    "TOKEN_REPORT.json": "011ff5f639b3f4ff232e6ec5831e21c74285bd85e3acd476cdc884ea6b51f371",
+    "STRUCTURAL_REPAIR.json": "7c9a1dbeb3e54828b01c3ec94a7014239537b2b28b8da4b2e045e6474a48038b"
+  },
+  "author_not_exposed_to_new_implementation": true,
+  "frozen_before_improvement_implementation": false,
+  "structural_repair_after_implementation_start": true,
+  "no_baseline_or_candidate_measurement": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "revision_of": "fixtures/phase2-completion-v6",
+  "tokenizer": "o200k_base"
+}

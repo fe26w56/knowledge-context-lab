@@ -1,0 +1,29 @@
+{
+  "engine": "completion",
+  "config": {
+    "stage": 2,
+    "candidate_limit": 12,
+    "max_candidates": 12,
+    "max_rounds": 3,
+    "coverage_stop": 0.75,
+    "chunk_chars": 420,
+    "use_aliases": null,
+    "expand_candidates": null,
+    "split_long": true,
+    "coverage_selection": null,
+    "ranking": "cosine",
+    "definition_expansion": true,
+    "deduplicate_documents": true,
+    "candidate_diversity": 0.0,
+    "eligible_section_ranking": true,
+    "compact_spans": true,
+    "lexical_diversity": 0.8,
+    "strict_current_state": true,
+    "document_round_robin": true
+  },
+  "budget": 4000,
+  "variant": "balanced_twelve",
+  "status": "experimental; retrieval validated, model quality and end-to-end cost unmeasured",
+  "selection_path": "runs/phase2-completion-selection-v1/selection.json",
+  "selection_sha256": "79867acfc3357329dda1c761829aec3c240dc153a61515e386cf3d92723ae41a"
+}

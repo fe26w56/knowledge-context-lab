@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v4",
+  "queries": [
+    {
+      "id": "v4f10",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Koraの引継ぎで残す項目は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。"
+      ],
+      "accepted_source_ids": [
+        "v4_f3b11ab2f7e8d058",
+        "v4_7ae4f0cddd3c4838",
+        "v4_a692bb4fe154a902"
+      ],
+      "evidence_sources": {
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。": [
+          "v4_f3b11ab2f7e8d058",
+          "v4_7ae4f0cddd3c4838",
+          "v4_a692bb4fe154a902"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f11",
+      "split": "final",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "LumenのL1とL2を同じ周期としてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。"
+      ],
+      "accepted_source_ids": [
+        "v4_aed44ef174e8ca1d",
+        "v4_1b58ed75c865ff18",
+        "v4_f42764e84c44e72a"
+      ],
+      "evidence_sources": {
+        "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。": [
+          "v4_aed44ef174e8ca1d",
+          "v4_1b58ed75c865ff18",
+          "v4_f42764e84c44e72a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f12",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "所有者bot_02がMoss評価メモを読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V4_10_Q8"
+      ],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f13",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Nookは料理名だけで注文確定できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。"
+      ],
+      "accepted_source_ids": [
+        "v4_8fa2431e62e791f9",
+        "v4_3e7cbec0a59375c5",
+        "v4_90e8e7f844789251"
+      ],
+      "evidence_sources": {
+        "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。": [
+          "v4_8fa2431e62e791f9",
+          "v4_3e7cbec0a59375c5",
+          "v4_90e8e7f844789251"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f14",
+      "split": "final",
+      "category": "retry",
+      "request": {
+        "text": "Opalの応答喪失後に完了扱いできる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。"
+      ],
+      "accepted_source_ids": [
+        "v4_e6a906a0d74dd601",
+        "v4_6a0235baf088809c",
+        "v4_3d980fe71df808aa"
+      ],
+      "evidence_sources": {
+        "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。": [
+          "v4_e6a906a0d74dd601",
+          "v4_6a0235baf088809c",
+          "v4_3d980fe71df808aa"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f15",
+      "split": "final",
+      "category": "long_table",
+      "request": {
+        "text": "Willow表の区分02の閾値と例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "| 区分02 | 8単位 | 例外区02を確認 |"
+      ],
+      "accepted_source_ids": [
+        "v4_aa655682f917ded0"
+      ],
+      "evidence_sources": {
+        "| 区分02 | 8単位 | 例外区02を確認 |": [
+          "v4_aa655682f917ded0"
+        ]
+      },
+      "condition_quotes": [
+        "例外区02を確認"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f16",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Quarryの到着と窓口条件を合わせて確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。"
+      ],
+      "accepted_source_ids": [
+        "v4_0acf09a055cbcf10",
+        "v4_16cc1bec6b183863",
+        "v4_f5793698613a9d25"
+      ],
+      "evidence_sources": {
+        "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。": [
+          "v4_0acf09a055cbcf10",
+          "v4_16cc1bec6b183863",
+          "v4_f5793698613a9d25"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f17",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Rookの現在の競合処理は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_d12ca8ff1834cdd4",
+        "v4_9f328c8d07d78490",
+        "v4_646a76851006cb2b"
+      ],
+      "evidence_sources": {
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。": [
+          "v4_d12ca8ff1834cdd4",
+          "v4_9f328c8d07d78490",
+          "v4_646a76851006cb2b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f18",
+      "split": "final",
+      "category": "measured_vs_target",
+      "request": {
+        "text": "Slateの16体同時待ち時間は測定済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "16体同時実行の待ち時間は未測定で、単独成功から推定しない。"
+      ],
+      "accepted_source_ids": [
+        "v4_04fffec486524319",
+        "v4_731ed79939161e21",
+        "v4_ccd2aa5efeb2fca9"
+      ],
+      "evidence_sources": {
+        "16体同時実行の待ち時間は未測定で、単独成功から推定しない。": [
+          "v4_04fffec486524319",
+          "v4_731ed79939161e21",
+          "v4_ccd2aa5efeb2fca9"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f19",
+      "split": "final",
+      "category": "conflict_current_proposal",
+      "request": {
+        "text": "Terraの現行状態と予約表示案を分けて答えて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。",
+        "空室確認だけで確定予約と表示する案は却下された。"
+      ],
+      "accepted_source_ids": [
+        "v4_ed50018c51fe946b",
+        "v4_f1d24dd2b5250d05",
+        "v4_4571e74ceef908a6"
+      ],
+      "evidence_sources": {
+        "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。": [
+          "v4_ed50018c51fe946b",
+          "v4_f1d24dd2b5250d05",
+          "v4_4571e74ceef908a6"
+        ],
+        "空室確認だけで確定予約と表示する案は却下された。": [
+          "v4_ed50018c51fe946b",
+          "v4_f1d24dd2b5250d05",
+          "v4_4571e74ceef908a6"
+        ]
+      },
+      "condition_quotes": [
+        "予約はまだ行っておらず"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f20",
+      "split": "final",
+      "category": "condition_variant",
+      "request": {
+        "text": "Kora近似条件で12件に限定する場合の例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_236acfff6a09fb31"
+      ],
+      "evidence_sources": {
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。": [
+          "v4_236acfff6a09fb31"
+        ]
+      },
+      "condition_quotes": [
+        "例外10を確認する。"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f21",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "Nook旧確認を5月5日に復元して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。"
+      ],
+      "accepted_source_ids": [
+        "v4_8fa2431e62e791f9",
+        "v4_3e7cbec0a59375c5",
+        "v4_90e8e7f844789251"
+      ],
+      "evidence_sources": {
+        "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。": [
+          "v4_8fa2431e62e791f9",
+          "v4_3e7cbec0a59375c5",
+          "v4_90e8e7f844789251"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f22",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "Rookは競合更新を消してよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_d12ca8ff1834cdd4",
+        "v4_9f328c8d07d78490",
+        "v4_646a76851006cb2b"
+      ],
+      "evidence_sources": {
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。": [
+          "v4_d12ca8ff1834cdd4",
+          "v4_9f328c8d07d78490",
+          "v4_646a76851006cb2b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f23",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "D1の本番可用性をこのfixtureで実測済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f24",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がKora privateを読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V4_10_Q8"
+      ],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f25",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "LumenのL2周期は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。"
+      ],
+      "accepted_source_ids": [
+        "v4_aed44ef174e8ca1d",
+        "v4_1b58ed75c865ff18",
+        "v4_f42764e84c44e72a"
+      ],
+      "evidence_sources": {
+        "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。": [
+          "v4_aed44ef174e8ca1d",
+          "v4_1b58ed75c865ff18",
+          "v4_f42764e84c44e72a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f26",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Nookの食材確認を省いてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。"
+      ],
+      "accepted_source_ids": [
+        "v4_8fa2431e62e791f9",
+        "v4_3e7cbec0a59375c5",
+        "v4_90e8e7f844789251"
+      ],
+      "evidence_sources": {
+        "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。": [
+          "v4_8fa2431e62e791f9",
+          "v4_3e7cbec0a59375c5",
+          "v4_90e8e7f844789251"
+        ]
+      },
+      "condition_quotes": [
+        "材料と調理時の扱い"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f27",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Opalの確定版未確認で完了にできる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。"
+      ],
+      "accepted_source_ids": [
+        "v4_e6a906a0d74dd601",
+        "v4_6a0235baf088809c",
+        "v4_3d980fe71df808aa"
+      ],
+      "evidence_sources": {
+        "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。": [
+          "v4_e6a906a0d74dd601",
+          "v4_6a0235baf088809c",
+          "v4_3d980fe71df808aa"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f28",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Kora引継ぎとRook競合の根拠をまとめて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。",
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_f3b11ab2f7e8d058",
+        "v4_7ae4f0cddd3c4838",
+        "v4_a692bb4fe154a902",
+        "v4_d12ca8ff1834cdd4",
+        "v4_9f328c8d07d78490",
+        "v4_646a76851006cb2b"
+      ],
+      "evidence_sources": {
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。": [
+          "v4_f3b11ab2f7e8d058",
+          "v4_7ae4f0cddd3c4838",
+          "v4_a692bb4fe154a902"
+        ],
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。": [
+          "v4_d12ca8ff1834cdd4",
+          "v4_9f328c8d07d78490",
+          "v4_646a76851006cb2b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4f29",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Terraの確定予約表示案は採用済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "空室確認だけで確定予約と表示する案は却下された。"
+      ],
+      "accepted_source_ids": [
+        "v4_ed50018c51fe946b",
+        "v4_f1d24dd2b5250d05",
+        "v4_4571e74ceef908a6"
+      ],
+      "evidence_sources": {
+        "空室確認だけで確定予約と表示する案は却下された。": [
+          "v4_ed50018c51fe946b",
+          "v4_f1d24dd2b5250d05",
+          "v4_4571e74ceef908a6"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    }
+  ]
+}

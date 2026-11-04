@@ -1,0 +1,12 @@
+{
+  "fixture": "synthetic-phase2-confirmation-v1",
+  "created": "2026-11-02",
+  "purpose": "confirmation diagnostic",
+  "documents": 100,
+  "sections": 200,
+  "dev_questions": 20,
+  "final_questions": 20,
+  "implementation_exposed": false,
+  "api_calls": false,
+  "search_performed": false
+}

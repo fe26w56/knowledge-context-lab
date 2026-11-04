@@ -1,0 +1,20 @@
+{
+  "config": {
+    "stage": 2,
+    "candidate_limit": 3,
+    "max_candidates": 12,
+    "max_rounds": 3,
+    "coverage_stop": 0.75,
+    "chunk_chars": 420,
+    "use_aliases": null,
+    "expand_candidates": null,
+    "split_long": true,
+    "coverage_selection": null,
+    "ranking": "cosine",
+    "definition_expansion": true
+  },
+  "budget": 1000,
+  "implementation_sha256": "0cd29d855cb116ade6d0a64e279ec4363dcea3240d0a591e9913bd11d6cc8426",
+  "development_run": "runs/phase2-dev-v3/definition",
+  "frozen_at": "2026-10-30T01:28:41.594685+00:00"
+}

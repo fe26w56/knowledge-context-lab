@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-30T08:39:14.103059+00:00",
+  "corpus_documents": 80,
+  "corpus_sections": 80,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "b1343a02c2b681443f573c33d49258010579e74c30345f2343889e2a6ba38ddd",
+    "dev.json": "1a3c9bb198c896a8b921b8fbdf3cbac7a37d7f33c306a15b2fe28913f37c921b",
+    "final.json": "8d717078347ac8ccf80d45c167ebfdf5eb1f6c6687d5e833fe9dcfcf12bbbb95",
+    "grading.json": "f2801441059cbec5b611176abef68a924333621455a4140c23d7949f52ccc834"
+  },
+  "author_not_exposed_to_new_implementation": true,
+  "frozen_before_improvement_implementation": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true
+}

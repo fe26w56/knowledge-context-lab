@@ -1,0 +1,190 @@
+[
+  {
+    "id": "dev-01",
+    "category": "lookup",
+    "topic_id": "発送ルール",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "発送ルールの決定、適用条件、例外、根拠をすべて確認してください。",
+      "発送ルールについて、通常便の判断と条件・例外・根拠をまとめてください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-01",
+      "rv-sh-02"
+    ],
+    "required_quotes": [
+      "通常便は受付日の翌営業日に発送する。",
+      "平日15時までの確定注文に適用する。",
+      "冷蔵品は保冷便へ切り替え、土日確定分は月曜扱いとする。",
+      "レビュー票SH-3と出荷ログで確認した。",
+      "締切時刻を変更する場合は新しい版を作り旧版を履歴化する。",
+      "翌営業日発送の判断は在庫照合完了を前提にする。",
+      "在庫照合番号が付いた注文だけ対象とする。",
+      "照合不一致は発送せず担当へ戻す。",
+      "照合票SH-Iと倉庫記録で確認した。",
+      "照合項目を増やす場合は根拠範囲を更新する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "dev-02",
+    "category": "lookup",
+    "topic_id": "返品窓口",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "返品窓口の決定、適用条件、例外、根拠をすべて確認してください。",
+      "返品受付について条件と例外を含めて確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-03"
+    ],
+    "required_quotes": [
+      "未使用品は到着後14日以内に受付する。",
+      "注文番号と未使用状態を確認する。",
+      "開封済みは通常受付せず初期不良窓口へ案内する。",
+      "返品票SH-Rで確認した。",
+      "期間変更は承認記録を追記する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "dev-03",
+    "category": "history",
+    "topic_id": "監査頻度",
+    "project": "reuse-dev",
+    "mode": "history",
+    "variants": [
+      "監査頻度の決定・適用条件・例外・根拠を履歴として確認してください。",
+      "監査頻度について、通常と臨時の扱いを根拠付きで確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-04"
+    ],
+    "required_quotes": [
+      "月次監査を毎月第1営業日に実施する。",
+      "対象月の全ログが揃った場合に開始する。",
+      "重大障害は月次を待たず臨時監査とする。",
+      "監査記録SH-Aで確認した。",
+      "頻度変更は次版へ分離する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "dev-04",
+    "category": "proposal",
+    "topic_id": "価格提案",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "価格提案の決定、適用条件、例外、根拠をすべて確認してください。",
+      "価格案は今どう扱うか、未承認時の例外と根拠を確認してください."
+    ],
+    "required_source_ids": [
+      "rv-sh-05"
+    ],
+    "required_quotes": [
+      "追加料金案は提案中で、現行価格を変更しない。",
+      "法務と顧客通知の承認後に再評価する。",
+      "承認前の適用は禁止する。",
+      "提案票SH-Pに未承認とある。",
+      "承認状態を更新してから版を変える。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "dev-05",
+    "category": "privacy",
+    "topic_id": "個人メモ",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "個人メモの決定・条件・例外・根拠を確認してください。",
+      "個人メモを所有者以外が確認できる範囲を教えてください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-06"
+    ],
+    "required_quotes": [
+      "所有者だけが個人メモを閲覧できる。"
+    ],
+    "answerable": false,
+    "expect_status": "unavailable"
+  },
+  {
+    "id": "dev-06",
+    "category": "history",
+    "topic_id": "旧発送方針",
+    "project": "reuse-dev",
+    "mode": "history",
+    "variants": [
+      "旧発送方針の決定、適用期間、例外、根拠を履歴として確認してください。",
+      "旧版の発送判断について、適用期間と現行への扱いを確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-08"
+    ],
+    "required_quotes": [
+      "旧版では当日発送を採用していた。",
+      "2026年6月までの履歴に限る。",
+      "現行の翌営業日発送には適用しない。",
+      "履歴票SH-OLDで確認した。",
+      "履歴として保存し現行へ混ぜない。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "dev-07",
+    "category": "needs_review",
+    "topic_id": "未レビュー手順",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "未レビュー手順の状態、条件、例外、根拠を確認してください。",
+      "レビュー前の手順を運用へ適用できるか、根拠と例外を確認してください."
+    ],
+    "required_source_ids": [
+      "rv-sh-07"
+    ],
+    "required_quotes": [
+      "この手順はレビュー前で、運用決定として扱わない。"
+    ],
+    "answerable": false,
+    "expect_status": "needs_review"
+  },
+  {
+    "id": "dev-08",
+    "category": "cross_source",
+    "topic_id": "受入検査",
+    "project": "reuse-dev",
+    "mode": "current",
+    "variants": [
+      "受入検査を2資料横断で、決定・条件・例外・根拠まで確認してください。",
+      "受入番号の発行条件と番号不一致の例外を両方確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-sh-09",
+      "rv-sh-10"
+    ],
+    "required_quotes": [
+      "検査合格後に受入番号を発行する。",
+      "全項目の測定値が記録されていること。",
+      "測定漏れは合格にせず再検査へ戻す。",
+      "検査票SH-Qで確認した。",
+      "測定項目を変更する場合は版を更新する。",
+      "受入番号は検査票と納品記録の両方へ記載する。",
+      "納品記録の照合が完了している場合に適用する。",
+      "番号不一致は受入を保留し担当へ戻す。",
+      "照合票SH-Q2で確認した。",
+      "照合項目を追加する場合はレビューする。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  }
+]

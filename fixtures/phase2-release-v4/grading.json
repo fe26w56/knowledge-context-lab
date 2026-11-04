@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v4",
+  "families": {
+    "family_00": {
+      "topic": "Argo",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_413c032d776e7c5f",
+        "v4_ad11ceecaaed049f",
+        "v4_9da3fcbca9a1366c"
+      ],
+      "near_source_id": "v4_cb73a6975a8500a9"
+    },
+    "family_01": {
+      "topic": "Brim",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_a0b716eb83873ce3",
+        "v4_05681dc34a719bc8",
+        "v4_00a34d6233b6c966"
+      ],
+      "near_source_id": "v4_1b9f4a7497004a7f"
+    },
+    "family_02": {
+      "topic": "Cairn",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_996c48c2029a7aca",
+        "v4_d378c4f9c545abe1",
+        "v4_9f0c7ace5c322ed6"
+      ],
+      "near_source_id": "v4_995d4457a683ffcf"
+    },
+    "family_03": {
+      "topic": "Dune",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_caf906545dfc2665",
+        "v4_bdb3e24dcd236e7f",
+        "v4_a36181cfbcd101f5"
+      ],
+      "near_source_id": "v4_e21e43028a196ac3"
+    },
+    "family_04": {
+      "topic": "Eon",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_d6ae49e1d19b07db",
+        "v4_1ee4061dd4e9bb9c",
+        "v4_002f396eadce7ac2"
+      ],
+      "near_source_id": "v4_4cf5db35569d6b86"
+    },
+    "family_05": {
+      "topic": "Flint",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_63d5607499ce0f30",
+        "v4_0215d383308e913a",
+        "v4_9341f310f980976c"
+      ],
+      "near_source_id": "v4_b2258c91bbb85e17"
+    },
+    "family_06": {
+      "topic": "Grove",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_0d99394c739da014",
+        "v4_eba15e12fe8e7eda",
+        "v4_fdfc83a745fc8512"
+      ],
+      "near_source_id": "v4_b913b5f3635c4ff8"
+    },
+    "family_07": {
+      "topic": "Haze",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_0feb3c3b178c5f04",
+        "v4_56b4dfe578edf7a0",
+        "v4_c14e86f501467d47"
+      ],
+      "near_source_id": "v4_db26cc15c1a806a9"
+    },
+    "family_08": {
+      "topic": "Isle",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_e6fff0c5069dc591",
+        "v4_4c7d339d4a2291de",
+        "v4_eab77106280c4f60"
+      ],
+      "near_source_id": "v4_2a09166b7e9f3e49"
+    },
+    "family_09": {
+      "topic": "Jade",
+      "split": "dev",
+      "accepted_source_ids": [
+        "v4_e151d783782552d8",
+        "v4_cff1ad5e88670b85",
+        "v4_d1bbd346531512e3"
+      ],
+      "near_source_id": "v4_a070c7741a40e624"
+    },
+    "family_10": {
+      "topic": "Kora",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_f3b11ab2f7e8d058",
+        "v4_7ae4f0cddd3c4838",
+        "v4_a692bb4fe154a902"
+      ],
+      "near_source_id": "v4_236acfff6a09fb31"
+    },
+    "family_11": {
+      "topic": "Lumen",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_aed44ef174e8ca1d",
+        "v4_1b58ed75c865ff18",
+        "v4_f42764e84c44e72a"
+      ],
+      "near_source_id": "v4_9f4eb79d0b717125"
+    },
+    "family_12": {
+      "topic": "Moss",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_24fb5c3fb0213384",
+        "v4_a9d8a6d488502c37",
+        "v4_c957198b55a2fc4f"
+      ],
+      "near_source_id": "v4_7dba36402e4c516b"
+    },
+    "family_13": {
+      "topic": "Nook",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_8fa2431e62e791f9",
+        "v4_3e7cbec0a59375c5",
+        "v4_90e8e7f844789251"
+      ],
+      "near_source_id": "v4_b166962f45a4b71b"
+    },
+    "family_14": {
+      "topic": "Opal",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_e6a906a0d74dd601",
+        "v4_6a0235baf088809c",
+        "v4_3d980fe71df808aa"
+      ],
+      "near_source_id": "v4_49e7a0311769d755"
+    },
+    "family_15": {
+      "topic": "Pine",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_6f420041ebc0e5c8",
+        "v4_94a76c973ee85d4b",
+        "v4_ac85a557fe60b55d"
+      ],
+      "near_source_id": "v4_7c45d2e85259b1fd"
+    },
+    "family_16": {
+      "topic": "Quarry",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_0acf09a055cbcf10",
+        "v4_16cc1bec6b183863",
+        "v4_f5793698613a9d25"
+      ],
+      "near_source_id": "v4_c0ab80236e1cd3b2"
+    },
+    "family_17": {
+      "topic": "Rook",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_d12ca8ff1834cdd4",
+        "v4_9f328c8d07d78490",
+        "v4_646a76851006cb2b"
+      ],
+      "near_source_id": "v4_24de783a513b0d22"
+    },
+    "family_18": {
+      "topic": "Slate",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_04fffec486524319",
+        "v4_731ed79939161e21",
+        "v4_ccd2aa5efeb2fca9"
+      ],
+      "near_source_id": "v4_651f1d74cfc41150"
+    },
+    "family_19": {
+      "topic": "Terra",
+      "split": "final",
+      "accepted_source_ids": [
+        "v4_ed50018c51fe946b",
+        "v4_f1d24dd2b5250d05",
+        "v4_4571e74ceef908a6"
+      ],
+      "near_source_id": "v4_26cbca3f5fb34f82"
+    }
+  },
+  "private": {
+    "family_00": {
+      "id": "v4_ee7d0a3561509a1c",
+      "owner": "bot_06",
+      "canary": "PRIVATE_V4_00_Q8"
+    },
+    "family_07": {
+      "id": "v4_68c3b647c8c3b309",
+      "owner": "bot_13",
+      "canary": "PRIVATE_V4_07_Q8"
+    },
+    "family_10": {
+      "id": "v4_cb410eddf266425c",
+      "owner": "bot_16",
+      "canary": "PRIVATE_V4_10_Q8"
+    },
+    "family_17": {
+      "id": "v4_c6578ed25f371a84",
+      "owner": "bot_07",
+      "canary": "PRIVATE_V4_17_Q8"
+    }
+  },
+  "tables": {
+    "dev": "v4_9ca48a515a1803a9",
+    "final": "v4_aa655682f917ded0"
+  },
+  "note": "grader-only; do not pass accepted_source_ids/evidence_sources to retrieval"
+}

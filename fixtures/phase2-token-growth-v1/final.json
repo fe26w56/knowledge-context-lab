@@ -1,0 +1,253 @@
+[
+  {
+    "qid": "final-a2",
+    "text": "Atlasの現行運用で根拠版を確認するタイミングと、緊急時の例外は？",
+    "project": "atlas",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-a1-decision"
+    ],
+    "required_quotes": [
+      "公開前に担当者が根拠版を確認する",
+      "緊急障害では当日レビューを許可"
+    ]
+  },
+  {
+    "qid": "final-b2",
+    "text": "Birchの再現試験条件と、失敗時の引き継ぎ情報をまとめて",
+    "project": "birch",
+    "mode": "current",
+    "category": "handoff",
+    "required_source_ids": [
+      "src-b1-decision",
+      "src-b1-evidence"
+    ],
+    "required_quotes": [
+      "再現試験が全件成功",
+      "失敗した試験IDと再実行担当"
+    ]
+  },
+  {
+    "qid": "final-c2",
+    "text": "Cobaltで削除前に確認するものと保存期間は？",
+    "project": "cobalt",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-c1-decision",
+      "src-c1-evidence"
+    ],
+    "required_quotes": [
+      "削除前に法務保留を確認",
+      "retention表と法務保留一覧"
+    ]
+  },
+  {
+    "qid": "final-d2",
+    "text": "Deltaの通常問い合わせの送り先と、当番交代時の記録は？",
+    "project": "delta",
+    "mode": "current",
+    "category": "handoff",
+    "required_source_ids": [
+      "src-d1-decision",
+      "src-d1-evidence"
+    ],
+    "required_quotes": [
+      "翌営業日のキューへ送る",
+      "未処理ID、最後の応答時刻、次の確認条件"
+    ]
+  },
+  {
+    "qid": "final-e2",
+    "text": "Ember実験を採用扱いにできない理由は？",
+    "project": "ember",
+    "mode": "current",
+    "category": "state",
+    "required_source_ids": [
+      "src-e1-decision",
+      "src-e1-evidence"
+    ],
+    "required_quotes": [
+      "提案状態",
+      "現時点のレビューは1名"
+    ]
+  },
+  {
+    "qid": "final-f2",
+    "text": "Fjordの障害日と、その時の旧設定値は？",
+    "project": "fjord",
+    "mode": "history",
+    "category": "history",
+    "required_source_ids": [
+      "src-f1-decision"
+    ],
+    "required_quotes": [
+      "2026-09-12障害",
+      "旧版のタイムアウト値1200ms"
+    ]
+  },
+  {
+    "qid": "final-g2",
+    "text": "Groveの棚卸し方法と在庫に含めないものは？",
+    "project": "grove",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-g1-decision",
+      "src-g1-evidence"
+    ],
+    "required_quotes": [
+      "貸出中の機材は在庫数に含めない",
+      "返却記録と在庫表を突き合わせる"
+    ]
+  },
+  {
+    "qid": "final-h2",
+    "text": "Harborの権限変更に必要な二つの確認は？",
+    "project": "harbor",
+    "mode": "current",
+    "category": "access",
+    "required_source_ids": [
+      "src-h1-evidence"
+    ],
+    "required_quotes": [
+      "本人確認と承認記録"
+    ]
+  },
+  {
+    "qid": "final-a3",
+    "text": "Atlasの変更日と、旧計画を現在手順に使わない理由は？",
+    "project": "atlas",
+    "mode": "history",
+    "category": "history",
+    "required_source_ids": [
+      "src-a2-evidence"
+    ],
+    "required_quotes": [
+      "変更日は2026-10-01",
+      "旧計画は履歴として保持"
+    ]
+  },
+  {
+    "qid": "final-b3",
+    "text": "Birchでp95条件を保留できる例外は何？",
+    "project": "birch",
+    "mode": "current",
+    "category": "exception",
+    "required_source_ids": [
+      "src-b1-decision"
+    ],
+    "required_quotes": [
+      "セキュリティ修正はp95条件を保留できる"
+    ]
+  },
+  {
+    "qid": "final-c3",
+    "text": "Cobaltの二つの保存期間を数値で答えて",
+    "project": "cobalt",
+    "mode": "current",
+    "category": "numeric",
+    "required_source_ids": [
+      "src-c1-decision"
+    ],
+    "required_quotes": [
+      "180日",
+      "730日"
+    ]
+  },
+  {
+    "qid": "final-d3",
+    "text": "Deltaの高緊急度を構成する三つの状態は？",
+    "project": "delta",
+    "mode": "current",
+    "category": "exhaustive",
+    "required_source_ids": [
+      "src-d1-decision"
+    ],
+    "required_quotes": [
+      "停止・漏えい・支払不能"
+    ]
+  },
+  {
+    "qid": "final-e3",
+    "text": "Ember採用に必要なレビュー人数とログは？",
+    "project": "ember",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-e1-decision"
+    ],
+    "required_quotes": [
+      "2名のレビューと再現ログ"
+    ]
+  },
+  {
+    "qid": "final-f3",
+    "text": "Fjordの現行値だけを答えて。履歴は除外して",
+    "project": "fjord",
+    "mode": "current",
+    "category": "current_only",
+    "required_source_ids": [
+      "src-f1-evidence"
+    ],
+    "required_quotes": [
+      "現在のタイムアウト値は800ms"
+    ],
+    "forbidden_quotes": [
+      "1200ms"
+    ]
+  },
+  {
+    "qid": "final-g3",
+    "text": "Groveの登録機材数と貸出品の扱いは？",
+    "project": "grove",
+    "mode": "current",
+    "category": "numeric",
+    "required_source_ids": [
+      "src-g1-decision"
+    ],
+    "required_quotes": [
+      "3種",
+      "貸出中の機材は在庫数に含めない"
+    ]
+  },
+  {
+    "qid": "final-h3",
+    "text": "Harborでagent-bのメモを共有回答に使える？",
+    "project": "harbor",
+    "mode": "current",
+    "category": "private_boundary",
+    "required_source_ids": [],
+    "required_quotes": [],
+    "forbidden_source_ids": [
+      "src-harbor-private"
+    ],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "qid": "final-absent",
+    "text": "Birchの月間売上は？",
+    "project": "birch",
+    "mode": "current",
+    "category": "absent",
+    "required_source_ids": [],
+    "required_quotes": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "qid": "final-cross",
+    "text": "Atlasの水曜レビューと、二つの根拠保管先を答えて",
+    "project": "atlas",
+    "mode": "current",
+    "category": "cross_document",
+    "required_source_ids": [
+      "src-a1-decision",
+      "src-a1-evidence"
+    ],
+    "required_quotes": [
+      "毎週水曜にレビュー",
+      "監査ログ v3 と週次チェックリスト"
+    ]
+  }
+]

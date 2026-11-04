@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-research-phase2",
+  "fixture_kind": "phase2_frozen_diagnostic",
+  "queries": [
+    {
+      "id": "p2d01",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "キャッシュの期限設定を今採用する値は？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "Lumenの通常検索キャッシュは10分で期限切れにする。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d02",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "4月5日のキャッシュ方針を復元して。",
+        "actor": "bot_01",
+        "as_of": "2026-04-05",
+        "mode": "history"
+      },
+      "expected_quotes": [
+        "旧方針ではLumenの通常検索キャッシュを60分保持していた。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d03",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "4月19日の延長案は採用決定か？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Lumenのキャッシュを30分へ延ばす案は提案中である。4月19日に追記されたが、採用の記録はない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d04",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "所有者が一致しないprivate資料を候補に混ぜてから隠せばよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "privateの記録はownerが一致するbotだけが参照できる。検索後に表示を隠す方式にせず、候補を選ぶ前に公開範囲を確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "検索後に表示を隠す方式にせず、候補を選ぶ前に公開範囲を確認する。"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d05",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Relay引継ぎと完了判定に必要なものは？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "引き継ぎには、目的、完了した範囲、未解決事項、次の操作、根拠のIDと版を含める。",
+        "Relayの作業完了には、保存が確定した根拠のIDと版が必要である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "保存が確定した根拠のIDと版"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d06",
+      "split": "dev",
+      "category": "retry",
+      "request": {
+        "text": "応答だけ消えたRelay保存はどう確認する？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Relayの保存応答が届かなかった場合は、同じrequest_idで保存結果を照会する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d07",
+      "split": "dev",
+      "category": "idempotency",
+      "request": {
+        "text": "同じrequest_idで異なる内容を再送した場合は？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "同じrequest_idで異なる内容を送った場合は、要求の不一致として拒否する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d08",
+      "split": "dev",
+      "category": "measured_vs_target",
+      "request": {
+        "text": "Sora復旧の目標と実測・整合性を分けて答えて。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Soraの復旧時間の目標は15分以内である。目標値は実績値として報告しない。",
+        "4月18日のSora復旧演習では、開始から参照再開まで18分かかった。15分以内という目標は未達だった。復元後のチェックサムは保存時と一致した。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "目標値は実績値として報告しない。"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d09",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "停止中に古いコピーで一般メモを返せる条件と、決定を使う処理の扱いは？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Soraが停止している間、一般的な調査メモは取得後24時間以内のコピーを返せる。コピーを返すときは取得時刻と、現在の版を確認できていないことを表示する。",
+        "保存先が停止して確認できない場合は、その処理を保留する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "取得後24時間以内",
+        "処理を保留"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d10",
+      "split": "dev",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "4人旅行で予算・同宿・時間を全部満たす候補は？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "宿泊費の上限は1人1泊8,000円で、全員が同じ宿に泊まることを必須条件とする。",
+        "波止場の宿は1人1泊7,800円で、4人が泊まれる部屋を1室確保できる。港から徒歩8分で、チェックインの締切は19時である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "全員が同じ宿",
+        "チェックインの締切は19時"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d11",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "Lumen本番のp95応答時間の実測値は？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d12",
+      "split": "dev",
+      "category": "scope_private",
+      "request": {
+        "text": "bot_04専用の実験識別語をbot_01に返してよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_ONLY_ORANGE_731"
+      ],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d13",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "強風予報だけで連絡船を欠航と断定できる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "風速15メートル毎秒以上が予想される場合は、運航会社の当日発表を確認する。予報だけで欠航と断定したり、運航すると決めたりしてはならない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "当日発表を確認"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d14",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "文章の修正だけで確認日を更新する運用か？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "文章の表現だけを直したときは、情報確認日を新しくしてはならない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d15",
+      "split": "dev",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "担当botが終えたと言っただけで完了にできる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "完了の根拠が不足する場合は、状態を確認待ちとして表示する。担当botが処理を終えたと述べただけでは完了状態へ進めない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d16",
+      "split": "dev",
+      "category": "long_table",
+      "request": {
+        "text": "Nacreの長い条件表から条件02の閾値と例外を返して。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "| 条件02 | 10分 | 例外02を確認 |"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "例外02を確認"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d17",
+      "split": "dev",
+      "category": "old_version",
+      "request": {
+        "text": "Nacreの現在の競合処理は何か？旧版の最後優先を現行と答えないで。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "Nacreの同時更新はexpected_versionが一致した場合だけ適用し、競合時は新しい版を読んで確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "旧版では競合時に最後の書き込みを優先する案だったが、2026年4月12日に廃止された。"
+      ],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d18",
+      "split": "dev",
+      "category": "short_new",
+      "request": {
+        "text": "Nacreの次担当と未解決時の扱いは？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "次の担当botはbot_05で、未解決の確認を完了前に保留する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d19",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "船の到着、港から宿、宿の締切をまとめて確認して。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "18時10分に到着する。",
+        "港から徒歩8分で、チェックインの締切は19時である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2d20",
+      "split": "dev",
+      "category": "scope_private",
+      "request": {
+        "text": "bot_11本人が個別候補識別語を確認できる？",
+        "actor": "bot_11",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "bot_11の個別候補識別語はPRIVATE_ONLY_CEDAR_284である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    }
+  ]
+}

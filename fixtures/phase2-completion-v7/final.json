@@ -1,0 +1,990 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v7",
+  "queries": [
+    {
+      "id": "cv3q_f74568f535b2f654",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current Garnet rule?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Garnet samples 8 items per batch; retain the batch manifest."
+      ],
+      "evidence_sources": {
+        "Garnet samples 8 items per batch; retain the batch manifest.": [
+          "cv3d_e9e22ec3da87b0c5"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Garnet sampling rule is 8 items per batch, and the batch manifest is retained.",
+            "evidence_quote": "Garnet samples 8 items per batch; retain the batch manifest.",
+            "accepted_source_ids": [
+              "cv3d_e9e22ec3da87b0c5"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_e9e22ec3da87b0c5": "family_21_a"
+      }
+    },
+    {
+      "id": "cv3q_9cead045365cd25a",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "According to the record, state the Harbor rule at the requested time.",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Harbor pages after three consecutive failures and records the alert window."
+      ],
+      "evidence_sources": {
+        "Harbor pages after three consecutive failures and records the alert window.": [
+          "cv3d_ffec1950f64af46d"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Harbor alert rule pages after three consecutive failures and records the window.",
+            "evidence_quote": "Harbor pages after three consecutive failures and records the alert window.",
+            "accepted_source_ids": [
+              "cv3d_ffec1950f64af46d"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_ffec1950f64af46d": "family_22_a"
+      }
+    },
+    {
+      "id": "cv3q_19cea2eef092153e",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "Which rule applies for Indigo, including its evidence requirement?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Indigo requires a signed decision linked to an evidence note."
+      ],
+      "evidence_sources": {
+        "Indigo requires a signed decision linked to an evidence note.": [
+          "cv3d_0fcdff4fa6b047e9"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Indigo review rule requires a signed decision and a linked evidence note.",
+            "evidence_quote": "Indigo requires a signed decision linked to an evidence note.",
+            "accepted_source_ids": [
+              "cv3d_0fcdff4fa6b047e9"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_0fcdff4fa6b047e9": "family_23_a"
+      }
+    },
+    {
+      "id": "cv3q_348e0223701d16d4",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "Summarize Juniper's adopted rule and its operational safeguard.",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Juniper exports remove direct identifiers and record a two-person redaction check."
+      ],
+      "evidence_sources": {
+        "Juniper exports remove direct identifiers and record a two-person redaction check.": [
+          "cv3d_52dd5f38dfbfe32f"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Juniper redaction rule removes direct identifiers before export and records a two-person check.",
+            "evidence_quote": "Juniper exports remove direct identifiers and record a two-person redaction check.",
+            "accepted_source_ids": [
+              "cv3d_52dd5f38dfbfe32f"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_52dd5f38dfbfe32f": "family_24_a"
+      }
+    },
+    {
+      "id": "cv3q_af45cad1d267afb4",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "Kestrel: as of 2026-08-14, what was the superseded value and when did it change?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-14"
+      },
+      "expected_quotes": [
+        "As of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22."
+      ],
+      "evidence_sources": {
+        "As of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.": [
+          "cv3d_ebb9f2d14d60e151"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.",
+            "evidence_quote": "As of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.",
+            "accepted_source_ids": [
+              "cv3d_ebb9f2d14d60e151"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "History eligibility requires valid_from <= as_of < valid_to for the superseded Kestrel section."
+      },
+      "provenance": {
+        "cv3d_ebb9f2d14d60e151": "family_25_a"
+      }
+    },
+    {
+      "id": "cv3q_b82a5545cbf873af",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "Lumen: as of 2026-08-15, what was the superseded value and when did it change?",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-15"
+      },
+      "expected_quotes": [
+        "As of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23."
+      ],
+      "evidence_sources": {
+        "As of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.": [
+          "cv3d_92f6d10169392fbf"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.",
+            "evidence_quote": "As of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.",
+            "accepted_source_ids": [
+              "cv3d_92f6d10169392fbf"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "History eligibility requires valid_from <= as_of < valid_to for the superseded Lumen section."
+      },
+      "provenance": {
+        "cv3d_92f6d10169392fbf": "family_26_a"
+      }
+    },
+    {
+      "id": "cv3q_5df627816790706f",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Mica rule?",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The zero-review publication proposal is rejected and not adopted."
+      ],
+      "evidence_sources": {
+        "The zero-review publication proposal is rejected and not adopted.": [
+          "cv3d_37535bb423667d96"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Mica zero-review publication proposal is not adopted and is explicitly rejected.",
+            "evidence_quote": "The zero-review publication proposal is rejected and not adopted.",
+            "accepted_source_ids": [
+              "cv3d_37535bb423667d96"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_37535bb423667d96": "family_27_a"
+      }
+    },
+    {
+      "id": "cv3q_0433ae786c1efc95",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Nectar rule?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The auto-merge proposal is pending review and is not active."
+      ],
+      "evidence_sources": {
+        "The auto-merge proposal is pending review and is not active.": [
+          "cv3d_5c6b602b02c5a9c9"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Nectar auto-merge proposal is pending review and must not be treated as active.",
+            "evidence_quote": "The auto-merge proposal is pending review and is not active.",
+            "accepted_source_ids": [
+              "cv3d_5c6b602b02c5a9c9"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_5c6b602b02c5a9c9": "family_28_a"
+      }
+    },
+    {
+      "id": "cv3q_c35f2382ff2c8d78",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Oriel rule?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Oriel release is blocked when the manifest lacks a signature."
+      ],
+      "evidence_sources": {
+        "Oriel release is blocked when the manifest lacks a signature.": [
+          "cv3d_e6205cb56b97b25c"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Oriel, an unsigned manifest prevents release.",
+            "evidence_quote": "Oriel release is blocked when the manifest lacks a signature.",
+            "accepted_source_ids": [
+              "cv3d_e6205cb56b97b25c"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_e6205cb56b97b25c": "family_29_a"
+      }
+    },
+    {
+      "id": "cv3q_b2004b1c4dc7ded2",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Pumice rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A stale Pumice source marker requires revalidation before use."
+      ],
+      "evidence_sources": {
+        "A stale Pumice source marker requires revalidation before use.": [
+          "cv3d_312a283f2deec5d0"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Pumice, a stale source marker requires revalidation before use.",
+            "evidence_quote": "A stale Pumice source marker requires revalidation before use.",
+            "accepted_source_ids": [
+              "cv3d_312a283f2deec5d0"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_312a283f2deec5d0": "family_30_a"
+      }
+    },
+    {
+      "id": "cv3q_505b4b56f39a6a70",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Quill: A delay reached the row-15 boundary. State its minutes/unit, operator action, and maintenance-window exception.",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.",
+        "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.",
+        "row 15: threshold 90; unit minutes of delay; action operator check; exception maintenance window."
+      ],
+      "evidence_sources": {
+        "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.": [
+          "cv3d_2c8877e4dc37cb4c"
+        ],
+        "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.": [
+          "cv3d_2c8877e4dc37cb4c"
+        ],
+        "row 15: threshold 90; unit minutes of delay; action operator check; exception maintenance window.": [
+          "cv3d_2c8877e4dc37cb4c"
+        ]
+      },
+      "condition_quotes": [
+        "row 15: threshold 90; unit minutes of delay; action operator check; exception maintenance window."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Quill, a 90-minute delay requires an operator check; a maintenance window is an exception.",
+            "evidence_quote": "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.",
+            "accepted_source_ids": [
+              "cv3d_2c8877e4dc37cb4c"
+            ]
+          },
+          {
+            "key": "condition_exception",
+            "value": "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.",
+            "evidence_quote": "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.",
+            "accepted_source_ids": [
+              "cv3d_2c8877e4dc37cb4c"
+            ]
+          },
+          {
+            "key": "matrix_row",
+            "value": "row 15: threshold 90; unit minutes of delay; action operator check; exception maintenance window.",
+            "evidence_quote": "row 15: threshold 90; unit minutes of delay; action operator check; exception maintenance window.",
+            "accepted_source_ids": [
+              "cv3d_2c8877e4dc37cb4c"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_2c8877e4dc37cb4c": "family_31_a"
+      }
+    },
+    {
+      "id": "cv3q_0ef2783dffb3bb8c",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Rook: Before dispatch, apply matrix row 19: identify the missing-tag block and the documented emergency-route exception.",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A missing Rook owner tag blocks dispatch, except on the documented emergency route.",
+        "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.",
+        "row 19: threshold missing; unit owner tag; action block dispatch; exception documented emergency route."
+      ],
+      "evidence_sources": {
+        "A missing Rook owner tag blocks dispatch, except on the documented emergency route.": [
+          "cv3d_33ecd59290edabcf"
+        ],
+        "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.": [
+          "cv3d_33ecd59290edabcf"
+        ],
+        "row 19: threshold missing; unit owner tag; action block dispatch; exception documented emergency route.": [
+          "cv3d_33ecd59290edabcf"
+        ]
+      },
+      "condition_quotes": [
+        "row 19: threshold missing; unit owner tag; action block dispatch; exception documented emergency route."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Rook, a missing owner tag blocks dispatch, except for the documented emergency route.",
+            "evidence_quote": "A missing Rook owner tag blocks dispatch, except on the documented emergency route.",
+            "accepted_source_ids": [
+              "cv3d_33ecd59290edabcf"
+            ]
+          },
+          {
+            "key": "condition_exception",
+            "value": "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.",
+            "evidence_quote": "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.",
+            "accepted_source_ids": [
+              "cv3d_33ecd59290edabcf"
+            ]
+          },
+          {
+            "key": "matrix_row",
+            "value": "row 19: threshold missing; unit owner tag; action block dispatch; exception documented emergency route.",
+            "evidence_quote": "row 19: threshold missing; unit owner tag; action block dispatch; exception documented emergency route.",
+            "accepted_source_ids": [
+              "cv3d_33ecd59290edabcf"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_33ecd59290edabcf": "family_32_a"
+      }
+    },
+    {
+      "id": "cv3q_e063b304d228ebb8",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Saffron: Audit the scorecard against its exception ledger: give the median-reading rule, the escalation constraint, and the responsible roles.",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The Saffron scorecard uses the median of three readings.",
+        "The Saffron adjacent note records an escalation contact.",
+        "Responsible role: 採点観測ログ.",
+        "Responsible role: 測定例外台帳."
+      ],
+      "evidence_sources": {
+        "The Saffron scorecard uses the median of three readings.": [
+          "cv3d_485b9ae79b4ffa21"
+        ],
+        "The Saffron adjacent note records an escalation contact.": [
+          "cv3d_babc6fb887df0b09"
+        ],
+        "Responsible role: 採点観測ログ.": [
+          "cv3d_485b9ae79b4ffa21"
+        ],
+        "Responsible role: 測定例外台帳.": [
+          "cv3d_babc6fb887df0b09"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Saffron's scorecard uses the median of three readings.",
+            "evidence_quote": "The Saffron scorecard uses the median of three readings.",
+            "accepted_source_ids": [
+              "cv3d_485b9ae79b4ffa21"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Saffron adjacent note records an escalation contact.",
+            "evidence_quote": "The Saffron adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv3d_babc6fb887df0b09"
+            ]
+          },
+          {
+            "key": "role_1",
+            "value": "採点観測ログ",
+            "evidence_quote": "Responsible role: 採点観測ログ.",
+            "accepted_source_ids": [
+              "cv3d_485b9ae79b4ffa21"
+            ]
+          },
+          {
+            "key": "role_2",
+            "value": "測定例外台帳",
+            "evidence_quote": "Responsible role: 測定例外台帳.",
+            "accepted_source_ids": [
+              "cv3d_babc6fb887df0b09"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Both constraints and both responsible-role claims are required; each role is evidenced in its own record body.",
+        "required_source_families": [
+          "family_33_a",
+          "family_33_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv3d_485b9ae79b4ffa21": "family_33_a",
+        "cv3d_babc6fb887df0b09": "family_33_b"
+      }
+    },
+    {
+      "id": "cv3q_cc30c237c826af79",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Topaz: For this handoff, combine the queue/timestamp requirement with the office hours exception; name the role responsible for each record.",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A Topaz handoff includes a named queue and receipt timestamp.",
+        "Topaz office hours are 09:00-17:00; after-hours handoff uses the escalation contact.",
+        "Responsible role: 窓口営業時間決定.",
+        "Responsible role: 窓口引渡記録."
+      ],
+      "evidence_sources": {
+        "A Topaz handoff includes a named queue and receipt timestamp.": [
+          "cv3d_b881c3f43f2d908a"
+        ],
+        "Topaz office hours are 09:00-17:00; after-hours handoff uses the escalation contact.": [
+          "cv3d_66365a06dd38ecc0"
+        ],
+        "Responsible role: 窓口営業時間決定.": [
+          "cv3d_66365a06dd38ecc0"
+        ],
+        "Responsible role: 窓口引渡記録.": [
+          "cv3d_b881c3f43f2d908a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Topaz handoffs require a named queue and a receipt timestamp.",
+            "evidence_quote": "A Topaz handoff includes a named queue and receipt timestamp.",
+            "accepted_source_ids": [
+              "cv3d_b881c3f43f2d908a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "Topaz office hours are 09:00-17:00; after-hours handoff uses the escalation contact.",
+            "evidence_quote": "Topaz office hours are 09:00-17:00; after-hours handoff uses the escalation contact.",
+            "accepted_source_ids": [
+              "cv3d_66365a06dd38ecc0"
+            ]
+          },
+          {
+            "key": "role_1",
+            "value": "窓口営業時間決定",
+            "evidence_quote": "Responsible role: 窓口営業時間決定.",
+            "accepted_source_ids": [
+              "cv3d_66365a06dd38ecc0"
+            ]
+          },
+          {
+            "key": "role_2",
+            "value": "窓口引渡記録",
+            "evidence_quote": "Responsible role: 窓口引渡記録.",
+            "accepted_source_ids": [
+              "cv3d_b881c3f43f2d908a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Both constraints and both responsible-role claims are required; each role is evidenced in its own record body.",
+        "required_source_families": [
+          "family_34_a",
+          "family_34_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv3d_b881c3f43f2d908a": "family_34_a",
+        "cv3d_66365a06dd38ecc0": "family_34_b"
+      }
+    },
+    {
+      "id": "cv3q_1d3a136926a165c2",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Umber: What may the public summary expose, what remains restricted in the appendix, and which roles control those two records?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The Umber public summary omits raw identifiers; its audit appendix is restricted.",
+        "The Umber adjacent note records an escalation contact.",
+        "Responsible role: 公開要約台帳.",
+        "Responsible role: 例外アクセス台帳."
+      ],
+      "evidence_sources": {
+        "The Umber public summary omits raw identifiers; its audit appendix is restricted.": [
+          "cv3d_21bc36a51b0a6ac5"
+        ],
+        "The Umber adjacent note records an escalation contact.": [
+          "cv3d_327e29cfa7c8b13c"
+        ],
+        "Responsible role: 公開要約台帳.": [
+          "cv3d_21bc36a51b0a6ac5"
+        ],
+        "Responsible role: 例外アクセス台帳.": [
+          "cv3d_327e29cfa7c8b13c"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Umber's public summary omits raw identifiers, while the audit appendix is restricted.",
+            "evidence_quote": "The Umber public summary omits raw identifiers; its audit appendix is restricted.",
+            "accepted_source_ids": [
+              "cv3d_21bc36a51b0a6ac5"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Umber adjacent note records an escalation contact.",
+            "evidence_quote": "The Umber adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv3d_327e29cfa7c8b13c"
+            ]
+          },
+          {
+            "key": "role_1",
+            "value": "公開要約台帳",
+            "evidence_quote": "Responsible role: 公開要約台帳.",
+            "accepted_source_ids": [
+              "cv3d_21bc36a51b0a6ac5"
+            ]
+          },
+          {
+            "key": "role_2",
+            "value": "例外アクセス台帳",
+            "evidence_quote": "Responsible role: 例外アクセス台帳.",
+            "accepted_source_ids": [
+              "cv3d_327e29cfa7c8b13c"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Both constraints and both responsible-role claims are required; each role is evidenced in its own record body.",
+        "required_source_families": [
+          "family_35_a",
+          "family_35_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv3d_21bc36a51b0a6ac5": "family_35_a",
+        "cv3d_327e29cfa7c8b13c": "family_35_b"
+      }
+    },
+    {
+      "id": "cv3q_82428597303d208d",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Violet handoff under its receipt gate: state the required artifact and the condition that prevents premature completion.",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt."
+      ],
+      "evidence_sources": {
+        "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.": [
+          "cv3d_ff468d2835053780"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Violet handoff package must include the last verified checkpoint.",
+            "evidence_quote": "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.",
+            "accepted_source_ids": [
+              "cv3d_ff468d2835053780"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_ff468d2835053780": "family_36_a"
+      }
+    },
+    {
+      "id": "cv3q_ae99d359cfdf3ef2",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Wren handoff under its receipt gate: state the required artifact and the condition that prevents premature completion.",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Wren's receiving operator acknowledges the dependency list before execution."
+      ],
+      "evidence_sources": {
+        "Wren's receiving operator acknowledges the dependency list before execution.": [
+          "cv3d_6a86eb3a9c45402d"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Wren's receiving operator must acknowledge the dependency list before execution.",
+            "evidence_quote": "Wren's receiving operator acknowledges the dependency list before execution.",
+            "accepted_source_ids": [
+              "cv3d_6a86eb3a9c45402d"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests."
+      },
+      "provenance": {
+        "cv3d_6a86eb3a9c45402d": "family_37_a"
+      }
+    },
+    {
+      "id": "cv3q_4b4116158e05f6b6",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Xenon: can the available notes establish the threshold, action, and exception together? If not, abstain and report which of those required fields is missing.",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must explicitly state which required fields are missing: the threshold/action/exception combination is not established; bare abstention is insufficient.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {}
+    },
+    {
+      "id": "cv3q_f79d71b4b4b710c6",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Yonder: can the available notes establish the threshold, action, and exception together? If not, abstain and report which of those required fields is missing.",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must explicitly state which required fields are missing: the threshold/action/exception combination is not established; bare abstention is insufficient.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {}
+    },
+    {
+      "id": "cv3q_fe18b777850d4971",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "Zinnia calibration is a private record. A nonowner attempts access; provide only the shared denial-safe policy and do not reveal note contents.",
+        "actor": "analyst_99",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Private calibration material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private calibration material is not disclosed to nonowner analyst_99.": [
+          "cv3d_5c399430290ff38f"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration note content"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "denial",
+            "value": "Private calibration material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private calibration material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cv3d_5c399430290ff38f"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim. Source IDs are grader metadata and must not be placed in retrieval requests.",
+        "access_boundary": {
+          "attempting_actor": "analyst_99",
+          "private_content_excluded": true
+        }
+      },
+      "provenance": {
+        "cv3d_5c399430290ff38f": "family_40_b"
+      }
+    }
+  ]
+}

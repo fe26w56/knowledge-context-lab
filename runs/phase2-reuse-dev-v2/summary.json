@@ -1,0 +1,91 @@
+{
+  "rows": 192,
+  "datasets": [
+    {
+      "size": 100,
+      "sources": 100,
+      "import_seconds": 0.14052983280271292,
+      "publish_seconds": 0.08437537495046854,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "c4bc6a42395520034651e83ad2131f851f4733554519003ad32ca3dee8c02a6f"
+      }
+    },
+    {
+      "size": 1000,
+      "sources": 1000,
+      "import_seconds": 1.4616562500596046,
+      "publish_seconds": 0.2672839998267591,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "78e5418b88515b9e580550592ed149e99bf4267b495e2fe56610564a9871a547"
+      }
+    },
+    {
+      "size": 10000,
+      "sources": 10000,
+      "import_seconds": 14.159324833191931,
+      "publish_seconds": 1.5947084999643266,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "7bb636a50672b77c6a2566cfc4b18d71084e497e34812420f50e3b9fc5652c8e"
+      }
+    }
+  ],
+  "concurrency": [
+    {
+      "size": 100,
+      "topic_id": "発送ルール",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.000768749974668026,
+      "pinned_snapshot_sha256": "c4bc6a42395520034651e83ad2131f851f4733554519003ad32ca3dee8c02a6f",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 0.26300204219296575,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    },
+    {
+      "size": 1000,
+      "topic_id": "発送ルール",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.0008224593475461006,
+      "pinned_snapshot_sha256": "78e5418b88515b9e580550592ed149e99bf4267b495e2fe56610564a9871a547",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 1.4369304170832038,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    },
+    {
+      "size": 10000,
+      "topic_id": "発送ルール",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.0008977917023003101,
+      "pinned_snapshot_sha256": "7bb636a50672b77c6a2566cfc4b18d71084e497e34812420f50e3b9fc5652c8e",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 14.698734666686505,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    }
+  ],
+  "complete_evidence_rows": 144,
+  "answerable_rows": 144,
+  "status_match_rows": 174,
+  "private_exposure": 0,
+  "stale_exposure": 0,
+  "note": "Synthetic diagnostic; model generation, review creation labor, and human semantic review cost are not measured."
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v3",
+  "rubric_schema": {
+    "atomic_claims": "list of {key,value,evidence_quote,accepted_source_ids}",
+    "abstain": "boolean",
+    "required_source_families": "multi-source only"
+  },
+  "source_roles": "operational/arrival, decision/office-hours, exception/access records carry distinct claims",
+  "authoring_note": "Document order is shuffled; IDs are hash-derived and unrelated to question numbering."
+}

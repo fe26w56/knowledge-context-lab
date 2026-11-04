@@ -1,0 +1,8 @@
+{
+  "schema": "phase2-reuse-mutations-v1",
+  "scenarios": [
+    {"kind": "correction", "topic_id": "発送ルール", "change": "replace current body with a new version and retain old hash"},
+    {"kind": "added_dependency", "topic_id": "受入検査", "change": "add a second reviewed source and require both source IDs"},
+    {"kind": "retirement", "topic_id": "監査頻度", "change": "mark current version historical and remove it from current lookup"}
+  ]
+}

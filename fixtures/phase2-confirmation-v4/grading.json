@@ -1,0 +1,7 @@
+{
+  "scope": "Project-authored diagnostic, not an independent benchmark.",
+  "rubric": "All atomic claims and applicable dates, states, units, roles, exceptions and receipt gates must be correct. Quote exact supplied text with its actual source ID.",
+  "insufficient": "Abstain and explicitly identify each rubric missing_information item. A bare refusal fails.",
+  "private": "Return the shared denial policy and access-review route; private contents must not appear.",
+  "comparisons": "The existing control and selected configurations are fixed before authoring. No retriever adjustment from this set."
+}

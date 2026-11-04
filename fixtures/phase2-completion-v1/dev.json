@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v1",
+  "queries": [
+    {
+      "id": "cv1q_01",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current Lattice rule?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Lattice retains audit traces for 45 days; deletion requires an approval record."
+      ],
+      "evidence_sources": {
+        "Lattice retains audit traces for 45 days; deletion requires an approval record.": [
+          "cv1_doc_01a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Lattice retention rule is 45 days, and deletion requires an approval record.",
+            "evidence_quote": "Lattice retains audit traces for 45 days; deletion requires an approval record.",
+            "accepted_source_ids": [
+              "cv1_doc_01a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_02",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current Marrow rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Marrow retains audit traces for 60 days; deletion requires an approval record."
+      ],
+      "evidence_sources": {
+        "Marrow retains audit traces for 60 days; deletion requires an approval record.": [
+          "cv1_doc_02a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Marrow retention rule is 60 days, and deletion requires an approval record.",
+            "evidence_quote": "Marrow retains audit traces for 60 days; deletion requires an approval record.",
+            "accepted_source_ids": [
+              "cv1_doc_02a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_03",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current Nimbus rule?",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Nimbus exports use encrypted transfer; the checksum is stored before handoff."
+      ],
+      "evidence_sources": {
+        "Nimbus exports use encrypted transfer; the checksum is stored before handoff.": [
+          "cv1_doc_03a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Nimbus export rule is encrypted transfer, with the checksum stored before handoff.",
+            "evidence_quote": "Nimbus exports use encrypted transfer; the checksum is stored before handoff.",
+            "accepted_source_ids": [
+              "cv1_doc_03a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_04",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current Orchid rule?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Orchid publication requires confirmation by two reviewers."
+      ],
+      "evidence_sources": {
+        "Orchid publication requires confirmation by two reviewers.": [
+          "cv1_doc_04a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Orchid review rule requires two reviewers before publication.",
+            "evidence_quote": "Orchid publication requires confirmation by two reviewers.",
+            "accepted_source_ids": [
+              "cv1_doc_04a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_05",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "What is the historical Pillar rule?",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20."
+      ],
+      "evidence_sources": {
+        "The superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.": [
+          "cv1_doc_05a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-12, the superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.",
+            "evidence_quote": "The superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.",
+            "accepted_source_ids": [
+              "cv1_doc_05a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_06",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "What is the historical Radian rule?",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19."
+      ],
+      "evidence_sources": {
+        "The superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.": [
+          "cv1_doc_06a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-11, the superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.",
+            "evidence_quote": "The superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.",
+            "accepted_source_ids": [
+              "cv1_doc_06a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_07",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Sable rule?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The per-team quota proposal is under review and is not adopted."
+      ],
+      "evidence_sources": {
+        "The per-team quota proposal is under review and is not adopted.": [
+          "cv1_doc_07a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Sable per-team quota proposal is not adopted and remains under review.",
+            "evidence_quote": "The per-team quota proposal is under review and is not adopted.",
+            "accepted_source_ids": [
+              "cv1_doc_07a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_08",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Tundra rule?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The automatic purge proposal was rejected and is not an active rule."
+      ],
+      "evidence_sources": {
+        "The automatic purge proposal was rejected and is not an active rule.": [
+          "cv1_doc_08a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Tundra automatic purge proposal was rejected and is not an active rule.",
+            "evidence_quote": "The automatic purge proposal was rejected and is not an active rule.",
+            "accepted_source_ids": [
+              "cv1_doc_08a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_09",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Umbra rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A checksum failure places the Umbra package on hold for manual review."
+      ],
+      "evidence_sources": {
+        "A checksum failure places the Umbra package on hold for manual review.": [
+          "cv1_doc_09a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Umbra, a failed checksum means the package must be held for manual review.",
+            "evidence_quote": "A checksum failure places the Umbra package on hold for manual review.",
+            "accepted_source_ids": [
+              "cv1_doc_09a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_10",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Vela rule?",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Vela cannot be published when its consent receipt is missing."
+      ],
+      "evidence_sources": {
+        "Vela cannot be published when its consent receipt is missing.": [
+          "cv1_doc_10a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Vela, a missing consent receipt blocks publication.",
+            "evidence_quote": "Vela cannot be published when its consent receipt is missing.",
+            "accepted_source_ids": [
+              "cv1_doc_10a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_11",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "What is the handoff Willow rule?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "If Willow's load forecast reaches 35%, confirm the on-call lead's same-day decision; do not infer shutdown from the forecast alone."
+      ],
+      "evidence_sources": {
+        "If Willow's load forecast reaches 35%, confirm the on-call lead's same-day decision; do not infer shutdown from the forecast alone.": [
+          "cv1_doc_11a"
+        ]
+      },
+      "condition_quotes": [
+        "Apply the stated exception before concluding."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Willow, a 35-percent load forecast requires the on-call lead's same-day decision; the forecast alone does not authorize shutdown.",
+            "evidence_quote": "If Willow's load forecast reaches 35%, confirm the on-call lead's same-day decision; do not infer shutdown from the forecast alone.",
+            "accepted_source_ids": [
+              "cv1_doc_11a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_12",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "What is the handoff Xylo rule?",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A red Xylo severity label requires an incident-commander check, except during a declared drill."
+      ],
+      "evidence_sources": {
+        "A red Xylo severity label requires an incident-commander check, except during a declared drill.": [
+          "cv1_doc_12a"
+        ]
+      },
+      "condition_quotes": [
+        "Apply the stated exception before concluding."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Xylo, a red severity label requires an incident commander check, except during a declared drill.",
+            "evidence_quote": "A red Xylo severity label requires an incident-commander check, except during a declared drill.",
+            "accepted_source_ids": [
+              "cv1_doc_12a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_13",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Combine the Yarrow evidence record and its adjacent note: what two constraints apply?",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The Yarrow review log retention is 30 days.",
+        "The Yarrow adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "The Yarrow review log retention is 30 days.": [
+          "cv1_doc_13a"
+        ],
+        "The Yarrow adjacent note records an escalation contact.": [
+          "cv1_doc_13b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Yarrow keeps review logs for 30 days.",
+            "evidence_quote": "The Yarrow review log retention is 30 days.",
+            "accepted_source_ids": [
+              "cv1_doc_13a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Yarrow adjacent note records an escalation contact.",
+            "evidence_quote": "The Yarrow adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv1_doc_13b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_14",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Combine the Zephyr evidence record and its adjacent note: what two constraints apply?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A Zephyr handoff records both the receiving queue and the checksum.",
+        "The Zephyr adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "A Zephyr handoff records both the receiving queue and the checksum.": [
+          "cv1_doc_14a"
+        ],
+        "The Zephyr adjacent note records an escalation contact.": [
+          "cv1_doc_14b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Zephyr handoffs require the receiving queue and a checksum.",
+            "evidence_quote": "A Zephyr handoff records both the receiving queue and the checksum.",
+            "accepted_source_ids": [
+              "cv1_doc_14a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Zephyr adjacent note records an escalation contact.",
+            "evidence_quote": "The Zephyr adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv1_doc_14b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_15",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Combine the Aster evidence record and its adjacent note: what two constraints apply?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Aster's decision register is shared, and the exception register is reviewer-restricted.",
+        "The Aster adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "Aster's decision register is shared, and the exception register is reviewer-restricted.": [
+          "cv1_doc_15a"
+        ],
+        "The Aster adjacent note records an escalation contact.": [
+          "cv1_doc_15b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Aster's decision register is shared, while its exception register is restricted to reviewers.",
+            "evidence_quote": "Aster's decision register is shared, and the exception register is reviewer-restricted.",
+            "accepted_source_ids": [
+              "cv1_doc_15a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Aster adjacent note records an escalation contact.",
+            "evidence_quote": "The Aster adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv1_doc_15b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_16",
+      "split": "dev",
+      "category": "handoff",
+      "request": {
+        "text": "What is the handoff Beryl rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Before transferring Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt."
+      ],
+      "evidence_sources": {
+        "Before transferring Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.": [
+          "cv1_doc_16a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Beryl handoff owner must attach the unresolved-question list before transfer.",
+            "evidence_quote": "Before transferring Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "accepted_source_ids": [
+              "cv1_doc_16a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_17",
+      "split": "dev",
+      "category": "handoff",
+      "request": {
+        "text": "What is the handoff Cinder rule?",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Cinder's next operator verifies the rollback marker before resuming work."
+      ],
+      "evidence_sources": {
+        "Cinder's next operator verifies the rollback marker before resuming work.": [
+          "cv1_doc_17a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Cinder's next operator must verify the rollback marker before resuming work.",
+            "evidence_quote": "Cinder's next operator verifies the rollback marker before resuming work.",
+            "accepted_source_ids": [
+              "cv1_doc_17a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_18",
+      "split": "dev",
+      "category": "insufficient",
+      "request": {
+        "text": "What is the complete adopted rule for Dahlia, including the missing threshold and exception?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_19",
+      "split": "dev",
+      "category": "insufficient",
+      "request": {
+        "text": "What is the complete adopted rule for Ember, including the missing threshold and exception?",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    },
+    {
+      "id": "cv1q_20",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "What is the private Fable rule, and should nonowner analyst_99 receive it?",
+        "actor": "analyst_99",
+        "scope": "private",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Fable calibration note: owner analyst_17 only; nonowner analyst_99 is denied."
+      ],
+      "evidence_sources": {
+        "Fable calibration note: owner analyst_17 only; nonowner analyst_99 is denied.": [
+          "cv1_doc_20a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Do not disclose private material to a nonowner."
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The private Fable calibration note is visible only to its owner; nonowner analyst_99 must be denied.",
+            "evidence_quote": "Fable calibration note: owner analyst_17 only; nonowner analyst_99 is denied.",
+            "accepted_source_ids": [
+              "cv1_doc_20a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every atomic claim must be supported by its evidence_quote; abstain when answerable is false."
+      }
+    }
+  ]
+}

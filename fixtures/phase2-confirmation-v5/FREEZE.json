@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-11-02T09:08:47.763186+00:00",
+  "corpus_documents": 76,
+  "corpus_sections": 284,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "c0c917d71dc96f2b0ee73e1199ab8f477ae396f0b278479ef55788c909783b27",
+    "dev.json": "51f5f848ca03fadc8ed7185c9ba4e084ae680453f16356870d27cb05d34848a4",
+    "final.json": "7d88643c36e18205d65556a0ff870bf0f2755656ef7519d482be75656dfad96a",
+    "grading.json": "5a2caabed5fd1257f9e3b346644d6f1e4865b06e7d04391b9fa0678a0f43eebc"
+  },
+  "author_exposed_to_existing_implementation": true,
+  "frozen_before_original_implementation": false,
+  "existing_configuration_fixed_before_confirmation": true,
+  "no_baseline_or_candidate_measurement": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "all_content_paragraphs_indexed": true,
+  "authoring_reason": "Repair the confirmation design after rejecting two drafts; preserve scope and state fidelity rather than targeting a score.",
+  "revision_of": "fixtures/phase2-confirmation-v4",
+  "corrections_before_measurement": [
+    "Historical documents describe the future review as scheduled, not already approved.",
+    "Draft proposals have no effective date in either prose or section metadata.",
+    "Two drill exception sentences remove duplicate qualifiers; all matching rubric quotes are updated."
+  ],
+  "schema_repair": {
+    "sections": [
+      "c3d_23d6d274485213aa_s0",
+      "c3d_23d6d274485213aa_s1",
+      "c3d_23d6d274485213aa_s2",
+      "c3d_d891d4dd6e3d6fe3_s0",
+      "c3d_d891d4dd6e3d6fe3_s1",
+      "c3d_d891d4dd6e3d6fe3_s2",
+      "c3d_de6508ce57f20e63_s0",
+      "c3d_de6508ce57f20e63_s1",
+      "c3d_de6508ce57f20e63_s2",
+      "c3d_011195ed825178dd_s0",
+      "c3d_011195ed825178dd_s1",
+      "c3d_011195ed825178dd_s2",
+      "c3d_74995ef6fe665aaf_s0",
+      "c3d_74995ef6fe665aaf_s1",
+      "c3d_74995ef6fe665aaf_s2",
+      "c3d_eab52beae06dca4e_s0",
+      "c3d_eab52beae06dca4e_s1",
+      "c3d_eab52beae06dca4e_s2",
+      "c3d_147c4ba28571c602_s0",
+      "c3d_147c4ba28571c602_s1",
+      "c3d_147c4ba28571c602_s2",
+      "c3d_2081cb232dd09c57_s0",
+      "c3d_2081cb232dd09c57_s1",
+      "c3d_2081cb232dd09c57_s2",
+      "c3d_96dd2eaf0483a87e_s0",
+      "c3d_96dd2eaf0483a87e_s1",
+      "c3d_96dd2eaf0483a87e_s2",
+      "c3d_7759532728e60071_s0",
+      "c3d_7759532728e60071_s1",
+      "c3d_7759532728e60071_s2"
+    ],
+    "description": "The established schema has no rejected enum. Rejected proposals use the proposed (not adopted) class with no effective date; their explicit rejection remains in the body. No question or claim changed."
+  },
+  "prior_attempt": "phase2-confirmation-dev-v1 failed schema validation before any retrieval or model call."
+}

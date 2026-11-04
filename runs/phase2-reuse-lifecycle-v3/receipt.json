@@ -1,0 +1,55 @@
+{
+  "schema": "phase2-reuse-lifecycle-v3",
+  "toy_only": true,
+  "model_api_calls": 0,
+  "steps": {
+    "unreviewed_needs_review": true,
+    "published_16_reads_same_payload": true,
+    "updated_16_withheld": true,
+    "update_needs_review_and_no_old_payload": true,
+    "old_pinned_view_is_old_not_current": true,
+    "rereview_16_reads_same_payload": true,
+    "same_topic_new_source_needs_review": true,
+    "rereview_all_sources_verbatim": true,
+    "offsets_and_rendered_citations_match": true,
+    "offsets_match_source_bodies": true,
+    "other_topic_does_not_change_dispatch": true,
+    "backup_restore_payload_equal": true,
+    "same_request_replay_no_double_apply": true,
+    "historical_retired_not_current": true,
+    "retire_dependency_withholds_old_review": true
+  },
+  "phase_elapsed_ms": {
+    "published_parallel_16": 9.884083177894354,
+    "updated_parallel_16": 8.485292084515095,
+    "rereview_parallel_16": 8.382459171116352,
+    "added_dependency_parallel_16": 9.537291713058949
+  },
+  "parallel_read_count": 64,
+  "setup_ms": 7.6095000840723515,
+  "scope_transition": {
+    "status": "rejected",
+    "exception": "ValidationError",
+    "message": "scope/owner changes require a separate publication flow",
+    "head_before": 1,
+    "head_after": 1
+  },
+  "unmeasured": [
+    "scope transition/revoke semantics: current Store rejected attempted transition; no revoke success claimed",
+    "trusted local callers are not authenticated agents",
+    "filesystem durability beyond SQLite backup not established"
+  ],
+  "counts": {
+    "visible_heads": 6,
+    "dispatch_sources": 3
+  },
+  "hashes": {
+    "dispatch_payload": "0d9a7520ac51786afc7f14e32046ccec07742c477b4298e51c3dc72f05853d58"
+  },
+  "code_hashes": {
+    "exercise_reviewed_context_v2.py": "3bf47a259971f7613159d895e34e5ccdc987b1b4e7df5e5acc3ff36d74b099bc",
+    "reviewed_context.py": "0736b97fffbe80b0c538b98148746c282deb5f8cbdb452961a65791507026837"
+  },
+  "elapsed_ms": 78.1330419704318,
+  "all_required_steps_pass": true
+}

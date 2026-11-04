@@ -1,0 +1,33 @@
+{
+  "public_synthetic_only": true,
+  "license_selected": false,
+  "sha256": {
+    ".gitignore": "0d9b2c24f9fa6a5d1bc074c41a31b307632d1c56c8391d4d88f95d5e73b35748",
+    "README.md": "85e1ec2e1643f9a768f8d3792d3085b2f86fbde4740a5a7f6d36f957354385eb",
+    "docs/decisions.md": "9d2b3dbb69cb2a6e1240279f4a5171824e94c92fe01b5bf71d72b82bd9020469",
+    "docs/evaluation-protocol.md": "00d1633dad8874a9ba0a14b6650e0b965c117c43819d45a12f2900e651532fcf",
+    "docs/phase-1-findings.md": "1aa611be8287585a8dc3c969a34e29364c139bb7eb50112ca5a9b43f1b46d137",
+    "fixtures/synthetic/README.md": "7eadd3ed5215d746e95fa79e5e71d1c061e3de257684a4f8fbf0f74c9e8ed7e3",
+    "fixtures/synthetic/corpus.json": "e52c7e17941e406483df9f3013e958a695c8f91e00462e546314d15ee496bc95",
+    "fixtures/synthetic/queries.json": "efa6ffa2967c8e7cd5df0c9eade9bf56e0d8bb6d0b5ba37076ff710cb585583d",
+    "pyproject.toml": "cc8b29da247f39e931e9639fbe97b334a48b26dbacd827fb6298e45349bed56c",
+    "runs/obsolete-candidates.json": "c2489073babced5a878281f2617b326ab266fee853b56d796653a89fd45fdb0c",
+    "runs/synthetic-v1/SUMMARY.md": "1f8ef682d2ce14d389cb7c4f5b20c8afcee0a6ebc1718acd59e90f8164a4c13f",
+    "runs/synthetic-v1/metadata.json": "3a5e4dcc71a5d543c705b0955f058eb97275d0eac93be51b39e405a502e22c9e",
+    "runs/synthetic-v1/payloads.jsonl": "c23329eeb89cb82a3b0c38c1208957ea86486a15fe0264af428bdd06fc659f45",
+    "runs/synthetic-v1/results.csv": "dd1ba77ec73b8fea017b1c9cbc754e41f92c05abc756cb85cc2b88801b1e9220",
+    "runs/synthetic-v1/results.json": "30900f737fa1d2bc6bd79ec32b40ea2706fc9a2013c8490e2e2e3527cadaeb15",
+    "runs/synthetic-v1/summary.json": "f5e42370ed5d387fa2164547ee98c05734055b6d9df7e7a0f4daf84c45427fbd",
+    "scripts/build_bundle.py": "6070310bb8ae6d2737832ea5bc697482b690c244b163a7c643496708b0ea4065",
+    "scripts/check_obsolete_candidates.py": "310474849054732ad4998502ef854ea419128a8fc1f82c781f7a89bb34ad5f8b",
+    "src/context_lab/__init__.py": "6559b8b50f8eb1f1691d3e2701a0d887f1d5e5c8966cd35f5b73a4d07fcb53fb",
+    "src/context_lab/evaluate.py": "74e16c1f780af736a069bebc58da03f947176aa9595794633ecb944e205ee62e",
+    "src/context_lab/import_snapshot.py": "9944d353683c7d85034012146d1b222e555eac1e25c62511e37c108b57922907",
+    "src/context_lab/metrics.py": "b32808fffe4defd6c53bb3efa4ecab023c6ba993480be6b0dcce07a97e5daf36",
+    "src/context_lab/retrieval.py": "e7df9920a513e16af4c7bcd0f85aee0313cac7db415b926dcd7d90e199686b2c",
+    "src/context_lab/store.py": "12eb12d3e3cac681ed954b757496e3d010780589d1e3d7a571dedf2743572661",
+    "tests/test_evaluate.py": "4cd036a482e80e970715179617afafb3a44d86adfb5e0fd5ca0e2c29a58907fc",
+    "tests/test_retrieval.py": "730c1789b6bb59cf2ac2be43f4cfa260198d1da6922208b78b60e1276ddf9d01",
+    "tests/test_store.py": "8d70297f6caf2003d8ec31bc38a087af6c6b25ef903f135a08a40da3aaebf23e"
+  }
+}

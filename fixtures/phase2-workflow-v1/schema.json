@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 2 workflow episode fixture",
+  "type": "object",
+  "required": ["episode_id", "topic", "sources", "waves", "gold"],
+  "properties": {
+    "episode_id": {"type": "string"},
+    "topic": {"type": "string"},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "waves": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/wave"}},
+    "gold": {"type": "array", "items": {"$ref": "#/$defs/gold"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["source_id", "title", "revision", "scope", "owner", "body", "state", "effective_from"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^src_[a-z0-9_]+$"},
+        "title": {"type": "string"}, "revision": {"type": "string"},
+        "scope": {"type": "string"}, "owner": {"type": "string"},
+        "body": {"type": "string", "minLength": 40}, "state": {"type": "string"},
+        "effective_from": {"type": "string"}, "effective_to": {"type": ["string", "null"]}
+      }, "additionalProperties": false
+    },
+    "task": {
+      "type": "object",
+      "required": ["task_id", "actor", "request", "output_fields", "depends_on", "visible_sources"],
+      "properties": {
+        "task_id": {"type": "string"}, "actor": {"type": "string"},
+        "request": {"type": "string"}, "output_fields": {"type": "array", "minItems": 3, "maxItems": 6, "items": {"type": "string"}},
+        "depends_on": {"type": "array", "items": {"type": "string"}},
+        "visible_sources": {"type": "array", "items": {"type": "string"}},
+        "visible_scope": {"type": "string"}
+      }, "additionalProperties": false
+    },
+    "wave": {"type": "object", "required": ["wave", "tasks"], "properties": {"wave": {"type": "integer", "minimum": 1}, "event": {"type": "string"}, "tasks": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/task"}}}, "additionalProperties": false},
+    "gold": {"type": "object", "required": ["task_id", "fields", "required_source_ids", "forbidden_claims", "unknown_when"], "properties": {"task_id": {"type": "string"}, "fields": {"type": "object", "additionalProperties": {"type": "object", "required": ["acceptable_values", "required_quotes"], "properties": {"acceptable_values": {"type": "array"}, "required_quotes": {"type": "array"}}}}, "required_source_ids": {"type": "array"}, "forbidden_claims": {"type": "array"}, "unknown_when": {"type": "array"}}, "additionalProperties": false}
+  },
+  "x_fixture_rules": ["gold is offline-only and never sent to retrieval or model", "all task actors are distinct within an episode", "a source update changes revision or state rather than overwriting history", "private sources are visible only to the named actor"]
+}

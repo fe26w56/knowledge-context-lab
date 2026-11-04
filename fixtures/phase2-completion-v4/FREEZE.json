@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-30T09:41:03.986914+00:00",
+  "corpus_documents": 80,
+  "corpus_sections": 80,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "ccab6facea404f66dcfb38c386a84830c26529f22b3b0864fd08b1895ba66424",
+    "dev.json": "d699726666382fd5f04a6b2f7bf70ae25b253daa3ebb7762b20c07f7ddf3e727",
+    "final.json": "e1de3b9719a453766d54ff38e4adfe51ee3ca1495bbfa543bc5c82c30a8c2813",
+    "grading.json": "6e5afa4e311834cc61b3afecbce4976df51d8c6c2b1122d6a0cbdd206de867e6",
+    "TOKEN_REPORT.json": "1beea4b85eadf9330363422e5f674764a17a6b9d897dd6cd929d2149e3451c0d"
+  },
+  "author_not_exposed_to_new_implementation": true,
+  "frozen_before_improvement_implementation": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "revision_of": "fixtures/phase2-completion-v3",
+  "tokenizer": "o200k_base"
+}

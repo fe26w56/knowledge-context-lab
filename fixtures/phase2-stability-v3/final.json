@@ -1,0 +1,282 @@
+[
+  {
+    "id": "final-01",
+    "category": "cross_document",
+    "project": "indigo2",
+    "mode": "current",
+    "variants": [
+      "Indigo2の完了にはどの二つの番号が必要ですか。",
+      "Indigo2で承認と実施の証跡が揃う条件を教えてください。",
+      "Indigo2の完了判定に必要な承認番号と実施番号を教えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-indigo2-core"
+    ],
+    "required_quotes": [
+      "承認番号IX-Aと実施番号IX-Lの両方が揃えば完了とする。"
+    ],
+    "expected_answer_fragments": [
+      "IX-A",
+      "IX-L",
+      "完了"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-02",
+    "category": "unknown",
+    "project": "jade2",
+    "mode": "current",
+    "variants": [
+      "Jade2の受付番号JX-404は完了していますか。",
+      "Jade2の指定受付の処理結果を資料から確認できますか。",
+      "Jade2の受付状態について現資料に根拠はありますか。"
+    ],
+    "required_source_ids": [],
+    "required_quotes": [],
+    "expected_answer_fragments": [],
+    "forbidden_answer_fragments": [
+      "Jade2のJX-404は完了している。"
+    ],
+    "answerable": false
+  },
+  {
+    "id": "final-03",
+    "category": "all_items",
+    "project": "kestrel",
+    "mode": "all",
+    "variants": [
+      "Kestrelの確認項目を全件列挙してください。",
+      "Kestrelで受付時に確認する4項目は何ですか。",
+      "Kestrelのチェックリストを省略せず示してください。"
+    ],
+    "required_source_ids": [
+      "sv2-kestrel-core"
+    ],
+    "required_quotes": [
+      "氏名、注文ID、連絡先、同意欄の4項目を確認する。"
+    ],
+    "expected_answer_fragments": [
+      "氏名",
+      "注文ID",
+      "連絡先",
+      "同意欄"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-04",
+    "category": "current_policy",
+    "project": "lumen2",
+    "mode": "current",
+    "variants": [
+      "Lumen2の移行を始めるための条件をすべて教えてください。",
+      "Lumen2で移行前に成功している必要がある確認は何ですか。",
+      "Lumen2のデータ移行開始条件を漏れなく説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-lumen2-core"
+    ],
+    "required_quotes": [
+      "バックアップ、件数照合、復元確認が成功したら移行する。"
+    ],
+    "expected_answer_fragments": [
+      "バックアップ",
+      "件数照合",
+      "復元確認"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-05",
+    "category": "conditional_exception",
+    "project": "umber",
+    "mode": "current",
+    "variants": [
+      "Umberで開封済みと初期不良の返品扱いを教えてください。",
+      "Umberの返品例外では開封済みをどう扱い、初期不良はいつ調査しますか。",
+      "Umberの返品対象外条件と期間外の初期不良対応を説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-umber-core"
+    ],
+    "required_quotes": [
+      "開封済みは対象外で、初期不良は期間外でも調査する。"
+    ],
+    "expected_answer_fragments": [
+      "開封済みは対象外",
+      "初期不良",
+      "期間外でも調査"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-06",
+    "category": "current_policy",
+    "project": "moss",
+    "mode": "current",
+    "variants": [
+      "Mossの昼間一次通知の転送期限は何分ですか。",
+      "Mossで通常時間帯の通知をいつまでに転送しますか。",
+      "Mossの一次通知に設定された昼間の時間条件を教えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-moss-core"
+    ],
+    "required_quotes": [
+      "昼間の一次通知は12分以内に担当へ転送する。"
+    ],
+    "expected_answer_fragments": [
+      "12分以内",
+      "一次通知"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-07",
+    "category": "conditional_exception",
+    "project": "violet",
+    "mode": "current",
+    "variants": [
+      "Violetで機密資料と保管期限延長にはどんな条件がありますか。",
+      "Violetの保管例外では鍵と承認をどう扱いますか。",
+      "Violetで機密資料を保管する方法と期限延長の承認条件を教えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-violet-core"
+    ],
+    "required_quotes": [
+      "機密資料は別鍵を使い、保管期限を延長する場合は責任者が承認する。"
+    ],
+    "expected_answer_fragments": [
+      "機密資料は別鍵",
+      "責任者が承認"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-08",
+    "category": "history",
+    "project": "opal",
+    "mode": "history",
+    "variants": [
+      "Opalの監視頻度はいつ月次から週次へ変わりましたか。",
+      "Opalの9月会議で決まった監視頻度の変更を教えてください。",
+      "Opalの会議履歴にある月次から週次への変更時期と内容を説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-opal-core"
+    ],
+    "required_quotes": [
+      "2026年9月の会議で監視を月次から週次へ変えた。"
+    ],
+    "expected_answer_fragments": [
+      "2026年9月",
+      "月次",
+      "週次"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-09",
+    "category": "current_policy",
+    "project": "pearl",
+    "mode": "current",
+    "variants": [
+      "Pearlの一次担当と二次担当はどのチームですか。",
+      "Pearlの連絡規則で一次・二次を分担するチームを教えてください。",
+      "Pearlの担当チームを一次と二次に分けて答えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-pearl-core"
+    ],
+    "required_quotes": [
+      "一次担当は窓口チーム、二次担当は品質チームとする。"
+    ],
+    "expected_answer_fragments": [
+      "窓口チーム",
+      "品質チーム"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-10",
+    "category": "privacy",
+    "project": "quill",
+    "mode": "current",
+    "variants": [
+      "Quillの私有記録について所有者以外にはどう対応しますか。",
+      "Quillで個人メモの内容を尋ねられた時に案内できる範囲を教えてください。",
+      "Quillの私有領域に対する非所有者への回答方針は何ですか。"
+    ],
+    "required_source_ids": [
+      "sv2-quill-core"
+    ],
+    "required_quotes": [
+      "所有者以外へ内容を回答せず、共有版の所在だけ案内する。"
+    ],
+    "expected_answer_fragments": [
+      "所有者以外へ内容を回答せず",
+      "共有版の所在だけ"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-11",
+    "category": "cross_document",
+    "project": "sable",
+    "mode": "current",
+    "variants": [
+      "Sableを完了とするために必要な二つの証跡は何ですか。",
+      "Sableの承認記録と実行ログが揃う条件を教えてください。",
+      "Sableの完了判定で必要な承認記録と実行ログを教えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-sable-core"
+    ],
+    "required_quotes": [
+      "承認記録SA-Aと実行ログSA-Lが揃った場合だけ完了とする。"
+    ],
+    "expected_answer_fragments": [
+      "SA-A",
+      "SA-L",
+      "完了"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "final-12",
+    "category": "conditional_exception",
+    "project": "tulip",
+    "mode": "all",
+    "variants": [
+      "Tulipの北部通知の方法と南部に適用しない境界を教えてください。",
+      "Tulipで北部の低緊急度通知はどう送り、南部ではどうしますか。",
+      "Tulipの地域条件にある通知手段と適用外地域を説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-tulip-core"
+    ],
+    "required_quotes": [
+      "北部地域の低緊急度通知は現地時間のメールで送る。",
+      "南部地域の判断には適用せず、地域台帳を確認する。"
+    ],
+    "expected_answer_fragments": [
+      "北部地域",
+      "現地時間のメール",
+      "南部地域の判断には適用せず"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  }
+]

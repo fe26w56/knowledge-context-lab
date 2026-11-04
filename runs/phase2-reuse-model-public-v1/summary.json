@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "results": 108,
+  "successful": 108,
+  "ledger_accounted_before_nanodollars": 9653204350,
+  "ledger_accounted_after_nanodollars": 9726117025,
+  "additional_accounted_nanodollars": 72912675,
+  "count_endpoint_calls": 34,
+  "elapsed_seconds": 573.1200518608093,
+  "invoice_measured": false
+}

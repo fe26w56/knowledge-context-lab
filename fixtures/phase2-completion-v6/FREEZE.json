@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-30T09:48:16.401151+00:00",
+  "corpus_documents": 80,
+  "corpus_sections": 80,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "5b2fb93cc57bc861422a2b5e82df028999824cb4e5849112d127ce807051882a",
+    "dev.json": "f34a0be857822bf609773bad26b28d3dc7ae5e0e55af731982f18524b85f5754",
+    "final.json": "70913fc685790f0353627b7a5008b47cd5d7f2de4506809afaacf91d0ff9d1ca",
+    "grading.json": "db6dabc0d0fc537326d38ecd743e6fc3cad55810847355ba050b1123d9942ce4",
+    "TOKEN_REPORT.json": "e129ba80a7c08ffeabd53cd64354447cdb486c73546662feddb133a07b0b9fee"
+  },
+  "author_not_exposed_to_new_implementation": true,
+  "frozen_before_improvement_implementation": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "revision_of": "fixtures/phase2-completion-v5",
+  "tokenizer": "o200k_base"
+}

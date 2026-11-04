@@ -1,0 +1,2134 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-candidate-v1",
+  "privacy": "public_synthetic",
+  "fixture_kind": "phase2_release_candidate_diagnostic",
+  "license_status": "not_selected",
+  "bot_ids": [
+    "bot_01",
+    "bot_02",
+    "bot_03",
+    "bot_04",
+    "bot_05",
+    "bot_06",
+    "bot_07",
+    "bot_08",
+    "bot_09",
+    "bot_10",
+    "bot_11",
+    "bot_12",
+    "bot_13",
+    "bot_14",
+    "bot_15",
+    "bot_16"
+  ],
+  "description": "完全架空。重複・近似・履歴・権限・複数根拠の検索器検証用。独立ベンチマークではない。",
+  "documents": [
+    {
+      "id": "rel_00_a",
+      "title": "Quartz 作業記録の保存期限 現行記録",
+      "source_url": "https://example.invalid/release/rel_00_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Quartz 作業記録の保存期限 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の作業記録の保存期限\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。\n\n## 作業記録の保存期限の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では30日保持としていたが、2026年5月10日に置き換えられた。\n\n## 作業記録の保存期限の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n保持期間を180日に延ばす案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "rel_00_a_s1",
+          "heading": "現行の作業記録の保存期限",
+          "text": "採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_a_s2",
+          "heading": "作業記録の保存期限の旧版",
+          "text": "旧版では30日保持としていたが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_a_s3",
+          "heading": "作業記録の保存期限の提案",
+          "text": "保持期間を180日に延ばす案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_00_b",
+      "title": "Quartz 作業記録の保存期限 複製記録",
+      "source_url": "https://example.invalid/release/rel_00_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Quartz 作業記録の保存期限 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の作業記録の保存期限\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。\n\n## 作業記録の保存期限の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では30日保持としていたが、2026年5月10日に置き換えられた。\n\n## 作業記録の保存期限の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n保持期間を180日に延ばす案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "rel_00_b_s1",
+          "heading": "現行の作業記録の保存期限",
+          "text": "採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_b_s2",
+          "heading": "作業記録の保存期限の旧版",
+          "text": "旧版では30日保持としていたが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_b_s3",
+          "heading": "作業記録の保存期限の提案",
+          "text": "保持期間を180日に延ばす案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_00_a"
+    },
+    {
+      "id": "rel_00_c",
+      "title": "Quartz 作業記録の保存期限 近似メモ",
+      "source_url": "https://example.invalid/release/rel_00_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Quartz 作業記録の保存期限 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の作業記録の保存期限\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。 補足番号0は評価用の近似記録である。\n\n## 作業記録の保存期限の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では30日保持としていたが、2026年5月10日に置き換えられた。 補足番号0は評価用の近似記録である。\n\n## 作業記録の保存期限の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n保持期間を180日に延ばす案は提案中で、採用されていない。 補足番号0は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_00_c_s1",
+          "heading": "現行の作業記録の保存期限",
+          "text": "採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。 補足番号0は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_c_s2",
+          "heading": "作業記録の保存期限の旧版",
+          "text": "旧版では30日保持としていたが、2026年5月10日に置き換えられた。 補足番号0は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_00_c_s3",
+          "heading": "作業記録の保存期限の提案",
+          "text": "保持期間を180日に延ばす案は提案中で、採用されていない。 補足番号0は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_00_a"
+    },
+    {
+      "id": "rel_00_private",
+      "title": "Quartz privateメモ",
+      "source_url": "https://example.invalid/release/rel_00_private",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_10",
+      "body": "# Quartz privateメモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_10。\n\n## 個別の作業記録の保存期限\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nQuartzの個別識別語はPRIVATE_RELEASE_00_X9である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "rel_00_private_s1",
+          "heading": "個別の作業記録の保存期限",
+          "text": "Quartzの個別識別語はPRIVATE_RELEASE_00_X9である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_01_a",
+      "title": "Mica 遠隔会議の録画 現行記録",
+      "source_url": "https://example.invalid/release/rel_01_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Mica 遠隔会議の録画 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の遠隔会議の録画\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。\n\n## 遠隔会議の録画の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。\n\n## 遠隔会議の録画の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n会議資料も全て公開する案は検討中で、承認されていない。",
+      "sections": [
+        {
+          "id": "rel_01_a_s1",
+          "heading": "現行の遠隔会議の録画",
+          "text": "録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_a_s2",
+          "heading": "遠隔会議の録画の旧版",
+          "text": "旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_a_s3",
+          "heading": "遠隔会議の録画の提案",
+          "text": "会議資料も全て公開する案は検討中で、承認されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_01_b",
+      "title": "Mica 遠隔会議の録画 複製記録",
+      "source_url": "https://example.invalid/release/rel_01_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Mica 遠隔会議の録画 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の遠隔会議の録画\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。\n\n## 遠隔会議の録画の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。\n\n## 遠隔会議の録画の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n会議資料も全て公開する案は検討中で、承認されていない。",
+      "sections": [
+        {
+          "id": "rel_01_b_s1",
+          "heading": "現行の遠隔会議の録画",
+          "text": "録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_b_s2",
+          "heading": "遠隔会議の録画の旧版",
+          "text": "旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_b_s3",
+          "heading": "遠隔会議の録画の提案",
+          "text": "会議資料も全て公開する案は検討中で、承認されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_01_a"
+    },
+    {
+      "id": "rel_01_c",
+      "title": "Mica 遠隔会議の録画 近似メモ",
+      "source_url": "https://example.invalid/release/rel_01_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Mica 遠隔会議の録画 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の遠隔会議の録画\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。 補足番号1は評価用の近似記録である。\n\n## 遠隔会議の録画の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。 補足番号1は評価用の近似記録である。\n\n## 遠隔会議の録画の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n会議資料も全て公開する案は検討中で、承認されていない。 補足番号1は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_01_c_s1",
+          "heading": "現行の遠隔会議の録画",
+          "text": "録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。 補足番号1は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_c_s2",
+          "heading": "遠隔会議の録画の旧版",
+          "text": "旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。 補足番号1は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_01_c_s3",
+          "heading": "遠隔会議の録画の提案",
+          "text": "会議資料も全て公開する案は検討中で、承認されていない。 補足番号1は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_01_a"
+    },
+    {
+      "id": "rel_01_private",
+      "title": "Mica privateメモ",
+      "source_url": "https://example.invalid/release/rel_01_private",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_11",
+      "body": "# Mica privateメモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_11。\n\n## 個別の遠隔会議の録画\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nMicaの個別識別語はPRIVATE_RELEASE_01_X9である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "rel_01_private_s1",
+          "heading": "個別の遠隔会議の録画",
+          "text": "Micaの個別識別語はPRIVATE_RELEASE_01_X9である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_02_a",
+      "title": "Aster 配送窓口の締切 現行記録",
+      "source_url": "https://example.invalid/release/rel_02_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Aster 配送窓口の締切 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の配送窓口の締切\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。\n\n## 配送窓口の締切の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧締切は18時だったが、2026年5月6日に16時へ変更された。\n\n## 配送窓口の締切の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n夜間受付を20時まで延長する案は未採用である。",
+      "sections": [
+        {
+          "id": "rel_02_a_s1",
+          "heading": "現行の配送窓口の締切",
+          "text": "通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_a_s2",
+          "heading": "配送窓口の締切の旧版",
+          "text": "旧締切は18時だったが、2026年5月6日に16時へ変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_a_s3",
+          "heading": "配送窓口の締切の提案",
+          "text": "夜間受付を20時まで延長する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_02_b",
+      "title": "Aster 配送窓口の締切 複製記録",
+      "source_url": "https://example.invalid/release/rel_02_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Aster 配送窓口の締切 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の配送窓口の締切\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。\n\n## 配送窓口の締切の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧締切は18時だったが、2026年5月6日に16時へ変更された。\n\n## 配送窓口の締切の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n夜間受付を20時まで延長する案は未採用である。",
+      "sections": [
+        {
+          "id": "rel_02_b_s1",
+          "heading": "現行の配送窓口の締切",
+          "text": "通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_b_s2",
+          "heading": "配送窓口の締切の旧版",
+          "text": "旧締切は18時だったが、2026年5月6日に16時へ変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_b_s3",
+          "heading": "配送窓口の締切の提案",
+          "text": "夜間受付を20時まで延長する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_02_a"
+    },
+    {
+      "id": "rel_02_c",
+      "title": "Aster 配送窓口の締切 近似メモ",
+      "source_url": "https://example.invalid/release/rel_02_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Aster 配送窓口の締切 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の配送窓口の締切\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。 補足番号2は評価用の近似記録である。\n\n## 配送窓口の締切の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧締切は18時だったが、2026年5月6日に16時へ変更された。 補足番号2は評価用の近似記録である。\n\n## 配送窓口の締切の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n夜間受付を20時まで延長する案は未採用である。 補足番号2は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_02_c_s1",
+          "heading": "現行の配送窓口の締切",
+          "text": "通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。 補足番号2は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_c_s2",
+          "heading": "配送窓口の締切の旧版",
+          "text": "旧締切は18時だったが、2026年5月6日に16時へ変更された。 補足番号2は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_02_c_s3",
+          "heading": "配送窓口の締切の提案",
+          "text": "夜間受付を20時まで延長する案は未採用である。 補足番号2は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_02_a"
+    },
+    {
+      "id": "rel_02_private",
+      "title": "Aster privateメモ",
+      "source_url": "https://example.invalid/release/rel_02_private",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_12",
+      "body": "# Aster privateメモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_12。\n\n## 個別の配送窓口の締切\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nAsterの個別識別語はPRIVATE_RELEASE_02_X9である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "rel_02_private_s1",
+          "heading": "個別の配送窓口の締切",
+          "text": "Asterの個別識別語はPRIVATE_RELEASE_02_X9である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_03_a",
+      "title": "Vela 分析ジョブの再実行 現行記録",
+      "source_url": "https://example.invalid/release/rel_03_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Vela 分析ジョブの再実行 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の分析ジョブの再実行\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。\n\n## 分析ジョブの再実行の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では最後の実行結果を上書きしていたが、現在は廃止した。\n\n## 分析ジョブの再実行の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n失敗時に重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "rel_03_a_s1",
+          "heading": "現行の分析ジョブの再実行",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_a_s2",
+          "heading": "分析ジョブの再実行の旧版",
+          "text": "旧手順では最後の実行結果を上書きしていたが、現在は廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_a_s3",
+          "heading": "分析ジョブの再実行の提案",
+          "text": "失敗時に重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_03_b",
+      "title": "Vela 分析ジョブの再実行 複製記録",
+      "source_url": "https://example.invalid/release/rel_03_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Vela 分析ジョブの再実行 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の分析ジョブの再実行\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。\n\n## 分析ジョブの再実行の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では最後の実行結果を上書きしていたが、現在は廃止した。\n\n## 分析ジョブの再実行の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n失敗時に重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "rel_03_b_s1",
+          "heading": "現行の分析ジョブの再実行",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_b_s2",
+          "heading": "分析ジョブの再実行の旧版",
+          "text": "旧手順では最後の実行結果を上書きしていたが、現在は廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_b_s3",
+          "heading": "分析ジョブの再実行の提案",
+          "text": "失敗時に重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_03_a"
+    },
+    {
+      "id": "rel_03_c",
+      "title": "Vela 分析ジョブの再実行 近似メモ",
+      "source_url": "https://example.invalid/release/rel_03_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Vela 分析ジョブの再実行 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の分析ジョブの再実行\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。 補足番号3は評価用の近似記録である。\n\n## 分析ジョブの再実行の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では最後の実行結果を上書きしていたが、現在は廃止した。 補足番号3は評価用の近似記録である。\n\n## 分析ジョブの再実行の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n失敗時に重複実行を許す案は提案段階である。 補足番号3は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_03_c_s1",
+          "heading": "現行の分析ジョブの再実行",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。 補足番号3は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_c_s2",
+          "heading": "分析ジョブの再実行の旧版",
+          "text": "旧手順では最後の実行結果を上書きしていたが、現在は廃止した。 補足番号3は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_03_c_s3",
+          "heading": "分析ジョブの再実行の提案",
+          "text": "失敗時に重複実行を許す案は提案段階である。 補足番号3は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_03_a"
+    },
+    {
+      "id": "rel_03_private",
+      "title": "Vela privateメモ",
+      "source_url": "https://example.invalid/release/rel_03_private",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_13",
+      "body": "# Vela privateメモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_13。\n\n## 個別の分析ジョブの再実行\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nVelaの個別識別語はPRIVATE_RELEASE_03_X9である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "rel_03_private_s1",
+          "heading": "個別の分析ジョブの再実行",
+          "text": "Velaの個別識別語はPRIVATE_RELEASE_03_X9である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_04_a",
+      "title": "Cinder 温室の温度条件 現行記録",
+      "source_url": "https://example.invalid/release/rel_04_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Cinder 温室の温度条件 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の温室の温度条件\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。\n\n## 温室の温度条件の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n以前は30度で停止としていたが、測定条件の変更で廃止された。\n\n## 温室の温度条件の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n遠隔で強制停止する案は安全審査前である。",
+      "sections": [
+        {
+          "id": "rel_04_a_s1",
+          "heading": "現行の温室の温度条件",
+          "text": "温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_a_s2",
+          "heading": "温室の温度条件の旧版",
+          "text": "以前は30度で停止としていたが、測定条件の変更で廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_a_s3",
+          "heading": "温室の温度条件の提案",
+          "text": "遠隔で強制停止する案は安全審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_04_b",
+      "title": "Cinder 温室の温度条件 複製記録",
+      "source_url": "https://example.invalid/release/rel_04_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Cinder 温室の温度条件 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の温室の温度条件\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。\n\n## 温室の温度条件の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n以前は30度で停止としていたが、測定条件の変更で廃止された。\n\n## 温室の温度条件の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n遠隔で強制停止する案は安全審査前である。",
+      "sections": [
+        {
+          "id": "rel_04_b_s1",
+          "heading": "現行の温室の温度条件",
+          "text": "温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_b_s2",
+          "heading": "温室の温度条件の旧版",
+          "text": "以前は30度で停止としていたが、測定条件の変更で廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_b_s3",
+          "heading": "温室の温度条件の提案",
+          "text": "遠隔で強制停止する案は安全審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_04_a"
+    },
+    {
+      "id": "rel_04_c",
+      "title": "Cinder 温室の温度条件 近似メモ",
+      "source_url": "https://example.invalid/release/rel_04_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Cinder 温室の温度条件 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の温室の温度条件\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。 補足番号4は評価用の近似記録である。\n\n## 温室の温度条件の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n以前は30度で停止としていたが、測定条件の変更で廃止された。 補足番号4は評価用の近似記録である。\n\n## 温室の温度条件の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n遠隔で強制停止する案は安全審査前である。 補足番号4は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_04_c_s1",
+          "heading": "現行の温室の温度条件",
+          "text": "温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。 補足番号4は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_c_s2",
+          "heading": "温室の温度条件の旧版",
+          "text": "以前は30度で停止としていたが、測定条件の変更で廃止された。 補足番号4は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_04_c_s3",
+          "heading": "温室の温度条件の提案",
+          "text": "遠隔で強制停止する案は安全審査前である。 補足番号4は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_04_a"
+    },
+    {
+      "id": "rel_04_private",
+      "title": "Cinder privateメモ",
+      "source_url": "https://example.invalid/release/rel_04_private",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_14",
+      "body": "# Cinder privateメモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_14。\n\n## 個別の温室の温度条件\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nCinderの個別識別語はPRIVATE_RELEASE_04_X9である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "rel_04_private_s1",
+          "heading": "個別の温室の温度条件",
+          "text": "Cinderの個別識別語はPRIVATE_RELEASE_04_X9である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_05_a",
+      "title": "Pollen 文書の改訂日 現行記録",
+      "source_url": "https://example.invalid/release/rel_05_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Pollen 文書の改訂日 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の文書の改訂日\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。\n\n## 文書の改訂日の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。\n\n## 文書の改訂日の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n編集者ごとに更新日を変える案は採用されていない。",
+      "sections": [
+        {
+          "id": "rel_05_a_s1",
+          "heading": "現行の文書の改訂日",
+          "text": "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_a_s2",
+          "heading": "文書の改訂日の旧版",
+          "text": "旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_a_s3",
+          "heading": "文書の改訂日の提案",
+          "text": "編集者ごとに更新日を変える案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_05_b",
+      "title": "Pollen 文書の改訂日 複製記録",
+      "source_url": "https://example.invalid/release/rel_05_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Pollen 文書の改訂日 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の文書の改訂日\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。\n\n## 文書の改訂日の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。\n\n## 文書の改訂日の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n編集者ごとに更新日を変える案は採用されていない。",
+      "sections": [
+        {
+          "id": "rel_05_b_s1",
+          "heading": "現行の文書の改訂日",
+          "text": "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_b_s2",
+          "heading": "文書の改訂日の旧版",
+          "text": "旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_b_s3",
+          "heading": "文書の改訂日の提案",
+          "text": "編集者ごとに更新日を変える案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_05_a"
+    },
+    {
+      "id": "rel_05_c",
+      "title": "Pollen 文書の改訂日 近似メモ",
+      "source_url": "https://example.invalid/release/rel_05_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Pollen 文書の改訂日 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の文書の改訂日\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。 補足番号5は評価用の近似記録である。\n\n## 文書の改訂日の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。 補足番号5は評価用の近似記録である。\n\n## 文書の改訂日の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n編集者ごとに更新日を変える案は採用されていない。 補足番号5は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_05_c_s1",
+          "heading": "現行の文書の改訂日",
+          "text": "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。 補足番号5は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_c_s2",
+          "heading": "文書の改訂日の旧版",
+          "text": "旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。 補足番号5は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_05_c_s3",
+          "heading": "文書の改訂日の提案",
+          "text": "編集者ごとに更新日を変える案は採用されていない。 補足番号5は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_05_a"
+    },
+    {
+      "id": "rel_06_a",
+      "title": "Nereid 貸出機材の返却 現行記録",
+      "source_url": "https://example.invalid/release/rel_06_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Nereid 貸出機材の返却 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の貸出機材の返却\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。\n\n## 貸出機材の返却の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧制度は14日以内だったが、2026年5月5日に改めた。\n\n## 貸出機材の返却の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n返却期限を30日にする案は申請中である。",
+      "sections": [
+        {
+          "id": "rel_06_a_s1",
+          "heading": "現行の貸出機材の返却",
+          "text": "機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_a_s2",
+          "heading": "貸出機材の返却の旧版",
+          "text": "旧制度は14日以内だったが、2026年5月5日に改めた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_a_s3",
+          "heading": "貸出機材の返却の提案",
+          "text": "返却期限を30日にする案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_06_b",
+      "title": "Nereid 貸出機材の返却 複製記録",
+      "source_url": "https://example.invalid/release/rel_06_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Nereid 貸出機材の返却 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の貸出機材の返却\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。\n\n## 貸出機材の返却の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧制度は14日以内だったが、2026年5月5日に改めた。\n\n## 貸出機材の返却の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n返却期限を30日にする案は申請中である。",
+      "sections": [
+        {
+          "id": "rel_06_b_s1",
+          "heading": "現行の貸出機材の返却",
+          "text": "機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_b_s2",
+          "heading": "貸出機材の返却の旧版",
+          "text": "旧制度は14日以内だったが、2026年5月5日に改めた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_b_s3",
+          "heading": "貸出機材の返却の提案",
+          "text": "返却期限を30日にする案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_06_a"
+    },
+    {
+      "id": "rel_06_c",
+      "title": "Nereid 貸出機材の返却 近似メモ",
+      "source_url": "https://example.invalid/release/rel_06_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Nereid 貸出機材の返却 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の貸出機材の返却\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。 補足番号6は評価用の近似記録である。\n\n## 貸出機材の返却の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧制度は14日以内だったが、2026年5月5日に改めた。 補足番号6は評価用の近似記録である。\n\n## 貸出機材の返却の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n返却期限を30日にする案は申請中である。 補足番号6は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_06_c_s1",
+          "heading": "現行の貸出機材の返却",
+          "text": "機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。 補足番号6は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_c_s2",
+          "heading": "貸出機材の返却の旧版",
+          "text": "旧制度は14日以内だったが、2026年5月5日に改めた。 補足番号6は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_06_c_s3",
+          "heading": "貸出機材の返却の提案",
+          "text": "返却期限を30日にする案は申請中である。 補足番号6は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_06_a"
+    },
+    {
+      "id": "rel_07_a",
+      "title": "Saffron 試験データの匿名化 現行記録",
+      "source_url": "https://example.invalid/release/rel_07_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Saffron 試験データの匿名化 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の試験データの匿名化\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。\n\n## 試験データの匿名化の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では1人確認だったが、2026年5月3日に改訂した。\n\n## 試験データの匿名化の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自動判定だけで公開する案は保留中である。",
+      "sections": [
+        {
+          "id": "rel_07_a_s1",
+          "heading": "現行の試験データの匿名化",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_a_s2",
+          "heading": "試験データの匿名化の旧版",
+          "text": "旧版では1人確認だったが、2026年5月3日に改訂した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_a_s3",
+          "heading": "試験データの匿名化の提案",
+          "text": "自動判定だけで公開する案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_07_b",
+      "title": "Saffron 試験データの匿名化 複製記録",
+      "source_url": "https://example.invalid/release/rel_07_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Saffron 試験データの匿名化 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の試験データの匿名化\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。\n\n## 試験データの匿名化の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では1人確認だったが、2026年5月3日に改訂した。\n\n## 試験データの匿名化の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自動判定だけで公開する案は保留中である。",
+      "sections": [
+        {
+          "id": "rel_07_b_s1",
+          "heading": "現行の試験データの匿名化",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_b_s2",
+          "heading": "試験データの匿名化の旧版",
+          "text": "旧版では1人確認だったが、2026年5月3日に改訂した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_b_s3",
+          "heading": "試験データの匿名化の提案",
+          "text": "自動判定だけで公開する案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_07_a"
+    },
+    {
+      "id": "rel_07_c",
+      "title": "Saffron 試験データの匿名化 近似メモ",
+      "source_url": "https://example.invalid/release/rel_07_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Saffron 試験データの匿名化 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の試験データの匿名化\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。 補足番号7は評価用の近似記録である。\n\n## 試験データの匿名化の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では1人確認だったが、2026年5月3日に改訂した。 補足番号7は評価用の近似記録である。\n\n## 試験データの匿名化の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自動判定だけで公開する案は保留中である。 補足番号7は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_07_c_s1",
+          "heading": "現行の試験データの匿名化",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。 補足番号7は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_c_s2",
+          "heading": "試験データの匿名化の旧版",
+          "text": "旧版では1人確認だったが、2026年5月3日に改訂した。 補足番号7は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_07_c_s3",
+          "heading": "試験データの匿名化の提案",
+          "text": "自動判定だけで公開する案は保留中である。 補足番号7は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_07_a"
+    },
+    {
+      "id": "rel_08_a",
+      "title": "Tundra バックアップの復元 現行記録",
+      "source_url": "https://example.invalid/release/rel_08_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Tundra バックアップの復元 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行のバックアップの復元\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。\n\n## バックアップの復元の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順は件数確認だけで再開していたが、監査で廃止された。\n\n## バックアップの復元の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n照合を省略して即時再開する案は不採用である。",
+      "sections": [
+        {
+          "id": "rel_08_a_s1",
+          "heading": "現行のバックアップの復元",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_a_s2",
+          "heading": "バックアップの復元の旧版",
+          "text": "旧手順は件数確認だけで再開していたが、監査で廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_a_s3",
+          "heading": "バックアップの復元の提案",
+          "text": "照合を省略して即時再開する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_08_b",
+      "title": "Tundra バックアップの復元 複製記録",
+      "source_url": "https://example.invalid/release/rel_08_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Tundra バックアップの復元 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行のバックアップの復元\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。\n\n## バックアップの復元の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順は件数確認だけで再開していたが、監査で廃止された。\n\n## バックアップの復元の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n照合を省略して即時再開する案は不採用である。",
+      "sections": [
+        {
+          "id": "rel_08_b_s1",
+          "heading": "現行のバックアップの復元",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_b_s2",
+          "heading": "バックアップの復元の旧版",
+          "text": "旧手順は件数確認だけで再開していたが、監査で廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_b_s3",
+          "heading": "バックアップの復元の提案",
+          "text": "照合を省略して即時再開する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_08_a"
+    },
+    {
+      "id": "rel_08_c",
+      "title": "Tundra バックアップの復元 近似メモ",
+      "source_url": "https://example.invalid/release/rel_08_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Tundra バックアップの復元 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行のバックアップの復元\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。 補足番号8は評価用の近似記録である。\n\n## バックアップの復元の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順は件数確認だけで再開していたが、監査で廃止された。 補足番号8は評価用の近似記録である。\n\n## バックアップの復元の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n照合を省略して即時再開する案は不採用である。 補足番号8は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_08_c_s1",
+          "heading": "現行のバックアップの復元",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。 補足番号8は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_c_s2",
+          "heading": "バックアップの復元の旧版",
+          "text": "旧手順は件数確認だけで再開していたが、監査で廃止された。 補足番号8は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_08_c_s3",
+          "heading": "バックアップの復元の提案",
+          "text": "照合を省略して即時再開する案は不採用である。 補足番号8は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_08_a"
+    },
+    {
+      "id": "rel_09_a",
+      "title": "Umber 旅行費用の精算 現行記録",
+      "source_url": "https://example.invalid/release/rel_09_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Umber 旅行費用の精算 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の旅行費用の精算\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。\n\n## 旅行費用の精算の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では空欄を無料として集計していたが、誤差のため廃止した。\n\n## 旅行費用の精算の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n概算だけで先に支払う案は未承認である。",
+      "sections": [
+        {
+          "id": "rel_09_a_s1",
+          "heading": "現行の旅行費用の精算",
+          "text": "立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_a_s2",
+          "heading": "旅行費用の精算の旧版",
+          "text": "旧運用では空欄を無料として集計していたが、誤差のため廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_a_s3",
+          "heading": "旅行費用の精算の提案",
+          "text": "概算だけで先に支払う案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_09_b",
+      "title": "Umber 旅行費用の精算 複製記録",
+      "source_url": "https://example.invalid/release/rel_09_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Umber 旅行費用の精算 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の旅行費用の精算\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。\n\n## 旅行費用の精算の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では空欄を無料として集計していたが、誤差のため廃止した。\n\n## 旅行費用の精算の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n概算だけで先に支払う案は未承認である。",
+      "sections": [
+        {
+          "id": "rel_09_b_s1",
+          "heading": "現行の旅行費用の精算",
+          "text": "立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_b_s2",
+          "heading": "旅行費用の精算の旧版",
+          "text": "旧運用では空欄を無料として集計していたが、誤差のため廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_b_s3",
+          "heading": "旅行費用の精算の提案",
+          "text": "概算だけで先に支払う案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_09_a"
+    },
+    {
+      "id": "rel_09_c",
+      "title": "Umber 旅行費用の精算 近似メモ",
+      "source_url": "https://example.invalid/release/rel_09_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Umber 旅行費用の精算 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の旅行費用の精算\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。 補足番号9は評価用の近似記録である。\n\n## 旅行費用の精算の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用では空欄を無料として集計していたが、誤差のため廃止した。 補足番号9は評価用の近似記録である。\n\n## 旅行費用の精算の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n概算だけで先に支払う案は未承認である。 補足番号9は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_09_c_s1",
+          "heading": "現行の旅行費用の精算",
+          "text": "立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。 補足番号9は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_c_s2",
+          "heading": "旅行費用の精算の旧版",
+          "text": "旧運用では空欄を無料として集計していたが、誤差のため廃止した。 補足番号9は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_09_c_s3",
+          "heading": "旅行費用の精算の提案",
+          "text": "概算だけで先に支払う案は未承認である。 補足番号9は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_09_a"
+    },
+    {
+      "id": "rel_10_a",
+      "title": "Lattice 検索結果の引き継ぎ 現行記録",
+      "source_url": "https://example.invalid/release/rel_10_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Lattice 検索結果の引き継ぎ 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の検索結果の引き継ぎ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。\n\n## 検索結果の引き継ぎの旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では会話リンクだけを渡していたが、現在は採用していない。\n\n## 検索結果の引き継ぎの提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n要約だけで引き継ぐ案は検討中である。",
+      "sections": [
+        {
+          "id": "rel_10_a_s1",
+          "heading": "現行の検索結果の引き継ぎ",
+          "text": "引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_a_s2",
+          "heading": "検索結果の引き継ぎの旧版",
+          "text": "旧手順では会話リンクだけを渡していたが、現在は採用していない。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_a_s3",
+          "heading": "検索結果の引き継ぎの提案",
+          "text": "要約だけで引き継ぐ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_10_b",
+      "title": "Lattice 検索結果の引き継ぎ 複製記録",
+      "source_url": "https://example.invalid/release/rel_10_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Lattice 検索結果の引き継ぎ 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の検索結果の引き継ぎ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。\n\n## 検索結果の引き継ぎの旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では会話リンクだけを渡していたが、現在は採用していない。\n\n## 検索結果の引き継ぎの提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n要約だけで引き継ぐ案は検討中である。",
+      "sections": [
+        {
+          "id": "rel_10_b_s1",
+          "heading": "現行の検索結果の引き継ぎ",
+          "text": "引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_b_s2",
+          "heading": "検索結果の引き継ぎの旧版",
+          "text": "旧手順では会話リンクだけを渡していたが、現在は採用していない。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_b_s3",
+          "heading": "検索結果の引き継ぎの提案",
+          "text": "要約だけで引き継ぐ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_10_a"
+    },
+    {
+      "id": "rel_10_c",
+      "title": "Lattice 検索結果の引き継ぎ 近似メモ",
+      "source_url": "https://example.invalid/release/rel_10_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Lattice 検索結果の引き継ぎ 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の検索結果の引き継ぎ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。 補足番号10は評価用の近似記録である。\n\n## 検索結果の引き継ぎの旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧手順では会話リンクだけを渡していたが、現在は採用していない。 補足番号10は評価用の近似記録である。\n\n## 検索結果の引き継ぎの提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n要約だけで引き継ぐ案は検討中である。 補足番号10は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_10_c_s1",
+          "heading": "現行の検索結果の引き継ぎ",
+          "text": "引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。 補足番号10は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_c_s2",
+          "heading": "検索結果の引き継ぎの旧版",
+          "text": "旧手順では会話リンクだけを渡していたが、現在は採用していない。 補足番号10は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_10_c_s3",
+          "heading": "検索結果の引き継ぎの提案",
+          "text": "要約だけで引き継ぐ案は検討中である。 補足番号10は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_10_a"
+    },
+    {
+      "id": "rel_11_a",
+      "title": "Kite 設備点検の間隔 現行記録",
+      "source_url": "https://example.invalid/release/rel_11_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Kite 設備点検の間隔 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の設備点検の間隔\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。\n\n## 設備点検の間隔の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。\n\n## 設備点検の間隔の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n両方を300時間へ統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "rel_11_a_s1",
+          "heading": "現行の設備点検の間隔",
+          "text": "装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_a_s2",
+          "heading": "設備点検の間隔の旧版",
+          "text": "旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_a_s3",
+          "heading": "設備点検の間隔の提案",
+          "text": "両方を300時間へ統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_11_b",
+      "title": "Kite 設備点検の間隔 複製記録",
+      "source_url": "https://example.invalid/release/rel_11_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Kite 設備点検の間隔 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の設備点検の間隔\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。\n\n## 設備点検の間隔の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。\n\n## 設備点検の間隔の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n両方を300時間へ統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "rel_11_b_s1",
+          "heading": "現行の設備点検の間隔",
+          "text": "装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_b_s2",
+          "heading": "設備点検の間隔の旧版",
+          "text": "旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_b_s3",
+          "heading": "設備点検の間隔の提案",
+          "text": "両方を300時間へ統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_11_a"
+    },
+    {
+      "id": "rel_11_c",
+      "title": "Kite 設備点検の間隔 近似メモ",
+      "source_url": "https://example.invalid/release/rel_11_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Kite 設備点検の間隔 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の設備点検の間隔\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。 補足番号11は評価用の近似記録である。\n\n## 設備点検の間隔の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。 補足番号11は評価用の近似記録である。\n\n## 設備点検の間隔の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n両方を300時間へ統一する案は未採用である。 補足番号11は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_11_c_s1",
+          "heading": "現行の設備点検の間隔",
+          "text": "装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。 補足番号11は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_c_s2",
+          "heading": "設備点検の間隔の旧版",
+          "text": "旧基準は全装置を300時間ごとに点検していたが、機種別へ変更した。 補足番号11は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_11_c_s3",
+          "heading": "設備点検の間隔の提案",
+          "text": "両方を300時間へ統一する案は未採用である。 補足番号11は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_11_a"
+    },
+    {
+      "id": "rel_12_a",
+      "title": "Morrow 教育資料の公開 現行記録",
+      "source_url": "https://example.invalid/release/rel_12_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Morrow 教育資料の公開 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の教育資料の公開\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。\n\n## 教育資料の公開の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では評価メモも共有していたが、プライバシー審査で廃止した。\n\n## 教育資料の公開の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n評価メモを匿名化して共有する案は審査待ちである.",
+      "sections": [
+        {
+          "id": "rel_12_a_s1",
+          "heading": "現行の教育資料の公開",
+          "text": "教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_a_s2",
+          "heading": "教育資料の公開の旧版",
+          "text": "旧版では評価メモも共有していたが、プライバシー審査で廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_a_s3",
+          "heading": "教育資料の公開の提案",
+          "text": "評価メモを匿名化して共有する案は審査待ちである.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_12_b",
+      "title": "Morrow 教育資料の公開 複製記録",
+      "source_url": "https://example.invalid/release/rel_12_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Morrow 教育資料の公開 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の教育資料の公開\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。\n\n## 教育資料の公開の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では評価メモも共有していたが、プライバシー審査で廃止した。\n\n## 教育資料の公開の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n評価メモを匿名化して共有する案は審査待ちである.",
+      "sections": [
+        {
+          "id": "rel_12_b_s1",
+          "heading": "現行の教育資料の公開",
+          "text": "教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_b_s2",
+          "heading": "教育資料の公開の旧版",
+          "text": "旧版では評価メモも共有していたが、プライバシー審査で廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_b_s3",
+          "heading": "教育資料の公開の提案",
+          "text": "評価メモを匿名化して共有する案は審査待ちである.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_12_a"
+    },
+    {
+      "id": "rel_12_c",
+      "title": "Morrow 教育資料の公開 近似メモ",
+      "source_url": "https://example.invalid/release/rel_12_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Morrow 教育資料の公開 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の教育資料の公開\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。 補足番号12は評価用の近似記録である。\n\n## 教育資料の公開の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版では評価メモも共有していたが、プライバシー審査で廃止した。 補足番号12は評価用の近似記録である。\n\n## 教育資料の公開の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n評価メモを匿名化して共有する案は審査待ちである. 補足番号12は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_12_c_s1",
+          "heading": "現行の教育資料の公開",
+          "text": "教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。 補足番号12は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_c_s2",
+          "heading": "教育資料の公開の旧版",
+          "text": "旧版では評価メモも共有していたが、プライバシー審査で廃止した。 補足番号12は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_12_c_s3",
+          "heading": "教育資料の公開の提案",
+          "text": "評価メモを匿名化して共有する案は審査待ちである. 補足番号12は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_12_a"
+    },
+    {
+      "id": "rel_13_a",
+      "title": "Rill 食品アレルギー確認 現行記録",
+      "source_url": "https://example.invalid/release/rel_13_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Rill 食品アレルギー確認 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の食品アレルギー確認\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。\n\n## 食品アレルギー確認の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧案はメニュー表示だけを根拠にしていたが、現在は使わない。\n\n## 食品アレルギー確認の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "rel_13_a_s1",
+          "heading": "現行の食品アレルギー確認",
+          "text": "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_a_s2",
+          "heading": "食品アレルギー確認の旧版",
+          "text": "旧案はメニュー表示だけを根拠にしていたが、現在は使わない。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_a_s3",
+          "heading": "食品アレルギー確認の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_13_b",
+      "title": "Rill 食品アレルギー確認 複製記録",
+      "source_url": "https://example.invalid/release/rel_13_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Rill 食品アレルギー確認 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の食品アレルギー確認\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。\n\n## 食品アレルギー確認の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧案はメニュー表示だけを根拠にしていたが、現在は使わない。\n\n## 食品アレルギー確認の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "rel_13_b_s1",
+          "heading": "現行の食品アレルギー確認",
+          "text": "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_b_s2",
+          "heading": "食品アレルギー確認の旧版",
+          "text": "旧案はメニュー表示だけを根拠にしていたが、現在は使わない。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_b_s3",
+          "heading": "食品アレルギー確認の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_13_a"
+    },
+    {
+      "id": "rel_13_c",
+      "title": "Rill 食品アレルギー確認 近似メモ",
+      "source_url": "https://example.invalid/release/rel_13_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Rill 食品アレルギー確認 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の食品アレルギー確認\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。 補足番号13は評価用の近似記録である。\n\n## 食品アレルギー確認の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧案はメニュー表示だけを根拠にしていたが、現在は使わない。 補足番号13は評価用の近似記録である。\n\n## 食品アレルギー確認の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。 補足番号13は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_13_c_s1",
+          "heading": "現行の食品アレルギー確認",
+          "text": "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。 補足番号13は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_c_s2",
+          "heading": "食品アレルギー確認の旧版",
+          "text": "旧案はメニュー表示だけを根拠にしていたが、現在は使わない。 補足番号13は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_13_c_s3",
+          "heading": "食品アレルギー確認の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。 補足番号13は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_13_a"
+    },
+    {
+      "id": "rel_14_a",
+      "title": "Solace 障害時の完了判定 現行記録",
+      "source_url": "https://example.invalid/release/rel_14_a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Solace 障害時の完了判定 現行記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の障害時の完了判定\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。\n\n## 障害時の完了判定の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。\n\n## 障害時の完了判定の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された.",
+      "sections": [
+        {
+          "id": "rel_14_a_s1",
+          "heading": "現行の障害時の完了判定",
+          "text": "保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_a_s2",
+          "heading": "障害時の完了判定の旧版",
+          "text": "旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_a_s3",
+          "heading": "障害時の完了判定の提案",
+          "text": "応答なしでも完了扱いにする案は却下された.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_14_b",
+      "title": "Solace 障害時の完了判定 複製記録",
+      "source_url": "https://example.invalid/release/rel_14_b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Solace 障害時の完了判定 複製記録\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の障害時の完了判定\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。\n\n## 障害時の完了判定の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。\n\n## 障害時の完了判定の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された.",
+      "sections": [
+        {
+          "id": "rel_14_b_s1",
+          "heading": "現行の障害時の完了判定",
+          "text": "保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_b_s2",
+          "heading": "障害時の完了判定の旧版",
+          "text": "旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_b_s3",
+          "heading": "障害時の完了判定の提案",
+          "text": "応答なしでも完了扱いにする案は却下された.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_14_a"
+    },
+    {
+      "id": "rel_14_c",
+      "title": "Solace 障害時の完了判定 近似メモ",
+      "source_url": "https://example.invalid/release/rel_14_c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Solace 障害時の完了判定 近似メモ\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の障害時の完了判定\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。 補足番号14は評価用の近似記録である。\n\n## 障害時の完了判定の旧版\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。 補足番号14は評価用の近似記録である。\n\n## 障害時の完了判定の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-15。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された. 補足番号14は評価用の近似記録である。",
+      "sections": [
+        {
+          "id": "rel_14_c_s1",
+          "heading": "現行の障害時の完了判定",
+          "text": "保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。 補足番号14は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_c_s2",
+          "heading": "障害時の完了判定の旧版",
+          "text": "旧運用はタイムアウトを未保存と判断していたが、現在は廃止した。 補足番号14は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_14_c_s3",
+          "heading": "障害時の完了判定の提案",
+          "text": "応答なしでも完了扱いにする案は却下された. 補足番号14は評価用の近似記録である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-15",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": "rel_14_a"
+    },
+    {
+      "id": "rel_table",
+      "title": "Orchid長期条件表",
+      "source_url": "https://example.invalid/release/rel_table",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Orchid長期条件表\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 長期条件表\n記録種別: report。採用状態: na。有効開始: 2026-05-01。有効終了: 未設定。\n列名・単位・例外を保持する長表。\n\n| 区分 | 閾値 | 例外 |\n|---|---:|---|\n| 区分01 | 3単位 | 例外01を確認 |\n| 区分02 | 6単位 | 例外02を確認 |\n| 区分03 | 9単位 | 例外03を確認 |\n| 区分04 | 12単位 | 例外04を確認 |\n| 区分05 | 15単位 | 例外05を確認 |\n| 区分06 | 18単位 | 例外06を確認 |\n| 区分07 | 21単位 | 例外07を確認 |\n| 区分08 | 24単位 | 例外08を確認 |\n| 区分09 | 27単位 | 例外09を確認 |\n| 区分10 | 30単位 | 例外10を確認 |\n| 区分11 | 33単位 | 例外11を確認 |\n| 区分12 | 36単位 | 例外12を確認 |\n| 区分13 | 39単位 | 例外13を確認 |\n| 区分14 | 42単位 | 例外14を確認 |\n| 区分15 | 45単位 | 例外15を確認 |\n| 区分16 | 48単位 | 例外16を確認 |\n| 区分17 | 51単位 | 例外17を確認 |\n| 区分18 | 54単位 | 例外18を確認 |\n| 区分19 | 57単位 | 例外19を確認 |\n| 区分20 | 60単位 | 例外20を確認 |\n| 区分21 | 63単位 | 例外21を確認 |\n| 区分22 | 66単位 | 例外22を確認 |\n| 区分23 | 69単位 | 例外23を確認 |\n| 区分24 | 72単位 | 例外24を確認 |\n| 区分25 | 75単位 | 例外25を確認 |\n| 区分26 | 78単位 | 例外26を確認 |\n| 区分27 | 81単位 | 例外27を確認 |\n| 区分28 | 84単位 | 例外28を確認 |\n| 区分29 | 87単位 | 例外29を確認 |\n| 区分30 | 90単位 | 例外30を確認 |\n| 区分31 | 93単位 | 例外31を確認 |\n| 区分32 | 96単位 | 例外32を確認 |\n| 区分33 | 99単位 | 例外33を確認 |\n| 区分34 | 102単位 | 例外34を確認 |\n| 区分35 | 105単位 | 例外35を確認 |\n| 区分36 | 108単位 | 例外36を確認 |\n| 区分37 | 111単位 | 例外37を確認 |\n| 区分38 | 114単位 | 例外38を確認 |\n| 区分39 | 117単位 | 例外39を確認 |\n| 区分40 | 120単位 | 例外40を確認 |\n| 区分41 | 123単位 | 例外41を確認 |\n| 区分42 | 126単位 | 例外42を確認 |\n| 区分43 | 129単位 | 例外43を確認 |\n| 区分44 | 132単位 | 例外44を確認 |\n| 区分45 | 135単位 | 例外45を確認 |\n| 区分46 | 138単位 | 例外46を確認 |\n| 区分47 | 141単位 | 例外47を確認 |\n| 区分48 | 144単位 | 例外48を確認 |\n| 区分49 | 147単位 | 例外49を確認 |\n| 区分50 | 150単位 | 例外50を確認 |\n| 区分51 | 153単位 | 例外51を確認 |\n| 区分52 | 156単位 | 例外52を確認 |\n| 区分53 | 159単位 | 例外53を確認 |\n| 区分54 | 162単位 | 例外54を確認 |\n| 区分55 | 165単位 | 例外55を確認 |\n| 区分56 | 168単位 | 例外56を確認 |\n| 区分57 | 171単位 | 例外57を確認 |\n| 区分58 | 174単位 | 例外58を確認 |\n| 区分59 | 177単位 | 例外59を確認 |\n| 区分60 | 180単位 | 例外60を確認 |",
+      "sections": [
+        {
+          "id": "rel_table_s1",
+          "heading": "長期条件表",
+          "text": "列名・単位・例外を保持する長表。\n\n| 区分 | 閾値 | 例外 |\n|---|---:|---|\n| 区分01 | 3単位 | 例外01を確認 |\n| 区分02 | 6単位 | 例外02を確認 |\n| 区分03 | 9単位 | 例外03を確認 |\n| 区分04 | 12単位 | 例外04を確認 |\n| 区分05 | 15単位 | 例外05を確認 |\n| 区分06 | 18単位 | 例外06を確認 |\n| 区分07 | 21単位 | 例外07を確認 |\n| 区分08 | 24単位 | 例外08を確認 |\n| 区分09 | 27単位 | 例外09を確認 |\n| 区分10 | 30単位 | 例外10を確認 |\n| 区分11 | 33単位 | 例外11を確認 |\n| 区分12 | 36単位 | 例外12を確認 |\n| 区分13 | 39単位 | 例外13を確認 |\n| 区分14 | 42単位 | 例外14を確認 |\n| 区分15 | 45単位 | 例外15を確認 |\n| 区分16 | 48単位 | 例外16を確認 |\n| 区分17 | 51単位 | 例外17を確認 |\n| 区分18 | 54単位 | 例外18を確認 |\n| 区分19 | 57単位 | 例外19を確認 |\n| 区分20 | 60単位 | 例外20を確認 |\n| 区分21 | 63単位 | 例外21を確認 |\n| 区分22 | 66単位 | 例外22を確認 |\n| 区分23 | 69単位 | 例外23を確認 |\n| 区分24 | 72単位 | 例外24を確認 |\n| 区分25 | 75単位 | 例外25を確認 |\n| 区分26 | 78単位 | 例外26を確認 |\n| 区分27 | 81単位 | 例外27を確認 |\n| 区分28 | 84単位 | 例外28を確認 |\n| 区分29 | 87単位 | 例外29を確認 |\n| 区分30 | 90単位 | 例外30を確認 |\n| 区分31 | 93単位 | 例外31を確認 |\n| 区分32 | 96単位 | 例外32を確認 |\n| 区分33 | 99単位 | 例外33を確認 |\n| 区分34 | 102単位 | 例外34を確認 |\n| 区分35 | 105単位 | 例外35を確認 |\n| 区分36 | 108単位 | 例外36を確認 |\n| 区分37 | 111単位 | 例外37を確認 |\n| 区分38 | 114単位 | 例外38を確認 |\n| 区分39 | 117単位 | 例外39を確認 |\n| 区分40 | 120単位 | 例外40を確認 |\n| 区分41 | 123単位 | 例外41を確認 |\n| 区分42 | 126単位 | 例外42を確認 |\n| 区分43 | 129単位 | 例外43を確認 |\n| 区分44 | 132単位 | 例外44を確認 |\n| 区分45 | 135単位 | 例外45を確認 |\n| 区分46 | 138単位 | 例外46を確認 |\n| 区分47 | 141単位 | 例外47を確認 |\n| 区分48 | 144単位 | 例外48を確認 |\n| 区分49 | 147単位 | 例外49を確認 |\n| 区分50 | 150単位 | 例外50を確認 |\n| 区分51 | 153単位 | 例外51を確認 |\n| 区分52 | 156単位 | 例外52を確認 |\n| 区分53 | 159単位 | 例外53を確認 |\n| 区分54 | 162単位 | 例外54を確認 |\n| 区分55 | 165単位 | 例外55を確認 |\n| 区分56 | 168単位 | 例外56を確認 |\n| 区分57 | 171単位 | 例外57を確認 |\n| 区分58 | 174単位 | 例外58を確認 |\n| 区分59 | 177単位 | 例外59を確認 |\n| 区分60 | 180単位 | 例外60を確認 |",
+          "kind": "report",
+          "adoption_status": "na",
+          "valid_from": "2026-05-01",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    },
+    {
+      "id": "rel_route",
+      "title": "Orchid経路条件",
+      "source_url": "https://example.invalid/release/rel_route",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Orchid経路条件\nこの資料は評価専用の架空設定であり、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 到着条件\n記録種別: report。採用状態: na。有効開始: 2026-05-01。有効終了: 未設定。\n第3便は18時20分に到着し、駅から窓口まで徒歩11分である。\n\n## 締切\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-01。有効終了: 未設定。\n受付締切は19時で、遅延時は当日掲示を確認する。",
+      "sections": [
+        {
+          "id": "rel_route_s1",
+          "heading": "到着条件",
+          "text": "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。",
+          "kind": "report",
+          "adoption_status": "na",
+          "valid_from": "2026-05-01",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "rel_route_s2",
+          "heading": "締切",
+          "text": "受付締切は19時で、遅延時は当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-01",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ],
+      "clone_of": null
+    }
+  ]
+}

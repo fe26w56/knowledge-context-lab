@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v2",
+  "rubric_schema": {
+    "atomic_claims": "list of {key,value,evidence_quote,accepted_source_ids}",
+    "abstain": "boolean",
+    "required_source_families": "multi-source only",
+    "no_single_document_satisfies_all_claims": "multi-source only"
+  },
+  "authoring_note": "Question wording intentionally varies; near-pairs differ in values or temporal/exception semantics."
+}

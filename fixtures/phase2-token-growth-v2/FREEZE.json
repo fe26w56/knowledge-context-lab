@@ -1,0 +1,109 @@
+{
+  "schema": "phase2-token-growth-freeze-v2",
+  "seed": 20261103,
+  "authored_diagnostic": true,
+  "independent_benchmark": false,
+  "corpus_count": 100,
+  "dev_count": 12,
+  "final_count": 18,
+  "dev_projects": [
+    "atlas",
+    "birch",
+    "cobalt",
+    "delta",
+    "ember",
+    "fjord",
+    "grove",
+    "harbor"
+  ],
+  "final_projects": [
+    "iris",
+    "juno",
+    "kepler",
+    "lumen",
+    "mesa",
+    "nova",
+    "opal",
+    "quartz",
+    "river"
+  ],
+  "min_body_chars": 1506,
+  "long_body_count_ge_6000": 2,
+  "exact_duplicate_body_groups": 1,
+  "status_historical_count": 2,
+  "mixed_generation_metadata": {
+    "100": {
+      "size": 100,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 118,
+        "historical": 2,
+        "private": 1,
+        "exact_duplicate_body_groups": 1
+      },
+      "body_chars": 199414
+    },
+    "1000": {
+      "size": 1000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 1000,
+        "historical": 9,
+        "private": 1,
+        "exact_duplicate_body_groups": 2
+      },
+      "body_chars": 1541164
+    },
+    "10000": {
+      "size": 10000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 10000,
+        "historical": 74,
+        "private": 1,
+        "exact_duplicate_body_groups": 2
+      },
+      "body_chars": 15252963
+    }
+  },
+  "unrelated_generation_metadata": {
+    "100": {
+      "size": 100,
+      "scenario": "unrelated",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 118,
+        "historical": 1,
+        "private": 1,
+        "exact_duplicate_body_groups": 0
+      },
+      "body_chars": 199236
+    },
+    "1000": {
+      "size": 1000,
+      "scenario": "unrelated",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 1000,
+        "historical": 1,
+        "private": 1,
+        "exact_duplicate_body_groups": 0
+      },
+      "body_chars": 1728932
+    }
+  },
+  "files": {
+    "author_fixture.py": "f443cf5ede12314057ee9cb49a4c0414ffa58886c88bc04025d2c3b6191a8239",
+    "corpus.json": "8b7a9c432e87d02d672a4650ddbe2fba75a0f5db1e26988c338702b5839b7444",
+    "dev.json": "3d74d16a3cf3b29452b79e2bf87cd6e5111f785287ca0bd2bc53f32800eb643d",
+    "final.json": "eac3a669c9978cdb1c02c110e03f5341bea525393d15bb8062705a356be25add"
+  }
+}

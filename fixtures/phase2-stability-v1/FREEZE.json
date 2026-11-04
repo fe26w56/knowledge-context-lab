@@ -1,0 +1,29 @@
+{
+  "schema": "phase2-stability-freeze-v1",
+  "authored_diagnostic": true,
+  "not_an_independent_benchmark": true,
+  "generator": {
+    "sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "seed": 20261103,
+    "order_seeds": [
+      1,
+      2
+    ]
+  },
+  "counts": {
+    "corpus_100": 100,
+    "dev": 8,
+    "final": 12,
+    "variants": 60
+  },
+  "hashes": {
+    "author_fixture.py": "1726fd7055baceb80e2ba9693a1d670e03cd9b8e01c197e4a0c48b505f955606",
+    "corpus.json": "395436fc116da815385710387d11ec3ed1ab13a6baff1fd8dbce3914c041dc58",
+    "dev.json": "28fec97eddc3f7cb8d1b404b410a99e36ab3533e4ef244655b482617ad12150e",
+    "final.json": "19d34a89c7748e1637c9e60c8e54c31b9e3981c86af3325662396b81c0bc62f7"
+  }
+}

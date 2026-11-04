@@ -1,0 +1,24 @@
+{
+  "fixture": "phase2-workflow-v3",
+  "frozen_at_utc": "2026-11-02T00:00:00Z",
+  "author_no_retrieval_impl_seen": true,
+  "episodes": {"development": 8, "final": 8, "total": 16},
+  "audit": {
+    "path": "runs/phase2-workflow-fixture-audit-v3-final.json",
+    "status": "pass",
+    "errors": 0,
+    "warnings": 8,
+    "fixture_sha256": "1f917b94538d950538f754d57b74f50d131a5816560df2088bf5ab47d18a06d7"
+  },
+  "coverage": {
+    "scenario_kinds": ["shelter", "grant", "repair", "event"],
+    "sharing_levels": ["low", "high"],
+    "document_profiles": ["short", "long"],
+    "distinct_actors_per_episode": 16,
+    "waves_per_episode": 4,
+    "tasks_per_episode": 16,
+    "gold_is_offline_only": true,
+    "independent_benchmark": false
+  },
+  "warning_interpretation": "Eight short-profile episodes intentionally trigger the auditor short_corpus warning; long-profile episodes contain substantive multi-paragraph conditions. No warning was promoted to an error."
+}

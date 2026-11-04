@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-11-02T08:43:37.934Z",
+  "corpus_documents": 100,
+  "corpus_sections": 106,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "dc4c735a60a02e70ca0184dda64b0533168557809a399e51ba096f6ce4ae6827",
+    "dev.json": "0dcdfd64e5b40f8df10cc4c1eb7f9c55d943fb2f9d03c35a2e9e877586e281a1",
+    "final.json": "08c2546e762f3b7aef9043ce3886d5f8a82f1c9bbcfe26bf39ac7ce6f67cdd55",
+    "grading.json": "8f7450346e76b34fe0565021c19688d7b0b7f0cc7bbec8ad3fa6c4186cf43ee8"
+  },
+  "author_exposed_to_existing_implementation": false,
+  "frozen_before_original_implementation": false,
+  "existing_configuration_fixed_before_confirmation": true,
+  "no_baseline_or_candidate_measurement": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "revision_of": "fixtures/phase2-confirmation-v1",
+  "tokenizer": "o200k_base"
+}

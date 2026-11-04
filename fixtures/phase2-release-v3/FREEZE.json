@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-30T02:09:35.523692+00:00",
+  "frozen_before_improvement": true,
+  "corpus_documents": 86,
+  "corpus_sections": 258,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "1848a3b1b9abdd1bc0ffe2bdc24e3c03597171a890210a411ced5ffdf50998a6",
+    "dev.json": "981d105d18400e68c323e104d9f8ba2af1c18f46a2b89c9e80f7bc8cb82e5481",
+    "final.json": "c5f806e29a249b4e2e800ec30e5ffdbd53e025a8af5c6e06c81a48f018840ead",
+    "grading.json": "3012e0e3c93868cde11e214e8b9633d7f8f43099e970fbb233e9085730d0a999"
+  },
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "dev_topics": [
+    "Aldrin",
+    "Beryl",
+    "Cobalt",
+    "Dahlia",
+    "Ember",
+    "Fjord",
+    "Garnet",
+    "Helio",
+    "Indigo",
+    "Juniper"
+  ],
+  "final_topics": [
+    "Kestrel",
+    "Lapis",
+    "Mistral",
+    "Nectar",
+    "Opal",
+    "Plover",
+    "Quill",
+    "Raven",
+    "Sable",
+    "Topaz"
+  ],
+  "dev_table": "Tamarack",
+  "final_table": "Walnut"
+}

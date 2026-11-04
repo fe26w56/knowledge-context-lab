@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-30T02:25:48.774516+00:00",
+  "derived_from": "fixtures/phase2-release-v5",
+  "review_fix": "one private-question topic/canary mismatch corrected after independent semantic audit",
+  "author_blind_to_improvement_implementation": true,
+  "frozen_before_valid_measurement": true,
+  "frozen_before_improvement_implementation": false,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "corpus_documents": 86,
+  "corpus_sections": 246,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "e459a6c0278940d739c0651f207850af3a202a17c9224ee837b30b9149ac09c3",
+    "dev.json": "1f06deb229356193a8a241bb451b515177cafe31b87899c84fa249839d382578",
+    "final.json": "99f84d76421fc5a7af43babeff9d206c8fa0d33c0288f15bd8278174751433ed",
+    "grading.json": "f7f476907d5ed8a6109fe0a3a5939d8f7b8a5c89870d5089e7930009f7222f1c"
+  }
+}

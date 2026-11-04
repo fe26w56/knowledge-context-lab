@@ -1,0 +1,9 @@
+{
+  "unit": "USD nanodollars",
+  "cap": 10000000000,
+  "accounted": 9726117025,
+  "halted": false,
+  "invoice_measured": false,
+  "credit_balance_measured": false,
+  "definition": "conservative usage estimates plus full unresolved reservations"
+}

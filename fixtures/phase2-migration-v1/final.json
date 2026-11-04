@@ -1,0 +1,14 @@
+{
+  "split":"final",
+  "tasks":[
+    {"task_id":"f1","request":"Sable輸出データの現在の正本と確定時刻、訂正時の記録要件を教えて。","kind":"current_decision","gold":{"facts":["LedgerOne","毎日21時","訂正記録を残す"],"evidence":["SB-14"],"forbidden":["SheetNorth"]}},
+    {"task_id":"f2","request":"Micaの夜間一次応答で決まっていないことを、契約に書かれている範囲と分けて整理して。","kind":"unresolved_items","gold":{"facts":["20分と60分の候補","責任者未決定","契約上の最大4時間"],"evidence":["mica-support"],"forbidden":["夜間20分が決定"]}},
+    {"task_id":"f3","request":"Lyraの日次グラフ案は採用済みか。現行仕様と提案を区別して答えて。","kind":"approval_state","gold":{"facts":["日次案は未採用","現行は週次"],"evidence":["lyra-dashboard"],"forbidden":["日次表示を現行とする"]}},
+    {"task_id":"f4","request":"Nova障害の引き継ぎで、botがしてよい記録と人が行う完了判定を確認して。","kind":"handoff_authority","gold":{"facts":["IncidentLogへ記録","時刻・影響範囲・未確認点","完了判定は人"],"evidence":["nova-incident"],"forbidden":["botが完了扱い"]}},
+    {"task_id":"f5","request":"Sable輸出一覧の出典と版を、現在版と置き換えられた旧運用に分けて示して。","kind":"source_version","gold":{"facts":["現行v2","旧運用v1","旧運用は2026-09-30まで"],"evidence":["fin-sable-current","fin-sable-old"],"forbidden":[]}},
+    {"task_id":"f6","request":"Micaの未解決事項に対して責任者が回答した後、契約上の4時間という事実を失わずに更新できるようにして。","kind":"correction_invalidation","gold":{"facts":["夜間値の決定を更新可能","契約最大4時間を保持"],"evidence":["fin-mica-open","fin-mica-source"],"forbidden":[]}},
+    {"task_id":"f7","request":"明示的な承認がないままLyraの日次案を現行仕様へ昇格させない。承認が記録された場合だけ旧仕様との置換関係を作る。","kind":"approval_supersession","gold":{"facts":["未承認のまま昇格しない","承認後に置換関係"],"evidence":["fin-lyra-current","fin-lyra-proposal"],"forbidden":[]}},
+    {"task_id":"f8","request":"Novaの現行引き継ぎをエクスポートして再取り込みし、廃止済みの旧手順を履歴として参照できるか確認して。","kind":"roundtrip_history","gold":{"facts":["現行は人が完了判定","旧手順は2026-10-04まで"],"evidence":["fin-nova-current","fin-nova-history"],"forbidden":["旧手順を現行として扱う"]}}
+  ],
+  "operations":[{"op":"update","record_id":"fin-mica-open","new_text":"責任者が夜間一次応答を60分と決定した。契約最大4時間は変わらない。","expected":"new_current_preserves_source"},{"op":"supersede","record_id":"fin-lyra-proposal","requires":"explicit_approval","expected":"proposal_becomes_current_only_after_approval"},{"op":"export_import","scope":"final","expected":"record_ids_versions_states_preserved"}]
+}

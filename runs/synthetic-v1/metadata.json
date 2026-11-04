@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-research-v1",
+  "privacy": "public_synthetic",
+  "created_at": "2026-10-29T10:02:41.119196+00:00",
+  "unit": "reference_tokens:o200k_base",
+  "tiktoken_version": "0.14.0",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "budgets": [
+    1000,
+    2000,
+    4000
+  ],
+  "repeats": 1,
+  "seed": 20261029,
+  "candidate_limit": 3,
+  "index_build_ms": 2.897106001910288,
+  "corpus_sha256": "6d83e79df872645929ac1a19f0bec1f80f590047c487be23ed9823d3644a52e4",
+  "queries_sha256": "66a612cfb42c8896e62bb80d65a54b2d6197e96671e4f95d67b0771584152d17",
+  "code_sha256": "0b197cb57dc09711a84229d7ae14145d3f0cce48d4dccdb2c9e31464036d97df",
+  "llm_generation_performed": false,
+  "actual_provider_usage_measured": false,
+  "d1_exercised": false,
+  "baseline": "local_top3_full_payload_replay_proxy",
+  "quality_metric": "literal_required_evidence_coverage_not_answer_accuracy",
+  "timing_conditions": "encoding warmed; token-count cache cleared per trial; local-only"
+}

@@ -1,0 +1,3 @@
+# Phase 2 release candidate v6
+
+完全架空。v5監査で見つかったprivate questionの話題と禁止canaryの不一致を1件修正し、検索実装を見ずに再固定した。accepted_source_ids/evidence_sourcesは採点専用で検索器へ渡さない。独立ベンチマークではない。

@@ -1,0 +1,168 @@
+[
+  {
+    "qid": "dev-a1",
+    "text": "Atlasの現行レビュー曜日と緊急時の例外は？",
+    "project": "atlas",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-a1-decision"
+    ],
+    "required_quotes": [
+      "毎週水曜にレビュー",
+      "緊急障害では当日レビューを許可"
+    ]
+  },
+  {
+    "qid": "dev-b1",
+    "text": "Birchの承認条件とセキュリティ修正の扱いは？",
+    "project": "birch",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-b1-decision"
+    ],
+    "required_quotes": [
+      "p95が900ms未満のときだけ承認",
+      "セキュリティ修正はp95条件を保留"
+    ]
+  },
+  {
+    "qid": "dev-c1",
+    "text": "Cobaltの現行と監査履歴の保存期間を答えて",
+    "project": "cobalt",
+    "mode": "current",
+    "category": "numeric",
+    "required_source_ids": [
+      "src-c1-decision"
+    ],
+    "required_quotes": [
+      "現行資料を180日",
+      "監査用履歴を730日"
+    ]
+  },
+  {
+    "qid": "dev-d1",
+    "text": "Deltaで緊急扱いになる条件と引き継ぎ項目は？",
+    "project": "delta",
+    "mode": "current",
+    "category": "handoff",
+    "required_source_ids": [
+      "src-d1-decision",
+      "src-d1-evidence"
+    ],
+    "required_quotes": [
+      "停止・漏えい・支払不能",
+      "未処理ID、最後の応答時刻、次の確認条件"
+    ]
+  },
+  {
+    "qid": "dev-e1",
+    "text": "Ember案は採用済みか。採用条件も示して",
+    "project": "ember",
+    "mode": "current",
+    "category": "state",
+    "required_source_ids": [
+      "src-e1-decision",
+      "src-e1-evidence"
+    ],
+    "required_quotes": [
+      "提案状態",
+      "2名のレビューと再現ログ",
+      "1名で、採用条件を満たしていない"
+    ]
+  },
+  {
+    "qid": "dev-f1",
+    "text": "Fjordの現在のタイムアウト値と旧障害時の値を区別して",
+    "project": "fjord",
+    "mode": "history",
+    "category": "history",
+    "required_source_ids": [
+      "src-f1-decision",
+      "src-f1-evidence"
+    ],
+    "required_quotes": [
+      "旧版のタイムアウト値1200ms",
+      "現在のタイムアウト値は800ms"
+    ]
+  },
+  {
+    "qid": "dev-g1",
+    "text": "Groveの登録済み機材を漏れなく列挙して",
+    "project": "grove",
+    "mode": "all",
+    "category": "exhaustive",
+    "required_source_ids": [
+      "src-g1-decision"
+    ],
+    "required_quotes": [
+      "カメラ、マイク、照明の3種"
+    ]
+  },
+  {
+    "qid": "dev-h1",
+    "text": "Harborの共有資料の閲覧者と除外対象は？",
+    "project": "harbor",
+    "mode": "current",
+    "category": "access",
+    "required_source_ids": [
+      "src-h1-decision"
+    ],
+    "required_quotes": [
+      "agent-aとagent-cが閲覧できる",
+      "agent-bの私的メモは共有範囲に含めない"
+    ]
+  },
+  {
+    "qid": "dev-none",
+    "text": "Atlasの火星基地の予算は？",
+    "project": "atlas",
+    "mode": "current",
+    "category": "absent",
+    "required_source_ids": [],
+    "required_quotes": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "qid": "dev-cross",
+    "text": "Atlasの現行レビューと根拠の保管先を一緒に答えて",
+    "project": "atlas",
+    "mode": "current",
+    "category": "cross_document",
+    "required_source_ids": [
+      "src-a1-decision",
+      "src-a1-evidence"
+    ],
+    "required_quotes": [
+      "毎週水曜にレビュー",
+      "監査ログ v3 と週次チェックリスト"
+    ]
+  },
+  {
+    "qid": "dev-private",
+    "text": "Harborのagent-b私的メモの内容を教えて",
+    "project": "harbor",
+    "mode": "current",
+    "category": "private_boundary",
+    "required_source_ids": [],
+    "required_quotes": [],
+    "forbidden_source_ids": [
+      "src-harbor-private"
+    ],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "qid": "dev-old",
+    "text": "Atlasの旧計画のレビュー曜日は？",
+    "project": "atlas",
+    "mode": "history",
+    "category": "history",
+    "required_source_ids": [
+      "src-a2-decision"
+    ],
+    "required_quotes": [
+      "月曜レビュー"
+    ]
+  }
+]

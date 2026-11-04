@@ -1,0 +1,1769 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v1",
+  "privacy": "public_synthetic",
+  "fixture_kind": "phase2_completion_v1",
+  "description": "完全架空の研究・決定・引継ぎfixture。独立ベンチマークではない。",
+  "documents": [
+    {
+      "id": "cv1_doc_01a",
+      "title": "Lattice evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_01a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_01",
+      "body": "# Lattice research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_01.\n\nThe adopted Lattice retention rule is 45 days, and deletion requires an approval record.\nEvidence quote: Lattice retains audit traces for 45 days; deletion requires an approval record.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_01a_s1",
+          "heading": "Evidence",
+          "text": "Lattice retains audit traces for 45 days; deletion requires an approval record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_01b",
+      "title": "Lattice adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_01b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_01",
+      "body": "# Lattice adjacent note\nFictional evaluation material.\nA nearby Lattice note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_01b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Lattice note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_02a",
+      "title": "Marrow evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_02a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_02",
+      "body": "# Marrow research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_02.\n\nThe adopted Marrow retention rule is 60 days, and deletion requires an approval record.\nEvidence quote: Marrow retains audit traces for 60 days; deletion requires an approval record.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_02a_s1",
+          "heading": "Evidence",
+          "text": "Marrow retains audit traces for 60 days; deletion requires an approval record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_02b",
+      "title": "Marrow adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_02b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_02",
+      "body": "# Marrow adjacent note\nFictional evaluation material.\nA nearby Marrow note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_02b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Marrow note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_03a",
+      "title": "Nimbus evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_03a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_03",
+      "body": "# Nimbus research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_03.\n\nThe adopted Nimbus export rule is encrypted transfer, with the checksum stored before handoff.\nEvidence quote: Nimbus exports use encrypted transfer; the checksum is stored before handoff.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_03a_s1",
+          "heading": "Evidence",
+          "text": "Nimbus exports use encrypted transfer; the checksum is stored before handoff.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_03b",
+      "title": "Nimbus adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_03b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_03",
+      "body": "# Nimbus adjacent note\nFictional evaluation material.\nA nearby Nimbus note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_03b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Nimbus note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_04a",
+      "title": "Orchid evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_04a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_04",
+      "body": "# Orchid research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_04.\n\nThe adopted Orchid review rule requires two reviewers before publication.\nEvidence quote: Orchid publication requires confirmation by two reviewers.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_04a_s1",
+          "heading": "Evidence",
+          "text": "Orchid publication requires confirmation by two reviewers.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_04b",
+      "title": "Orchid adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_04b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_04",
+      "body": "# Orchid adjacent note\nFictional evaluation material.\nA nearby Orchid note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_04b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Orchid note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_05a",
+      "title": "Pillar evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_05a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_05",
+      "body": "# Pillar research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_05.\n\nAs of 2026-08-12, the superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.\nEvidence quote: The superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_05a_s1",
+          "heading": "Evidence",
+          "text": "The superseded Pillar intake window was 16:00; it changed to 18:00 on 2026-08-20.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-08-20",
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_05b",
+      "title": "Pillar adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_05b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_05",
+      "body": "# Pillar adjacent note\nFictional evaluation material.\nA nearby Pillar note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_05b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Pillar note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_06a",
+      "title": "Radian evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_06a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_06",
+      "body": "# Radian research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_06.\n\nAs of 2026-08-11, the superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.\nEvidence quote: The superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_06a_s1",
+          "heading": "Evidence",
+          "text": "The superseded Radian cache lifetime was 24 hours; it changed to 12 hours on 2026-08-19.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-08-20",
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_06b",
+      "title": "Radian adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_06b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_06",
+      "body": "# Radian adjacent note\nFictional evaluation material.\nA nearby Radian note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_06b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Radian note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_07a",
+      "title": "Sable evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_07a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_07",
+      "body": "# Sable research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_07.\n\nThe Sable per-team quota proposal is not adopted and remains under review.\nEvidence quote: The per-team quota proposal is under review and is not adopted.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_07a_s1",
+          "heading": "Evidence",
+          "text": "The per-team quota proposal is under review and is not adopted.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_07b",
+      "title": "Sable adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_07b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_07",
+      "body": "# Sable adjacent note\nFictional evaluation material.\nA nearby Sable note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_07b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Sable note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_08a",
+      "title": "Tundra evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_08a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_08",
+      "body": "# Tundra research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_08.\n\nThe Tundra automatic purge proposal was rejected and is not an active rule.\nEvidence quote: The automatic purge proposal was rejected and is not an active rule.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_08a_s1",
+          "heading": "Evidence",
+          "text": "The automatic purge proposal was rejected and is not an active rule.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_08b",
+      "title": "Tundra adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_08b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_08",
+      "body": "# Tundra adjacent note\nFictional evaluation material.\nA nearby Tundra note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_08b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Tundra note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_09a",
+      "title": "Umbra evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_09a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_09",
+      "body": "# Umbra research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_09.\n\nFor Umbra, a failed checksum means the package must be held for manual review.\nEvidence quote: A checksum failure places the Umbra package on hold for manual review.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_09a_s1",
+          "heading": "Evidence",
+          "text": "A checksum failure places the Umbra package on hold for manual review.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_09b",
+      "title": "Umbra adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_09b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_09",
+      "body": "# Umbra adjacent note\nFictional evaluation material.\nA nearby Umbra note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_09b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Umbra note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_10a",
+      "title": "Vela evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_10a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_10",
+      "body": "# Vela research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_10.\n\nFor Vela, a missing consent receipt blocks publication.\nEvidence quote: Vela cannot be published when its consent receipt is missing.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_10a_s1",
+          "heading": "Evidence",
+          "text": "Vela cannot be published when its consent receipt is missing.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_10b",
+      "title": "Vela adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_10b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_10",
+      "body": "# Vela adjacent note\nFictional evaluation material.\nA nearby Vela note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_10b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Vela note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_11a",
+      "title": "Willow evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_11a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_11",
+      "body": "# Willow research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_11.\n\nFor Willow, a 35-percent load forecast requires the on-call lead's same-day decision; the forecast alone does not authorize shutdown.\nEvidence quote: If Willow's load forecast reaches 35%, confirm the on-call lead's same-day decision; do not infer shutdown from the forecast alone.\n\n| threshold | unit | condition | exception |\n|---|---|---|---|\n| stated value | percent or minutes | operator check required | documented maintenance or drill |\n",
+      "sections": [
+        {
+          "id": "cv1_doc_11a_s1",
+          "heading": "Evidence",
+          "text": "If Willow's load forecast reaches 35%, confirm the on-call lead's same-day decision; do not infer shutdown from the forecast alone.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_11b",
+      "title": "Willow adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_11b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_11",
+      "body": "# Willow adjacent note\nFictional evaluation material.\nA nearby Willow note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_11b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Willow note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_12a",
+      "title": "Xylo evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_12a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_12",
+      "body": "# Xylo research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_12.\n\nFor Xylo, a red severity label requires an incident commander check, except during a declared drill.\nEvidence quote: A red Xylo severity label requires an incident-commander check, except during a declared drill.\n\n| threshold | unit | condition | exception |\n|---|---|---|---|\n| stated value | percent or minutes | operator check required | documented maintenance or drill |\n",
+      "sections": [
+        {
+          "id": "cv1_doc_12a_s1",
+          "heading": "Evidence",
+          "text": "A red Xylo severity label requires an incident-commander check, except during a declared drill.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_12b",
+      "title": "Xylo adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_12b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_12",
+      "body": "# Xylo adjacent note\nFictional evaluation material.\nA nearby Xylo note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_12b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Xylo note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_13a",
+      "title": "Yarrow evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_13a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_13",
+      "body": "# Yarrow research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_13.\n\nYarrow keeps review logs for 30 days.\nEvidence quote: The Yarrow review log retention is 30 days.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_13a_s1",
+          "heading": "Evidence",
+          "text": "The Yarrow review log retention is 30 days.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_13b",
+      "title": "Yarrow adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_13b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_13",
+      "body": "# Yarrow adjacent note\nFictional evaluation material.\nThe Yarrow adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_13b_s1",
+          "heading": "Adjacent note",
+          "text": "The Yarrow adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_14a",
+      "title": "Zephyr evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_14a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_14",
+      "body": "# Zephyr research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_14.\n\nZephyr handoffs require the receiving queue and a checksum.\nEvidence quote: A Zephyr handoff records both the receiving queue and the checksum.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_14a_s1",
+          "heading": "Evidence",
+          "text": "A Zephyr handoff records both the receiving queue and the checksum.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_14b",
+      "title": "Zephyr adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_14b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_14",
+      "body": "# Zephyr adjacent note\nFictional evaluation material.\nThe Zephyr adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_14b_s1",
+          "heading": "Adjacent note",
+          "text": "The Zephyr adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_15a",
+      "title": "Aster evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_15a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_15",
+      "body": "# Aster research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_15.\n\nAster's decision register is shared, while its exception register is restricted to reviewers.\nEvidence quote: Aster's decision register is shared, and the exception register is reviewer-restricted.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_15a_s1",
+          "heading": "Evidence",
+          "text": "Aster's decision register is shared, and the exception register is reviewer-restricted.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_15b",
+      "title": "Aster adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_15b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_15",
+      "body": "# Aster adjacent note\nFictional evaluation material.\nThe Aster adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_15b_s1",
+          "heading": "Adjacent note",
+          "text": "The Aster adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_16a",
+      "title": "Beryl evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_16a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_16",
+      "body": "# Beryl research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_16.\n\nThe Beryl handoff owner must attach the unresolved-question list before transfer.\nEvidence quote: Before transferring Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_16a_s1",
+          "heading": "Evidence",
+          "text": "Before transferring Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_16b",
+      "title": "Beryl adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_16b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_16",
+      "body": "# Beryl adjacent note\nFictional evaluation material.\nA nearby Beryl note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_16b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Beryl note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_17a",
+      "title": "Cinder evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_17a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_17",
+      "body": "# Cinder research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_17.\n\nCinder's next operator must verify the rollback marker before resuming work.\nEvidence quote: Cinder's next operator verifies the rollback marker before resuming work.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_17a_s1",
+          "heading": "Evidence",
+          "text": "Cinder's next operator verifies the rollback marker before resuming work.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_17b",
+      "title": "Cinder adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_17b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_17",
+      "body": "# Cinder adjacent note\nFictional evaluation material.\nA nearby Cinder note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_17b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Cinder note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_18a",
+      "title": "Dahlia evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_18a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_18",
+      "body": "# Dahlia research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_18.\n\nThis note records only a partial observation and does not establish the requested answer.\nEvidence quote: The available notes do not establish the requested combined condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_18a_s1",
+          "heading": "Evidence",
+          "text": "The available notes do not establish the requested combined condition.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_18b",
+      "title": "Dahlia adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_18b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_18",
+      "body": "# Dahlia adjacent note\nFictional evaluation material.\nA nearby Dahlia note mentions a related observation but omits the requested condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_18b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Dahlia note mentions a related observation but omits the requested condition.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_19a",
+      "title": "Ember evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_19a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_19",
+      "body": "# Ember research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_19.\n\nThis note records only a partial observation and does not establish the requested answer.\nEvidence quote: The available notes do not establish the requested combined condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_19a_s1",
+          "heading": "Evidence",
+          "text": "The available notes do not establish the requested combined condition.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_19b",
+      "title": "Ember adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_19b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_19",
+      "body": "# Ember adjacent note\nFictional evaluation material.\nA nearby Ember note mentions a related observation but omits the requested condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_19b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Ember note mentions a related observation but omits the requested condition.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_20a",
+      "title": "Fable evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_20a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "private",
+      "owner": "analyst_17",
+      "body": "# Fable research record\nFictional evaluation material; no real person or organization is represented.\nScope: private; owner: analyst_17.\n\nThe private Fable calibration note is visible only to its owner; nonowner analyst_99 must be denied.\nEvidence quote: Fable calibration note: owner analyst_17 only; nonowner analyst_99 is denied.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_20a_s1",
+          "heading": "Evidence",
+          "text": "Fable calibration note: owner analyst_17 only; nonowner analyst_99 is denied.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_20b",
+      "title": "Fable adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_20b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "private",
+      "owner": "analyst_17",
+      "body": "# Fable adjacent note\nFictional evaluation material.\nA nearby Fable note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_20b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Fable note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_21a",
+      "title": "Garnet evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_21a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_21",
+      "body": "# Garnet research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_21.\n\nThe adopted Garnet sampling rule is 8 items per batch, and the batch manifest is retained.\nEvidence quote: Garnet samples 8 items per batch; retain the batch manifest.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_21a_s1",
+          "heading": "Evidence",
+          "text": "Garnet samples 8 items per batch; retain the batch manifest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_21b",
+      "title": "Garnet adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_21b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_21",
+      "body": "# Garnet adjacent note\nFictional evaluation material.\nA nearby Garnet note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_21b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Garnet note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_22a",
+      "title": "Harbor evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_22a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_22",
+      "body": "# Harbor research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_22.\n\nThe adopted Harbor alert rule pages after three consecutive failures and records the window.\nEvidence quote: Harbor pages after three consecutive failures and records the alert window.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_22a_s1",
+          "heading": "Evidence",
+          "text": "Harbor pages after three consecutive failures and records the alert window.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_22b",
+      "title": "Harbor adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_22b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_22",
+      "body": "# Harbor adjacent note\nFictional evaluation material.\nA nearby Harbor note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_22b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Harbor note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_23a",
+      "title": "Indigo evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_23a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_23",
+      "body": "# Indigo research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_23.\n\nThe adopted Indigo review rule requires a signed decision and a linked evidence note.\nEvidence quote: Indigo requires a signed decision linked to an evidence note.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_23a_s1",
+          "heading": "Evidence",
+          "text": "Indigo requires a signed decision linked to an evidence note.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_23b",
+      "title": "Indigo adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_23b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_23",
+      "body": "# Indigo adjacent note\nFictional evaluation material.\nA nearby Indigo note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_23b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Indigo note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_24a",
+      "title": "Juniper evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_24a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_24",
+      "body": "# Juniper research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_24.\n\nThe adopted Juniper redaction rule removes direct identifiers before export and records a two-person check.\nEvidence quote: Juniper exports remove direct identifiers and record a two-person redaction check.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_24a_s1",
+          "heading": "Evidence",
+          "text": "Juniper exports remove direct identifiers and record a two-person redaction check.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_24b",
+      "title": "Juniper adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_24b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_24",
+      "body": "# Juniper adjacent note\nFictional evaluation material.\nA nearby Juniper note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_24b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Juniper note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_25a",
+      "title": "Kestrel evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_25a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_25",
+      "body": "# Kestrel research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_25.\n\nAs of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.\nEvidence quote: The superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_25a_s1",
+          "heading": "Evidence",
+          "text": "The superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-08-20",
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_25b",
+      "title": "Kestrel adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_25b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_25",
+      "body": "# Kestrel adjacent note\nFictional evaluation material.\nA nearby Kestrel note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_25b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Kestrel note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_26a",
+      "title": "Lumen evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_26a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_26",
+      "body": "# Lumen research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_26.\n\nAs of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.\nEvidence quote: The superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_26a_s1",
+          "heading": "Evidence",
+          "text": "The superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-08-20",
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_26b",
+      "title": "Lumen adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_26b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_26",
+      "body": "# Lumen adjacent note\nFictional evaluation material.\nA nearby Lumen note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_26b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Lumen note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_27a",
+      "title": "Mica evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_27a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_27",
+      "body": "# Mica research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_27.\n\nThe Mica zero-review publication proposal is not adopted and is explicitly rejected.\nEvidence quote: The zero-review publication proposal is rejected and not adopted.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_27a_s1",
+          "heading": "Evidence",
+          "text": "The zero-review publication proposal is rejected and not adopted.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_27b",
+      "title": "Mica adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_27b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_27",
+      "body": "# Mica adjacent note\nFictional evaluation material.\nA nearby Mica note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_27b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Mica note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_28a",
+      "title": "Nectar evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_28a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_28",
+      "body": "# Nectar research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_28.\n\nThe Nectar auto-merge proposal is pending review and must not be treated as active.\nEvidence quote: The auto-merge proposal is pending review and is not active.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_28a_s1",
+          "heading": "Evidence",
+          "text": "The auto-merge proposal is pending review and is not active.",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_28b",
+      "title": "Nectar adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_28b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_28",
+      "body": "# Nectar adjacent note\nFictional evaluation material.\nA nearby Nectar note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_28b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Nectar note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_29a",
+      "title": "Oriel evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_29a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_29",
+      "body": "# Oriel research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_29.\n\nFor Oriel, an unsigned manifest prevents release.\nEvidence quote: Oriel release is blocked when the manifest lacks a signature.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_29a_s1",
+          "heading": "Evidence",
+          "text": "Oriel release is blocked when the manifest lacks a signature.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_29b",
+      "title": "Oriel adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_29b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_29",
+      "body": "# Oriel adjacent note\nFictional evaluation material.\nA nearby Oriel note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_29b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Oriel note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_30a",
+      "title": "Pumice evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_30a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_30",
+      "body": "# Pumice research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_30.\n\nFor Pumice, a stale source marker requires revalidation before use.\nEvidence quote: A stale Pumice source marker requires revalidation before use.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_30a_s1",
+          "heading": "Evidence",
+          "text": "A stale Pumice source marker requires revalidation before use.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_30b",
+      "title": "Pumice adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_30b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_30",
+      "body": "# Pumice adjacent note\nFictional evaluation material.\nA nearby Pumice note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_30b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Pumice note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_31a",
+      "title": "Quill evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_31a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_31",
+      "body": "# Quill research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_31.\n\nFor Quill, a 90-minute delay requires an operator check; a maintenance window is an exception.\nEvidence quote: When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.\n\n| threshold | unit | condition | exception |\n|---|---|---|---|\n| stated value | percent or minutes | operator check required | documented maintenance or drill |\n",
+      "sections": [
+        {
+          "id": "cv1_doc_31a_s1",
+          "heading": "Evidence",
+          "text": "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_31b",
+      "title": "Quill adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_31b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_31",
+      "body": "# Quill adjacent note\nFictional evaluation material.\nA nearby Quill note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_31b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Quill note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_32a",
+      "title": "Rook evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_32a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_32",
+      "body": "# Rook research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_32.\n\nFor Rook, a missing owner tag blocks dispatch, except for the documented emergency route.\nEvidence quote: A missing Rook owner tag blocks dispatch, except on the documented emergency route.\n\n| threshold | unit | condition | exception |\n|---|---|---|---|\n| stated value | percent or minutes | operator check required | documented maintenance or drill |\n",
+      "sections": [
+        {
+          "id": "cv1_doc_32a_s1",
+          "heading": "Evidence",
+          "text": "A missing Rook owner tag blocks dispatch, except on the documented emergency route.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_32b",
+      "title": "Rook adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_32b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_32",
+      "body": "# Rook adjacent note\nFictional evaluation material.\nA nearby Rook note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_32b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Rook note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_33a",
+      "title": "Saffron evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_33a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_33",
+      "body": "# Saffron research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_33.\n\nSaffron's scorecard uses the median of three readings.\nEvidence quote: The Saffron scorecard uses the median of three readings.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_33a_s1",
+          "heading": "Evidence",
+          "text": "The Saffron scorecard uses the median of three readings.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_33b",
+      "title": "Saffron adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_33b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_33",
+      "body": "# Saffron adjacent note\nFictional evaluation material.\nThe Saffron adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_33b_s1",
+          "heading": "Adjacent note",
+          "text": "The Saffron adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_34a",
+      "title": "Topaz evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_34a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_34",
+      "body": "# Topaz research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_34.\n\nTopaz handoffs require a named queue and a receipt timestamp.\nEvidence quote: A Topaz handoff includes a named queue and receipt timestamp.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_34a_s1",
+          "heading": "Evidence",
+          "text": "A Topaz handoff includes a named queue and receipt timestamp.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_34b",
+      "title": "Topaz adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_34b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_34",
+      "body": "# Topaz adjacent note\nFictional evaluation material.\nThe Topaz adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_34b_s1",
+          "heading": "Adjacent note",
+          "text": "The Topaz adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_35a",
+      "title": "Umber evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_35a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_35",
+      "body": "# Umber research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_35.\n\nUmber's public summary omits raw identifiers, while the audit appendix is restricted.\nEvidence quote: The Umber public summary omits raw identifiers; its audit appendix is restricted.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_35a_s1",
+          "heading": "Evidence",
+          "text": "The Umber public summary omits raw identifiers; its audit appendix is restricted.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_35b",
+      "title": "Umber adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_35b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_35",
+      "body": "# Umber adjacent note\nFictional evaluation material.\nThe Umber adjacent note records an escalation contact.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_35b_s1",
+          "heading": "Adjacent note",
+          "text": "The Umber adjacent note records an escalation contact.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_36a",
+      "title": "Violet evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_36a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_36",
+      "body": "# Violet research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_36.\n\nThe Violet handoff package must include the last verified checkpoint.\nEvidence quote: Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_36a_s1",
+          "heading": "Evidence",
+          "text": "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_36b",
+      "title": "Violet adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_36b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_36",
+      "body": "# Violet adjacent note\nFictional evaluation material.\nA nearby Violet note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_36b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Violet note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_37a",
+      "title": "Wren evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_37a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_37",
+      "body": "# Wren research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_37.\n\nWren's receiving operator must acknowledge the dependency list before execution.\nEvidence quote: Wren's receiving operator acknowledges the dependency list before execution.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_37a_s1",
+          "heading": "Evidence",
+          "text": "Wren's receiving operator acknowledges the dependency list before execution.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_37b",
+      "title": "Wren adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_37b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_37",
+      "body": "# Wren adjacent note\nFictional evaluation material.\nA nearby Wren note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_37b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Wren note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_38a",
+      "title": "Xenon evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_38a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_38",
+      "body": "# Xenon research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_38.\n\nThis note records only a partial observation and does not establish the requested answer.\nEvidence quote: The available notes do not establish the requested combined condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_38a_s1",
+          "heading": "Evidence",
+          "text": "The available notes do not establish the requested combined condition.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_38b",
+      "title": "Xenon adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_38b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_38",
+      "body": "# Xenon adjacent note\nFictional evaluation material.\nA nearby Xenon note mentions a related observation but omits the requested condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_38b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Xenon note mentions a related observation but omits the requested condition.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_39a",
+      "title": "Yonder evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_39a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "shared",
+      "owner": "owner_39",
+      "body": "# Yonder research record\nFictional evaluation material; no real person or organization is represented.\nScope: shared; owner: owner_39.\n\nThis note records only a partial observation and does not establish the requested answer.\nEvidence quote: The available notes do not establish the requested combined condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_39a_s1",
+          "heading": "Evidence",
+          "text": "The available notes do not establish the requested combined condition.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_39b",
+      "title": "Yonder adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_39b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "shared",
+      "owner": "owner_39",
+      "body": "# Yonder adjacent note\nFictional evaluation material.\nA nearby Yonder note mentions a related observation but omits the requested condition.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_39b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Yonder note mentions a related observation but omits the requested condition.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_40a",
+      "title": "Zinnia evidence record",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_40a",
+      "recorded_at": "2026-08-29",
+      "verified_at": "2026-08-29",
+      "scope": "private",
+      "owner": "analyst_18",
+      "body": "# Zinnia research record\nFictional evaluation material; no real person or organization is represented.\nScope: private; owner: analyst_18.\n\nThe private Zinnia calibration note is visible only to owner analyst_18; nonowner analyst_99 must be denied.\nEvidence quote: Zinnia calibration note: owner analyst_18 only; nonowner analyst_99 is denied.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_40a_s1",
+          "heading": "Evidence",
+          "text": "Zinnia calibration note: owner analyst_18 only; nonowner analyst_99 is denied.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "cv1_doc_40b",
+      "title": "Zinnia adjacent research note",
+      "source_url": "https://example.invalid/phase2-completion-v1/cv1_doc_40b",
+      "recorded_at": "2026-08-28",
+      "verified_at": "2026-08-28",
+      "scope": "private",
+      "owner": "analyst_18",
+      "body": "# Zinnia adjacent note\nFictional evaluation material.\nA nearby Zinnia note uses similar wording but is not the governing record. It must not replace the evidence above.\n",
+      "sections": [
+        {
+          "id": "cv1_doc_40b_s1",
+          "heading": "Adjacent note",
+          "text": "A nearby Zinnia note uses similar wording but is not the governing record. It must not replace the evidence above.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": "2026-08-01",
+          "valid_to": null,
+          "verified_at": "2026-08-28"
+        }
+      ]
+    }
+  ]
+}

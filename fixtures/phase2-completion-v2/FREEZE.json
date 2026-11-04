@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-30T08:45:19.045254+00:00",
+  "corpus_documents": 80,
+  "corpus_sections": 80,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "ef810a51aa1f77b5cf205e79ac2ad8a10df1709da8409e64cebff11aa22a407d",
+    "dev.json": "6c243e57a4c00008b23422c841f40f703f266160e81c86cd931ecf9717ebcc3d",
+    "final.json": "9d284e81ca82d11dea59bc5ca4a243c2111b8dd4c24f33c45d0ced990a9fe06b",
+    "grading.json": "926ea92ff6e72ef103af8e183a334eeecfecbd337b5f4cdff2a3e9243a118a97"
+  },
+  "author_not_exposed_to_new_implementation": true,
+  "frozen_before_improvement_implementation": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "revision_of": "fixtures/phase2-completion-v1"
+}

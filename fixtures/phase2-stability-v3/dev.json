@@ -1,0 +1,202 @@
+[
+  {
+    "id": "dev-01",
+    "category": "current_policy",
+    "project": "amber",
+    "mode": "current",
+    "variants": [
+      "Amberの入館受付で、確認後に何を記録しますか。",
+      "Amberの入館時に行う確認と記録内容を教えてください。",
+      "Amberの受付手順では本人確認後に何を残しますか。"
+    ],
+    "required_source_ids": [
+      "sv2-amber-core"
+    ],
+    "required_quotes": [
+      "本人確認後に受付票へ時刻を記入する。"
+    ],
+    "expected_answer_fragments": [
+      "本人確認",
+      "受付票",
+      "時刻"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-02",
+    "category": "conditional_exception",
+    "project": "birch",
+    "mode": "current",
+    "variants": [
+      "Birchで気温が高い日と破損品の場合の配送対応を教えてください。",
+      "Birchの配送で25度超の場合に追加するものと、破損品の扱いは何ですか。",
+      "Birchの温度条件と破損時の配送禁止を合わせて説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-birch-core"
+    ],
+    "required_quotes": [
+      "気温が25度を超える日は保冷箱を追加し、破損品は配送しない。"
+    ],
+    "expected_answer_fragments": [
+      "25度",
+      "保冷箱",
+      "破損品は配送しない"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-03",
+    "category": "history",
+    "project": "cobalt",
+    "mode": "history",
+    "variants": [
+      "Cobaltの集計頻度はいつどのように変わりましたか。",
+      "Cobaltで7月までと8月以降の頻度を教えてください。",
+      "Cobaltの履歴にある月次から隔週への変更を説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-cobalt-core"
+    ],
+    "required_quotes": [
+      "2026年7月までは月次、8月から隔週に変更した。"
+    ],
+    "expected_answer_fragments": [
+      "月次",
+      "8月",
+      "隔週"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-04",
+    "category": "proposal_not_approved",
+    "project": "dune",
+    "mode": "current",
+    "variants": [
+      "Duneの追加席料金案は実施できますか。適用条件も答えてください。",
+      "Duneの料金提案の状態と、変更を待つ条件を教えてください。",
+      "Duneの追加席価格は承認済みか、何が終わるまで現行のままか説明してください。"
+    ],
+    "required_source_ids": [
+      "sv2-dune-core"
+    ],
+    "required_quotes": [
+      "追加席の料金は検討中で、適用は未承認である。",
+      "法務確認と顧客通知が完了するまで現行価格を変更しない。"
+    ],
+    "expected_answer_fragments": [
+      "検討中",
+      "未承認",
+      "現行価格を変更しない"
+    ],
+    "forbidden_answer_fragments": [
+      "追加席の料金は承認済みで、直ちに適用する。"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "dev-05",
+    "category": "all_items",
+    "project": "elm",
+    "mode": "all",
+    "variants": [
+      "Elmの色別在庫をすべて教えてください。",
+      "Elmの白箱と黒箱はそれぞれ何個ありますか。",
+      "Elmの棚卸しにある在庫数を色ごとに列挙してください。"
+    ],
+    "required_source_ids": [
+      "sv2-elm-core"
+    ],
+    "required_quotes": [
+      "白箱は9個、黒箱は4個である。"
+    ],
+    "expected_answer_fragments": [
+      "白箱",
+      "9個",
+      "黒箱",
+      "4個"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-06",
+    "category": "all_items",
+    "project": "frost",
+    "mode": "all",
+    "variants": [
+      "Frostの問合せ分類を全件挙げてください。",
+      "Frostで使う3つの分類は何ですか。",
+      "Frostの受付分類一覧を漏れなく示してください。"
+    ],
+    "required_source_ids": [
+      "sv2-frost-core"
+    ],
+    "required_quotes": [
+      "操作、契約、請求の3分類を使う。"
+    ],
+    "expected_answer_fragments": [
+      "操作",
+      "契約",
+      "請求"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-07",
+    "category": "privacy",
+    "project": "grove2",
+    "mode": "current",
+    "variants": [
+      "Grove2の個人メモを他人が見たり転送したりできますか。",
+      "Grove2で私有メモに適用される閲覧と転載の境界を教えてください。",
+      "Grove2の個人メモは誰が閲覧でき、共有してよいですか。"
+    ],
+    "required_source_ids": [
+      "sv2-grove2-core"
+    ],
+    "required_quotes": [
+      "個人メモは所有者のみが閲覧し、他人へ転載しない。"
+    ],
+    "expected_answer_fragments": [
+      "所有者のみ",
+      "転載しない"
+    ],
+    "forbidden_answer_fragments": [
+      "個人メモは登録メンバーなら閲覧・転載できる。"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "dev-08",
+    "category": "conditional_exception",
+    "project": "helium",
+    "mode": "current",
+    "variants": [
+      "Heliumの通常投入条件と請求変更時の制限を説明してください。",
+      "Heliumはどの観測結果で40%へ進み、請求変更では何を待ちますか。",
+      "Heliumの段階投入の時間・閾値と請求変更の例外を教えてください。"
+    ],
+    "required_source_ids": [
+      "sv2-helium-core"
+    ],
+    "required_quotes": [
+      "15%を25分観測し、失敗率が3%未満なら40%へ進める。",
+      "請求変更は15%から広げず、財務担当の承認を待つ。"
+    ],
+    "expected_answer_fragments": [
+      "15%",
+      "25分",
+      "3%未満",
+      "40%",
+      "財務担当の承認"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  }
+]

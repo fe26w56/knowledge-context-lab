@@ -1,0 +1,17 @@
+{
+  "fixture":"phase2-migration-v2",
+  "frozen_at_utc":"2026-11-02T18:24:00Z",
+  "status":"frozen-before-migration-implementation",
+  "pages":16,
+  "dev_tasks":8,
+  "final_tasks":8,
+  "purpose":"fictional raw-page migration diagnostic; not an independent benchmark",
+  "sha256":{
+    "README.md":"51947ce706e62a2767bee49170fc8653273073910842bd1a5a1ffdad82dbe68b",
+    "pages.json":"4fd5e3879b9b58ab1156d9dd0e5831b4f9c745e36ff645a63054b9d0abd3a54b",
+    "dev.json":"cb0a49df82bd3fa6731f57769983ca486ef4787eef929ab61d8b49cb275e7342",
+    "final.json":"c4c3fb7e410a0a3085d0b665c3beb22b54bfbbbe02d96e5faa824ce1d00de3d0"
+  },
+  "oracle_policy":"gold source spans and task IDs are evaluator-only; requests contain neither",
+  "real_data":"none"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "reuse-trace-export-v1",
+  "fictional_sources_only": true,
+  "new_model_calls": 0,
+  "source_trace_sha256": "0674eff6ba8ba7978175cacae9d1e5a3474e2a474d0369720bf3b0b3a5f354f5",
+  "exported_trace_sha256": "9b26dceaabec607cb0123e29e2545cba7cede49567493f546cfe1e79f341dcba",
+  "removed_metadata_fields": {
+    "provider_output": 108,
+    "response_id": 108,
+    "raw_output_text": 108
+  },
+  "request_output_usage_unchanged": true,
+  "exporter_sha256": "914980102e97223a7227b6c84530872bfee244e45b9471c68599df637bc57b88"
+}

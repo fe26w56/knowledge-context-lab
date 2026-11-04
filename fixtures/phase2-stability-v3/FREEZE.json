@@ -1,0 +1,37 @@
+{
+  "schema": "stability-fixture-v3",
+  "frozen_at_utc": "2026-11-03T07:59:56.572537+00:00",
+  "hashes": {
+    "author_fixture.py": "f3967563586beff274c872c732263eaa188d12c64097e5f5b43aa46b4158c823",
+    "corpus.json": "8baa49c23076d45a6a1d7106ebbd174948cfb877748febcf6b32ecc7e2e18511",
+    "dev.json": "2f7d98f3c22c9b504c0794ce825982d1aa25e5b6f9a2fa5278f435d15d45c68a",
+    "final.json": "46d5e4a24ea65660732e424e303beec736d062c276ee98b6de31a6bf8f27b650"
+  },
+  "counts": {
+    "dev_intents": 8,
+    "final_intents": 12,
+    "variants_per_intent": 3
+  },
+  "growth_audit": [
+    {
+      "size": 100,
+      "core_project_sources": 86,
+      "historical": 13,
+      "private": 6
+    },
+    {
+      "size": 1000,
+      "core_project_sources": 822,
+      "historical": 137,
+      "private": 74
+    },
+    {
+      "size": 10000,
+      "core_project_sources": 8186,
+      "historical": 1381,
+      "private": 740
+    }
+  ],
+  "question_origin": "v2 questions unchanged; root did not open final.json; auditor reported limited pre-freeze semantic defects",
+  "independent_benchmark": false
+}

@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-research-phase2",
+  "fixture_kind": "phase2_frozen_diagnostic",
+  "queries": [
+    {
+      "id": "p2f01",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "現在の端末採用はAlderかJuniperか？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "4月15日にAlder Miniを採用した。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f02",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "軽さを優先するJuniper変更案は採用済み？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "4月19日にJuniper Airへ変更する案が追記されたが、採用はされていない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f03",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Alder採用の価格と必須バッテリー条件を揃えて答えて。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "変換器を含めた総額は75,000円で、バッテリー6時間以上という必須条件を満たすことが採用理由である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "6時間以上"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f04",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "D1とD2のフィルター交換間隔を取り違えずに比較して。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "装置D1のフィルターは稼働200時間ごとに交換する。",
+        "装置D2のフィルターは稼働350時間ごとに交換する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "D1",
+        "D2"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f05",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "採用済みと購入済みは同じ状態？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "機種の採用は決まっているが、発注はまだ行っていない。採用済みと購入済みを同じ状態として扱わない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f06",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "過去の判断理由を調べるとき、現在版だけで置換してよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-05",
+        "mode": "history"
+      },
+      "expected_quotes": [
+        "過去の判断理由を調べる要求では、その判断時点で有効だった版を参照する。現在の結論だけに置き換えると、当時の理由を説明できなくなる。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f07",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "空欄の振替料金を無料と判断してよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "欠航時の代替船と、他社便への振り替え料金は未確認である。比較表に空欄がある項目を無料と解釈しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "無料と解釈しない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f08",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "灯台食堂は胡桃を使わないと確定できる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "灯台食堂が胡桃を扱わないという回答はまだ得られていない。同行者の条件を伝えて確認するまで、食事場所を確定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "食事場所を確定しない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f09",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "連絡船の風条件と食事の胡桃条件を同時に確認するには？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "予報だけで欠航と断定したり、運航すると決めたりしてはならない。",
+        "料理名だけで判断せず、店に材料と調理時の取り扱いを確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "当日発表",
+        "材料と調理時"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f10",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "引継ぎ後も元会話を読める前提でよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "後続botが元の会話を読めるとは仮定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f11",
+      "split": "final",
+      "category": "retry",
+      "request": {
+        "text": "同内容のrequest_id再送は二重保存になる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "同じrequest_idと同じ内容の再送は、最初の処理結果を返す。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f12",
+      "split": "final",
+      "category": "concurrency",
+      "request": {
+        "text": "expected_version競合時に他bot更新を自動消去してよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "競合したbotは新しい版を読んで内容を確認し、他botの更新を自動で消さない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f13",
+      "split": "final",
+      "category": "measured_vs_target",
+      "request": {
+        "text": "16体同時実行の待ち時間は測定済み？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "16体のbotを同時に動かす試験は未実施である。単独で1回成功したことから、16体での待ち時間や成功率を推定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f14",
+      "split": "final",
+      "category": "scope_private",
+      "request": {
+        "text": "bot_01がbot_04のprivate識別語を検索して得られる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_ONLY_ORANGE_731"
+      ],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f15",
+      "split": "final",
+      "category": "long_table",
+      "request": {
+        "text": "長い表を1000 tokenに収めるため途中で条件列を削ってよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "長い条件表は見出し・単位・例外を保持して扱う。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "見出し・単位・例外"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f16",
+      "split": "final",
+      "category": "short_new",
+      "request": {
+        "text": "Nacreメモの未解決確認は完了前にどう扱う？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "未解決の確認を完了前に保留する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f17",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "Soraの別地域切替と複数bot継続書込は演習済み？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "別地域への切り替えと、複数botの継続書き込みは対象外だった。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f18",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "旅行予約は空室を保証する確定予約？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "予約はまだ行っていない。候補の空室情報は4月18日に確認したもので、その後の空室を保証しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "予約はまだ行っていない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f19",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "KBは製品名ではなく何の略称？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "この架空運用でKBは、調査結果と根拠を保管する知識庫を指す。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    },
+    {
+      "id": "p2f20",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "実測していないp95値を推定して報告できる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Lumenの本番環境におけるp95応答時間はまだ測定していない。計測器を接続したことだけでは、応答時間を測定済みとは扱わない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "測定済みとは扱わない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "すべての必須根拠と条件を保持し、採用状態と時点を混同しないことを確認する。"
+    }
+  ]
+}

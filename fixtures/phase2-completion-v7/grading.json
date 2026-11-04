@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v7",
+  "rubric_schema": {
+    "atomic_claims": "list of {key,value,evidence_quote,accepted_source_ids}",
+    "abstain": "boolean",
+    "missing_information": "required for insufficient questions",
+    "access_boundary": "required for private boundary",
+    "temporal_eligibility": "for current/history, valid_from <= request.as_of < valid_to (or valid_to null); current requires adopted"
+  },
+  "authoring_note": "Every request clause is represented by a claim or explicit abstention/access criterion and visible source evidence."
+}

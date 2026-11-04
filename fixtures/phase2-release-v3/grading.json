@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v3",
+  "families": {
+    "family_00": {
+      "topic": "Aldrin",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_bca5f9c553deb7",
+        "d_5e3cc0ea1d8fe0",
+        "d_f22c6dde86a4d0"
+      ],
+      "private_source_id": "d_f690ddba56cdf0",
+      "private_owner": "bot_06"
+    },
+    "family_01": {
+      "topic": "Beryl",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_a9142882f829a8",
+        "d_e27b8ea20280de",
+        "d_531b086df10d44"
+      ]
+    },
+    "family_02": {
+      "topic": "Cobalt",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_ea5b94317ae54a",
+        "d_72a2e34762da78",
+        "d_090891dcafa0e7"
+      ]
+    },
+    "family_03": {
+      "topic": "Dahlia",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_237475e2c69110",
+        "d_67b2b1c1b41e44",
+        "d_35c9ca62d38b4f"
+      ]
+    },
+    "family_04": {
+      "topic": "Ember",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_a3b49fcb444084",
+        "d_edddd4f70f18e5",
+        "d_f65ffb8916960b"
+      ]
+    },
+    "family_05": {
+      "topic": "Fjord",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_7dc63348310fa1",
+        "d_36dca995023b7a",
+        "d_a04acc4d698c1b"
+      ]
+    },
+    "family_06": {
+      "topic": "Garnet",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_69e146acae9e30",
+        "d_db4f89eda960f5",
+        "d_1e816778581a41"
+      ]
+    },
+    "family_07": {
+      "topic": "Helio",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_86fc77cf9f228c",
+        "d_5dc0b2f37ebb94",
+        "d_b3a690bcd35227"
+      ],
+      "private_source_id": "d_142897e9fd1709",
+      "private_owner": "bot_13"
+    },
+    "family_08": {
+      "topic": "Indigo",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_f4b693ff1430f4",
+        "d_7a2653081fc2b9",
+        "d_60d5d97843aaac"
+      ]
+    },
+    "family_09": {
+      "topic": "Juniper",
+      "split": "dev",
+      "accepted_source_ids": [
+        "d_1446c6712f4fc0",
+        "d_2f1a6bcc1f01ac",
+        "d_bf093d8fecad32"
+      ]
+    },
+    "family_10": {
+      "topic": "Kestrel",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_bf614506112a14",
+        "d_035f06954872db",
+        "d_5f45dcd1933198"
+      ],
+      "private_source_id": "d_39a18b6e51db1b",
+      "private_owner": "bot_16"
+    },
+    "family_11": {
+      "topic": "Lapis",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_ac1873edf2830c",
+        "d_f076dde58d5fa6",
+        "d_058727d0591e69"
+      ]
+    },
+    "family_12": {
+      "topic": "Mistral",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_871d0140ecf380",
+        "d_c2172f42752a58",
+        "d_9135fd29902594"
+      ]
+    },
+    "family_13": {
+      "topic": "Nectar",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_c358522e21611d",
+        "d_91f3aeb30ef137",
+        "d_6e110c62104a35"
+      ]
+    },
+    "family_14": {
+      "topic": "Opal",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_7e7aa72dce9b2f",
+        "d_f82c70f1a0367c",
+        "d_bd69985c007083"
+      ]
+    },
+    "family_15": {
+      "topic": "Plover",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_d4461bcd7cd4bc",
+        "d_923d04064aaa86",
+        "d_4482720fe92664"
+      ]
+    },
+    "family_16": {
+      "topic": "Quill",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_bcb717641f7b4d",
+        "d_e3a6e86ecbe8e9",
+        "d_ca065a998eb985"
+      ]
+    },
+    "family_17": {
+      "topic": "Raven",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_2b0eae2a0a1846",
+        "d_1aaf1c0a52bf3c",
+        "d_0f8e4f0928a602"
+      ],
+      "private_source_id": "d_6a388cee653523",
+      "private_owner": "bot_07"
+    },
+    "family_18": {
+      "topic": "Sable",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_9980737def80bf",
+        "d_b62c853b241f9b",
+        "d_ee03d344989d60"
+      ]
+    },
+    "family_19": {
+      "topic": "Topaz",
+      "split": "final",
+      "accepted_source_ids": [
+        "d_350973c77eb4fd",
+        "d_c7f089c4ce3166",
+        "d_491a23ea8d1645"
+      ]
+    }
+  },
+  "table_dev_source_id": "d_60a02c2c708545",
+  "table_final_source_id": "d_85e6334dee74be",
+  "note": "accepted_source_ids/evidence_sources are grader-only metadata; never pass to retrieval."
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "size": 100,
+    "sources": 100,
+    "import_seconds": 0.14052983280271292,
+    "publish_seconds": 0.08437537495046854,
+    "published": {
+      "published": 96,
+      "skipped": 1
+    },
+    "snapshot_sha256": {
+      "reader": "c4bc6a42395520034651e83ad2131f851f4733554519003ad32ca3dee8c02a6f"
+    }
+  },
+  {
+    "size": 1000,
+    "sources": 1000,
+    "import_seconds": 1.4616562500596046,
+    "publish_seconds": 0.2672839998267591,
+    "published": {
+      "published": 96,
+      "skipped": 1
+    },
+    "snapshot_sha256": {
+      "reader": "78e5418b88515b9e580550592ed149e99bf4267b495e2fe56610564a9871a547"
+    }
+  },
+  {
+    "size": 10000,
+    "sources": 10000,
+    "import_seconds": 14.159324833191931,
+    "publish_seconds": 1.5947084999643266,
+    "published": {
+      "published": 96,
+      "skipped": 1
+    },
+    "snapshot_sha256": {
+      "reader": "7bb636a50672b77c6a2566cfc4b18d71084e497e34812420f50e3b9fc5652c8e"
+    }
+  }
+]

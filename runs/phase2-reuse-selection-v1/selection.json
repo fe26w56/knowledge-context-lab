@@ -1,0 +1,28 @@
+{
+  "selected_at_utc": "2026-11-03T09:08:12.942190+00:00",
+  "fixture_freeze_sha256": "1242e4eb2fd3dbf70dfa225d83e8b131e0107ae71956e46ffbf4e937281db3fe",
+  "code_sha256": {
+    "src/context_lab/reviewed_context.py": "0736b97fffbe80b0c538b98148746c282deb5f8cbdb452961a65791507026837",
+    "src/context_lab/workspace.py": "81b1c4f6f1653ec2333c4bc0391a3cc1e0f73ce5e69f6b4ade5268c8b96d8e71",
+    "src/context_lab/store.py": "fc41481825c72993f5debfd7ac1b6cdeec56f1a4946ab156c299cb17bb94bfd7",
+    "src/context_lab/snapshot.py": "a63b2f9806916f2b0b529ed9ddb4d39015b1924130c72afb8896d575146693fd",
+    "scripts/evaluate_reuse.py": "5421217e37cfafe09fa073bb9ad0a94751b78b75c5010bea811da83c2168b8a6"
+  },
+  "live_code_sha256": {
+    "scripts/run_reuse_model.py": "73a7045e6f11e2a6e8bbced16d54aca684db1323f2f6e08abfeb9ee2023c1643",
+    "src/context_lab/stability_api.py": "dba416d987a65020cb57647ab39254665b87a81fb6bd3ebff96af9368cac99bc",
+    "scripts/run_stability_model.py": "650ff0316ad76cd3840463c0512049a28aa47bd7ca79ee40ea2e44cae00bcb49"
+  },
+  "selected_method": "reviewed_scoped",
+  "model_arms": [
+    "full",
+    "reviewed",
+    "citation_ids"
+  ],
+  "model_corpus_size": 10000,
+  "rounds": 3,
+  "rule": "All development required evidence and statuses must pass; compare full source and reviewed source on identical topic membership",
+  "final_question_opened_by_root": false,
+  "independent_benchmark": false,
+  "protocol_sha256": "c35e8c51460e24b587225dea2ac3ccfec5fcc158323a22834e3143e39f85e73a"
+}

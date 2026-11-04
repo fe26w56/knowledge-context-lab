@@ -1,0 +1,14 @@
+{
+  "split":"dev",
+  "tasks":[
+    {"task_id":"d1","request":"Lumen通知の現行方針と、以前の案から変わった条件を説明して。","kind":"current_with_history","gold":{"facts":["MailRelay","最大2回・30分間隔","PushGateは8月31日終了"],"source_spans":["dev-lumen-main#現在の要約","dev-lumen-main#以前の案"]}},
+    {"task_id":"d2","request":"Orbitログ保持について、契約上の事実と未承認の提案、次の確認を分けて整理して。","kind":"decision_provenance","gold":{"facts":["最低90日","180日案は法務レビュー待ち","顧客指定は別途確認"],"source_spans":["dev-orbit-main#現在の状態","dev-orbit-source#一次資料の要点"]}},
+    {"task_id":"d3","request":"Cedarを公開できる条件と、作業予定が判定条件ではない理由を教えて。","kind":"conditions_and_task_boundary","gold":{"facts":["全テスト成功・脆弱性0件・レビュー1名以上","9月15日は予定","Task Cedar-41未完了"],"source_spans":["dev-cedar-main#現在の判定条件","dev-cedar-main#引き継ぎ"]}},
+    {"task_id":"d4","request":"Amber委託の共有ページから、共有できる方針だけを答えて。管理領域の連絡先は出さないで。","kind":"visibility","gold":{"facts":["四半期レビューで判断","個別連絡先は共有範囲外"],"source_spans":["dev-amber-main#共有できる現行方針"],"forbidden":["個別連絡先"]}},
+    {"task_id":"d5","request":"Lumen通知の現在版と旧DB抜粋を突き合わせ、どちらを現行として使うか、版と日付付きで示して。","kind":"duplicate_resolution","gold":{"facts":["メインv相当の2026-09-03方針","DBは2026-08-31履歴","PushGateは現行でない"],"source_spans":["dev-lumen-main#現在の要約","dev-lumen-db-note#状態"]}},
+    {"task_id":"d6","request":"Cedarの作業予定を更新したあと、公開条件の根拠と未完了の引き継ぎを保ったまま再取得できる形を確認して。","kind":"repeat_after_update","gold":{"facts":["三つの公開条件を保持","Task Cedar-41は未完了","TaskFlowが作業状態の正本"],"source_spans":["dev-cedar-main#引き継ぎ"]}},
+    {"task_id":"d7","request":"Orbitの資料をエクスポートして再取り込みしても、90日の根拠と180日案の未承認状態を保持するには何が必要？","kind":"roundtrip","gold":{"facts":["ページ境界・版・decision_statusを保持","90日と180日案を混同しない"],"source_spans":["dev-orbit-main#現在の状態","dev-orbit-source#一次資料の要点"]}},
+    {"task_id":"d8","request":"明示的な法務承認がないままOrbitの180日案を採用に変更しない。承認後だけ何を更新するべきか。","kind":"explicit_approval","gold":{"facts":["承認前はproposedのまま","承認後に適用日・条件・置換関係を記録"],"source_spans":["dev-orbit-main#次の行動"]}}
+  ],
+  "operations":[{"op":"replace_page","record_id":"dev-cedar-note","page":{"id":"dev-cedar-note","title":"Cedarリリース｜作業メモ","properties":{"decision_status":null,"as_of":"2026-09-15","summary":"確認済みだが公開条件は変更しない。","category":"開発"},"body":"# 作業メモ\n\n9月15日にテスト結果を確認した。公開条件の三つは満たしていないため、Task Cedar-41は未完了である。メインページの判定条件は変更しない。","scope":"shared","owner":"release-coordinator","edited_at":"2026-09-15T11:00:00Z","incomplete":"脆弱性スキャン結果未着"},"expected":"main_decision_unchanged"},{"op":"export_import","scope":"dev","expected":"page_boundaries_properties_bodies_preserved"}]
+}

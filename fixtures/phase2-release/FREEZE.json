@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-30T02:04:07.316666+00:00",
+  "frozen_before_improvement": true,
+  "corpus_documents": 52,
+  "corpus_sections": 143,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "f7bbe63caa5abc1db696761623a16654d23223e103b3409f22c33443c41286d3",
+    "dev.json": "2ed45fd7152691272db781d4103cb20af5ea96e6402d5276cb2a6bc43d9c5aed",
+    "final.json": "6fa71e7a2294dfea21bb658605561c839efa38ce6a2e5bc7c1e0eddf1b8fc4fc"
+  },
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true
+}

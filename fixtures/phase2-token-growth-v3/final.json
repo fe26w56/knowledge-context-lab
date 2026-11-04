@@ -1,0 +1,236 @@
+[
+  {
+    "qid": "final-i1-1",
+    "text": "irisの現行方針と条件は？",
+    "project": "iris",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-i1-decision"
+    ],
+    "required_quotes": [
+      "Irisの現行方針は金曜にレビューし、公開前に担当が版を確認する。"
+    ]
+  },
+  {
+    "qid": "final-i1-2",
+    "text": "irisの根拠または引き継ぎを答えて",
+    "project": "iris",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-i1-evidence"
+    ],
+    "required_quotes": [
+      "根拠は承認ログと月次監査表に保存する。"
+    ]
+  },
+  {
+    "qid": "final-j1-1",
+    "text": "junoの現行方針と条件は？",
+    "project": "juno",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-j1-decision"
+    ],
+    "required_quotes": [
+      "Junoは全件再現試験とp95 700ms未満を承認条件にする。"
+    ]
+  },
+  {
+    "qid": "final-j1-2",
+    "text": "junoの根拠または引き継ぎを答えて",
+    "project": "juno",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-j1-evidence"
+    ],
+    "required_quotes": [
+      "失敗IDと再実行担当を引き継ぐ。"
+    ]
+  },
+  {
+    "qid": "final-k1-1",
+    "text": "keplerの現行方針と条件は？",
+    "project": "kepler",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-k1-decision"
+    ],
+    "required_quotes": [
+      "Keplerの現行資料は90日、監査履歴は500日保存する。"
+    ]
+  },
+  {
+    "qid": "final-k1-2",
+    "text": "keplerの根拠または引き継ぎを答えて",
+    "project": "kepler",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-k1-evidence"
+    ],
+    "required_quotes": [
+      "削除前に保留一覧と保存表を確認する。"
+    ]
+  },
+  {
+    "qid": "final-l1-1",
+    "text": "lumenの現行方針と条件は？",
+    "project": "lumen",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-l1-decision"
+    ],
+    "required_quotes": [
+      "Lumenの緊急問い合わせは当番へ、通常は翌営業日キューへ送る。"
+    ]
+  },
+  {
+    "qid": "final-l1-2",
+    "text": "lumenの根拠または引き継ぎを答えて",
+    "project": "lumen",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-l1-evidence"
+    ],
+    "required_quotes": [
+      "未処理IDと次の確認条件を引き継ぐ。"
+    ]
+  },
+  {
+    "qid": "final-m1-1",
+    "text": "mesaの現行方針と条件は？",
+    "project": "mesa",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-m1-decision"
+    ],
+    "required_quotes": [
+      "Mesa案は未採用の提案で、2名レビューと再現ログが必要だ。"
+    ]
+  },
+  {
+    "qid": "final-m1-2",
+    "text": "mesaの根拠または引き継ぎを答えて",
+    "project": "mesa",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-m1-evidence"
+    ],
+    "required_quotes": [
+      "現時点は1名レビューのため採用条件未達である。"
+    ]
+  },
+  {
+    "qid": "final-n1-1",
+    "text": "novaの現行方針と条件は？",
+    "project": "nova",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-n1-decision"
+    ],
+    "required_quotes": [
+      "Novaの2026-08-11障害では旧設定900msを使用した。"
+    ]
+  },
+  {
+    "qid": "final-n1-2",
+    "text": "novaの根拠または引き継ぎを答えて",
+    "project": "nova",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-n1-evidence"
+    ],
+    "required_quotes": [
+      "現在値は600msで、旧設定は履歴だけに使う。"
+    ]
+  },
+  {
+    "qid": "final-o1-1",
+    "text": "opalの現行方針と条件は？",
+    "project": "opal",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-o1-decision"
+    ],
+    "required_quotes": [
+      "Opalの登録機材は三脚、センサー、ケーブルの3種である。"
+    ]
+  },
+  {
+    "qid": "final-o1-2",
+    "text": "opalの根拠または引き継ぎを答えて",
+    "project": "opal",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-o1-evidence"
+    ],
+    "required_quotes": [
+      "返却記録と在庫表を月末に突き合わせる。"
+    ]
+  },
+  {
+    "qid": "final-q1-1",
+    "text": "quartzの現行方針と条件は？",
+    "project": "quartz",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-q1-decision"
+    ],
+    "required_quotes": [
+      "Quartz共有資料はagent-aとagent-cが閲覧できる。"
+    ]
+  },
+  {
+    "qid": "final-q1-2",
+    "text": "quartzの根拠または引き継ぎを答えて",
+    "project": "quartz",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-q1-evidence"
+    ],
+    "required_quotes": [
+      "権限変更は本人確認と承認記録が必要だ。"
+    ]
+  },
+  {
+    "qid": "final-r1-1",
+    "text": "riverの現行方針と条件は？",
+    "project": "river",
+    "mode": "current",
+    "category": "conditions",
+    "required_source_ids": [
+      "src-final-r1-decision"
+    ],
+    "required_quotes": [
+      "Riverの現行レビューは火曜で、緊急障害なら当日確認を許可する。"
+    ]
+  },
+  {
+    "qid": "final-r1-2",
+    "text": "riverの根拠または引き継ぎを答えて",
+    "project": "river",
+    "mode": "current",
+    "category": "evidence",
+    "required_source_ids": [
+      "src-final-r1-evidence"
+    ],
+    "required_quotes": [
+      "根拠は監査ログとチェックリストに分けて保存する。"
+    ]
+  }
+]

@@ -1,0 +1,1132 @@
+{
+  "schema": "phase2-reuse-root-semantic-review-v1",
+  "reviewed_rows": 108,
+  "review_method": "Root read all108 answertexts against each frozen requiredfact list and providedcontexts; agent independently reviews claims; mechanical analyzer separately validates quotations. Not blind or independent human review.",
+  "statistical_unit": "12 authored intents, not36 independent tasks perarm",
+  "source_sha256": "9b26dceaabec607cb0123e29e2545cba7cede49567493f546cfe1e79f341dcba",
+  "summary": {
+    "full": {
+      "calls": 36,
+      "complete_or_safe_abstention": 36,
+      "answerable_complete": 30,
+      "safe_unavailable": 6,
+      "all_answer_assertions_supported": 36,
+      "all_three_repetitions_complete_by_intent": 12,
+      "omitted_facts": 0
+    },
+    "reviewed": {
+      "calls": 36,
+      "complete_or_safe_abstention": 36,
+      "answerable_complete": 30,
+      "safe_unavailable": 6,
+      "all_answer_assertions_supported": 36,
+      "all_three_repetitions_complete_by_intent": 12,
+      "omitted_facts": 0
+    },
+    "citation_ids": {
+      "calls": 36,
+      "complete_or_safe_abstention": 34,
+      "answerable_complete": 28,
+      "safe_unavailable": 6,
+      "all_answer_assertions_supported": 36,
+      "all_three_repetitions_complete_by_intent": 10,
+      "omitted_facts": 2
+    }
+  },
+  "rows": [
+    {
+      "round": 1,
+      "intent_id": "final-01",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-01",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-01",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-02",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-02",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-02",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-03",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-03",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-03",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-04",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-04",
+      "arm": "citation_ids",
+      "answer_complete": false,
+      "missing_facts": [
+        "分類追加はレビューする。"
+      ],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-04",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-05",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-05",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-05",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-06",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-06",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-06",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-07",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-07",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-07",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-08",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-08",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-08",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-09",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-09",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-09",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-10",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-10",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-10",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-11",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-11",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-11",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-12",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-12",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 1,
+      "intent_id": "final-12",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-01",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-01",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-01",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-02",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": [
+        "引用は本文外のversion/status metadataに存在する。本文引用契約では不合格、意味的捏造ではない。"
+      ]
+    },
+    {
+      "round": 2,
+      "intent_id": "final-02",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-02",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-03",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-03",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-03",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-04",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-04",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-04",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-05",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-05",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-05",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-06",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-06",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-06",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": [
+        "一覧票FI-6への参照はあるが一覧票原本は与えていないため、その内容そのものが不明との留保は誤答とは判定しない。"
+      ]
+    },
+    {
+      "round": 2,
+      "intent_id": "final-07",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-07",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-07",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-08",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-08",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-08",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-09",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-09",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-09",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-10",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-10",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-10",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-11",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": [
+        "手続き間関係への留保あり。必要な10事実は全て列挙している。"
+      ]
+    },
+    {
+      "round": 2,
+      "intent_id": "final-11",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-11",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-12",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-12",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 2,
+      "intent_id": "final-12",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-01",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": [
+        "引用は本文外のversion/status metadataに存在する。本文引用契約では不合格、意味的捏造ではない。"
+      ]
+    },
+    {
+      "round": 3,
+      "intent_id": "final-01",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-01",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-02",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-02",
+      "arm": "citation_ids",
+      "answer_complete": false,
+      "missing_facts": [
+        "閾値変更は再承認する。"
+      ],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-02",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-03",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-03",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-03",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-04",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-04",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-04",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-05",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-05",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-05",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-06",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-06",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-06",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-07",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-07",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-07",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": true,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-08",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-08",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-08",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-09",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-09",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-09",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-10",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-10",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-10",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-11",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-11",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-11",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": [
+        "手続き間関係への留保あり。必要な10事実は全て列挙している。"
+      ]
+    },
+    {
+      "round": 3,
+      "intent_id": "final-12",
+      "arm": "citation_ids",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-12",
+      "arm": "full",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    },
+    {
+      "round": 3,
+      "intent_id": "final-12",
+      "arm": "reviewed",
+      "answer_complete": true,
+      "missing_facts": [],
+      "all_answer_assertions_supported": true,
+      "safe_unavailable": false,
+      "notes": []
+    }
+  ]
+}

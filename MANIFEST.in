@@ -1,0 +1,63 @@
+include README.md
+include README.ja.md
+include CHANGELOG.md
+include PUBLICATION_MANIFEST.json
+include CONTRIBUTING.md
+include SECURITY.md
+include LICENSE
+include pyproject.toml
+include BUNDLE_MANIFEST.json
+include .gitignore
+
+recursive-include src *.py *.json
+recursive-include tests *.py
+recursive-include scripts *.py
+exclude scripts/create_release_fixture*.py
+exclude scripts/freeze_release_fixture_v6.py
+recursive-include configs *.json
+recursive-include docs *.md
+recursive-include fixtures *.json *.jsonl *.md *.py
+recursive-include .github *.yml *.yaml
+
+# Protected synthetic baseline evidence used by the regression suite.
+graft runs/synthetic-v1
+
+# Small, fictional, curated Phase 2 evidence. Raw historical runs, local
+# workspaces, private copies, and provider traces are intentionally omitted.
+include runs/phase2-reuse-selection-v1/selection.json
+include runs/phase2-reuse-dev-v2/rows.jsonl
+include runs/phase2-reuse-dev-v2/datasets.json
+include runs/phase2-reuse-dev-v2/concurrency.json
+include runs/phase2-reuse-dev-v2/summary.json
+include runs/phase2-reuse-dev-v2/manifest.json
+include runs/phase2-reuse-final-v1/rows.jsonl
+include runs/phase2-reuse-final-v1/datasets.json
+include runs/phase2-reuse-final-v1/concurrency.json
+include runs/phase2-reuse-final-v1/summary.json
+include runs/phase2-reuse-final-v1/manifest.json
+graft runs/phase2-reuse-analysis-v1
+graft runs/phase2-reuse-model-public-v1
+graft runs/phase2-reuse-model-analysis-public-v1
+include runs/phase2-reuse-model-root-review-v1/review.json
+include runs/phase2-reuse-semantic-agent-v1.json
+include runs/phase2-reuse-lifecycle-v3/receipt.json
+include runs/phase2-reuse-existing-gap-v1/receipt.json
+include runs/phase2-span-compaction-v3/summary.json
+include runs/phase2-span-compaction-v3/rows.json
+include runs/phase2-reuse-validation-v1/receipt.json
+
+prune .phase1-original
+prune .venv
+prune tokenizer-cache
+prune private
+prune work
+exclude HANDOFF.md
+exclude *.zip
+exclude *.tar.gz
+exclude *.sqlite
+exclude *.sqlite3
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude *.env
+global-exclude .env*

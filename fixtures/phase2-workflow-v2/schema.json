@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Phase 2 workflow episode v2",
+  "type":"object",
+  "required":["episode_id","topic","sources","waves"],
+  "properties":{
+    "episode_id":{"type":"string"},"topic":{"type":"string"},
+    "sources":{"type":"array","items":{"$ref":"#/$defs/source"}},
+    "waves":{"type":"array","minItems":4,"items":{"$ref":"#/$defs/wave"}}
+  },
+  "$defs":{
+    "source":{"type":"object","required":["source_id","logical_id","revision","scope","owner","title","body","state","effective_from","effective_to"],"properties":{"source_id":{"type":"string","pattern":"^src_[a-z0-9_]+$"},"logical_id":{"type":"string"},"revision":{"type":"string"},"scope":{"type":"string","enum":["shared","private"]},"owner":{"type":"string"},"title":{"type":"string"},"body":{"type":"string","minLength":40},"state":{"type":"string"},"effective_from":{"type":"string"},"effective_to":{"type":["string","null"]}},"additionalProperties":false},
+    "field":{"type":"object","required":["type","description"],"properties":{"type":{"type":"string","enum":["string","number","boolean","array","null"]},"description":{"type":"string"},"enum":{"type":"array"}},"additionalProperties":false},
+    "task":{"type":"object","required":["task_id","actor","request","output_spec","depends_on"],"properties":{"task_id":{"type":"string"},"actor":{"type":"string"},"request":{"type":"string"},"output_spec":{"type":"object","minProperties":3,"maxProperties":5,"additionalProperties":{"$ref":"#/$defs/field"}},"depends_on":{"type":"array","items":{"type":"string"}}},"additionalProperties":false},
+    "wave":{"type":"object","required":["wave","as_of","available_source_ids","tasks"],"properties":{"wave":{"type":"integer","minimum":1},"as_of":{"type":"string"},"available_source_ids":{"type":"array","items":{"type":"string"}},"event":{"type":"string"},"tasks":{"type":"array","minItems":4,"maxItems":4,"items":{"$ref":"#/$defs/task"}}},"additionalProperties":false}
+  },
+  "x_execution_contract":["retrieval receives request, actor, scope and available_source_ids only; gold never enters execution","private sources are visible only when scope=private and owner equals actor; shared sources are visible to all authorized actors","dependencies may point only to an earlier wave","missing information is represented as JSON null","gold is stored in a separate file"]
+}

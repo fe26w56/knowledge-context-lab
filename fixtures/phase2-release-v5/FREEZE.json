@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-30T02:23:43.929754+00:00",
+  "derived_from": "fixtures/phase2-release-v4",
+  "author_blind_to_improvement_implementation": true,
+  "frozen_before_valid_measurement": true,
+  "frozen_before_improvement_implementation": false,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "corpus_documents": 86,
+  "corpus_sections": 246,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "e459a6c0278940d739c0651f207850af3a202a17c9224ee837b30b9149ac09c3",
+    "dev.json": "1f06deb229356193a8a241bb451b515177cafe31b87899c84fa249839d382578",
+    "final.json": "2014bcd5b2b3f2c831d44fd82f833f2383d778e3c073c0cce93873cc053d120b",
+    "grading.json": "f7f476907d5ed8a6109fe0a3a5939d8f7b8a5c89870d5089e7930009f7222f1c"
+  },
+  "dev_table": "Cedar",
+  "final_table": "Willow"
+}

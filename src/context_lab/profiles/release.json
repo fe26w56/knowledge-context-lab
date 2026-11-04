@@ -1,0 +1,23 @@
+{
+  "engine": "release",
+  "config": {
+    "stage": 2,
+    "candidate_limit": 6,
+    "max_candidates": 12,
+    "max_rounds": 3,
+    "coverage_stop": 0.75,
+    "chunk_chars": 420,
+    "use_aliases": null,
+    "expand_candidates": null,
+    "split_long": true,
+    "coverage_selection": null,
+    "ranking": "cosine",
+    "definition_expansion": true,
+    "deduplicate_documents": true,
+    "candidate_diversity": 0.0
+  },
+  "budget": 4000,
+  "frozen_at": "2026-10-30T02:32:26.260862+00:00",
+  "selection_sha256": "32c5efe435ae6a16e545354cc220b6067f150c9debeafae410d2baeab8975ad0",
+  "status": "experimental; source evidence is not answer accuracy"
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "phase2-token-growth-freeze-v3",
+  "seed": 20261103,
+  "authored_diagnostic": true,
+  "independent_benchmark": false,
+  "corpus_count": 100,
+  "dev_count": 12,
+  "final_count": 18,
+  "dev_projects": [
+    "atlas",
+    "birch",
+    "cobalt",
+    "delta",
+    "ember",
+    "fjord",
+    "grove",
+    "harbor"
+  ],
+  "final_projects": [
+    "iris",
+    "juno",
+    "kepler",
+    "lumen",
+    "mesa",
+    "nova",
+    "opal",
+    "quartz",
+    "river"
+  ],
+  "min_body_chars": 1506,
+  "long_body_count_ge_6000": 3,
+  "generation_metadata": {
+    "mixed100": {
+      "size": 100,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 100,
+        "historical": 16,
+        "exact_duplicate_body_groups": 2,
+        "condition_variant_records": 30
+      },
+      "body_chars": 196674
+    },
+    "mixed1000": {
+      "size": 1000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 1000,
+        "historical": 16,
+        "exact_duplicate_body_groups": 2,
+        "condition_variant_records": 30
+      },
+      "body_chars": 1564784
+    },
+    "mixed10000": {
+      "size": 10000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 10000,
+        "historical": 16,
+        "exact_duplicate_body_groups": 2,
+        "condition_variant_records": 30
+      },
+      "body_chars": 15267964
+    },
+    "unrelated100": {
+      "size": 100,
+      "scenario": "unrelated",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 100,
+        "historical": 1,
+        "exact_duplicate_body_groups": 0,
+        "condition_variant_records": 0
+      },
+      "body_chars": 207346
+    }
+  },
+  "files": {
+    "author_fixture.py": "8f235d40f780f1d038ae15fe647f3a588593d0840bbf1340ed21b7cfd7429447",
+    "corpus.json": "7232e76b1f3078849185d3a47ff5c1a4cdc171db233ab303dc69eedb574cc20d",
+    "dev.json": "3d74d16a3cf3b29452b79e2bf87cd6e5111f785287ca0bd2bc53f32800eb643d",
+    "final.json": "eac3a669c9978cdb1c02c110e03f5341bea525393d15bb8062705a356be25add"
+  }
+}

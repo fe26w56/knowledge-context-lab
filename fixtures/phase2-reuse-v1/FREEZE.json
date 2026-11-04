@@ -1,0 +1,25 @@
+{
+  "schema": "phase2-reuse-freeze-v1",
+  "authored_diagnostic": true,
+  "independent_benchmark": false,
+  "questions_frozen_before_new_implementation": true,
+  "synthetic_review_consent": true,
+  "counts": {"corpus": 100, "development_questions": 8, "final_questions": 12, "variants_per_question": 2, "genuine_two_source_questions": 3},
+  "files": {
+    "author_fixture.py": "fa1fa6d11adcff687dbfaa94a0cf1338952a6de5d41eda3a48743daaeab14603",
+    "corpus.json": "4c49af6973ec6d1da806b4ec9dd7298b71aeb8ca7f467f3ca9683bc31b7d5685",
+    "dev.json": "5e488ce473559b1aa3bb542a5177aa47154b5abeb5f3af57b6e118580f323a87",
+    "final.json": "5bdcfb45f5a0495f5bd94ca67642a9948b0d3c6eeb0aac195fb6f9a68966d225",
+    "review_manifest.json": "33df0167729bc03e082624c5946341ec3f4157f99db5d27cd168495eec4b3db3",
+    "stage1_hashes.json": "cae6be628cd65551e4f52ffbe1741f778b838e83fed3032d741465dc7c1cdc98"
+  },
+  "audit_gate": {
+    "required_quotes_visible_in_required_sources": true,
+    "all_conditions_gold_complete": true,
+    "private_and_unknown_status_consistent": true,
+    "needs_review_status_consistent": true,
+    "source_version_hash_review_flags_consistent": true,
+    "review_range_excludes_background_only": true,
+    "unavailable_means_no_visible_topic_source": true
+  }
+}

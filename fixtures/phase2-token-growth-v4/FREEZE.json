@@ -1,0 +1,138 @@
+{
+  "schema": "phase2-token-growth-freeze-v4",
+  "seed": 20261103,
+  "authored_diagnostic": true,
+  "independent_benchmark": false,
+  "corpus_count": 100,
+  "dev_count": 12,
+  "final_count": 18,
+  "dev_projects": [
+    "atlas",
+    "birch",
+    "cobalt",
+    "delta",
+    "ember",
+    "fjord",
+    "grove",
+    "harbor"
+  ],
+  "final_projects": [
+    "iris",
+    "juno",
+    "kepler",
+    "lumen",
+    "mesa",
+    "nova",
+    "opal",
+    "quartz",
+    "river"
+  ],
+  "min_body_chars": 1478,
+  "long_body_count_ge_6000": 4,
+  "generation_metadata": {
+    "mixed100": {
+      "size": 100,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 100,
+        "added": 63,
+        "historical": 15,
+        "exact_duplicate_records": 15,
+        "condition_variant_records": 30
+      },
+      "body_chars": 202994
+    },
+    "mixed1000": {
+      "size": 1000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 1000,
+        "added": 963,
+        "historical": 154,
+        "exact_duplicate_records": 150,
+        "condition_variant_records": 300
+      },
+      "body_chars": 1742303
+    },
+    "mixed10000": {
+      "size": 10000,
+      "scenario": "mixed",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 10000,
+        "added": 9963,
+        "historical": 1541,
+        "exact_duplicate_records": 1500,
+        "condition_variant_records": 3000
+      },
+      "body_chars": 17082490
+    },
+    "unrelated100": {
+      "size": 100,
+      "scenario": "unrelated",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 100,
+        "added": 63,
+        "historical": 0,
+        "exact_duplicate_records": 0,
+        "condition_variant_records": 0
+      },
+      "body_chars": 206904
+    },
+    "long100x1": {
+      "size": 100,
+      "scenario": "long",
+      "seed": 20261103,
+      "length_multiplier": 1,
+      "counts": {
+        "sources": 100,
+        "added": 63,
+        "historical": 0,
+        "exact_duplicate_records": 0,
+        "condition_variant_records": 0
+      },
+      "body_chars": 193202
+    },
+    "long100x4": {
+      "size": 100,
+      "scenario": "long",
+      "seed": 20261103,
+      "length_multiplier": 4,
+      "counts": {
+        "sources": 100,
+        "added": 63,
+        "historical": 0,
+        "exact_duplicate_records": 0,
+        "condition_variant_records": 0
+      },
+      "body_chars": 439532
+    },
+    "long100x16": {
+      "size": 100,
+      "scenario": "long",
+      "seed": 20261103,
+      "length_multiplier": 16,
+      "counts": {
+        "sources": 100,
+        "added": 63,
+        "historical": 0,
+        "exact_duplicate_records": 0,
+        "condition_variant_records": 0
+      },
+      "body_chars": 1424852
+    }
+  },
+  "files": {
+    "author_fixture.py": "7421b25e4d8f7cf58a8191bf4f2e724878a4413fae9cb2802589f2f1e5bcaae9",
+    "corpus.json": "0792a135818a4fe9e22c0381d9ed0034eb48ed56a67ad25a06ec94bee7f0e62f",
+    "dev.json": "3d74d16a3cf3b29452b79e2bf87cd6e5111f785287ca0bd2bc53f32800eb643d",
+    "final.json": "eac3a669c9978cdb1c02c110e03f5341bea525393d15bb8062705a356be25add"
+  }
+}

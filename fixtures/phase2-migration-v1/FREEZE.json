@@ -1,0 +1,16 @@
+{
+  "fixture": "phase2-migration-v1",
+  "frozen_at_utc": "2026-11-02T18:18:38Z",
+  "purpose": "fictional migration acceptance diagnostic; not an independent benchmark",
+  "records": 16,
+  "dev_tasks": 8,
+  "final_tasks": 8,
+  "sha256": {
+    "README.md": "204a8a29646e861a4fbee8c7f0cb885686a4970ba2229eb0b026d051ba43b0d8",
+    "corpus.json": "598a8963f4f67df8db545c42bbb3a8db1e4c10f90d3df6ea947b4bb420cf817f",
+    "dev.json": "541f7ca8dd0f91197be28e13dd6d4321bc6c1164c8d859043405c8d1f0ce1eea",
+    "final.json": "aaaafefdde387e3648e8918294bc8d415b334152dcd75a475f61424bafba7f0a"
+  },
+  "oracle_policy": "gold and task ids are evaluator-only; requests contain no expected citations or fixture identifiers",
+  "status": "frozen-before-migration-implementation"
+}

@@ -1,0 +1,880 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v2",
+  "queries": [
+    {
+      "id": "cv2q_21",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current Garnet rule?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Garnet samples 8 items per batch; retain the batch manifest."
+      ],
+      "evidence_sources": {
+        "Garnet samples 8 items per batch; retain the batch manifest.": [
+          "cv2_doc_21a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Garnet sampling rule is 8 items per batch, and the batch manifest is retained.",
+            "evidence_quote": "Garnet samples 8 items per batch; retain the batch manifest.",
+            "accepted_source_ids": [
+              "cv2_doc_21a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_21a": "family_21_a"
+      }
+    },
+    {
+      "id": "cv2q_22",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "According to the record, state the Harbor rule at the requested time.",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Harbor pages after three consecutive failures and records the alert window."
+      ],
+      "evidence_sources": {
+        "Harbor pages after three consecutive failures and records the alert window.": [
+          "cv2_doc_22a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Harbor alert rule pages after three consecutive failures and records the window.",
+            "evidence_quote": "Harbor pages after three consecutive failures and records the alert window.",
+            "accepted_source_ids": [
+              "cv2_doc_22a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_22a": "family_22_a"
+      }
+    },
+    {
+      "id": "cv2q_23",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "Which rule applies for Indigo, including its evidence requirement?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Indigo requires a signed decision linked to an evidence note."
+      ],
+      "evidence_sources": {
+        "Indigo requires a signed decision linked to an evidence note.": [
+          "cv2_doc_23a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Indigo review rule requires a signed decision and a linked evidence note.",
+            "evidence_quote": "Indigo requires a signed decision linked to an evidence note.",
+            "accepted_source_ids": [
+              "cv2_doc_23a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_23a": "family_23_a"
+      }
+    },
+    {
+      "id": "cv2q_24",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "Summarize Juniper's adopted rule and its operational safeguard.",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "current",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Juniper exports remove direct identifiers and record a two-person redaction check."
+      ],
+      "evidence_sources": {
+        "Juniper exports remove direct identifiers and record a two-person redaction check.": [
+          "cv2_doc_24a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The adopted Juniper redaction rule removes direct identifiers before export and records a two-person check.",
+            "evidence_quote": "Juniper exports remove direct identifiers and record a two-person redaction check.",
+            "accepted_source_ids": [
+              "cv2_doc_24a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_24a": "family_24_a"
+      }
+    },
+    {
+      "id": "cv2q_25",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "What is the historical Kestrel rule?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22."
+      ],
+      "evidence_sources": {
+        "The superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.": [
+          "cv2_doc_25a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-14, the superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.",
+            "evidence_quote": "The superseded Kestrel retry limit was 5; it changed to 3 on 2026-08-22.",
+            "accepted_source_ids": [
+              "cv2_doc_25a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_25a": "family_25_a"
+      }
+    },
+    {
+      "id": "cv2q_26",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "What is the historical Lumen rule?",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "history",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23."
+      ],
+      "evidence_sources": {
+        "The superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.": [
+          "cv2_doc_26a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "The adjacent draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-08-15, the superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.",
+            "evidence_quote": "The superseded Lumen archive interval was 14 days; it changed to 7 days on 2026-08-23.",
+            "accepted_source_ids": [
+              "cv2_doc_26a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_26a": "family_26_a"
+      }
+    },
+    {
+      "id": "cv2q_27",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Mica rule?",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The zero-review publication proposal is rejected and not adopted."
+      ],
+      "evidence_sources": {
+        "The zero-review publication proposal is rejected and not adopted.": [
+          "cv2_doc_27a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Mica zero-review publication proposal is not adopted and is explicitly rejected.",
+            "evidence_quote": "The zero-review publication proposal is rejected and not adopted.",
+            "accepted_source_ids": [
+              "cv2_doc_27a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_27a": "family_27_a"
+      }
+    },
+    {
+      "id": "cv2q_28",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Nectar rule?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The auto-merge proposal is pending review and is not active."
+      ],
+      "evidence_sources": {
+        "The auto-merge proposal is pending review and is not active.": [
+          "cv2_doc_28a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Nectar auto-merge proposal is pending review and must not be treated as active.",
+            "evidence_quote": "The auto-merge proposal is pending review and is not active.",
+            "accepted_source_ids": [
+              "cv2_doc_28a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_28a": "family_28_a"
+      }
+    },
+    {
+      "id": "cv2q_29",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Oriel rule?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Oriel release is blocked when the manifest lacks a signature."
+      ],
+      "evidence_sources": {
+        "Oriel release is blocked when the manifest lacks a signature.": [
+          "cv2_doc_29a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Oriel, an unsigned manifest prevents release.",
+            "evidence_quote": "Oriel release is blocked when the manifest lacks a signature.",
+            "accepted_source_ids": [
+              "cv2_doc_29a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_29a": "family_29_a"
+      }
+    },
+    {
+      "id": "cv2q_30",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "What is the handoff Pumice rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A stale Pumice source marker requires revalidation before use."
+      ],
+      "evidence_sources": {
+        "A stale Pumice source marker requires revalidation before use.": [
+          "cv2_doc_30a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Pumice, a stale source marker requires revalidation before use.",
+            "evidence_quote": "A stale Pumice source marker requires revalidation before use.",
+            "accepted_source_ids": [
+              "cv2_doc_30a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_30a": "family_30_a"
+      }
+    },
+    {
+      "id": "cv2q_31",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "For Quill, state the exact threshold/unit, required action, and exception in its condition table.",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.",
+        "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window."
+      ],
+      "evidence_sources": {
+        "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.": [
+          "cv2_doc_31a"
+        ],
+        "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.": [
+          "cv2_doc_31a"
+        ]
+      },
+      "condition_quotes": [
+        "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Quill, a 90-minute delay requires an operator check; a maintenance window is an exception.",
+            "evidence_quote": "When Quill delay reaches 90 minutes, check with the operator, except during a maintenance window.",
+            "accepted_source_ids": [
+              "cv2_doc_31a"
+            ]
+          },
+          {
+            "key": "condition_exception",
+            "value": "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.",
+            "evidence_quote": "threshold: 90; unit: minutes of delay; condition: check with the operator; exception: maintenance window.",
+            "accepted_source_ids": [
+              "cv2_doc_31a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_31a": "family_31_a"
+      }
+    },
+    {
+      "id": "cv2q_32",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "For Rook, state the exact threshold/unit, required action, and exception in its condition table.",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A missing Rook owner tag blocks dispatch, except on the documented emergency route.",
+        "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route."
+      ],
+      "evidence_sources": {
+        "A missing Rook owner tag blocks dispatch, except on the documented emergency route.": [
+          "cv2_doc_32a"
+        ],
+        "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.": [
+          "cv2_doc_32a"
+        ]
+      },
+      "condition_quotes": [
+        "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Rook, a missing owner tag blocks dispatch, except for the documented emergency route.",
+            "evidence_quote": "A missing Rook owner tag blocks dispatch, except on the documented emergency route.",
+            "accepted_source_ids": [
+              "cv2_doc_32a"
+            ]
+          },
+          {
+            "key": "condition_exception",
+            "value": "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.",
+            "evidence_quote": "threshold: missing; unit: owner tag; condition: block dispatch; exception: documented emergency route.",
+            "accepted_source_ids": [
+              "cv2_doc_32a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_32a": "family_32_a"
+      }
+    },
+    {
+      "id": "cv2q_33",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Using the governing Saffron record plus its independent adjacent record, list both constraints and do not omit the second source.",
+        "actor": "analyst_06",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The Saffron scorecard uses the median of three readings.",
+        "The Saffron adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "The Saffron scorecard uses the median of three readings.": [
+          "cv2_doc_33a"
+        ],
+        "The Saffron adjacent note records an escalation contact.": [
+          "cv2_doc_33b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Saffron's scorecard uses the median of three readings.",
+            "evidence_quote": "The Saffron scorecard uses the median of three readings.",
+            "accepted_source_ids": [
+              "cv2_doc_33a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Saffron adjacent note records an escalation contact.",
+            "evidence_quote": "The Saffron adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv2_doc_33b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim.",
+        "required_source_families": [
+          "family_33_a",
+          "family_33_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv2_doc_33a": "family_33_a",
+        "cv2_doc_33b": "family_33_b"
+      }
+    },
+    {
+      "id": "cv2q_34",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Using the governing Topaz record plus its independent adjacent record, list both constraints and do not omit the second source.",
+        "actor": "analyst_07",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "A Topaz handoff includes a named queue and receipt timestamp.",
+        "The Topaz adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "A Topaz handoff includes a named queue and receipt timestamp.": [
+          "cv2_doc_34a"
+        ],
+        "The Topaz adjacent note records an escalation contact.": [
+          "cv2_doc_34b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Topaz handoffs require a named queue and a receipt timestamp.",
+            "evidence_quote": "A Topaz handoff includes a named queue and receipt timestamp.",
+            "accepted_source_ids": [
+              "cv2_doc_34a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Topaz adjacent note records an escalation contact.",
+            "evidence_quote": "The Topaz adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv2_doc_34b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim.",
+        "required_source_families": [
+          "family_34_a",
+          "family_34_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv2_doc_34a": "family_34_a",
+        "cv2_doc_34b": "family_34_b"
+      }
+    },
+    {
+      "id": "cv2q_35",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Using the governing Umber record plus its independent adjacent record, list both constraints and do not omit the second source.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "The Umber public summary omits raw identifiers; its audit appendix is restricted.",
+        "The Umber adjacent note records an escalation contact."
+      ],
+      "evidence_sources": {
+        "The Umber public summary omits raw identifiers; its audit appendix is restricted.": [
+          "cv2_doc_35a"
+        ],
+        "The Umber adjacent note records an escalation contact.": [
+          "cv2_doc_35b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary_constraint",
+            "value": "Umber's public summary omits raw identifiers, while the audit appendix is restricted.",
+            "evidence_quote": "The Umber public summary omits raw identifiers; its audit appendix is restricted.",
+            "accepted_source_ids": [
+              "cv2_doc_35a"
+            ]
+          },
+          {
+            "key": "secondary_constraint",
+            "value": "The Umber adjacent note records an escalation contact.",
+            "evidence_quote": "The Umber adjacent note records an escalation contact.",
+            "accepted_source_ids": [
+              "cv2_doc_35b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim.",
+        "required_source_families": [
+          "family_35_a",
+          "family_35_b"
+        ],
+        "no_single_document_satisfies_all_claims": true
+      },
+      "provenance": {
+        "cv2_doc_35a": "family_35_a",
+        "cv2_doc_35b": "family_35_b"
+      }
+    },
+    {
+      "id": "cv2q_36",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "What is the handoff Violet rule?",
+        "actor": "analyst_02",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt."
+      ],
+      "evidence_sources": {
+        "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.": [
+          "cv2_doc_36a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Violet handoff package must include the last verified checkpoint.",
+            "evidence_quote": "Include Violet's last verified checkpoint in the handoff package; do not mark transfer complete until receipt.",
+            "accepted_source_ids": [
+              "cv2_doc_36a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_36a": "family_36_a"
+      }
+    },
+    {
+      "id": "cv2q_37",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "What is the handoff Wren rule?",
+        "actor": "analyst_03",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Wren's receiving operator acknowledges the dependency list before execution."
+      ],
+      "evidence_sources": {
+        "Wren's receiving operator acknowledges the dependency list before execution.": [
+          "cv2_doc_37a"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Wren's receiving operator must acknowledge the dependency list before execution.",
+            "evidence_quote": "Wren's receiving operator acknowledges the dependency list before execution.",
+            "accepted_source_ids": [
+              "cv2_doc_37a"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_37a": "family_37_a"
+      }
+    },
+    {
+      "id": "cv2q_38",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Can the available Xenon notes establish the threshold and exception together?",
+        "actor": "analyst_04",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {}
+    },
+    {
+      "id": "cv2q_39",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Can the available Yonder notes establish the threshold and exception together?",
+        "actor": "analyst_05",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {}
+    },
+    {
+      "id": "cv2q_40",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "Zinnia is private. As nonowner analyst_99, what denial-safe response should be returned? Do not reveal the calibration note.",
+        "actor": "analyst_99",
+        "scope": "private",
+        "mode": "search",
+        "as_of": "2026-08-29"
+      },
+      "expected_quotes": [
+        "Private calibration material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private calibration material is not disclosed to nonowner analyst_99.": [
+          "cv2_doc_40b"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration note content"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "denial",
+            "value": "Private calibration material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private calibration material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cv2_doc_40b"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "All listed atomic claims are required. For private requests, return only the denial-safe policy claim."
+      },
+      "provenance": {
+        "cv2_doc_40a": "family_40_a"
+      }
+    }
+  ]
+}

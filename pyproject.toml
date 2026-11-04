@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledge-context-lab"
+version = "0.7.0rc3"
+description = "Offline evaluation harness for evidence-preserving agent context retrieval"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Repository = "https://github.com/fe26w56/knowledge-context-lab"
+Issues = "https://github.com/fe26w56/knowledge-context-lab/issues"
+
+[project.optional-dependencies]
+tokens = ["tiktoken==0.14.0"]
+
+[project.scripts]
+context-lab = "context_lab.evaluate:main"
+context-lab-query = "context_lab.cli:main"
+context-lab-phase2 = "context_lab.phase2_eval:main"
+context-lab-faults = "context_lab.faults:main"
+context-lab-release-eval = "context_lab.release_eval:main"
+context-lab-workflow = "context_lab.workflow_eval:main"
+context-lab-workspace = "context_lab.workspace_cli:main"
+context-lab-workspace-mcp = "context_lab.workspace_mcp:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+context_lab = ["profiles/*.json"]

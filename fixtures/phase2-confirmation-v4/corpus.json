@@ -1,0 +1,3913 @@
+{
+  "schema_version": 1,
+  "corpus_id": "phase2-confirmation-v4",
+  "privacy": "public_synthetic",
+  "fixture_kind": "post_selection_confirmation",
+  "description": "Fictional operational records. All content paragraphs are indexed, including non-gold material.",
+  "documents": [
+    {
+      "id": "c3d_63b5d63df138dfd4",
+      "title": "Aster release current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_63b5d63df138dfd4",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Aster release current operating decision\n\n## Adopted decision\nAster release requires two distinct reviewers and records the signed change manifest.\n\n## Related operations\nBuild artifacts are retained for 14 days after release.\n\n## Authority and exception\nThe release coordinator authorizes the next step; a missing signature blocks deployment.\n\n## Routine review\nThe staging job checks Linux and macOS packages independently.\n\n## Recovery or closure\nA rollback restores the previous manifest before traffic is reopened.\n",
+      "sections": [
+        {
+          "id": "c3d_63b5d63df138dfd4_s0",
+          "heading": "Adopted decision",
+          "text": "Aster release requires two distinct reviewers and records the signed change manifest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_63b5d63df138dfd4_s1",
+          "heading": "Related operations",
+          "text": "Build artifacts are retained for 14 days after release.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_63b5d63df138dfd4_s2",
+          "heading": "Authority and exception",
+          "text": "The release coordinator authorizes the next step; a missing signature blocks deployment.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_63b5d63df138dfd4_s3",
+          "heading": "Routine review",
+          "text": "The staging job checks Linux and macOS packages independently.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_63b5d63df138dfd4_s4",
+          "heading": "Recovery or closure",
+          "text": "A rollback restores the previous manifest before traffic is reopened.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_63b5d63df138dfd4",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_d1dc48d0369b1ade",
+      "title": "Aster release superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_d1dc48d0369b1ade",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Aster release superseded decision\n\n## Earlier decision\nThe previous Aster release procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Aster release work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_d1dc48d0369b1ade_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Aster release procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d1dc48d0369b1ade_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Aster release work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d1dc48d0369b1ade_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_d1dc48d0369b1ade",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_764c91cf7024fd80",
+      "title": "Birch archive current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_764c91cf7024fd80",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Birch archive current operating decision\n\n## Adopted decision\nBirch archive requires a checksum match and records the source capture timestamp.\n\n## Related operations\nThumbnails are stored separately from source captures.\n\n## Authority and exception\nThe archive custodian authorizes the next step; an unreadable capture stays in quarantine.\n\n## Routine review\nThe nightly inventory reports orphaned filenames to the archive queue.\n\n## Recovery or closure\nRestoration preserves the original capture identifier.\n",
+      "sections": [
+        {
+          "id": "c3d_764c91cf7024fd80_s0",
+          "heading": "Adopted decision",
+          "text": "Birch archive requires a checksum match and records the source capture timestamp.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_764c91cf7024fd80_s1",
+          "heading": "Related operations",
+          "text": "Thumbnails are stored separately from source captures.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_764c91cf7024fd80_s2",
+          "heading": "Authority and exception",
+          "text": "The archive custodian authorizes the next step; an unreadable capture stays in quarantine.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_764c91cf7024fd80_s3",
+          "heading": "Routine review",
+          "text": "The nightly inventory reports orphaned filenames to the archive queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_764c91cf7024fd80_s4",
+          "heading": "Recovery or closure",
+          "text": "Restoration preserves the original capture identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_764c91cf7024fd80",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_bcc05599e658823d",
+      "title": "Birch archive superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_bcc05599e658823d",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Birch archive superseded decision\n\n## Earlier decision\nThe previous Birch archive procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Birch archive work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_bcc05599e658823d_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Birch archive procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_bcc05599e658823d_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Birch archive work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_bcc05599e658823d_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_bcc05599e658823d",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_4cadceaf5602b0c8",
+      "title": "Clover survey current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_4cadceaf5602b0c8",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Clover survey current operating decision\n\n## Adopted decision\nClover survey requires three completed pilot interviews and records the approved question revision.\n\n## Related operations\nInterview audio is transcribed before thematic coding begins.\n\n## Authority and exception\nThe research lead authorizes the next step; a changed consent question requires another pilot.\n\n## Routine review\nRecruitment stops at 24 participants in the current round.\n\n## Recovery or closure\nThe coding log retains disagreements between the two analysts.\n",
+      "sections": [
+        {
+          "id": "c3d_4cadceaf5602b0c8_s0",
+          "heading": "Adopted decision",
+          "text": "Clover survey requires three completed pilot interviews and records the approved question revision.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_4cadceaf5602b0c8_s1",
+          "heading": "Related operations",
+          "text": "Interview audio is transcribed before thematic coding begins.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_4cadceaf5602b0c8_s2",
+          "heading": "Authority and exception",
+          "text": "The research lead authorizes the next step; a changed consent question requires another pilot.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_4cadceaf5602b0c8_s3",
+          "heading": "Routine review",
+          "text": "Recruitment stops at 24 participants in the current round.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_4cadceaf5602b0c8_s4",
+          "heading": "Recovery or closure",
+          "text": "The coding log retains disagreements between the two analysts.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_4cadceaf5602b0c8",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_1873ccf5a69ec3b2",
+      "title": "Clover survey superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_1873ccf5a69ec3b2",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Clover survey superseded decision\n\n## Earlier decision\nThe previous Clover survey procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Clover survey work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_1873ccf5a69ec3b2_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Clover survey procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_1873ccf5a69ec3b2_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Clover survey work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_1873ccf5a69ec3b2_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_1873ccf5a69ec3b2",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_da794083fcd1ae93",
+      "title": "Delta incident current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_da794083fcd1ae93",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Delta incident current operating decision\n\n## Adopted decision\nDelta incident requires a confirmed service owner and records the first observed failure time.\n\n## Related operations\nThe incident channel accepts status updates every 20 minutes.\n\n## Authority and exception\nThe incident commander authorizes the next step; an unknown owner keeps the incident unassigned.\n\n## Routine review\nCustomer-facing summaries contain only confirmed impact.\n\n## Recovery or closure\nClosure requires a link to the follow-up investigation.\n",
+      "sections": [
+        {
+          "id": "c3d_da794083fcd1ae93_s0",
+          "heading": "Adopted decision",
+          "text": "Delta incident requires a confirmed service owner and records the first observed failure time.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_da794083fcd1ae93_s1",
+          "heading": "Related operations",
+          "text": "The incident channel accepts status updates every 20 minutes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_da794083fcd1ae93_s2",
+          "heading": "Authority and exception",
+          "text": "The incident commander authorizes the next step; an unknown owner keeps the incident unassigned.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_da794083fcd1ae93_s3",
+          "heading": "Routine review",
+          "text": "Customer-facing summaries contain only confirmed impact.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_da794083fcd1ae93_s4",
+          "heading": "Recovery or closure",
+          "text": "Closure requires a link to the follow-up investigation.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_da794083fcd1ae93",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_241e8e74b76d38ae",
+      "title": "Delta incident superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_241e8e74b76d38ae",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Delta incident superseded decision\n\n## Earlier decision\nThe previous Delta incident procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Delta incident work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_241e8e74b76d38ae_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Delta incident procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_241e8e74b76d38ae_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Delta incident work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_241e8e74b76d38ae_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_241e8e74b76d38ae",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_f6591de401f7d1cd",
+      "title": "Ember export current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_f6591de401f7d1cd",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ember export current operating decision\n\n## Adopted decision\nEmber export requires a successful redaction check and records the recipient approval identifier.\n\n## Related operations\nThe export job generates a count of removed identifiers.\n\n## Authority and exception\nThe data steward authorizes the next step; unapproved recipients receive no export.\n\n## Routine review\nFiles remain available for 48 hours after delivery.\n\n## Recovery or closure\nA recall disables the delivery link and preserves the audit record.\n",
+      "sections": [
+        {
+          "id": "c3d_f6591de401f7d1cd_s0",
+          "heading": "Adopted decision",
+          "text": "Ember export requires a successful redaction check and records the recipient approval identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f6591de401f7d1cd_s1",
+          "heading": "Related operations",
+          "text": "The export job generates a count of removed identifiers.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f6591de401f7d1cd_s2",
+          "heading": "Authority and exception",
+          "text": "The data steward authorizes the next step; unapproved recipients receive no export.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f6591de401f7d1cd_s3",
+          "heading": "Routine review",
+          "text": "Files remain available for 48 hours after delivery.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f6591de401f7d1cd_s4",
+          "heading": "Recovery or closure",
+          "text": "A recall disables the delivery link and preserves the audit record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_f6591de401f7d1cd",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_96b6b22a532db52f",
+      "title": "Ember export superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_96b6b22a532db52f",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ember export superseded decision\n\n## Earlier decision\nThe previous Ember export procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Ember export work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_96b6b22a532db52f_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Ember export procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_96b6b22a532db52f_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Ember export work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_96b6b22a532db52f_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_96b6b22a532db52f",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_e41f46c11fb96302",
+      "title": "Fjord migration current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_e41f46c11fb96302",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Fjord migration current operating decision\n\n## Adopted decision\nFjord migration requires matching row counts in both stores and records the checkpoint version.\n\n## Related operations\nThe source store remains read-only during the validation window.\n\n## Authority and exception\nThe migration operator authorizes the next step; a count mismatch prevents cutover.\n\n## Routine review\nA reverse migration is rehearsed on a separate sample.\n\n## Recovery or closure\nThe cutover log records the last accepted write request.\n",
+      "sections": [
+        {
+          "id": "c3d_e41f46c11fb96302_s0",
+          "heading": "Adopted decision",
+          "text": "Fjord migration requires matching row counts in both stores and records the checkpoint version.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e41f46c11fb96302_s1",
+          "heading": "Related operations",
+          "text": "The source store remains read-only during the validation window.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e41f46c11fb96302_s2",
+          "heading": "Authority and exception",
+          "text": "The migration operator authorizes the next step; a count mismatch prevents cutover.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e41f46c11fb96302_s3",
+          "heading": "Routine review",
+          "text": "A reverse migration is rehearsed on a separate sample.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e41f46c11fb96302_s4",
+          "heading": "Recovery or closure",
+          "text": "The cutover log records the last accepted write request.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_e41f46c11fb96302",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_c2b1b64da5bf27d3",
+      "title": "Fjord migration superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_c2b1b64da5bf27d3",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Fjord migration superseded decision\n\n## Earlier decision\nThe previous Fjord migration procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Fjord migration work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_c2b1b64da5bf27d3_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Fjord migration procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_c2b1b64da5bf27d3_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Fjord migration work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_c2b1b64da5bf27d3_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_c2b1b64da5bf27d3",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_54d60df2f8b73859",
+      "title": "Ginkgo review current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_54d60df2f8b73859",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ginkgo review current operating decision\n\n## Adopted decision\nGinkgo review requires an independent replication and records the measurement script digest.\n\n## Related operations\nThe review dossier contains the raw observations and the analysis notebook.\n\n## Authority and exception\nThe evaluation chair authorizes the next step; unrepeatable results remain provisional.\n\n## Routine review\nA negative result is retained with the same retention period as a positive result.\n\n## Recovery or closure\nObservers record instrument drift at the start of each session.\n",
+      "sections": [
+        {
+          "id": "c3d_54d60df2f8b73859_s0",
+          "heading": "Adopted decision",
+          "text": "Ginkgo review requires an independent replication and records the measurement script digest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_54d60df2f8b73859_s1",
+          "heading": "Related operations",
+          "text": "The review dossier contains the raw observations and the analysis notebook.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_54d60df2f8b73859_s2",
+          "heading": "Authority and exception",
+          "text": "The evaluation chair authorizes the next step; unrepeatable results remain provisional.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_54d60df2f8b73859_s3",
+          "heading": "Routine review",
+          "text": "A negative result is retained with the same retention period as a positive result.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_54d60df2f8b73859_s4",
+          "heading": "Recovery or closure",
+          "text": "Observers record instrument drift at the start of each session.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_54d60df2f8b73859",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_a4bca9fc633f02aa",
+      "title": "Ginkgo review superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_a4bca9fc633f02aa",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ginkgo review superseded decision\n\n## Earlier decision\nThe previous Ginkgo review procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Ginkgo review work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_a4bca9fc633f02aa_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Ginkgo review procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a4bca9fc633f02aa_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Ginkgo review work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a4bca9fc633f02aa_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_a4bca9fc633f02aa",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_760fe1d785c69408",
+      "title": "Harrier intake current operating decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_760fe1d785c69408",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Harrier intake current operating decision\n\n## Adopted decision\nHarrier intake requires a verified request category and records the requesting team identifier.\n\n## Related operations\nThe intake queue is reviewed at 09:00 and 15:00.\n\n## Authority and exception\nThe triage lead authorizes the next step; unclassified requests stay in the intake queue.\n\n## Routine review\nDuplicate requests are linked without deleting the original submission.\n\n## Recovery or closure\nThe request owner can revise the description before assignment.\n",
+      "sections": [
+        {
+          "id": "c3d_760fe1d785c69408_s0",
+          "heading": "Adopted decision",
+          "text": "Harrier intake requires a verified request category and records the requesting team identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_760fe1d785c69408_s1",
+          "heading": "Related operations",
+          "text": "The intake queue is reviewed at 09:00 and 15:00.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_760fe1d785c69408_s2",
+          "heading": "Authority and exception",
+          "text": "The triage lead authorizes the next step; unclassified requests stay in the intake queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_760fe1d785c69408_s3",
+          "heading": "Routine review",
+          "text": "Duplicate requests are linked without deleting the original submission.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_760fe1d785c69408_s4",
+          "heading": "Recovery or closure",
+          "text": "The request owner can revise the description before assignment.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_760fe1d785c69408",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_70e933767ff51610",
+      "title": "Harrier intake superseded decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_70e933767ff51610",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Harrier intake superseded decision\n\n## Earlier decision\nThe previous Harrier intake procedure allowed one operator to continue without a separate approval record.\n\n## Retirement\nThat procedure ended on 2026-10-19; Harrier intake work from 2026-10-20 follows the replacement decision.\n\n## Existing work\nOpen cases retain their original identifiers when transferred to the replacement process.\n",
+      "sections": [
+        {
+          "id": "c3d_70e933767ff51610_s0",
+          "heading": "Earlier decision",
+          "text": "The previous Harrier intake procedure allowed one operator to continue without a separate approval record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_70e933767ff51610_s1",
+          "heading": "Retirement",
+          "text": "That procedure ended on 2026-10-19; Harrier intake work from 2026-10-20 follows the replacement decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_70e933767ff51610_s2",
+          "heading": "Existing work",
+          "text": "Open cases retain their original identifiers when transferred to the replacement process.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-08-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_70e933767ff51610",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_926e679915fc4613",
+      "title": "Ibis cache September decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_926e679915fc4613",
+      "recorded_at": "2026-09-01",
+      "verified_at": "2026-09-01",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ibis cache September decision\n\n## Historical limit\nFrom 2026-09-01 through 2026-10-19, the Ibis cache limit was 12 minutes.\n\n## Exception owner\nThe cache maintainer recorded exceptions in the dated case register.\n\n## Scope\nThe limit applied to routine shared requests. Emergency requests used a separately approved incident record.\n\n## Review record\nA review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.\n",
+      "sections": [
+        {
+          "id": "c3d_926e679915fc4613_s0",
+          "heading": "Historical limit",
+          "text": "From 2026-09-01 through 2026-10-19, the Ibis cache limit was 12 minutes.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_926e679915fc4613_s1",
+          "heading": "Exception owner",
+          "text": "The cache maintainer recorded exceptions in the dated case register.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_926e679915fc4613_s2",
+          "heading": "Scope",
+          "text": "The limit applied to routine shared requests. Emergency requests used a separately approved incident record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_926e679915fc4613_s3",
+          "heading": "Review record",
+          "text": "A review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        }
+      ],
+      "source_family": "c3d_926e679915fc4613",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_58fd3ea2c0bb6cc9",
+      "title": "Ibis cache October replacement",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_58fd3ea2c0bb6cc9",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ibis cache October replacement\n\n## Replacement limit\nFrom 2026-10-20, the Ibis cache limit is 4 minutes.\n\n## Transition\nThe replacement does not retroactively change the 12 minutes limit used before 2026-10-20.\n\n## Records\nThe cache maintainer preserves both decision versions and the effective date.\n",
+      "sections": [
+        {
+          "id": "c3d_58fd3ea2c0bb6cc9_s0",
+          "heading": "Replacement limit",
+          "text": "From 2026-10-20, the Ibis cache limit is 4 minutes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_58fd3ea2c0bb6cc9_s1",
+          "heading": "Transition",
+          "text": "The replacement does not retroactively change the 12 minutes limit used before 2026-10-20.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_58fd3ea2c0bb6cc9_s2",
+          "heading": "Records",
+          "text": "The cache maintainer preserves both decision versions and the effective date.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_58fd3ea2c0bb6cc9",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_263732935560926e",
+      "title": "Jade retention September decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_263732935560926e",
+      "recorded_at": "2026-09-01",
+      "verified_at": "2026-09-01",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Jade retention September decision\n\n## Historical limit\nFrom 2026-09-01 through 2026-10-19, the Jade retention limit was 45 days.\n\n## Exception owner\nThe retention officer recorded exceptions in the dated case register.\n\n## Scope\nThe limit applied to routine shared requests. Emergency requests used a separately approved incident record.\n\n## Review record\nA review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.\n",
+      "sections": [
+        {
+          "id": "c3d_263732935560926e_s0",
+          "heading": "Historical limit",
+          "text": "From 2026-09-01 through 2026-10-19, the Jade retention limit was 45 days.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_263732935560926e_s1",
+          "heading": "Exception owner",
+          "text": "The retention officer recorded exceptions in the dated case register.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_263732935560926e_s2",
+          "heading": "Scope",
+          "text": "The limit applied to routine shared requests. Emergency requests used a separately approved incident record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_263732935560926e_s3",
+          "heading": "Review record",
+          "text": "A review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        }
+      ],
+      "source_family": "c3d_263732935560926e",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_706b4ae0cfb0af7f",
+      "title": "Jade retention October replacement",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_706b4ae0cfb0af7f",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Jade retention October replacement\n\n## Replacement limit\nFrom 2026-10-20, the Jade retention limit is 21 days.\n\n## Transition\nThe replacement does not retroactively change the 45 days limit used before 2026-10-20.\n\n## Records\nThe retention officer preserves both decision versions and the effective date.\n",
+      "sections": [
+        {
+          "id": "c3d_706b4ae0cfb0af7f_s0",
+          "heading": "Replacement limit",
+          "text": "From 2026-10-20, the Jade retention limit is 21 days.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_706b4ae0cfb0af7f_s1",
+          "heading": "Transition",
+          "text": "The replacement does not retroactively change the 45 days limit used before 2026-10-20.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_706b4ae0cfb0af7f_s2",
+          "heading": "Records",
+          "text": "The retention officer preserves both decision versions and the effective date.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_706b4ae0cfb0af7f",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_8551e64d80ae0148",
+      "title": "Kestrel retry September decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_8551e64d80ae0148",
+      "recorded_at": "2026-09-01",
+      "verified_at": "2026-09-01",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Kestrel retry September decision\n\n## Historical limit\nFrom 2026-09-01 through 2026-10-19, the Kestrel retry limit was three attempts.\n\n## Exception owner\nThe service operator recorded exceptions in the dated case register.\n\n## Scope\nThe limit applied to routine shared requests. Emergency requests used a separately approved incident record.\n\n## Review record\nA review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.\n",
+      "sections": [
+        {
+          "id": "c3d_8551e64d80ae0148_s0",
+          "heading": "Historical limit",
+          "text": "From 2026-09-01 through 2026-10-19, the Kestrel retry limit was three attempts.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_8551e64d80ae0148_s1",
+          "heading": "Exception owner",
+          "text": "The service operator recorded exceptions in the dated case register.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_8551e64d80ae0148_s2",
+          "heading": "Scope",
+          "text": "The limit applied to routine shared requests. Emergency requests used a separately approved incident record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_8551e64d80ae0148_s3",
+          "heading": "Review record",
+          "text": "A review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        }
+      ],
+      "source_family": "c3d_8551e64d80ae0148",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_dabe6efbce0494d4",
+      "title": "Kestrel retry October replacement",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_dabe6efbce0494d4",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Kestrel retry October replacement\n\n## Replacement limit\nFrom 2026-10-20, the Kestrel retry limit is one attempt.\n\n## Transition\nThe replacement does not retroactively change the three attempts limit used before 2026-10-20.\n\n## Records\nThe service operator preserves both decision versions and the effective date.\n",
+      "sections": [
+        {
+          "id": "c3d_dabe6efbce0494d4_s0",
+          "heading": "Replacement limit",
+          "text": "From 2026-10-20, the Kestrel retry limit is one attempt.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_dabe6efbce0494d4_s1",
+          "heading": "Transition",
+          "text": "The replacement does not retroactively change the three attempts limit used before 2026-10-20.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_dabe6efbce0494d4_s2",
+          "heading": "Records",
+          "text": "The service operator preserves both decision versions and the effective date.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_dabe6efbce0494d4",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_bcf0371b8064e662",
+      "title": "Larch review September decision",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_bcf0371b8064e662",
+      "recorded_at": "2026-09-01",
+      "verified_at": "2026-09-01",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Larch review September decision\n\n## Historical limit\nFrom 2026-09-01 through 2026-10-19, the Larch review limit was seven working days.\n\n## Exception owner\nThe review secretary recorded exceptions in the dated case register.\n\n## Scope\nThe limit applied to routine shared requests. Emergency requests used a separately approved incident record.\n\n## Review record\nA review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.\n",
+      "sections": [
+        {
+          "id": "c3d_bcf0371b8064e662_s0",
+          "heading": "Historical limit",
+          "text": "From 2026-09-01 through 2026-10-19, the Larch review limit was seven working days.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_bcf0371b8064e662_s1",
+          "heading": "Exception owner",
+          "text": "The review secretary recorded exceptions in the dated case register.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_bcf0371b8064e662_s2",
+          "heading": "Scope",
+          "text": "The limit applied to routine shared requests. Emergency requests used a separately approved incident record.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        },
+        {
+          "id": "c3d_bcf0371b8064e662_s3",
+          "heading": "Review record",
+          "text": "A review is scheduled for 2026-10-19; any replacement limit will require a separate dated decision.",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-09-01",
+          "valid_to": "2026-10-20",
+          "verified_at": "2026-09-01"
+        }
+      ],
+      "source_family": "c3d_bcf0371b8064e662",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_33a53d459681f85d",
+      "title": "Larch review October replacement",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_33a53d459681f85d",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Larch review October replacement\n\n## Replacement limit\nFrom 2026-10-20, the Larch review limit is two working days.\n\n## Transition\nThe replacement does not retroactively change the seven working days limit used before 2026-10-20.\n\n## Records\nThe review secretary preserves both decision versions and the effective date.\n",
+      "sections": [
+        {
+          "id": "c3d_33a53d459681f85d_s0",
+          "heading": "Replacement limit",
+          "text": "From 2026-10-20, the Larch review limit is two working days.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_33a53d459681f85d_s1",
+          "heading": "Transition",
+          "text": "The replacement does not retroactively change the seven working days limit used before 2026-10-20.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_33a53d459681f85d_s2",
+          "heading": "Records",
+          "text": "The review secretary preserves both decision versions and the effective date.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_33a53d459681f85d",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_5fb143513fefca09",
+      "title": "Maple publishing proposed change",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_5fb143513fefca09",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Maple publishing proposed change\n\n## Proposed behavior\nThe Maple publishing proposal would allow unattended overnight publication.\n\n## Decision state\nThe editorial board is reviewing this proposal; it is not adopted and has no effective date.\n\n## Review material\nThe review packet must include a rehearsal, an incident scenario, and the expected correction workload.\n\n## Trial boundary\nAny rehearsal runs in an isolated test workspace. It does not authorize the operational change.\n",
+      "sections": [
+        {
+          "id": "c3d_5fb143513fefca09_s0",
+          "heading": "Proposed behavior",
+          "text": "The Maple publishing proposal would allow unattended overnight publication.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5fb143513fefca09_s1",
+          "heading": "Decision state",
+          "text": "The editorial board is reviewing this proposal; it is not adopted and has no effective date.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5fb143513fefca09_s2",
+          "heading": "Review material",
+          "text": "The review packet must include a rehearsal, an incident scenario, and the expected correction workload.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5fb143513fefca09_s3",
+          "heading": "Trial boundary",
+          "text": "Any rehearsal runs in an isolated test workspace. It does not authorize the operational change.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_5fb143513fefca09",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_a3048ccb289df269",
+      "title": "Maple publishing adopted rule",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_a3048ccb289df269",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Maple publishing adopted rule\n\n## Current rule\nThe adopted Maple publishing rule remains human sign-off before publication.\n\n## Change authority\nOnly a recorded decision of the editorial board can replace the current rule.\n\n## Record keeping\nThe change register stores the proposal and the adoption decision as separate records.\n",
+      "sections": [
+        {
+          "id": "c3d_a3048ccb289df269_s0",
+          "heading": "Current rule",
+          "text": "The adopted Maple publishing rule remains human sign-off before publication.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a3048ccb289df269_s1",
+          "heading": "Change authority",
+          "text": "Only a recorded decision of the editorial board can replace the current rule.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a3048ccb289df269_s2",
+          "heading": "Record keeping",
+          "text": "The change register stores the proposal and the adoption decision as separate records.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_a3048ccb289df269",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_3ecaf18d16d4a258",
+      "title": "Nacre catalog proposed change",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_3ecaf18d16d4a258",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Nacre catalog proposed change\n\n## Proposed behavior\nThe Nacre catalog proposal would replace monthly sampling with continuous sampling.\n\n## Decision state\nThe catalog committee is reviewing this proposal; it is not adopted and has no effective date.\n\n## Review material\nThe review packet must include a rehearsal, an incident scenario, and the expected correction workload.\n\n## Trial boundary\nAny rehearsal runs in an isolated test workspace. It does not authorize the operational change.\n",
+      "sections": [
+        {
+          "id": "c3d_3ecaf18d16d4a258_s0",
+          "heading": "Proposed behavior",
+          "text": "The Nacre catalog proposal would replace monthly sampling with continuous sampling.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3ecaf18d16d4a258_s1",
+          "heading": "Decision state",
+          "text": "The catalog committee is reviewing this proposal; it is not adopted and has no effective date.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3ecaf18d16d4a258_s2",
+          "heading": "Review material",
+          "text": "The review packet must include a rehearsal, an incident scenario, and the expected correction workload.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3ecaf18d16d4a258_s3",
+          "heading": "Trial boundary",
+          "text": "Any rehearsal runs in an isolated test workspace. It does not authorize the operational change.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_3ecaf18d16d4a258",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_7a96f600f881269d",
+      "title": "Nacre catalog adopted rule",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_7a96f600f881269d",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Nacre catalog adopted rule\n\n## Current rule\nThe adopted Nacre catalog rule remains monthly sampling.\n\n## Change authority\nOnly a recorded decision of the catalog committee can replace the current rule.\n\n## Record keeping\nThe change register stores the proposal and the adoption decision as separate records.\n",
+      "sections": [
+        {
+          "id": "c3d_7a96f600f881269d_s0",
+          "heading": "Current rule",
+          "text": "The adopted Nacre catalog rule remains monthly sampling.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7a96f600f881269d_s1",
+          "heading": "Change authority",
+          "text": "Only a recorded decision of the catalog committee can replace the current rule.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7a96f600f881269d_s2",
+          "heading": "Record keeping",
+          "text": "The change register stores the proposal and the adoption decision as separate records.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_7a96f600f881269d",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_ec56be8f75b70058",
+      "title": "Opal routing proposed change",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_ec56be8f75b70058",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Opal routing proposed change\n\n## Proposed behavior\nThe Opal routing proposal would send low-priority work directly to volunteers.\n\n## Decision state\nThe routing panel is reviewing this proposal; it is not adopted and has no effective date.\n\n## Review material\nThe review packet must include a rehearsal, an incident scenario, and the expected correction workload.\n\n## Trial boundary\nAny rehearsal runs in an isolated test workspace. It does not authorize the operational change.\n",
+      "sections": [
+        {
+          "id": "c3d_ec56be8f75b70058_s0",
+          "heading": "Proposed behavior",
+          "text": "The Opal routing proposal would send low-priority work directly to volunteers.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_ec56be8f75b70058_s1",
+          "heading": "Decision state",
+          "text": "The routing panel is reviewing this proposal; it is not adopted and has no effective date.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_ec56be8f75b70058_s2",
+          "heading": "Review material",
+          "text": "The review packet must include a rehearsal, an incident scenario, and the expected correction workload.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_ec56be8f75b70058_s3",
+          "heading": "Trial boundary",
+          "text": "Any rehearsal runs in an isolated test workspace. It does not authorize the operational change.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_ec56be8f75b70058",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_f2c015a0d5e2e062",
+      "title": "Opal routing adopted rule",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_f2c015a0d5e2e062",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Opal routing adopted rule\n\n## Current rule\nThe adopted Opal routing rule remains assignment by the duty coordinator.\n\n## Change authority\nOnly a recorded decision of the routing panel can replace the current rule.\n\n## Record keeping\nThe change register stores the proposal and the adoption decision as separate records.\n",
+      "sections": [
+        {
+          "id": "c3d_f2c015a0d5e2e062_s0",
+          "heading": "Current rule",
+          "text": "The adopted Opal routing rule remains assignment by the duty coordinator.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f2c015a0d5e2e062_s1",
+          "heading": "Change authority",
+          "text": "Only a recorded decision of the routing panel can replace the current rule.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f2c015a0d5e2e062_s2",
+          "heading": "Record keeping",
+          "text": "The change register stores the proposal and the adoption decision as separate records.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_f2c015a0d5e2e062",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_5326160eaa84588e",
+      "title": "Plover packaging proposed change",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_5326160eaa84588e",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Plover packaging proposed change\n\n## Proposed behavior\nThe Plover packaging proposal would remove the second platform smoke test.\n\n## Decision state\nThe packaging council is reviewing this proposal; it is not adopted and has no effective date.\n\n## Review material\nThe review packet must include a rehearsal, an incident scenario, and the expected correction workload.\n\n## Trial boundary\nAny rehearsal runs in an isolated test workspace. It does not authorize the operational change.\n",
+      "sections": [
+        {
+          "id": "c3d_5326160eaa84588e_s0",
+          "heading": "Proposed behavior",
+          "text": "The Plover packaging proposal would remove the second platform smoke test.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5326160eaa84588e_s1",
+          "heading": "Decision state",
+          "text": "The packaging council is reviewing this proposal; it is not adopted and has no effective date.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5326160eaa84588e_s2",
+          "heading": "Review material",
+          "text": "The review packet must include a rehearsal, an incident scenario, and the expected correction workload.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5326160eaa84588e_s3",
+          "heading": "Trial boundary",
+          "text": "Any rehearsal runs in an isolated test workspace. It does not authorize the operational change.",
+          "kind": "note",
+          "adoption_status": "draft",
+          "valid_from": null,
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_5326160eaa84588e",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_9465124c778ac7ed",
+      "title": "Plover packaging adopted rule",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_9465124c778ac7ed",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Plover packaging adopted rule\n\n## Current rule\nThe adopted Plover packaging rule remains smoke tests on both supported platforms.\n\n## Change authority\nOnly a recorded decision of the packaging council can replace the current rule.\n\n## Record keeping\nThe change register stores the proposal and the adoption decision as separate records.\n",
+      "sections": [
+        {
+          "id": "c3d_9465124c778ac7ed_s0",
+          "heading": "Current rule",
+          "text": "The adopted Plover packaging rule remains smoke tests on both supported platforms.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_9465124c778ac7ed_s1",
+          "heading": "Change authority",
+          "text": "Only a recorded decision of the packaging council can replace the current rule.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_9465124c778ac7ed_s2",
+          "heading": "Record keeping",
+          "text": "The change register stores the proposal and the adoption decision as separate records.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_9465124c778ac7ed",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_7ae4efa6ae547254",
+      "title": "Quail freezer response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_7ae4efa6ae547254",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Quail freezer response matrix\n\n## Applicable measurement\nThis matrix applies to temperature in the Quail freezer system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| Q1 | -1 | degrees C | notify the local operator |\n| Q2 | 2 | degrees C | request a second reading |\n| Q3 | 5 | degrees C | notify the local operator |\n| Q4 | 8 | degrees C | isolate the affected tray |\n| Q5 | 11 | degrees C | notify the local operator |\n| Q6 | 14 | degrees C | request a second reading |\n| Q7 | 17 | degrees C | notify the local operator |\n| Q8 | 20 | degrees C | request a second reading |\n| Q9 | 23 | degrees C | notify the local operator |\n| Q10 | 26 | degrees C | request a second reading |\n| Q11 | 29 | degrees C | notify the local operator |\n| Q12 | 32 | degrees C | request a second reading |\n\n## Rehearsal exception\nDuring a declared defrost rehearsal, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_7ae4efa6ae547254_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to temperature in the Quail freezer system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7ae4efa6ae547254_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| Q1 | -1 | degrees C | notify the local operator |\n| Q2 | 2 | degrees C | request a second reading |\n| Q3 | 5 | degrees C | notify the local operator |\n| Q4 | 8 | degrees C | isolate the affected tray |\n| Q5 | 11 | degrees C | notify the local operator |\n| Q6 | 14 | degrees C | request a second reading |\n| Q7 | 17 | degrees C | notify the local operator |\n| Q8 | 20 | degrees C | request a second reading |\n| Q9 | 23 | degrees C | notify the local operator |\n| Q10 | 26 | degrees C | request a second reading |\n| Q11 | 29 | degrees C | notify the local operator |\n| Q12 | 32 | degrees C | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7ae4efa6ae547254_s2",
+          "heading": "Rehearsal exception",
+          "text": "During a declared defrost rehearsal, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7ae4efa6ae547254_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7ae4efa6ae547254_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_7ae4efa6ae547254",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_23d6d274485213aa",
+      "title": "Quail freezer unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_23d6d274485213aa",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Quail freezer unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Quail freezer trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_23d6d274485213aa_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Quail freezer trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_23d6d274485213aa_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_23d6d274485213aa_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_23d6d274485213aa",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_be2aacc91fddc73b",
+      "title": "Reed queue response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_be2aacc91fddc73b",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Reed queue response matrix\n\n## Applicable measurement\nThis matrix applies to waiting time in the Reed queue system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| R1 | 3 | minutes | notify the local operator |\n| R2 | 6 | minutes | request a second reading |\n| R3 | 9 | minutes | notify the local operator |\n| R4 | 12 | minutes | request a second reading |\n| R5 | 15 | minutes | notify the local operator |\n| R6 | 18 | minutes | open the reserve lane |\n| R7 | 21 | minutes | notify the local operator |\n| R8 | 24 | minutes | request a second reading |\n| R9 | 27 | minutes | notify the local operator |\n| R10 | 30 | minutes | request a second reading |\n| R11 | 33 | minutes | notify the local operator |\n| R12 | 36 | minutes | request a second reading |\n\n## Rehearsal exception\nDuring an announced load test, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_be2aacc91fddc73b_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to waiting time in the Reed queue system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_be2aacc91fddc73b_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| R1 | 3 | minutes | notify the local operator |\n| R2 | 6 | minutes | request a second reading |\n| R3 | 9 | minutes | notify the local operator |\n| R4 | 12 | minutes | request a second reading |\n| R5 | 15 | minutes | notify the local operator |\n| R6 | 18 | minutes | open the reserve lane |\n| R7 | 21 | minutes | notify the local operator |\n| R8 | 24 | minutes | request a second reading |\n| R9 | 27 | minutes | notify the local operator |\n| R10 | 30 | minutes | request a second reading |\n| R11 | 33 | minutes | notify the local operator |\n| R12 | 36 | minutes | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_be2aacc91fddc73b_s2",
+          "heading": "Rehearsal exception",
+          "text": "During an announced load test, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_be2aacc91fddc73b_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_be2aacc91fddc73b_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_be2aacc91fddc73b",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_d891d4dd6e3d6fe3",
+      "title": "Reed queue unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_d891d4dd6e3d6fe3",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Reed queue unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Reed queue trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_d891d4dd6e3d6fe3_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Reed queue trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d891d4dd6e3d6fe3_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d891d4dd6e3d6fe3_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_d891d4dd6e3d6fe3",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_57578f162ca0c934",
+      "title": "Sable pump response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_57578f162ca0c934",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Sable pump response matrix\n\n## Applicable measurement\nThis matrix applies to vibration in the Sable pump system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| S1 | 5 | mm/s | notify the local operator |\n| S2 | 8 | mm/s | request a second reading |\n| S3 | 11 | mm/s | stop the pump and inspect the mount |\n| S4 | 14 | mm/s | request a second reading |\n| S5 | 17 | mm/s | notify the local operator |\n| S6 | 20 | mm/s | request a second reading |\n| S7 | 23 | mm/s | notify the local operator |\n| S8 | 26 | mm/s | request a second reading |\n| S9 | 29 | mm/s | notify the local operator |\n| S10 | 32 | mm/s | request a second reading |\n| S11 | 35 | mm/s | notify the local operator |\n| S12 | 38 | mm/s | request a second reading |\n\n## Rehearsal exception\nDuring a declared bench calibration, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_57578f162ca0c934_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to vibration in the Sable pump system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_57578f162ca0c934_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| S1 | 5 | mm/s | notify the local operator |\n| S2 | 8 | mm/s | request a second reading |\n| S3 | 11 | mm/s | stop the pump and inspect the mount |\n| S4 | 14 | mm/s | request a second reading |\n| S5 | 17 | mm/s | notify the local operator |\n| S6 | 20 | mm/s | request a second reading |\n| S7 | 23 | mm/s | notify the local operator |\n| S8 | 26 | mm/s | request a second reading |\n| S9 | 29 | mm/s | notify the local operator |\n| S10 | 32 | mm/s | request a second reading |\n| S11 | 35 | mm/s | notify the local operator |\n| S12 | 38 | mm/s | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_57578f162ca0c934_s2",
+          "heading": "Rehearsal exception",
+          "text": "During a declared bench calibration, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_57578f162ca0c934_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_57578f162ca0c934_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_57578f162ca0c934",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_de6508ce57f20e63",
+      "title": "Sable pump unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_de6508ce57f20e63",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Sable pump unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Sable pump trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_de6508ce57f20e63_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Sable pump trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_de6508ce57f20e63_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_de6508ce57f20e63_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_de6508ce57f20e63",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_e8286f59a3dc169d",
+      "title": "Tamarind battery response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_e8286f59a3dc169d",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Tamarind battery response matrix\n\n## Applicable measurement\nThis matrix applies to surface temperature in the Tamarind battery system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| T1 | 25 | degrees C | notify the local operator |\n| T2 | 28 | degrees C | request a second reading |\n| T3 | 31 | degrees C | notify the local operator |\n| T4 | 34 | degrees C | request a second reading |\n| T5 | 37 | degrees C | notify the local operator |\n| T6 | 40 | degrees C | request a second reading |\n| T7 | 43 | degrees C | disconnect the charging rack |\n| T8 | 46 | degrees C | request a second reading |\n| T9 | 49 | degrees C | notify the local operator |\n| T10 | 52 | degrees C | request a second reading |\n| T11 | 55 | degrees C | notify the local operator |\n| T12 | 58 | degrees C | request a second reading |\n\n## Rehearsal exception\nDuring a declared thermal rehearsal, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_e8286f59a3dc169d_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to surface temperature in the Tamarind battery system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e8286f59a3dc169d_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| T1 | 25 | degrees C | notify the local operator |\n| T2 | 28 | degrees C | request a second reading |\n| T3 | 31 | degrees C | notify the local operator |\n| T4 | 34 | degrees C | request a second reading |\n| T5 | 37 | degrees C | notify the local operator |\n| T6 | 40 | degrees C | request a second reading |\n| T7 | 43 | degrees C | disconnect the charging rack |\n| T8 | 46 | degrees C | request a second reading |\n| T9 | 49 | degrees C | notify the local operator |\n| T10 | 52 | degrees C | request a second reading |\n| T11 | 55 | degrees C | notify the local operator |\n| T12 | 58 | degrees C | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e8286f59a3dc169d_s2",
+          "heading": "Rehearsal exception",
+          "text": "During a declared thermal rehearsal, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e8286f59a3dc169d_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e8286f59a3dc169d_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_e8286f59a3dc169d",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_011195ed825178dd",
+      "title": "Tamarind battery unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_011195ed825178dd",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Tamarind battery unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Tamarind battery trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_011195ed825178dd_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Tamarind battery trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_011195ed825178dd_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_011195ed825178dd_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_011195ed825178dd",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_67b7ab07629ba0da",
+      "title": "Ursa mirror response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_67b7ab07629ba0da",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ursa mirror response matrix\n\n## Applicable measurement\nThis matrix applies to replication lag in the Ursa mirror system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| U1 | 15 | seconds | notify the local operator |\n| U2 | 18 | seconds | request a second reading |\n| U3 | 21 | seconds | notify the local operator |\n| U4 | 24 | seconds | request a second reading |\n| U5 | 27 | seconds | pause promotion of the replica |\n| U6 | 30 | seconds | request a second reading |\n| U7 | 33 | seconds | notify the local operator |\n| U8 | 36 | seconds | request a second reading |\n| U9 | 39 | seconds | notify the local operator |\n| U10 | 42 | seconds | request a second reading |\n| U11 | 45 | seconds | notify the local operator |\n| U12 | 48 | seconds | request a second reading |\n\n## Rehearsal exception\nDuring a declared recovery drill, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_67b7ab07629ba0da_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to replication lag in the Ursa mirror system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_67b7ab07629ba0da_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| U1 | 15 | seconds | notify the local operator |\n| U2 | 18 | seconds | request a second reading |\n| U3 | 21 | seconds | notify the local operator |\n| U4 | 24 | seconds | request a second reading |\n| U5 | 27 | seconds | pause promotion of the replica |\n| U6 | 30 | seconds | request a second reading |\n| U7 | 33 | seconds | notify the local operator |\n| U8 | 36 | seconds | request a second reading |\n| U9 | 39 | seconds | notify the local operator |\n| U10 | 42 | seconds | request a second reading |\n| U11 | 45 | seconds | notify the local operator |\n| U12 | 48 | seconds | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_67b7ab07629ba0da_s2",
+          "heading": "Rehearsal exception",
+          "text": "During a declared recovery drill, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_67b7ab07629ba0da_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_67b7ab07629ba0da_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_67b7ab07629ba0da",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_74995ef6fe665aaf",
+      "title": "Ursa mirror unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_74995ef6fe665aaf",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Ursa mirror unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Ursa mirror trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_74995ef6fe665aaf_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Ursa mirror trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_74995ef6fe665aaf_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_74995ef6fe665aaf_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_74995ef6fe665aaf",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_d4462a51deb830e8",
+      "title": "Vale intake response matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_d4462a51deb830e8",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Vale intake response matrix\n\n## Applicable measurement\nThis matrix applies to backlog in the Vale intake system. Use the class written on the device or queue label; do not infer a class from the reading.\n\n## Trigger matrix\nClass | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| V1 | 15 | cases | notify the local operator |\n| V2 | 18 | cases | request a second reading |\n| V3 | 21 | cases | notify the local operator |\n| V4 | 24 | cases | request a second reading |\n| V5 | 27 | cases | notify the local operator |\n| V6 | 30 | cases | request a second reading |\n| V7 | 33 | cases | notify the local operator |\n| V8 | 36 | cases | route new arrivals to the overflow desk |\n| V9 | 39 | cases | notify the local operator |\n| V10 | 42 | cases | request a second reading |\n| V11 | 45 | cases | notify the local operator |\n| V12 | 48 | cases | request a second reading |\n\n## Rehearsal exception\nDuring a declared planned staffing exercise, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.\n\n## Return to service\nAfter an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.\n\n## Sampling\nUse the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.\n",
+      "sections": [
+        {
+          "id": "c3d_d4462a51deb830e8_s0",
+          "heading": "Applicable measurement",
+          "text": "This matrix applies to backlog in the Vale intake system. Use the class written on the device or queue label; do not infer a class from the reading.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d4462a51deb830e8_s1",
+          "heading": "Trigger matrix",
+          "text": "Class | Trigger at or above | Unit | Response\n|---|---:|---|---|\n| V1 | 15 | cases | notify the local operator |\n| V2 | 18 | cases | request a second reading |\n| V3 | 21 | cases | notify the local operator |\n| V4 | 24 | cases | request a second reading |\n| V5 | 27 | cases | notify the local operator |\n| V6 | 30 | cases | request a second reading |\n| V7 | 33 | cases | notify the local operator |\n| V8 | 36 | cases | route new arrivals to the overflow desk |\n| V9 | 39 | cases | notify the local operator |\n| V10 | 42 | cases | request a second reading |\n| V11 | 45 | cases | notify the local operator |\n| V12 | 48 | cases | request a second reading |",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d4462a51deb830e8_s2",
+          "heading": "Rehearsal exception",
+          "text": "During a declared planned staffing exercise, record the reading but do not perform the matrix response; the duty engineer must confirm the drill identifier.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d4462a51deb830e8_s3",
+          "heading": "Return to service",
+          "text": "After an operational response, the duty engineer records a stable follow-up reading before releasing the affected equipment or queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d4462a51deb830e8_s4",
+          "heading": "Sampling",
+          "text": "Use the latest validated reading. A missing or invalid reading is reported to the instrument owner instead of being treated as zero.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_d4462a51deb830e8",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_eab52beae06dca4e",
+      "title": "Vale intake unadopted alternate matrix",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_eab52beae06dca4e",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Vale intake unadopted alternate matrix\n\n## Alternate proposal\nA supplier proposed doubling every Vale intake trigger and suppressing the drill identifier check.\n\n## Status\nThe alternate matrix was rejected; the signed response matrix remains in force.\n\n## Reason\nThe review found that a missing rehearsal identifier could hide a real operational incident.\n",
+      "sections": [
+        {
+          "id": "c3d_eab52beae06dca4e_s0",
+          "heading": "Alternate proposal",
+          "text": "A supplier proposed doubling every Vale intake trigger and suppressing the drill identifier check.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_eab52beae06dca4e_s1",
+          "heading": "Status",
+          "text": "The alternate matrix was rejected; the signed response matrix remains in force.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_eab52beae06dca4e_s2",
+          "heading": "Reason",
+          "text": "The review found that a missing rehearsal identifier could hide a real operational incident.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_eab52beae06dca4e",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_acfe36161b6b2277",
+      "title": "Willow launch primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_acfe36161b6b2277",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Willow launch primary record\n\n## Requirement\nRelease approval requires the test-run digest.\n\n## Responsible role\nThe release chair signs the approval.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_acfe36161b6b2277_s0",
+          "heading": "Requirement",
+          "text": "Release approval requires the test-run digest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_acfe36161b6b2277_s1",
+          "heading": "Responsible role",
+          "text": "The release chair signs the approval.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_acfe36161b6b2277_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_acfe36161b6b2277_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_acfe36161b6b2277",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_fade57b1ce2ce8fe",
+      "title": "Willow launch counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_fade57b1ce2ce8fe",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Willow launch counterpart record\n\n## Additional requirement\nDistribution also requires a recipient acknowledgement.\n\n## Responsible role\nThe delivery operator records the acknowledgement.\n\n## Cross-reference\nThis record complements the Willow launch primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_fade57b1ce2ce8fe_s0",
+          "heading": "Additional requirement",
+          "text": "Distribution also requires a recipient acknowledgement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_fade57b1ce2ce8fe_s1",
+          "heading": "Responsible role",
+          "text": "The delivery operator records the acknowledgement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_fade57b1ce2ce8fe_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Willow launch primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_fade57b1ce2ce8fe_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_fade57b1ce2ce8fe",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_a723585152df5440",
+      "title": "Xenia interview primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_a723585152df5440",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Xenia interview primary record\n\n## Requirement\nThe research brief permits publication of aggregate counts only.\n\n## Responsible role\nThe research lead owns the public brief.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_a723585152df5440_s0",
+          "heading": "Requirement",
+          "text": "The research brief permits publication of aggregate counts only.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a723585152df5440_s1",
+          "heading": "Responsible role",
+          "text": "The research lead owns the public brief.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a723585152df5440_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_a723585152df5440_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_a723585152df5440",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_3334af9460f85ed5",
+      "title": "Xenia interview counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_3334af9460f85ed5",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Xenia interview counterpart record\n\n## Additional requirement\nThe consent ledger prohibits publishing raw audio.\n\n## Responsible role\nThe consent officer owns the restricted ledger.\n\n## Cross-reference\nThis record complements the Xenia interview primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_3334af9460f85ed5_s0",
+          "heading": "Additional requirement",
+          "text": "The consent ledger prohibits publishing raw audio.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3334af9460f85ed5_s1",
+          "heading": "Responsible role",
+          "text": "The consent officer owns the restricted ledger.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3334af9460f85ed5_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Xenia interview primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3334af9460f85ed5_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_3334af9460f85ed5",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_5185654ef5c81f72",
+      "title": "Yarrow audit primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_5185654ef5c81f72",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Yarrow audit primary record\n\n## Requirement\nThe audit plan requires a sample of 15 completed cases.\n\n## Responsible role\nThe audit coordinator selects the sample.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_5185654ef5c81f72_s0",
+          "heading": "Requirement",
+          "text": "The audit plan requires a sample of 15 completed cases.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5185654ef5c81f72_s1",
+          "heading": "Responsible role",
+          "text": "The audit coordinator selects the sample.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5185654ef5c81f72_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5185654ef5c81f72_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_5185654ef5c81f72",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_36193d04197db94a",
+      "title": "Yarrow audit counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_36193d04197db94a",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Yarrow audit counterpart record\n\n## Additional requirement\nThe exception register requires a rationale for every excluded case.\n\n## Responsible role\nThe independent reviewer signs each exclusion.\n\n## Cross-reference\nThis record complements the Yarrow audit primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_36193d04197db94a_s0",
+          "heading": "Additional requirement",
+          "text": "The exception register requires a rationale for every excluded case.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_36193d04197db94a_s1",
+          "heading": "Responsible role",
+          "text": "The independent reviewer signs each exclusion.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_36193d04197db94a_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Yarrow audit primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_36193d04197db94a_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_36193d04197db94a",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_bbea3cbad5c4bafa",
+      "title": "Zephyr restore primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_bbea3cbad5c4bafa",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Zephyr restore primary record\n\n## Requirement\nThe restore plan requires the last verified snapshot digest.\n\n## Responsible role\nThe recovery operator selects the snapshot.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_bbea3cbad5c4bafa_s0",
+          "heading": "Requirement",
+          "text": "The restore plan requires the last verified snapshot digest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_bbea3cbad5c4bafa_s1",
+          "heading": "Responsible role",
+          "text": "The recovery operator selects the snapshot.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_bbea3cbad5c4bafa_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_bbea3cbad5c4bafa_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_bbea3cbad5c4bafa",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_00bc92228cb9b373",
+      "title": "Zephyr restore counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_00bc92228cb9b373",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Zephyr restore counterpart record\n\n## Additional requirement\nThe reconciliation log requires replay of accepted writes after that snapshot.\n\n## Responsible role\nThe transaction steward confirms the replay.\n\n## Cross-reference\nThis record complements the Zephyr restore primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_00bc92228cb9b373_s0",
+          "heading": "Additional requirement",
+          "text": "The reconciliation log requires replay of accepted writes after that snapshot.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_00bc92228cb9b373_s1",
+          "heading": "Responsible role",
+          "text": "The transaction steward confirms the replay.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_00bc92228cb9b373_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Zephyr restore primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_00bc92228cb9b373_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_00bc92228cb9b373",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_7e47e2b0e4305368",
+      "title": "Acacia report primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_7e47e2b0e4305368",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Acacia report primary record\n\n## Requirement\nThe public report may contain rounded regional totals.\n\n## Responsible role\nThe publication lead owns the report.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_7e47e2b0e4305368_s0",
+          "heading": "Requirement",
+          "text": "The public report may contain rounded regional totals.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7e47e2b0e4305368_s1",
+          "heading": "Responsible role",
+          "text": "The publication lead owns the report.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7e47e2b0e4305368_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7e47e2b0e4305368_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_7e47e2b0e4305368",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_f272058ded104cc9",
+      "title": "Acacia report counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_f272058ded104cc9",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Acacia report counterpart record\n\n## Additional requirement\nThe restricted appendix retains exact household counts and is not public.\n\n## Responsible role\nThe access custodian owns the appendix.\n\n## Cross-reference\nThis record complements the Acacia report primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_f272058ded104cc9_s0",
+          "heading": "Additional requirement",
+          "text": "The restricted appendix retains exact household counts and is not public.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f272058ded104cc9_s1",
+          "heading": "Responsible role",
+          "text": "The access custodian owns the appendix.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f272058ded104cc9_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Acacia report primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_f272058ded104cc9_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_f272058ded104cc9",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_0e30d906c5381a2c",
+      "title": "Beryl transfer primary record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_0e30d906c5381a2c",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Beryl transfer primary record\n\n## Requirement\nThe transfer manifest must list every open dependency.\n\n## Responsible role\nThe sending coordinator signs the manifest.\n\n## Retention\nThe signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.\n\n## Review\nThe role named here checks completeness before forwarding the record to its counterpart.\n",
+      "sections": [
+        {
+          "id": "c3d_0e30d906c5381a2c_s0",
+          "heading": "Requirement",
+          "text": "The transfer manifest must list every open dependency.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_0e30d906c5381a2c_s1",
+          "heading": "Responsible role",
+          "text": "The sending coordinator signs the manifest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_0e30d906c5381a2c_s2",
+          "heading": "Retention",
+          "text": "The signed primary record is retained with its revision and creation date. A correction adds a new revision instead of erasing the signed one.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_0e30d906c5381a2c_s3",
+          "heading": "Review",
+          "text": "The role named here checks completeness before forwarding the record to its counterpart.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_0e30d906c5381a2c",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_43de538b682f7c80",
+      "title": "Beryl transfer counterpart record",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_43de538b682f7c80",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Beryl transfer counterpart record\n\n## Additional requirement\nThe receiving log must record acceptance of each dependency.\n\n## Responsible role\nThe receiving coordinator signs the acceptance log.\n\n## Cross-reference\nThis record complements the Beryl transfer primary record; satisfying one record does not waive the other requirement.\n\n## Correction\nIf a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.\n",
+      "sections": [
+        {
+          "id": "c3d_43de538b682f7c80_s0",
+          "heading": "Additional requirement",
+          "text": "The receiving log must record acceptance of each dependency.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_43de538b682f7c80_s1",
+          "heading": "Responsible role",
+          "text": "The receiving coordinator signs the acceptance log.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_43de538b682f7c80_s2",
+          "heading": "Cross-reference",
+          "text": "This record complements the Beryl transfer primary record; satisfying one record does not waive the other requirement.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_43de538b682f7c80_s3",
+          "heading": "Correction",
+          "text": "If a counterpart record changes after approval, both responsible roles are notified and the affected approval is reviewed again.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_43de538b682f7c80",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_8f4c9a847411dcec",
+      "title": "Cobalt shift handoff procedure",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_8f4c9a847411dcec",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Cobalt shift handoff procedure\n\n## Package contents\nThe Cobalt shift handoff must include the unresolved-alert register.\n\n## Completion gate\nDo not mark the Cobalt shift transfer complete until the incoming shift lead records a signed receipt in the shift log.\n\n## Responsibility before receipt\nUntil that receipt is recorded, the outgoing shift lead remains responsible for unresolved work.\n\n## Delivery failure\nIf the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.\n\n## Receipt correction\nIf a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.\n",
+      "sections": [
+        {
+          "id": "c3d_8f4c9a847411dcec_s0",
+          "heading": "Package contents",
+          "text": "The Cobalt shift handoff must include the unresolved-alert register.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_8f4c9a847411dcec_s1",
+          "heading": "Completion gate",
+          "text": "Do not mark the Cobalt shift transfer complete until the incoming shift lead records a signed receipt in the shift log.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_8f4c9a847411dcec_s2",
+          "heading": "Responsibility before receipt",
+          "text": "Until that receipt is recorded, the outgoing shift lead remains responsible for unresolved work.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_8f4c9a847411dcec_s3",
+          "heading": "Delivery failure",
+          "text": "If the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_8f4c9a847411dcec_s4",
+          "heading": "Receipt correction",
+          "text": "If a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_8f4c9a847411dcec",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_147c4ba28571c602",
+      "title": "Cobalt shift preliminary checklist",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_147c4ba28571c602",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Cobalt shift preliminary checklist\n\n## Earlier idea\nAn early Cobalt shift draft allowed completion as soon as the package was sent.\n\n## Disposition\nThat draft was rejected because delivery did not prove acceptance.\n\n## Replacement\nThe adopted handoff procedure requires a recorded receipt.\n",
+      "sections": [
+        {
+          "id": "c3d_147c4ba28571c602_s0",
+          "heading": "Earlier idea",
+          "text": "An early Cobalt shift draft allowed completion as soon as the package was sent.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_147c4ba28571c602_s1",
+          "heading": "Disposition",
+          "text": "That draft was rejected because delivery did not prove acceptance.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_147c4ba28571c602_s2",
+          "heading": "Replacement",
+          "text": "The adopted handoff procedure requires a recorded receipt.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_147c4ba28571c602",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_cc73cb463feb7c0f",
+      "title": "Dune expedition handoff procedure",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_cc73cb463feb7c0f",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Dune expedition handoff procedure\n\n## Package contents\nThe Dune expedition handoff must include the equipment discrepancy list.\n\n## Completion gate\nDo not mark the Dune expedition transfer complete until the field coordinator records an acknowledgement linked to the manifest.\n\n## Responsibility before receipt\nUntil that receipt is recorded, the dispatch coordinator remains responsible for unresolved work.\n\n## Delivery failure\nIf the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.\n\n## Receipt correction\nIf a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.\n",
+      "sections": [
+        {
+          "id": "c3d_cc73cb463feb7c0f_s0",
+          "heading": "Package contents",
+          "text": "The Dune expedition handoff must include the equipment discrepancy list.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_cc73cb463feb7c0f_s1",
+          "heading": "Completion gate",
+          "text": "Do not mark the Dune expedition transfer complete until the field coordinator records an acknowledgement linked to the manifest.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_cc73cb463feb7c0f_s2",
+          "heading": "Responsibility before receipt",
+          "text": "Until that receipt is recorded, the dispatch coordinator remains responsible for unresolved work.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_cc73cb463feb7c0f_s3",
+          "heading": "Delivery failure",
+          "text": "If the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_cc73cb463feb7c0f_s4",
+          "heading": "Receipt correction",
+          "text": "If a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_cc73cb463feb7c0f",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_2081cb232dd09c57",
+      "title": "Dune expedition preliminary checklist",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_2081cb232dd09c57",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Dune expedition preliminary checklist\n\n## Earlier idea\nAn early Dune expedition draft allowed completion as soon as the package was sent.\n\n## Disposition\nThat draft was rejected because delivery did not prove acceptance.\n\n## Replacement\nThe adopted handoff procedure requires a recorded receipt.\n",
+      "sections": [
+        {
+          "id": "c3d_2081cb232dd09c57_s0",
+          "heading": "Earlier idea",
+          "text": "An early Dune expedition draft allowed completion as soon as the package was sent.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_2081cb232dd09c57_s1",
+          "heading": "Disposition",
+          "text": "That draft was rejected because delivery did not prove acceptance.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_2081cb232dd09c57_s2",
+          "heading": "Replacement",
+          "text": "The adopted handoff procedure requires a recorded receipt.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_2081cb232dd09c57",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_5f0c082a87bd9347",
+      "title": "Estuary study handoff procedure",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_5f0c082a87bd9347",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Estuary study handoff procedure\n\n## Package contents\nThe Estuary study handoff must include the last verified analysis checkpoint.\n\n## Completion gate\nDo not mark the Estuary study transfer complete until the receiving analyst records a timestamped receipt in the study log.\n\n## Responsibility before receipt\nUntil that receipt is recorded, the sending analyst remains responsible for unresolved work.\n\n## Delivery failure\nIf the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.\n\n## Receipt correction\nIf a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.\n",
+      "sections": [
+        {
+          "id": "c3d_5f0c082a87bd9347_s0",
+          "heading": "Package contents",
+          "text": "The Estuary study handoff must include the last verified analysis checkpoint.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5f0c082a87bd9347_s1",
+          "heading": "Completion gate",
+          "text": "Do not mark the Estuary study transfer complete until the receiving analyst records a timestamped receipt in the study log.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5f0c082a87bd9347_s2",
+          "heading": "Responsibility before receipt",
+          "text": "Until that receipt is recorded, the sending analyst remains responsible for unresolved work.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5f0c082a87bd9347_s3",
+          "heading": "Delivery failure",
+          "text": "If the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_5f0c082a87bd9347_s4",
+          "heading": "Receipt correction",
+          "text": "If a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_5f0c082a87bd9347",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_96dd2eaf0483a87e",
+      "title": "Estuary study preliminary checklist",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_96dd2eaf0483a87e",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Estuary study preliminary checklist\n\n## Earlier idea\nAn early Estuary study draft allowed completion as soon as the package was sent.\n\n## Disposition\nThat draft was rejected because delivery did not prove acceptance.\n\n## Replacement\nThe adopted handoff procedure requires a recorded receipt.\n",
+      "sections": [
+        {
+          "id": "c3d_96dd2eaf0483a87e_s0",
+          "heading": "Earlier idea",
+          "text": "An early Estuary study draft allowed completion as soon as the package was sent.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_96dd2eaf0483a87e_s1",
+          "heading": "Disposition",
+          "text": "That draft was rejected because delivery did not prove acceptance.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_96dd2eaf0483a87e_s2",
+          "heading": "Replacement",
+          "text": "The adopted handoff procedure requires a recorded receipt.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_96dd2eaf0483a87e",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_6d84309e8fea1e28",
+      "title": "Flint repair handoff procedure",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_6d84309e8fea1e28",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Flint repair handoff procedure\n\n## Package contents\nThe Flint repair handoff must include the outstanding-work checklist.\n\n## Completion gate\nDo not mark the Flint repair transfer complete until the repair supervisor records a signed acceptance entry in the repair queue.\n\n## Responsibility before receipt\nUntil that receipt is recorded, the original technician remains responsible for unresolved work.\n\n## Delivery failure\nIf the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.\n\n## Receipt correction\nIf a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.\n",
+      "sections": [
+        {
+          "id": "c3d_6d84309e8fea1e28_s0",
+          "heading": "Package contents",
+          "text": "The Flint repair handoff must include the outstanding-work checklist.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_6d84309e8fea1e28_s1",
+          "heading": "Completion gate",
+          "text": "Do not mark the Flint repair transfer complete until the repair supervisor records a signed acceptance entry in the repair queue.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_6d84309e8fea1e28_s2",
+          "heading": "Responsibility before receipt",
+          "text": "Until that receipt is recorded, the original technician remains responsible for unresolved work.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_6d84309e8fea1e28_s3",
+          "heading": "Delivery failure",
+          "text": "If the delivery channel fails, keep the transfer pending and resend the same package identifier. A resend is not a new transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_6d84309e8fea1e28_s4",
+          "heading": "Receipt correction",
+          "text": "If a receipt names the wrong package, attach a correction and request confirmation from the receiving role before completing the transfer.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_6d84309e8fea1e28",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_7759532728e60071",
+      "title": "Flint repair preliminary checklist",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_7759532728e60071",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Flint repair preliminary checklist\n\n## Earlier idea\nAn early Flint repair draft allowed completion as soon as the package was sent.\n\n## Disposition\nThat draft was rejected because delivery did not prove acceptance.\n\n## Replacement\nThe adopted handoff procedure requires a recorded receipt.\n",
+      "sections": [
+        {
+          "id": "c3d_7759532728e60071_s0",
+          "heading": "Earlier idea",
+          "text": "An early Flint repair draft allowed completion as soon as the package was sent.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7759532728e60071_s1",
+          "heading": "Disposition",
+          "text": "That draft was rejected because delivery did not prove acceptance.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_7759532728e60071_s2",
+          "heading": "Replacement",
+          "text": "The adopted handoff procedure requires a recorded receipt.",
+          "kind": "decision",
+          "adoption_status": "rejected",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_7759532728e60071",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_dc3e60d455ab4720",
+      "title": "Grove alarm open decision register",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_dc3e60d455ab4720",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Grove alarm open decision register\n\n## Recorded facts\nThe Grove alarm review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.\n\n## Unresolved fields\nThe threshold has not been decided or recorded; The escalation action has not been decided or recorded; The exception rule has not been decided or recorded.\n\n## Interim operation\nNo new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.\n\n## Follow-up\nThe review secretary will add the decision reference when the review closes.\n",
+      "sections": [
+        {
+          "id": "c3d_dc3e60d455ab4720_s0",
+          "heading": "Recorded facts",
+          "text": "The Grove alarm review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_dc3e60d455ab4720_s1",
+          "heading": "Unresolved fields",
+          "text": "The threshold has not been decided or recorded; The escalation action has not been decided or recorded; The exception rule has not been decided or recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_dc3e60d455ab4720_s2",
+          "heading": "Interim operation",
+          "text": "No new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_dc3e60d455ab4720_s3",
+          "heading": "Follow-up",
+          "text": "The review secretary will add the decision reference when the review closes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_dc3e60d455ab4720",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_e5dc4b77a09d6da1",
+      "title": "Helix waiver open decision register",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_e5dc4b77a09d6da1",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Helix waiver open decision register\n\n## Recorded facts\nThe Helix waiver review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.\n\n## Unresolved fields\nThe approval authority has not been decided or recorded; The expiry date has not been decided or recorded; The eligible scope has not been decided or recorded.\n\n## Interim operation\nNo new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.\n\n## Follow-up\nThe review secretary will add the decision reference when the review closes.\n",
+      "sections": [
+        {
+          "id": "c3d_e5dc4b77a09d6da1_s0",
+          "heading": "Recorded facts",
+          "text": "The Helix waiver review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e5dc4b77a09d6da1_s1",
+          "heading": "Unresolved fields",
+          "text": "The approval authority has not been decided or recorded; The expiry date has not been decided or recorded; The eligible scope has not been decided or recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e5dc4b77a09d6da1_s2",
+          "heading": "Interim operation",
+          "text": "No new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_e5dc4b77a09d6da1_s3",
+          "heading": "Follow-up",
+          "text": "The review secretary will add the decision reference when the review closes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_e5dc4b77a09d6da1",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_3435c5c208b97d35",
+      "title": "Islet cutoff open decision register",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_3435c5c208b97d35",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Islet cutoff open decision register\n\n## Recorded facts\nThe Islet cutoff review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.\n\n## Unresolved fields\nThe numeric cutoff has not been decided or recorded; The response action has not been decided or recorded; The exception rule has not been decided or recorded.\n\n## Interim operation\nNo new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.\n\n## Follow-up\nThe review secretary will add the decision reference when the review closes.\n",
+      "sections": [
+        {
+          "id": "c3d_3435c5c208b97d35_s0",
+          "heading": "Recorded facts",
+          "text": "The Islet cutoff review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3435c5c208b97d35_s1",
+          "heading": "Unresolved fields",
+          "text": "The numeric cutoff has not been decided or recorded; The response action has not been decided or recorded; The exception rule has not been decided or recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3435c5c208b97d35_s2",
+          "heading": "Interim operation",
+          "text": "No new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3435c5c208b97d35_s3",
+          "heading": "Follow-up",
+          "text": "The review secretary will add the decision reference when the review closes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_3435c5c208b97d35",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_d668e310a0c8ad90",
+      "title": "Jasper delegation open decision register",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_d668e310a0c8ad90",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Jasper delegation open decision register\n\n## Recorded facts\nThe Jasper delegation review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.\n\n## Unresolved fields\nThe delegated authority has not been decided or recorded; The duration has not been decided or recorded; The excluded decisions has not been decided or recorded.\n\n## Interim operation\nNo new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.\n\n## Follow-up\nThe review secretary will add the decision reference when the review closes.\n",
+      "sections": [
+        {
+          "id": "c3d_d668e310a0c8ad90_s0",
+          "heading": "Recorded facts",
+          "text": "The Jasper delegation review began on 2026-10-28. The records team has collected the intake notes and scheduled the next review for 2026-11-06.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d668e310a0c8ad90_s1",
+          "heading": "Unresolved fields",
+          "text": "The delegated authority has not been decided or recorded; The duration has not been decided or recorded; The excluded decisions has not been decided or recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d668e310a0c8ad90_s2",
+          "heading": "Interim operation",
+          "text": "No new operational authorization is created by this review. Existing approved procedures remain in force until a separate signed decision is recorded.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_d668e310a0c8ad90_s3",
+          "heading": "Follow-up",
+          "text": "The review secretary will add the decision reference when the review closes.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_d668e310a0c8ad90",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_83d21495556216b7",
+      "title": "Kite notebook private contents",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_83d21495556216b7",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "private",
+      "owner": "owner-kite",
+      "body": "# Kite notebook private contents\n\n## Private observation\nKite calibration uses secret trial marker TANGERINE-73.\n\n## Follow-up\nThe owner is still checking the observation against the original instrument record.\n",
+      "sections": [
+        {
+          "id": "c3d_83d21495556216b7_s0",
+          "heading": "Private observation",
+          "text": "Kite calibration uses secret trial marker TANGERINE-73.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_83d21495556216b7_s1",
+          "heading": "Follow-up",
+          "text": "The owner is still checking the observation against the original instrument record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_83d21495556216b7",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_09625c1f66776ac4",
+      "title": "Kite notebook shared access policy",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_09625c1f66776ac4",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Kite notebook shared access policy\n\n## Access boundary\nKite notebook contents are private to owner-kite; nonowners may receive only this shared access policy.\n\n## Review route\nA nonowner can request an access review through the records custodian; submitting a request does not grant access.\n\n## Audit record\nAccess reviews record the requesting actor and decision time without copying the private contents into the shared register.\n",
+      "sections": [
+        {
+          "id": "c3d_09625c1f66776ac4_s0",
+          "heading": "Access boundary",
+          "text": "Kite notebook contents are private to owner-kite; nonowners may receive only this shared access policy.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_09625c1f66776ac4_s1",
+          "heading": "Review route",
+          "text": "A nonowner can request an access review through the records custodian; submitting a request does not grant access.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_09625c1f66776ac4_s2",
+          "heading": "Audit record",
+          "text": "Access reviews record the requesting actor and decision time without copying the private contents into the shared register.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_09625c1f66776ac4",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_3848da00d627d7f1",
+      "title": "Lumen memo private contents",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_3848da00d627d7f1",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "private",
+      "owner": "owner-lumen",
+      "body": "# Lumen memo private contents\n\n## Private observation\nLumen private exception code is BRIAR-41.\n\n## Follow-up\nThe owner is still checking the observation against the original instrument record.\n",
+      "sections": [
+        {
+          "id": "c3d_3848da00d627d7f1_s0",
+          "heading": "Private observation",
+          "text": "Lumen private exception code is BRIAR-41.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_3848da00d627d7f1_s1",
+          "heading": "Follow-up",
+          "text": "The owner is still checking the observation against the original instrument record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_3848da00d627d7f1",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_0006c8c42d010c58",
+      "title": "Lumen memo shared access policy",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_0006c8c42d010c58",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Lumen memo shared access policy\n\n## Access boundary\nLumen memo contents are private to owner-lumen; nonowners may receive only this shared access policy.\n\n## Review route\nA nonowner can request an access review through the records custodian; submitting a request does not grant access.\n\n## Audit record\nAccess reviews record the requesting actor and decision time without copying the private contents into the shared register.\n",
+      "sections": [
+        {
+          "id": "c3d_0006c8c42d010c58_s0",
+          "heading": "Access boundary",
+          "text": "Lumen memo contents are private to owner-lumen; nonowners may receive only this shared access policy.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_0006c8c42d010c58_s1",
+          "heading": "Review route",
+          "text": "A nonowner can request an access review through the records custodian; submitting a request does not grant access.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_0006c8c42d010c58_s2",
+          "heading": "Audit record",
+          "text": "Access reviews record the requesting actor and decision time without copying the private contents into the shared register.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_0006c8c42d010c58",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_9ddb1182ba05bb26",
+      "title": "Moraine notes private contents",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_9ddb1182ba05bb26",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "private",
+      "owner": "owner-moraine",
+      "body": "# Moraine notes private contents\n\n## Private observation\nMoraine private sample group is SANDPIPER-62.\n\n## Follow-up\nThe owner is still checking the observation against the original instrument record.\n",
+      "sections": [
+        {
+          "id": "c3d_9ddb1182ba05bb26_s0",
+          "heading": "Private observation",
+          "text": "Moraine private sample group is SANDPIPER-62.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_9ddb1182ba05bb26_s1",
+          "heading": "Follow-up",
+          "text": "The owner is still checking the observation against the original instrument record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_9ddb1182ba05bb26",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_c7ad68653463583b",
+      "title": "Moraine notes shared access policy",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_c7ad68653463583b",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Moraine notes shared access policy\n\n## Access boundary\nMoraine notes contents are private to owner-moraine; nonowners may receive only this shared access policy.\n\n## Review route\nA nonowner can request an access review through the records custodian; submitting a request does not grant access.\n\n## Audit record\nAccess reviews record the requesting actor and decision time without copying the private contents into the shared register.\n",
+      "sections": [
+        {
+          "id": "c3d_c7ad68653463583b_s0",
+          "heading": "Access boundary",
+          "text": "Moraine notes contents are private to owner-moraine; nonowners may receive only this shared access policy.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_c7ad68653463583b_s1",
+          "heading": "Review route",
+          "text": "A nonowner can request an access review through the records custodian; submitting a request does not grant access.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_c7ad68653463583b_s2",
+          "heading": "Audit record",
+          "text": "Access reviews record the requesting actor and decision time without copying the private contents into the shared register.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_c7ad68653463583b",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_6d3be2d72b7fe939",
+      "title": "Nettle log private contents",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_6d3be2d72b7fe939",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "private",
+      "owner": "owner-nettle",
+      "body": "# Nettle log private contents\n\n## Private observation\nNettle private recovery phrase is COPPER-84.\n\n## Follow-up\nThe owner is still checking the observation against the original instrument record.\n",
+      "sections": [
+        {
+          "id": "c3d_6d3be2d72b7fe939_s0",
+          "heading": "Private observation",
+          "text": "Nettle private recovery phrase is COPPER-84.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_6d3be2d72b7fe939_s1",
+          "heading": "Follow-up",
+          "text": "The owner is still checking the observation against the original instrument record.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_6d3be2d72b7fe939",
+      "source_role": "operational_record"
+    },
+    {
+      "id": "c3d_daf106f5e8388e61",
+      "title": "Nettle log shared access policy",
+      "source_url": "https://example.invalid/confirmation-v3/c3d_daf106f5e8388e61",
+      "recorded_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "scope": "shared",
+      "owner": "records-team",
+      "body": "# Nettle log shared access policy\n\n## Access boundary\nNettle log contents are private to owner-nettle; nonowners may receive only this shared access policy.\n\n## Review route\nA nonowner can request an access review through the records custodian; submitting a request does not grant access.\n\n## Audit record\nAccess reviews record the requesting actor and decision time without copying the private contents into the shared register.\n",
+      "sections": [
+        {
+          "id": "c3d_daf106f5e8388e61_s0",
+          "heading": "Access boundary",
+          "text": "Nettle log contents are private to owner-nettle; nonowners may receive only this shared access policy.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_daf106f5e8388e61_s1",
+          "heading": "Review route",
+          "text": "A nonowner can request an access review through the records custodian; submitting a request does not grant access.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        },
+        {
+          "id": "c3d_daf106f5e8388e61_s2",
+          "heading": "Audit record",
+          "text": "Access reviews record the requesting actor and decision time without copying the private contents into the shared register.",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-10-20",
+          "valid_to": null,
+          "verified_at": "2026-10-19"
+        }
+      ],
+      "source_family": "c3d_daf106f5e8388e61",
+      "source_role": "operational_record"
+    }
+  ]
+}

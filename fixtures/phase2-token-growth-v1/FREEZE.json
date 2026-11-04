@@ -1,0 +1,15 @@
+{
+  "schema": "phase2-token-growth-freeze-v1",
+  "seed": 20261103,
+  "authored_diagnostic": true,
+  "independent_benchmark": false,
+  "corpus_count": 100,
+  "dev_count": 12,
+  "final_count": 18,
+  "files": {
+    "author_fixture.py": "16a2eb7e23b82467afe67146e9d4977bbf981a20bf20c009ab4d8275f718b1c8",
+    "corpus.json": "415bf0313cfcece672e8f5d59e25adfe8789fa056126ac14d9a52d8f45fcdb34",
+    "dev.json": "3d74d16a3cf3b29452b79e2bf87cd6e5111f785287ca0bd2bc53f32800eb643d",
+    "final.json": "ce44a4dd320439236f23e186a52b0031d689db69cdb23fea39e1a2bd8014c40e"
+  }
+}

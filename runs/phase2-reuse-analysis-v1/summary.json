@@ -1,0 +1,156 @@
+{
+  "schema": "phase2-reuse-offline-summary-v1",
+  "groups": [
+    {
+      "size": 100,
+      "method": "full_project",
+      "observations": 24,
+      "reference_input_tokens_median": 16164.0,
+      "context_tokens_median": 16084.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 20,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 100,
+      "method": "scoped_project",
+      "observations": 24,
+      "reference_input_tokens_median": 429.0,
+      "context_tokens_median": 349.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 100,
+      "method": "reviewed_full",
+      "observations": 24,
+      "reference_input_tokens_median": 475.5,
+      "context_tokens_median": 398.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 100,
+      "method": "reviewed_scoped",
+      "observations": 24,
+      "reference_input_tokens_median": 382.0,
+      "context_tokens_median": 305.5,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 1000,
+      "method": "full_project",
+      "observations": 24,
+      "reference_input_tokens_median": 157354.0,
+      "context_tokens_median": 157274.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 20,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 1000,
+      "method": "scoped_project",
+      "observations": 24,
+      "reference_input_tokens_median": 429.0,
+      "context_tokens_median": 349.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 1000,
+      "method": "reviewed_full",
+      "observations": 24,
+      "reference_input_tokens_median": 475.5,
+      "context_tokens_median": 398.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 1000,
+      "method": "reviewed_scoped",
+      "observations": 24,
+      "reference_input_tokens_median": 382.0,
+      "context_tokens_median": 305.5,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 10000,
+      "method": "full_project",
+      "observations": 24,
+      "reference_input_tokens_median": 1568570.0,
+      "context_tokens_median": 1568490.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 20,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 10000,
+      "method": "scoped_project",
+      "observations": 24,
+      "reference_input_tokens_median": 429.0,
+      "context_tokens_median": 349.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 10000,
+      "method": "reviewed_full",
+      "observations": 24,
+      "reference_input_tokens_median": 475.5,
+      "context_tokens_median": 398.0,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    },
+    {
+      "size": 10000,
+      "method": "reviewed_scoped",
+      "observations": 24,
+      "reference_input_tokens_median": 382.0,
+      "context_tokens_median": 305.5,
+      "answerable_rows": 20,
+      "complete_evidence_rows": 20,
+      "status_matches": 24,
+      "private_exposure": 0,
+      "state_preserved": 24
+    }
+  ],
+  "input_rows_sha256": "86f9fdacbd4a3737a128fb31f14ddb7b52f9883754f59199e7c86405df99125f",
+  "notes": [
+    "Eachsize12authoredintents with2phrases, not24independenttasks.",
+    "Referencecount o200k_base includesinstruction/request/context, notprovider billing usage.",
+    "Corpus growth consists of other explicit topics; same-topic growth can increase input.",
+    "Review labor excluded."
+  ]
+}

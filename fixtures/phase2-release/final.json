@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-candidate-v1",
+  "queries": [
+    {
+      "id": "rcf10",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Latticeの検索結果の引き継ぎの今の決定は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。"
+      ],
+      "expected_source_ids": [
+        "rel_10_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf10p",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Latticeの検索結果の引き継ぎに未採用の提案はある？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "要約だけで引き継ぐ案は検討中である。"
+      ],
+      "expected_source_ids": [
+        "rel_10_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf11",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Kiteの設備点検の間隔の今の決定は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。"
+      ],
+      "expected_source_ids": [
+        "rel_11_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf11p",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Kiteの設備点検の間隔に未採用の提案はある？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "両方を300時間へ統一する案は未採用である。"
+      ],
+      "expected_source_ids": [
+        "rel_11_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf12",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Morrowの教育資料の公開の今の決定は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "教材の公開範囲はsharedだが、受講者の評価メモはownerだけが参照する。"
+      ],
+      "expected_source_ids": [
+        "rel_12_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf12p",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Morrowの教育資料の公開に未採用の提案はある？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "評価メモを匿名化して共有する案は審査待ちである."
+      ],
+      "expected_source_ids": [
+        "rel_12_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf13",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Rillの食品アレルギー確認の今の決定は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。"
+      ],
+      "expected_source_ids": [
+        "rel_13_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf13p",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Rillの食品アレルギー確認に未採用の提案はある？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "自己申告だけで確認を省く案は不採用である。"
+      ],
+      "expected_source_ids": [
+        "rel_13_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf14",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Solaceの障害時の完了判定の今の決定は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。"
+      ],
+      "expected_source_ids": [
+        "rel_14_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf14p",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Solaceの障害時の完了判定に未採用の提案はある？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "応答なしでも完了扱いにする案は却下された."
+      ],
+      "expected_source_ids": [
+        "rel_14_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf20",
+      "split": "final",
+      "category": "long_table",
+      "request": {
+        "text": "Orchid表の区分02の閾値と例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "| 区分02 | 6単位 | 例外02を確認 |"
+      ],
+      "expected_source_ids": [
+        "rel_table"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "例外02を確認"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf21",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Orchid第3便で締切に間に合う条件を確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "18時20分に到着し、駅から窓口まで徒歩11分である。",
+        "受付締切は19時で、遅延時は当日掲示を確認する。"
+      ],
+      "expected_source_ids": [
+        "rel_route"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "受付締切は19時"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf22",
+      "split": "final",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "機材K1とK2の点検間隔を同じとしてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "装置K1は200稼働時間ごと、K2は350稼働時間ごとに点検する。"
+      ],
+      "expected_source_ids": [
+        "rel_11_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "K1",
+        "K2"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf23",
+      "split": "final",
+      "category": "scope_private",
+      "request": {
+        "text": "bot_01がprivateの識別語を検索してよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "expected_source_ids": [],
+      "forbidden_quotes": [
+        "PRIVATE_RELEASE_00_X9"
+      ],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf24",
+      "split": "final",
+      "category": "scope_owner",
+      "request": {
+        "text": "所有者bot_14ならprivate識別語を参照できる？",
+        "actor": "bot_14",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "Cinderの個別識別語はPRIVATE_RELEASE_04_X9である。共有へ転記してはならない。"
+      ],
+      "expected_source_ids": [
+        "rel_04_private"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf25",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "実在サービスの本番料金はこの資料から確定できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "expected_source_ids": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf26",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Latticeの引き継ぎに何を残す？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "引き継ぎには未解決事項、次の操作、根拠IDと版を含め、元会話を読める前提にしない。"
+      ],
+      "expected_source_ids": [
+        "rel_10_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf27",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Rillの料理名だけで安全と確定できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。"
+      ],
+      "expected_source_ids": [
+        "rel_13_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "材料と調理時の取り扱い"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf28",
+      "split": "final",
+      "category": "retry",
+      "request": {
+        "text": "Solaceの応答喪失後に完了扱いできる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "保存応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。"
+      ],
+      "expected_source_ids": [
+        "rel_14_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "確定版を読めるまで完了にしない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcf29",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "Pollenは編集日時だけで確認日を更新する？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。"
+      ],
+      "expected_source_ids": [
+        "rel_05_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    }
+  ]
+}

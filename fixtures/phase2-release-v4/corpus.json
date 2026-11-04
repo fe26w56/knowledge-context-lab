@@ -1,0 +1,3520 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v4",
+  "privacy": "public_synthetic",
+  "fixture_kind": "phase2_release_candidate_v4",
+  "license_status": "not_selected",
+  "bot_ids": [
+    "bot_01",
+    "bot_02",
+    "bot_03",
+    "bot_04",
+    "bot_05",
+    "bot_06",
+    "bot_07",
+    "bot_08",
+    "bot_09",
+    "bot_10",
+    "bot_11",
+    "bot_12",
+    "bot_13",
+    "bot_14",
+    "bot_15",
+    "bot_16"
+  ],
+  "description": "完全架空の診断fixture。独立ベンチマークではない。",
+  "documents": [
+    {
+      "id": "v4_49e7a0311769d755",
+      "title": "Opal 障害完了条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_49e7a0311769d755",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Opal 障害完了条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。 近似条件では対象を16件に限定し、例外14を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された。",
+      "sections": [
+        {
+          "id": "v4_49e7a0311769d755_s1",
+          "heading": "現行の判断",
+          "text": "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。 近似条件では対象を16件に限定し、例外14を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_49e7a0311769d755_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_49e7a0311769d755_s3",
+          "heading": "未採用の提案",
+          "text": "応答なしでも完了扱いにする案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_a0b716eb83873ce3",
+      "title": "Brim 会議公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_a0b716eb83873ce3",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Brim 会議公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n会議録画はshared、個人発言メモはprivateに分離する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は発言メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n全資料公開案は審査中で採用されていない。",
+      "sections": [
+        {
+          "id": "v4_a0b716eb83873ce3_s1",
+          "heading": "現行の判断",
+          "text": "会議録画はshared、個人発言メモはprivateに分離する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a0b716eb83873ce3_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は発言メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a0b716eb83873ce3_s3",
+          "heading": "未採用の提案",
+          "text": "全資料公開案は審査中で採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_c14e86f501467d47",
+      "title": "Haze 匿名公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_c14e86f501467d47",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Haze 匿名公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は1人確認だったが、2026年5月10日に改訂された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自動判定だけの公開案は保留中である。",
+      "sections": [
+        {
+          "id": "v4_c14e86f501467d47_s1",
+          "heading": "現行の判断",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c14e86f501467d47_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は1人確認だったが、2026年5月10日に改訂された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c14e86f501467d47_s3",
+          "heading": "未採用の提案",
+          "text": "自動判定だけの公開案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_b166962f45a4b71b",
+      "title": "Nook 食事確認条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_b166962f45a4b71b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Nook 食事確認条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。 近似条件では対象を15件に限定し、例外13を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_b166962f45a4b71b_s1",
+          "heading": "現行の判断",
+          "text": "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。 近似条件では対象を15件に限定し、例外13を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b166962f45a4b71b_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b166962f45a4b71b_s3",
+          "heading": "未採用の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_26cbca3f5fb34f82",
+      "title": "Terra 予約状態条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_26cbca3f5fb34f82",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Terra 予約状態条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。 近似条件では対象を21件に限定し、例外19を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n空室確認だけで確定予約と表示する案は却下された。",
+      "sections": [
+        {
+          "id": "v4_26cbca3f5fb34f82_s1",
+          "heading": "現行の判断",
+          "text": "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。 近似条件では対象を21件に限定し、例外19を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_26cbca3f5fb34f82_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_26cbca3f5fb34f82_s3",
+          "heading": "未採用の提案",
+          "text": "空室確認だけで確定予約と表示する案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_f1d24dd2b5250d05",
+      "title": "Terra 予約状態記録",
+      "source_url": "https://example.invalid/release-v4/v4_f1d24dd2b5250d05",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Terra 予約状態記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n空室確認だけで確定予約と表示する案は却下された。",
+      "sections": [
+        {
+          "id": "v4_f1d24dd2b5250d05_s1",
+          "heading": "現行の判断",
+          "text": "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f1d24dd2b5250d05_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f1d24dd2b5250d05_s3",
+          "heading": "未採用の提案",
+          "text": "空室確認だけで確定予約と表示する案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_646a76851006cb2b",
+      "title": "Rook 版競合記録",
+      "source_url": "https://example.invalid/release-v4/v4_646a76851006cb2b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Rook 版競合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n競合時に他botの更新を消す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_646a76851006cb2b_s1",
+          "heading": "現行の判断",
+          "text": "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_646a76851006cb2b_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_646a76851006cb2b_s3",
+          "heading": "未採用の提案",
+          "text": "競合時に他botの更新を消す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_ccd2aa5efeb2fca9",
+      "title": "Slate 同時実行記録",
+      "source_url": "https://example.invalid/release-v4/v4_ccd2aa5efeb2fca9",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Slate 同時実行記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n16体同時実行の待ち時間は未測定で、単独成功から推定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n平均値だけで同時実行を保証する案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_ccd2aa5efeb2fca9_s1",
+          "heading": "現行の判断",
+          "text": "16体同時実行の待ち時間は未測定で、単独成功から推定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ccd2aa5efeb2fca9_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ccd2aa5efeb2fca9_s3",
+          "heading": "未採用の提案",
+          "text": "平均値だけで同時実行を保証する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_d378c4f9c545abe1",
+      "title": "Cairn 配送受付記録",
+      "source_url": "https://example.invalid/release-v4/v4_d378c4f9c545abe1",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Cairn 配送受付記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便は16時まで受け付け、遅延時は当日掲示を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版の受付締切は18時だったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n夜間20時受付案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_d378c4f9c545abe1_s1",
+          "heading": "現行の判断",
+          "text": "通常便は16時まで受け付け、遅延時は当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d378c4f9c545abe1_s2",
+          "heading": "旧版の判断",
+          "text": "旧版の受付締切は18時だったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d378c4f9c545abe1_s3",
+          "heading": "未採用の提案",
+          "text": "夜間20時受付案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_e6a906a0d74dd601",
+      "title": "Opal 障害完了記録",
+      "source_url": "https://example.invalid/release-v4/v4_e6a906a0d74dd601",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Opal 障害完了記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された。",
+      "sections": [
+        {
+          "id": "v4_e6a906a0d74dd601_s1",
+          "heading": "現行の判断",
+          "text": "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e6a906a0d74dd601_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e6a906a0d74dd601_s3",
+          "heading": "未採用の提案",
+          "text": "応答なしでも完了扱いにする案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_cb410eddf266425c",
+      "title": "Kora private記録",
+      "source_url": "https://example.invalid/release-v4/v4_cb410eddf266425c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_16",
+      "body": "# Kora private記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_16。\n\n## 個別メモ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nKoraの個別識別語はPRIVATE_V4_10_Q8である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "v4_cb410eddf266425c_s1",
+          "heading": "個別メモ",
+          "text": "Koraの個別識別語はPRIVATE_V4_10_Q8である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_0feb3c3b178c5f04",
+      "title": "Haze 匿名公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_0feb3c3b178c5f04",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Haze 匿名公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は1人確認だったが、2026年5月10日に改訂された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自動判定だけの公開案は保留中である。",
+      "sections": [
+        {
+          "id": "v4_0feb3c3b178c5f04_s1",
+          "heading": "現行の判断",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0feb3c3b178c5f04_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は1人確認だったが、2026年5月10日に改訂された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0feb3c3b178c5f04_s3",
+          "heading": "未採用の提案",
+          "text": "自動判定だけの公開案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_90e8e7f844789251",
+      "title": "Nook 食事確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_90e8e7f844789251",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Nook 食事確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_90e8e7f844789251_s1",
+          "heading": "現行の判断",
+          "text": "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_90e8e7f844789251_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_90e8e7f844789251_s3",
+          "heading": "未採用の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_d12ca8ff1834cdd4",
+      "title": "Rook 版競合記録",
+      "source_url": "https://example.invalid/release-v4/v4_d12ca8ff1834cdd4",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Rook 版競合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n競合時に他botの更新を消す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_d12ca8ff1834cdd4_s1",
+          "heading": "現行の判断",
+          "text": "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d12ca8ff1834cdd4_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d12ca8ff1834cdd4_s3",
+          "heading": "未採用の提案",
+          "text": "競合時に他botの更新を消す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_fdfc83a745fc8512",
+      "title": "Grove 機材返却記録",
+      "source_url": "https://example.invalid/release-v4/v4_fdfc83a745fc8512",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Grove 機材返却記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は14日以内だったが、2026年5月10日に改められた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n30日返却案は申請中である。",
+      "sections": [
+        {
+          "id": "v4_fdfc83a745fc8512_s1",
+          "heading": "現行の判断",
+          "text": "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_fdfc83a745fc8512_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は14日以内だったが、2026年5月10日に改められた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_fdfc83a745fc8512_s3",
+          "heading": "未採用の提案",
+          "text": "30日返却案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_eab77106280c4f60",
+      "title": "Isle 復元照合記録",
+      "source_url": "https://example.invalid/release-v4/v4_eab77106280c4f60",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Isle 復元照合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n照合省略案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_eab77106280c4f60_s1",
+          "heading": "現行の判断",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_eab77106280c4f60_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_eab77106280c4f60_s3",
+          "heading": "未採用の提案",
+          "text": "照合省略案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9341f310f980976c",
+      "title": "Flint 改訂確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_9341f310f980976c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Flint 改訂確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n編集者ごと更新案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_9341f310f980976c_s1",
+          "heading": "現行の判断",
+          "text": "表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9341f310f980976c_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9341f310f980976c_s3",
+          "heading": "未採用の提案",
+          "text": "編集者ごと更新案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_04fffec486524319",
+      "title": "Slate 同時実行記録",
+      "source_url": "https://example.invalid/release-v4/v4_04fffec486524319",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Slate 同時実行記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n16体同時実行の待ち時間は未測定で、単独成功から推定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n平均値だけで同時実行を保証する案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_04fffec486524319_s1",
+          "heading": "現行の判断",
+          "text": "16体同時実行の待ち時間は未測定で、単独成功から推定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_04fffec486524319_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_04fffec486524319_s3",
+          "heading": "未採用の提案",
+          "text": "平均値だけで同時実行を保証する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_a9d8a6d488502c37",
+      "title": "Moss 教材範囲記録",
+      "source_url": "https://example.invalid/release-v4/v4_a9d8a6d488502c37",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Moss 教材範囲記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材はshared、受講者の評価メモはownerだけが参照する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は評価メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n匿名化した評価メモの共有案は審査待ちである。",
+      "sections": [
+        {
+          "id": "v4_a9d8a6d488502c37_s1",
+          "heading": "現行の判断",
+          "text": "教材はshared、受講者の評価メモはownerだけが参照する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a9d8a6d488502c37_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は評価メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a9d8a6d488502c37_s3",
+          "heading": "未採用の提案",
+          "text": "匿名化した評価メモの共有案は審査待ちである。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_a36181cfbcd101f5",
+      "title": "Dune ジョブ再送記録",
+      "source_url": "https://example.invalid/release-v4/v4_a36181cfbcd101f5",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Dune ジョブ再送記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "v4_a36181cfbcd101f5_s1",
+          "heading": "現行の判断",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a36181cfbcd101f5_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a36181cfbcd101f5_s3",
+          "heading": "未採用の提案",
+          "text": "重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_7dba36402e4c516b",
+      "title": "Moss 教材範囲条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_7dba36402e4c516b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Moss 教材範囲条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材はshared、受講者の評価メモはownerだけが参照する。 近似条件では対象を14件に限定し、例外12を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は評価メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n匿名化した評価メモの共有案は審査待ちである。",
+      "sections": [
+        {
+          "id": "v4_7dba36402e4c516b_s1",
+          "heading": "現行の判断",
+          "text": "教材はshared、受講者の評価メモはownerだけが参照する。 近似条件では対象を14件に限定し、例外12を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7dba36402e4c516b_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は評価メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7dba36402e4c516b_s3",
+          "heading": "未採用の提案",
+          "text": "匿名化した評価メモの共有案は審査待ちである。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_eba15e12fe8e7eda",
+      "title": "Grove 機材返却記録",
+      "source_url": "https://example.invalid/release-v4/v4_eba15e12fe8e7eda",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Grove 機材返却記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は14日以内だったが、2026年5月10日に改められた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n30日返却案は申請中である。",
+      "sections": [
+        {
+          "id": "v4_eba15e12fe8e7eda_s1",
+          "heading": "現行の判断",
+          "text": "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_eba15e12fe8e7eda_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は14日以内だったが、2026年5月10日に改められた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_eba15e12fe8e7eda_s3",
+          "heading": "未採用の提案",
+          "text": "30日返却案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_1ee4061dd4e9bb9c",
+      "title": "Eon 温度判断記録",
+      "source_url": "https://example.invalid/release-v4/v4_1ee4061dd4e9bb9c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Eon 温度判断記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30度で停止としていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遠隔強制停止案は審査前である。",
+      "sections": [
+        {
+          "id": "v4_1ee4061dd4e9bb9c_s1",
+          "heading": "現行の判断",
+          "text": "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1ee4061dd4e9bb9c_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30度で停止としていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1ee4061dd4e9bb9c_s3",
+          "heading": "未採用の提案",
+          "text": "遠隔強制停止案は審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_1b58ed75c865ff18",
+      "title": "Lumen 点検周期記録",
+      "source_url": "https://example.invalid/release-v4/v4_1b58ed75c865ff18",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Lumen 点検周期記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全装置300時間ごとだったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n両方を300時間に統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_1b58ed75c865ff18_s1",
+          "heading": "現行の判断",
+          "text": "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1b58ed75c865ff18_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全装置300時間ごとだったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1b58ed75c865ff18_s3",
+          "heading": "未採用の提案",
+          "text": "両方を300時間に統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_0acf09a055cbcf10",
+      "title": "Quarry 経路時刻記録",
+      "source_url": "https://example.invalid/release-v4/v4_0acf09a055cbcf10",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Quarry 経路時刻記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n第3便は18時20分に到着し、駅から窓口まで徒歩11分である。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遅延時も固定時刻を使う案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_0acf09a055cbcf10_s1",
+          "heading": "現行の判断",
+          "text": "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0acf09a055cbcf10_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0acf09a055cbcf10_s3",
+          "heading": "未採用の提案",
+          "text": "遅延時も固定時刻を使う案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_bdb3e24dcd236e7f",
+      "title": "Dune ジョブ再送記録",
+      "source_url": "https://example.invalid/release-v4/v4_bdb3e24dcd236e7f",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Dune ジョブ再送記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "v4_bdb3e24dcd236e7f_s1",
+          "heading": "現行の判断",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_bdb3e24dcd236e7f_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_bdb3e24dcd236e7f_s3",
+          "heading": "未採用の提案",
+          "text": "重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_995d4457a683ffcf",
+      "title": "Cairn 配送受付条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_995d4457a683ffcf",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Cairn 配送受付条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便は16時まで受け付け、遅延時は当日掲示を確認する。 近似条件では対象を4件に限定し、例外02を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版の受付締切は18時だったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n夜間20時受付案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_995d4457a683ffcf_s1",
+          "heading": "現行の判断",
+          "text": "通常便は16時まで受け付け、遅延時は当日掲示を確認する。 近似条件では対象を4件に限定し、例外02を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_995d4457a683ffcf_s2",
+          "heading": "旧版の判断",
+          "text": "旧版の受付締切は18時だったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_995d4457a683ffcf_s3",
+          "heading": "未採用の提案",
+          "text": "夜間20時受付案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_6a0235baf088809c",
+      "title": "Opal 障害完了記録",
+      "source_url": "https://example.invalid/release-v4/v4_6a0235baf088809c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Opal 障害完了記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された。",
+      "sections": [
+        {
+          "id": "v4_6a0235baf088809c_s1",
+          "heading": "現行の判断",
+          "text": "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_6a0235baf088809c_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_6a0235baf088809c_s3",
+          "heading": "未採用の提案",
+          "text": "応答なしでも完了扱いにする案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_ed50018c51fe946b",
+      "title": "Terra 予約状態記録",
+      "source_url": "https://example.invalid/release-v4/v4_ed50018c51fe946b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Terra 予約状態記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n空室確認だけで確定予約と表示する案は却下された。",
+      "sections": [
+        {
+          "id": "v4_ed50018c51fe946b_s1",
+          "heading": "現行の判断",
+          "text": "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ed50018c51fe946b_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ed50018c51fe946b_s3",
+          "heading": "未採用の提案",
+          "text": "空室確認だけで確定予約と表示する案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9f328c8d07d78490",
+      "title": "Rook 版競合記録",
+      "source_url": "https://example.invalid/release-v4/v4_9f328c8d07d78490",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Rook 版競合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n競合時に他botの更新を消す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_9f328c8d07d78490_s1",
+          "heading": "現行の判断",
+          "text": "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f328c8d07d78490_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f328c8d07d78490_s3",
+          "heading": "未採用の提案",
+          "text": "競合時に他botの更新を消す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_3d980fe71df808aa",
+      "title": "Opal 障害完了記録",
+      "source_url": "https://example.invalid/release-v4/v4_3d980fe71df808aa",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_15",
+      "body": "# Opal 障害完了記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_15。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n応答なしでも完了扱いにする案は却下された。",
+      "sections": [
+        {
+          "id": "v4_3d980fe71df808aa_s1",
+          "heading": "現行の判断",
+          "text": "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_3d980fe71df808aa_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はタイムアウトを未保存と判断していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_3d980fe71df808aa_s3",
+          "heading": "未採用の提案",
+          "text": "応答なしでも完了扱いにする案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_a070c7741a40e624",
+      "title": "Jade 精算空欄条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_a070c7741a40e624",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Jade 精算空欄条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。 近似条件では対象を11件に限定し、例外09を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n概算だけの支払案は未承認である。",
+      "sections": [
+        {
+          "id": "v4_a070c7741a40e624_s1",
+          "heading": "現行の判断",
+          "text": "領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。 近似条件では対象を11件に限定し、例外09を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a070c7741a40e624_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a070c7741a40e624_s3",
+          "heading": "未採用の提案",
+          "text": "概算だけの支払案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_4c7d339d4a2291de",
+      "title": "Isle 復元照合記録",
+      "source_url": "https://example.invalid/release-v4/v4_4c7d339d4a2291de",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Isle 復元照合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n照合省略案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_4c7d339d4a2291de_s1",
+          "heading": "現行の判断",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4c7d339d4a2291de_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4c7d339d4a2291de_s3",
+          "heading": "未採用の提案",
+          "text": "照合省略案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_56b4dfe578edf7a0",
+      "title": "Haze 匿名公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_56b4dfe578edf7a0",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Haze 匿名公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は1人確認だったが、2026年5月10日に改訂された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自動判定だけの公開案は保留中である。",
+      "sections": [
+        {
+          "id": "v4_56b4dfe578edf7a0_s1",
+          "heading": "現行の判断",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_56b4dfe578edf7a0_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は1人確認だったが、2026年5月10日に改訂された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_56b4dfe578edf7a0_s3",
+          "heading": "未採用の提案",
+          "text": "自動判定だけの公開案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_4571e74ceef908a6",
+      "title": "Terra 予約状態記録",
+      "source_url": "https://example.invalid/release-v4/v4_4571e74ceef908a6",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Terra 予約状態記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n空室確認だけで確定予約と表示する案は却下された。",
+      "sections": [
+        {
+          "id": "v4_4571e74ceef908a6_s1",
+          "heading": "現行の判断",
+          "text": "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4571e74ceef908a6_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は候補確認を予約済みと記載したが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4571e74ceef908a6_s3",
+          "heading": "未採用の提案",
+          "text": "空室確認だけで確定予約と表示する案は却下された。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_aed44ef174e8ca1d",
+      "title": "Lumen 点検周期記録",
+      "source_url": "https://example.invalid/release-v4/v4_aed44ef174e8ca1d",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Lumen 点検周期記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全装置300時間ごとだったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n両方を300時間に統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_aed44ef174e8ca1d_s1",
+          "heading": "現行の判断",
+          "text": "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_aed44ef174e8ca1d_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全装置300時間ごとだったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_aed44ef174e8ca1d_s3",
+          "heading": "未採用の提案",
+          "text": "両方を300時間に統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_b2258c91bbb85e17",
+      "title": "Flint 改訂確認条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_b2258c91bbb85e17",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_08",
+      "body": "# Flint 改訂確認条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_08。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。 近似条件では対象を7件に限定し、例外05を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n編集者ごと更新案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_b2258c91bbb85e17_s1",
+          "heading": "現行の判断",
+          "text": "表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。 近似条件では対象を7件に限定し、例外05を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b2258c91bbb85e17_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b2258c91bbb85e17_s3",
+          "heading": "未採用の提案",
+          "text": "編集者ごと更新案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_ad11ceecaaed049f",
+      "title": "Argo 監査保管記録",
+      "source_url": "https://example.invalid/release-v4/v4_ad11ceecaaed049f",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Argo 監査保管記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30日保持だったが、2026年5月10日に置き換えられた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n180日保持案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "v4_ad11ceecaaed049f_s1",
+          "heading": "現行の判断",
+          "text": "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ad11ceecaaed049f_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30日保持だったが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ad11ceecaaed049f_s3",
+          "heading": "未採用の提案",
+          "text": "180日保持案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_7ae4f0cddd3c4838",
+      "title": "Kora 引継ぎ記録",
+      "source_url": "https://example.invalid/release-v4/v4_7ae4f0cddd3c4838",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Kora 引継ぎ記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけの引継ぎ案は検討中である。",
+      "sections": [
+        {
+          "id": "v4_7ae4f0cddd3c4838_s1",
+          "heading": "現行の判断",
+          "text": "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7ae4f0cddd3c4838_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7ae4f0cddd3c4838_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけの引継ぎ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_b913b5f3635c4ff8",
+      "title": "Grove 機材返却条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_b913b5f3635c4ff8",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Grove 機材返却条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。 近似条件では対象を8件に限定し、例外06を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は14日以内だったが、2026年5月10日に改められた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n30日返却案は申請中である。",
+      "sections": [
+        {
+          "id": "v4_b913b5f3635c4ff8_s1",
+          "heading": "現行の判断",
+          "text": "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。 近似条件では対象を8件に限定し、例外06を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b913b5f3635c4ff8_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は14日以内だったが、2026年5月10日に改められた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_b913b5f3635c4ff8_s3",
+          "heading": "未採用の提案",
+          "text": "30日返却案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_16cc1bec6b183863",
+      "title": "Quarry 経路時刻記録",
+      "source_url": "https://example.invalid/release-v4/v4_16cc1bec6b183863",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Quarry 経路時刻記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n第3便は18時20分に到着し、駅から窓口まで徒歩11分である。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遅延時も固定時刻を使う案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_16cc1bec6b183863_s1",
+          "heading": "現行の判断",
+          "text": "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_16cc1bec6b183863_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_16cc1bec6b183863_s3",
+          "heading": "未採用の提案",
+          "text": "遅延時も固定時刻を使う案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_05681dc34a719bc8",
+      "title": "Brim 会議公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_05681dc34a719bc8",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Brim 会議公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n会議録画はshared、個人発言メモはprivateに分離する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は発言メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n全資料公開案は審査中で採用されていない。",
+      "sections": [
+        {
+          "id": "v4_05681dc34a719bc8_s1",
+          "heading": "現行の判断",
+          "text": "会議録画はshared、個人発言メモはprivateに分離する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_05681dc34a719bc8_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は発言メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_05681dc34a719bc8_s3",
+          "heading": "未採用の提案",
+          "text": "全資料公開案は審査中で採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_f3b11ab2f7e8d058",
+      "title": "Kora 引継ぎ記録",
+      "source_url": "https://example.invalid/release-v4/v4_f3b11ab2f7e8d058",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Kora 引継ぎ記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけの引継ぎ案は検討中である。",
+      "sections": [
+        {
+          "id": "v4_f3b11ab2f7e8d058_s1",
+          "heading": "現行の判断",
+          "text": "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f3b11ab2f7e8d058_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f3b11ab2f7e8d058_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけの引継ぎ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_c0ab80236e1cd3b2",
+      "title": "Quarry 経路時刻条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_c0ab80236e1cd3b2",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Quarry 経路時刻条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n第3便は18時20分に到着し、駅から窓口まで徒歩11分である。 近似条件では対象を18件に限定し、例外16を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遅延時も固定時刻を使う案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_c0ab80236e1cd3b2_s1",
+          "heading": "現行の判断",
+          "text": "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。 近似条件では対象を18件に限定し、例外16を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c0ab80236e1cd3b2_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c0ab80236e1cd3b2_s3",
+          "heading": "未採用の提案",
+          "text": "遅延時も固定時刻を使う案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_f42764e84c44e72a",
+      "title": "Lumen 点検周期記録",
+      "source_url": "https://example.invalid/release-v4/v4_f42764e84c44e72a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_12",
+      "body": "# Lumen 点検周期記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_12。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全装置300時間ごとだったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n両方を300時間に統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_f42764e84c44e72a_s1",
+          "heading": "現行の判断",
+          "text": "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f42764e84c44e72a_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全装置300時間ごとだったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f42764e84c44e72a_s3",
+          "heading": "未採用の提案",
+          "text": "両方を300時間に統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_24de783a513b0d22",
+      "title": "Rook 版競合条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_24de783a513b0d22",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Rook 版競合条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。 近似条件では対象を19件に限定し、例外17を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n競合時に他botの更新を消す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_24de783a513b0d22_s1",
+          "heading": "現行の判断",
+          "text": "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。 近似条件では対象を19件に限定し、例外17を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_24de783a513b0d22_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の書き込みを優先していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_24de783a513b0d22_s3",
+          "heading": "未採用の提案",
+          "text": "競合時に他botの更新を消す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_cff1ad5e88670b85",
+      "title": "Jade 精算空欄記録",
+      "source_url": "https://example.invalid/release-v4/v4_cff1ad5e88670b85",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Jade 精算空欄記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n概算だけの支払案は未承認である。",
+      "sections": [
+        {
+          "id": "v4_cff1ad5e88670b85_s1",
+          "heading": "現行の判断",
+          "text": "領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_cff1ad5e88670b85_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_cff1ad5e88670b85_s3",
+          "heading": "未採用の提案",
+          "text": "概算だけの支払案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_e21e43028a196ac3",
+      "title": "Dune ジョブ再送条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_e21e43028a196ac3",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Dune ジョブ再送条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。 近似条件では対象を5件に限定し、例外03を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "v4_e21e43028a196ac3_s1",
+          "heading": "現行の判断",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。 近似条件では対象を5件に限定し、例外03を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e21e43028a196ac3_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e21e43028a196ac3_s3",
+          "heading": "未採用の提案",
+          "text": "重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9da3fcbca9a1366c",
+      "title": "Argo 監査保管記録",
+      "source_url": "https://example.invalid/release-v4/v4_9da3fcbca9a1366c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Argo 監査保管記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30日保持だったが、2026年5月10日に置き換えられた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n180日保持案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "v4_9da3fcbca9a1366c_s1",
+          "heading": "現行の判断",
+          "text": "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9da3fcbca9a1366c_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30日保持だったが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9da3fcbca9a1366c_s3",
+          "heading": "未採用の提案",
+          "text": "180日保持案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_7c45d2e85259b1fd",
+      "title": "Pine 長表条件条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_7c45d2e85259b1fd",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Pine 長表条件条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n長い条件表は列名・単位・例外を保持し、行を途中で削らない。 近似条件では対象を17件に限定し、例外15を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は例外列を省略していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけを返す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_7c45d2e85259b1fd_s1",
+          "heading": "現行の判断",
+          "text": "長い条件表は列名・単位・例外を保持し、行を途中で削らない。 近似条件では対象を17件に限定し、例外15を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7c45d2e85259b1fd_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は例外列を省略していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_7c45d2e85259b1fd_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけを返す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_6f420041ebc0e5c8",
+      "title": "Pine 長表条件記録",
+      "source_url": "https://example.invalid/release-v4/v4_6f420041ebc0e5c8",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Pine 長表条件記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n長い条件表は列名・単位・例外を保持し、行を途中で削らない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は例外列を省略していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけを返す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_6f420041ebc0e5c8_s1",
+          "heading": "現行の判断",
+          "text": "長い条件表は列名・単位・例外を保持し、行を途中で削らない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_6f420041ebc0e5c8_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は例外列を省略していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_6f420041ebc0e5c8_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけを返す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_cb73a6975a8500a9",
+      "title": "Argo 監査保管条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_cb73a6975a8500a9",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Argo 監査保管条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。 近似条件では対象を2件に限定し、例外00を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30日保持だったが、2026年5月10日に置き換えられた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n180日保持案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "v4_cb73a6975a8500a9_s1",
+          "heading": "現行の判断",
+          "text": "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。 近似条件では対象を2件に限定し、例外00を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_cb73a6975a8500a9_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30日保持だったが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_cb73a6975a8500a9_s3",
+          "heading": "未採用の提案",
+          "text": "180日保持案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_731ed79939161e21",
+      "title": "Slate 同時実行記録",
+      "source_url": "https://example.invalid/release-v4/v4_731ed79939161e21",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Slate 同時実行記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n16体同時実行の待ち時間は未測定で、単独成功から推定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n平均値だけで同時実行を保証する案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_731ed79939161e21_s1",
+          "heading": "現行の判断",
+          "text": "16体同時実行の待ち時間は未測定で、単独成功から推定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_731ed79939161e21_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_731ed79939161e21_s3",
+          "heading": "未採用の提案",
+          "text": "平均値だけで同時実行を保証する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_aa655682f917ded0",
+      "title": "Willow長期条件表",
+      "source_url": "https://example.invalid/release-v4/v4_aa655682f917ded0",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Willow長期条件表\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 長期条件表\n記録種別: report。採用状態: na。有効開始: 2026-05-01。有効終了: 未設定。\n列名・単位・例外を保持する長表。\n\n| 区分 | 閾値 | 例外 |\n|---|---:|---|\n| 区分01 | 4単位 | 例外区01を確認 |\n| 区分02 | 8単位 | 例外区02を確認 |\n| 区分03 | 12単位 | 例外区03を確認 |\n| 区分04 | 16単位 | 例外区04を確認 |\n| 区分05 | 20単位 | 例外区05を確認 |\n| 区分06 | 24単位 | 例外区06を確認 |\n| 区分07 | 28単位 | 例外区07を確認 |\n| 区分08 | 32単位 | 例外区08を確認 |\n| 区分09 | 36単位 | 例外区09を確認 |\n| 区分10 | 40単位 | 例外区10を確認 |\n| 区分11 | 44単位 | 例外区11を確認 |\n| 区分12 | 48単位 | 例外区12を確認 |\n| 区分13 | 52単位 | 例外区13を確認 |\n| 区分14 | 56単位 | 例外区14を確認 |\n| 区分15 | 60単位 | 例外区15を確認 |\n| 区分16 | 64単位 | 例外区16を確認 |\n| 区分17 | 68単位 | 例外区17を確認 |\n| 区分18 | 72単位 | 例外区18を確認 |\n| 区分19 | 76単位 | 例外区19を確認 |\n| 区分20 | 80単位 | 例外区20を確認 |\n| 区分21 | 84単位 | 例外区21を確認 |\n| 区分22 | 88単位 | 例外区22を確認 |\n| 区分23 | 92単位 | 例外区23を確認 |\n| 区分24 | 96単位 | 例外区24を確認 |\n| 区分25 | 100単位 | 例外区25を確認 |\n| 区分26 | 104単位 | 例外区26を確認 |\n| 区分27 | 108単位 | 例外区27を確認 |\n| 区分28 | 112単位 | 例外区28を確認 |\n| 区分29 | 116単位 | 例外区29を確認 |\n| 区分30 | 120単位 | 例外区30を確認 |\n| 区分31 | 124単位 | 例外区31を確認 |\n| 区分32 | 128単位 | 例外区32を確認 |\n| 区分33 | 132単位 | 例外区33を確認 |\n| 区分34 | 136単位 | 例外区34を確認 |\n| 区分35 | 140単位 | 例外区35を確認 |\n| 区分36 | 144単位 | 例外区36を確認 |\n| 区分37 | 148単位 | 例外区37を確認 |\n| 区分38 | 152単位 | 例外区38を確認 |\n| 区分39 | 156単位 | 例外区39を確認 |\n| 区分40 | 160単位 | 例外区40を確認 |\n| 区分41 | 164単位 | 例外区41を確認 |\n| 区分42 | 168単位 | 例外区42を確認 |\n| 区分43 | 172単位 | 例外区43を確認 |\n| 区分44 | 176単位 | 例外区44を確認 |\n| 区分45 | 180単位 | 例外区45を確認 |\n| 区分46 | 184単位 | 例外区46を確認 |\n| 区分47 | 188単位 | 例外区47を確認 |\n| 区分48 | 192単位 | 例外区48を確認 |\n| 区分49 | 196単位 | 例外区49を確認 |\n| 区分50 | 200単位 | 例外区50を確認 |\n| 区分51 | 204単位 | 例外区51を確認 |\n| 区分52 | 208単位 | 例外区52を確認 |\n| 区分53 | 212単位 | 例外区53を確認 |\n| 区分54 | 216単位 | 例外区54を確認 |\n| 区分55 | 220単位 | 例外区55を確認 |\n| 区分56 | 224単位 | 例外区56を確認 |\n| 区分57 | 228単位 | 例外区57を確認 |\n| 区分58 | 232単位 | 例外区58を確認 |\n| 区分59 | 236単位 | 例外区59を確認 |\n| 区分60 | 240単位 | 例外区60を確認 |",
+      "sections": [
+        {
+          "id": "v4_aa655682f917ded0_s1",
+          "heading": "長期条件表",
+          "text": "列名・単位・例外を保持する長表。\n\n| 区分 | 閾値 | 例外 |\n|---|---:|---|\n| 区分01 | 4単位 | 例外区01を確認 |\n| 区分02 | 8単位 | 例外区02を確認 |\n| 区分03 | 12単位 | 例外区03を確認 |\n| 区分04 | 16単位 | 例外区04を確認 |\n| 区分05 | 20単位 | 例外区05を確認 |\n| 区分06 | 24単位 | 例外区06を確認 |\n| 区分07 | 28単位 | 例外区07を確認 |\n| 区分08 | 32単位 | 例外区08を確認 |\n| 区分09 | 36単位 | 例外区09を確認 |\n| 区分10 | 40単位 | 例外区10を確認 |\n| 区分11 | 44単位 | 例外区11を確認 |\n| 区分12 | 48単位 | 例外区12を確認 |\n| 区分13 | 52単位 | 例外区13を確認 |\n| 区分14 | 56単位 | 例外区14を確認 |\n| 区分15 | 60単位 | 例外区15を確認 |\n| 区分16 | 64単位 | 例外区16を確認 |\n| 区分17 | 68単位 | 例外区17を確認 |\n| 区分18 | 72単位 | 例外区18を確認 |\n| 区分19 | 76単位 | 例外区19を確認 |\n| 区分20 | 80単位 | 例外区20を確認 |\n| 区分21 | 84単位 | 例外区21を確認 |\n| 区分22 | 88単位 | 例外区22を確認 |\n| 区分23 | 92単位 | 例外区23を確認 |\n| 区分24 | 96単位 | 例外区24を確認 |\n| 区分25 | 100単位 | 例外区25を確認 |\n| 区分26 | 104単位 | 例外区26を確認 |\n| 区分27 | 108単位 | 例外区27を確認 |\n| 区分28 | 112単位 | 例外区28を確認 |\n| 区分29 | 116単位 | 例外区29を確認 |\n| 区分30 | 120単位 | 例外区30を確認 |\n| 区分31 | 124単位 | 例外区31を確認 |\n| 区分32 | 128単位 | 例外区32を確認 |\n| 区分33 | 132単位 | 例外区33を確認 |\n| 区分34 | 136単位 | 例外区34を確認 |\n| 区分35 | 140単位 | 例外区35を確認 |\n| 区分36 | 144単位 | 例外区36を確認 |\n| 区分37 | 148単位 | 例外区37を確認 |\n| 区分38 | 152単位 | 例外区38を確認 |\n| 区分39 | 156単位 | 例外区39を確認 |\n| 区分40 | 160単位 | 例外区40を確認 |\n| 区分41 | 164単位 | 例外区41を確認 |\n| 区分42 | 168単位 | 例外区42を確認 |\n| 区分43 | 172単位 | 例外区43を確認 |\n| 区分44 | 176単位 | 例外区44を確認 |\n| 区分45 | 180単位 | 例外区45を確認 |\n| 区分46 | 184単位 | 例外区46を確認 |\n| 区分47 | 188単位 | 例外区47を確認 |\n| 区分48 | 192単位 | 例外区48を確認 |\n| 区分49 | 196単位 | 例外区49を確認 |\n| 区分50 | 200単位 | 例外区50を確認 |\n| 区分51 | 204単位 | 例外区51を確認 |\n| 区分52 | 208単位 | 例外区52を確認 |\n| 区分53 | 212単位 | 例外区53を確認 |\n| 区分54 | 216単位 | 例外区54を確認 |\n| 区分55 | 220単位 | 例外区55を確認 |\n| 区分56 | 224単位 | 例外区56を確認 |\n| 区分57 | 228単位 | 例外区57を確認 |\n| 区分58 | 232単位 | 例外区58を確認 |\n| 区分59 | 236単位 | 例外区59を確認 |\n| 区分60 | 240単位 | 例外区60を確認 |",
+          "kind": "report",
+          "adoption_status": "na",
+          "valid_from": "2026-05-01",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_8fa2431e62e791f9",
+      "title": "Nook 食事確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_8fa2431e62e791f9",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Nook 食事確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_8fa2431e62e791f9_s1",
+          "heading": "現行の判断",
+          "text": "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_8fa2431e62e791f9_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_8fa2431e62e791f9_s3",
+          "heading": "未採用の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_002f396eadce7ac2",
+      "title": "Eon 温度判断記録",
+      "source_url": "https://example.invalid/release-v4/v4_002f396eadce7ac2",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Eon 温度判断記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30度で停止としていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遠隔強制停止案は審査前である。",
+      "sections": [
+        {
+          "id": "v4_002f396eadce7ac2_s1",
+          "heading": "現行の判断",
+          "text": "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_002f396eadce7ac2_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30度で停止としていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_002f396eadce7ac2_s3",
+          "heading": "未採用の提案",
+          "text": "遠隔強制停止案は審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_63d5607499ce0f30",
+      "title": "Flint 改訂確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_63d5607499ce0f30",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Flint 改訂確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n編集者ごと更新案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_63d5607499ce0f30_s1",
+          "heading": "現行の判断",
+          "text": "表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_63d5607499ce0f30_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_63d5607499ce0f30_s3",
+          "heading": "未採用の提案",
+          "text": "編集者ごと更新案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9f0c7ace5c322ed6",
+      "title": "Cairn 配送受付記録",
+      "source_url": "https://example.invalid/release-v4/v4_9f0c7ace5c322ed6",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Cairn 配送受付記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便は16時まで受け付け、遅延時は当日掲示を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版の受付締切は18時だったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n夜間20時受付案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_9f0c7ace5c322ed6_s1",
+          "heading": "現行の判断",
+          "text": "通常便は16時まで受け付け、遅延時は当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f0c7ace5c322ed6_s2",
+          "heading": "旧版の判断",
+          "text": "旧版の受付締切は18時だったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f0c7ace5c322ed6_s3",
+          "heading": "未採用の提案",
+          "text": "夜間20時受付案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_e6fff0c5069dc591",
+      "title": "Isle 復元照合記録",
+      "source_url": "https://example.invalid/release-v4/v4_e6fff0c5069dc591",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_09",
+      "body": "# Isle 復元照合記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_09。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n照合省略案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_e6fff0c5069dc591_s1",
+          "heading": "現行の判断",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e6fff0c5069dc591_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e6fff0c5069dc591_s3",
+          "heading": "未採用の提案",
+          "text": "照合省略案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_e151d783782552d8",
+      "title": "Jade 精算空欄記録",
+      "source_url": "https://example.invalid/release-v4/v4_e151d783782552d8",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Jade 精算空欄記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n概算だけの支払案は未承認である。",
+      "sections": [
+        {
+          "id": "v4_e151d783782552d8_s1",
+          "heading": "現行の判断",
+          "text": "領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e151d783782552d8_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_e151d783782552d8_s3",
+          "heading": "未採用の提案",
+          "text": "概算だけの支払案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_ee7d0a3561509a1c",
+      "title": "Argo private記録",
+      "source_url": "https://example.invalid/release-v4/v4_ee7d0a3561509a1c",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_06",
+      "body": "# Argo private記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_06。\n\n## 個別メモ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nArgoの個別識別語はPRIVATE_V4_00_Q8である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "v4_ee7d0a3561509a1c_s1",
+          "heading": "個別メモ",
+          "text": "Argoの個別識別語はPRIVATE_V4_00_Q8である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_1b9f4a7497004a7f",
+      "title": "Brim 会議公開条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_1b9f4a7497004a7f",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Brim 会議公開条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n会議録画はshared、個人発言メモはprivateに分離する。 近似条件では対象を3件に限定し、例外01を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は発言メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n全資料公開案は審査中で採用されていない。",
+      "sections": [
+        {
+          "id": "v4_1b9f4a7497004a7f_s1",
+          "heading": "現行の判断",
+          "text": "会議録画はshared、個人発言メモはprivateに分離する。 近似条件では対象を3件に限定し、例外01を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1b9f4a7497004a7f_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は発言メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_1b9f4a7497004a7f_s3",
+          "heading": "未採用の提案",
+          "text": "全資料公開案は審査中で採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_2a09166b7e9f3e49",
+      "title": "Isle 復元照合条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_2a09166b7e9f3e49",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Isle 復元照合条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。 近似条件では対象を10件に限定し、例外08を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n照合省略案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_2a09166b7e9f3e49_s1",
+          "heading": "現行の判断",
+          "text": "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。 近似条件では対象を10件に限定し、例外08を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_2a09166b7e9f3e49_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は件数確認だけで再開していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_2a09166b7e9f3e49_s3",
+          "heading": "未採用の提案",
+          "text": "照合省略案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_ac85a557fe60b55d",
+      "title": "Pine 長表条件記録",
+      "source_url": "https://example.invalid/release-v4/v4_ac85a557fe60b55d",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Pine 長表条件記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n長い条件表は列名・単位・例外を保持し、行を途中で削らない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は例外列を省略していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけを返す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_ac85a557fe60b55d_s1",
+          "heading": "現行の判断",
+          "text": "長い条件表は列名・単位・例外を保持し、行を途中で削らない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ac85a557fe60b55d_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は例外列を省略していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_ac85a557fe60b55d_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけを返す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_0215d383308e913a",
+      "title": "Flint 改訂確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_0215d383308e913a",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_06",
+      "body": "# Flint 改訂確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_06。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n編集者ごと更新案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_0215d383308e913a_s1",
+          "heading": "現行の判断",
+          "text": "表記だけの修正では確認日を更新せず、根拠変更時だけ新しい版を作る。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0215d383308e913a_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全編集で確認日を更新していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0215d383308e913a_s3",
+          "heading": "未採用の提案",
+          "text": "編集者ごと更新案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_651f1d74cfc41150",
+      "title": "Slate 同時実行条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_651f1d74cfc41150",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Slate 同時実行条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n16体同時実行の待ち時間は未測定で、単独成功から推定しない。 近似条件では対象を20件に限定し、例外18を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n平均値だけで同時実行を保証する案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_651f1d74cfc41150_s1",
+          "heading": "現行の判断",
+          "text": "16体同時実行の待ち時間は未測定で、単独成功から推定しない。 近似条件では対象を20件に限定し、例外18を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_651f1d74cfc41150_s2",
+          "heading": "旧版の判断",
+          "text": "旧報告は単独時間を同時実行実績として扱ったが、2026年5月10日に訂正された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_651f1d74cfc41150_s3",
+          "heading": "未採用の提案",
+          "text": "平均値だけで同時実行を保証する案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_f5793698613a9d25",
+      "title": "Quarry 経路時刻記録",
+      "source_url": "https://example.invalid/release-v4/v4_f5793698613a9d25",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Quarry 経路時刻記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n第3便は18時20分に到着し、駅から窓口まで徒歩11分である。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遅延時も固定時刻を使う案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_f5793698613a9d25_s1",
+          "heading": "現行の判断",
+          "text": "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f5793698613a9d25_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は到着を18時と見積もっていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_f5793698613a9d25_s3",
+          "heading": "未採用の提案",
+          "text": "遅延時も固定時刻を使う案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_996c48c2029a7aca",
+      "title": "Cairn 配送受付記録",
+      "source_url": "https://example.invalid/release-v4/v4_996c48c2029a7aca",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Cairn 配送受付記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n通常便は16時まで受け付け、遅延時は当日掲示を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版の受付締切は18時だったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n夜間20時受付案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_996c48c2029a7aca_s1",
+          "heading": "現行の判断",
+          "text": "通常便は16時まで受け付け、遅延時は当日掲示を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_996c48c2029a7aca_s2",
+          "heading": "旧版の判断",
+          "text": "旧版の受付締切は18時だったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_996c48c2029a7aca_s3",
+          "heading": "未採用の提案",
+          "text": "夜間20時受付案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9ca48a515a1803a9",
+      "title": "Cedar長期条件表",
+      "source_url": "https://example.invalid/release-v4/v4_9ca48a515a1803a9",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_03",
+      "body": "# Cedar長期条件表\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_03。\n\n## 長期条件表\n記録種別: report。採用状態: na。有効開始: 2026-05-01。有効終了: 未設定。\n列名・単位・例外を保持する長表。\n\n| 区画 | 閾値 | 例外 |\n|---|---:|---|\n| 区画01 | 4単位 | 例外区01を確認 |\n| 区画02 | 8単位 | 例外区02を確認 |\n| 区画03 | 12単位 | 例外区03を確認 |\n| 区画04 | 16単位 | 例外区04を確認 |\n| 区画05 | 20単位 | 例外区05を確認 |\n| 区画06 | 24単位 | 例外区06を確認 |\n| 区画07 | 28単位 | 例外区07を確認 |\n| 区画08 | 32単位 | 例外区08を確認 |\n| 区画09 | 36単位 | 例外区09を確認 |\n| 区画10 | 40単位 | 例外区10を確認 |\n| 区画11 | 44単位 | 例外区11を確認 |\n| 区画12 | 48単位 | 例外区12を確認 |\n| 区画13 | 52単位 | 例外区13を確認 |\n| 区画14 | 56単位 | 例外区14を確認 |\n| 区画15 | 60単位 | 例外区15を確認 |\n| 区画16 | 64単位 | 例外区16を確認 |\n| 区画17 | 68単位 | 例外区17を確認 |\n| 区画18 | 72単位 | 例外区18を確認 |\n| 区画19 | 76単位 | 例外区19を確認 |\n| 区画20 | 80単位 | 例外区20を確認 |\n| 区画21 | 84単位 | 例外区21を確認 |\n| 区画22 | 88単位 | 例外区22を確認 |\n| 区画23 | 92単位 | 例外区23を確認 |\n| 区画24 | 96単位 | 例外区24を確認 |\n| 区画25 | 100単位 | 例外区25を確認 |\n| 区画26 | 104単位 | 例外区26を確認 |\n| 区画27 | 108単位 | 例外区27を確認 |\n| 区画28 | 112単位 | 例外区28を確認 |\n| 区画29 | 116単位 | 例外区29を確認 |\n| 区画30 | 120単位 | 例外区30を確認 |\n| 区画31 | 124単位 | 例外区31を確認 |\n| 区画32 | 128単位 | 例外区32を確認 |\n| 区画33 | 132単位 | 例外区33を確認 |\n| 区画34 | 136単位 | 例外区34を確認 |\n| 区画35 | 140単位 | 例外区35を確認 |\n| 区画36 | 144単位 | 例外区36を確認 |\n| 区画37 | 148単位 | 例外区37を確認 |\n| 区画38 | 152単位 | 例外区38を確認 |\n| 区画39 | 156単位 | 例外区39を確認 |\n| 区画40 | 160単位 | 例外区40を確認 |\n| 区画41 | 164単位 | 例外区41を確認 |\n| 区画42 | 168単位 | 例外区42を確認 |\n| 区画43 | 172単位 | 例外区43を確認 |\n| 区画44 | 176単位 | 例外区44を確認 |\n| 区画45 | 180単位 | 例外区45を確認 |\n| 区画46 | 184単位 | 例外区46を確認 |\n| 区画47 | 188単位 | 例外区47を確認 |\n| 区画48 | 192単位 | 例外区48を確認 |\n| 区画49 | 196単位 | 例外区49を確認 |\n| 区画50 | 200単位 | 例外区50を確認 |\n| 区画51 | 204単位 | 例外区51を確認 |\n| 区画52 | 208単位 | 例外区52を確認 |\n| 区画53 | 212単位 | 例外区53を確認 |\n| 区画54 | 216単位 | 例外区54を確認 |\n| 区画55 | 220単位 | 例外区55を確認 |\n| 区画56 | 224単位 | 例外区56を確認 |\n| 区画57 | 228単位 | 例外区57を確認 |\n| 区画58 | 232単位 | 例外区58を確認 |\n| 区画59 | 236単位 | 例外区59を確認 |\n| 区画60 | 240単位 | 例外区60を確認 |",
+      "sections": [
+        {
+          "id": "v4_9ca48a515a1803a9_s1",
+          "heading": "長期条件表",
+          "text": "列名・単位・例外を保持する長表。\n\n| 区画 | 閾値 | 例外 |\n|---|---:|---|\n| 区画01 | 4単位 | 例外区01を確認 |\n| 区画02 | 8単位 | 例外区02を確認 |\n| 区画03 | 12単位 | 例外区03を確認 |\n| 区画04 | 16単位 | 例外区04を確認 |\n| 区画05 | 20単位 | 例外区05を確認 |\n| 区画06 | 24単位 | 例外区06を確認 |\n| 区画07 | 28単位 | 例外区07を確認 |\n| 区画08 | 32単位 | 例外区08を確認 |\n| 区画09 | 36単位 | 例外区09を確認 |\n| 区画10 | 40単位 | 例外区10を確認 |\n| 区画11 | 44単位 | 例外区11を確認 |\n| 区画12 | 48単位 | 例外区12を確認 |\n| 区画13 | 52単位 | 例外区13を確認 |\n| 区画14 | 56単位 | 例外区14を確認 |\n| 区画15 | 60単位 | 例外区15を確認 |\n| 区画16 | 64単位 | 例外区16を確認 |\n| 区画17 | 68単位 | 例外区17を確認 |\n| 区画18 | 72単位 | 例外区18を確認 |\n| 区画19 | 76単位 | 例外区19を確認 |\n| 区画20 | 80単位 | 例外区20を確認 |\n| 区画21 | 84単位 | 例外区21を確認 |\n| 区画22 | 88単位 | 例外区22を確認 |\n| 区画23 | 92単位 | 例外区23を確認 |\n| 区画24 | 96単位 | 例外区24を確認 |\n| 区画25 | 100単位 | 例外区25を確認 |\n| 区画26 | 104単位 | 例外区26を確認 |\n| 区画27 | 108単位 | 例外区27を確認 |\n| 区画28 | 112単位 | 例外区28を確認 |\n| 区画29 | 116単位 | 例外区29を確認 |\n| 区画30 | 120単位 | 例外区30を確認 |\n| 区画31 | 124単位 | 例外区31を確認 |\n| 区画32 | 128単位 | 例外区32を確認 |\n| 区画33 | 132単位 | 例外区33を確認 |\n| 区画34 | 136単位 | 例外区34を確認 |\n| 区画35 | 140単位 | 例外区35を確認 |\n| 区画36 | 144単位 | 例外区36を確認 |\n| 区画37 | 148単位 | 例外区37を確認 |\n| 区画38 | 152単位 | 例外区38を確認 |\n| 区画39 | 156単位 | 例外区39を確認 |\n| 区画40 | 160単位 | 例外区40を確認 |\n| 区画41 | 164単位 | 例外区41を確認 |\n| 区画42 | 168単位 | 例外区42を確認 |\n| 区画43 | 172単位 | 例外区43を確認 |\n| 区画44 | 176単位 | 例外区44を確認 |\n| 区画45 | 180単位 | 例外区45を確認 |\n| 区画46 | 184単位 | 例外区46を確認 |\n| 区画47 | 188単位 | 例外区47を確認 |\n| 区画48 | 192単位 | 例外区48を確認 |\n| 区画49 | 196単位 | 例外区49を確認 |\n| 区画50 | 200単位 | 例外区50を確認 |\n| 区画51 | 204単位 | 例外区51を確認 |\n| 区画52 | 208単位 | 例外区52を確認 |\n| 区画53 | 212単位 | 例外区53を確認 |\n| 区画54 | 216単位 | 例外区54を確認 |\n| 区画55 | 220単位 | 例外区55を確認 |\n| 区画56 | 224単位 | 例外区56を確認 |\n| 区画57 | 228単位 | 例外区57を確認 |\n| 区画58 | 232単位 | 例外区58を確認 |\n| 区画59 | 236単位 | 例外区59を確認 |\n| 区画60 | 240単位 | 例外区60を確認 |",
+          "kind": "report",
+          "adoption_status": "na",
+          "valid_from": "2026-05-01",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_9f4eb79d0b717125",
+      "title": "Lumen 点検周期条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_9f4eb79d0b717125",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Lumen 点検周期条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。 近似条件では対象を13件に限定し、例外11を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は全装置300時間ごとだったが、2026年5月10日に変更された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n両方を300時間に統一する案は未採用である。",
+      "sections": [
+        {
+          "id": "v4_9f4eb79d0b717125_s1",
+          "heading": "現行の判断",
+          "text": "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。 近似条件では対象を13件に限定し、例外11を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f4eb79d0b717125_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は全装置300時間ごとだったが、2026年5月10日に変更された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_9f4eb79d0b717125_s3",
+          "heading": "未採用の提案",
+          "text": "両方を300時間に統一する案は未採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_00a34d6233b6c966",
+      "title": "Brim 会議公開記録",
+      "source_url": "https://example.invalid/release-v4/v4_00a34d6233b6c966",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_02",
+      "body": "# Brim 会議公開記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_02。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n会議録画はshared、個人発言メモはprivateに分離する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は発言メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n全資料公開案は審査中で採用されていない。",
+      "sections": [
+        {
+          "id": "v4_00a34d6233b6c966_s1",
+          "heading": "現行の判断",
+          "text": "会議録画はshared、個人発言メモはprivateに分離する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_00a34d6233b6c966_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は発言メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_00a34d6233b6c966_s3",
+          "heading": "未採用の提案",
+          "text": "全資料公開案は審査中で採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_68c3b647c8c3b309",
+      "title": "Haze private記録",
+      "source_url": "https://example.invalid/release-v4/v4_68c3b647c8c3b309",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_13",
+      "body": "# Haze private記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_13。\n\n## 個別メモ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nHazeの個別識別語はPRIVATE_V4_07_Q8である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "v4_68c3b647c8c3b309_s1",
+          "heading": "個別メモ",
+          "text": "Hazeの個別識別語はPRIVATE_V4_07_Q8である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_413c032d776e7c5f",
+      "title": "Argo 監査保管記録",
+      "source_url": "https://example.invalid/release-v4/v4_413c032d776e7c5f",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_01",
+      "body": "# Argo 監査保管記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_01。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30日保持だったが、2026年5月10日に置き換えられた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n180日保持案は提案中で、採用されていない。",
+      "sections": [
+        {
+          "id": "v4_413c032d776e7c5f_s1",
+          "heading": "現行の判断",
+          "text": "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_413c032d776e7c5f_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30日保持だったが、2026年5月10日に置き換えられた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_413c032d776e7c5f_s3",
+          "heading": "未採用の提案",
+          "text": "180日保持案は提案中で、採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_c6578ed25f371a84",
+      "title": "Rook private記録",
+      "source_url": "https://example.invalid/release-v4/v4_c6578ed25f371a84",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "private",
+      "owner": "bot_07",
+      "body": "# Rook private記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: private。所有者: bot_07。\n\n## 個別メモ\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\nRookの個別識別語はPRIVATE_V4_17_Q8である。共有へ転記してはならない。",
+      "sections": [
+        {
+          "id": "v4_c6578ed25f371a84_s1",
+          "heading": "個別メモ",
+          "text": "Rookの個別識別語はPRIVATE_V4_17_Q8である。共有へ転記してはならない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_24fb5c3fb0213384",
+      "title": "Moss 教材範囲記録",
+      "source_url": "https://example.invalid/release-v4/v4_24fb5c3fb0213384",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Moss 教材範囲記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材はshared、受講者の評価メモはownerだけが参照する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は評価メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n匿名化した評価メモの共有案は審査待ちである。",
+      "sections": [
+        {
+          "id": "v4_24fb5c3fb0213384_s1",
+          "heading": "現行の判断",
+          "text": "教材はshared、受講者の評価メモはownerだけが参照する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_24fb5c3fb0213384_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は評価メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_24fb5c3fb0213384_s3",
+          "heading": "未採用の提案",
+          "text": "匿名化した評価メモの共有案は審査待ちである。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_0d99394c739da014",
+      "title": "Grove 機材返却記録",
+      "source_url": "https://example.invalid/release-v4/v4_0d99394c739da014",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Grove 機材返却記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は14日以内だったが、2026年5月10日に改められた。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n30日返却案は申請中である。",
+      "sections": [
+        {
+          "id": "v4_0d99394c739da014_s1",
+          "heading": "現行の判断",
+          "text": "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0d99394c739da014_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は14日以内だったが、2026年5月10日に改められた。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_0d99394c739da014_s3",
+          "heading": "未採用の提案",
+          "text": "30日返却案は申請中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_d1bbd346531512e3",
+      "title": "Jade 精算空欄記録",
+      "source_url": "https://example.invalid/release-v4/v4_d1bbd346531512e3",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Jade 精算空欄記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n概算だけの支払案は未承認である。",
+      "sections": [
+        {
+          "id": "v4_d1bbd346531512e3_s1",
+          "heading": "現行の判断",
+          "text": "領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d1bbd346531512e3_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d1bbd346531512e3_s3",
+          "heading": "未採用の提案",
+          "text": "概算だけの支払案は未承認である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_94a76c973ee85d4b",
+      "title": "Pine 長表条件記録",
+      "source_url": "https://example.invalid/release-v4/v4_94a76c973ee85d4b",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_16",
+      "body": "# Pine 長表条件記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_16。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n長い条件表は列名・単位・例外を保持し、行を途中で削らない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は例外列を省略していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけを返す案は採用されていない。",
+      "sections": [
+        {
+          "id": "v4_94a76c973ee85d4b_s1",
+          "heading": "現行の判断",
+          "text": "長い条件表は列名・単位・例外を保持し、行を途中で削らない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_94a76c973ee85d4b_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は例外列を省略していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_94a76c973ee85d4b_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけを返す案は採用されていない。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_a692bb4fe154a902",
+      "title": "Kora 引継ぎ記録",
+      "source_url": "https://example.invalid/release-v4/v4_a692bb4fe154a902",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_11",
+      "body": "# Kora 引継ぎ記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_11。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけの引継ぎ案は検討中である。",
+      "sections": [
+        {
+          "id": "v4_a692bb4fe154a902_s1",
+          "heading": "現行の判断",
+          "text": "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a692bb4fe154a902_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_a692bb4fe154a902_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけの引継ぎ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_236acfff6a09fb31",
+      "title": "Kora 引継ぎ条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_236acfff6a09fb31",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Kora 引継ぎ条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n要約だけの引継ぎ案は検討中である。",
+      "sections": [
+        {
+          "id": "v4_236acfff6a09fb31_s1",
+          "heading": "現行の判断",
+          "text": "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_236acfff6a09fb31_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は会話リンクだけを渡していたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_236acfff6a09fb31_s3",
+          "heading": "未採用の提案",
+          "text": "要約だけの引継ぎ案は検討中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_c957198b55a2fc4f",
+      "title": "Moss 教材範囲記録",
+      "source_url": "https://example.invalid/release-v4/v4_c957198b55a2fc4f",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_13",
+      "body": "# Moss 教材範囲記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_13。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n教材はshared、受講者の評価メモはownerだけが参照する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は評価メモもsharedだったが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n匿名化した評価メモの共有案は審査待ちである。",
+      "sections": [
+        {
+          "id": "v4_c957198b55a2fc4f_s1",
+          "heading": "現行の判断",
+          "text": "教材はshared、受講者の評価メモはownerだけが参照する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c957198b55a2fc4f_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は評価メモもsharedだったが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_c957198b55a2fc4f_s3",
+          "heading": "未採用の提案",
+          "text": "匿名化した評価メモの共有案は審査待ちである。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_caf906545dfc2665",
+      "title": "Dune ジョブ再送記録",
+      "source_url": "https://example.invalid/release-v4/v4_caf906545dfc2665",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_04",
+      "body": "# Dune ジョブ再送記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_04。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n重複実行を許す案は提案段階である。",
+      "sections": [
+        {
+          "id": "v4_caf906545dfc2665_s1",
+          "heading": "現行の判断",
+          "text": "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_caf906545dfc2665_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は最後の実行結果を上書きしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_caf906545dfc2665_s3",
+          "heading": "未採用の提案",
+          "text": "重複実行を許す案は提案段階である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_3e7cbec0a59375c5",
+      "title": "Nook 食事確認記録",
+      "source_url": "https://example.invalid/release-v4/v4_3e7cbec0a59375c5",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_14",
+      "body": "# Nook 食事確認記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_14。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自己申告だけで確認を省く案は不採用である。",
+      "sections": [
+        {
+          "id": "v4_3e7cbec0a59375c5_s1",
+          "heading": "現行の判断",
+          "text": "料理名だけで判断せず、店に材料と調理時の扱いを確認してから注文を確定する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_3e7cbec0a59375c5_s2",
+          "heading": "旧版の判断",
+          "text": "旧版はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_3e7cbec0a59375c5_s3",
+          "heading": "未採用の提案",
+          "text": "自己申告だけで確認を省く案は不採用である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_d6ae49e1d19b07db",
+      "title": "Eon 温度判断記録",
+      "source_url": "https://example.invalid/release-v4/v4_d6ae49e1d19b07db",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_05",
+      "body": "# Eon 温度判断記録\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_05。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30度で停止としていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遠隔強制停止案は審査前である。",
+      "sections": [
+        {
+          "id": "v4_d6ae49e1d19b07db_s1",
+          "heading": "現行の判断",
+          "text": "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d6ae49e1d19b07db_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30度で停止としていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_d6ae49e1d19b07db_s3",
+          "heading": "未採用の提案",
+          "text": "遠隔強制停止案は審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_db26cc15c1a806a9",
+      "title": "Haze 匿名公開条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_db26cc15c1a806a9",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_10",
+      "body": "# Haze 匿名公開条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_10。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n公開前に直接識別子を削除し、匿名化チェックを2人で確認する。 近似条件では対象を9件に限定し、例外07を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は1人確認だったが、2026年5月10日に改訂された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n自動判定だけの公開案は保留中である。",
+      "sections": [
+        {
+          "id": "v4_db26cc15c1a806a9_s1",
+          "heading": "現行の判断",
+          "text": "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。 近似条件では対象を9件に限定し、例外07を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_db26cc15c1a806a9_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は1人確認だったが、2026年5月10日に改訂された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_db26cc15c1a806a9_s3",
+          "heading": "未採用の提案",
+          "text": "自動判定だけの公開案は保留中である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "v4_4cf5db35569d6b86",
+      "title": "Eon 温度判断条件差分",
+      "source_url": "https://example.invalid/release-v4/v4_4cf5db35569d6b86",
+      "recorded_at": "2026-05-20",
+      "verified_at": "2026-05-19",
+      "scope": "shared",
+      "owner": "bot_07",
+      "body": "# Eon 温度判断条件差分\nこの資料は評価用の架空設定で、実在の製品・組織・人物を表さない。\n公開範囲: shared。所有者: bot_07。\n\n## 現行の判断\n記録種別: decision。採用状態: adopted。有効開始: 2026-05-10。有効終了: 未設定。\n32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。 近似条件では対象を6件に限定し、例外04を確認する。\n\n## 旧版の判断\n記録種別: decision。採用状態: superseded。有効開始: 2026-05-01。有効終了: 2026-05-10。\n旧版は30度で停止としていたが、2026年5月10日に廃止された。\n\n## 未採用の提案\n記録種別: decision。採用状態: proposed。有効開始: 2026-05-12。有効終了: 未設定。\n遠隔強制停止案は審査前である。",
+      "sections": [
+        {
+          "id": "v4_4cf5db35569d6b86_s1",
+          "heading": "現行の判断",
+          "text": "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。 近似条件では対象を6件に限定し、例外04を確認する。",
+          "kind": "decision",
+          "adoption_status": "adopted",
+          "valid_from": "2026-05-10",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4cf5db35569d6b86_s2",
+          "heading": "旧版の判断",
+          "text": "旧版は30度で停止としていたが、2026年5月10日に廃止された。",
+          "kind": "decision",
+          "adoption_status": "superseded",
+          "valid_from": "2026-05-01",
+          "valid_to": "2026-05-10",
+          "verified_at": "2026-05-19"
+        },
+        {
+          "id": "v4_4cf5db35569d6b86_s3",
+          "heading": "未採用の提案",
+          "text": "遠隔強制停止案は審査前である。",
+          "kind": "decision",
+          "adoption_status": "proposed",
+          "valid_from": "2026-05-12",
+          "valid_to": null,
+          "verified_at": "2026-05-19"
+        }
+      ]
+    }
+  ]
+}

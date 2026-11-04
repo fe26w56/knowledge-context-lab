@@ -1,0 +1,7 @@
+{
+  "schema": "phase2-reuse-stage1-hashes-v1",
+  "hashes": {
+    "corpus.json": "4c49af6973ec6d1da806b4ec9dd7298b71aeb8ca7f467f3ca9683bc31b7d5685",
+    "review_manifest.json": "33df0167729bc03e082624c5946341ec3f4157f99db5d27cd168495eec4b3db3"
+  }
+}

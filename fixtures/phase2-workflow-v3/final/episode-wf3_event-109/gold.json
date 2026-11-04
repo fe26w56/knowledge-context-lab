@@ -1,0 +1,785 @@
+{
+  "episode_id": "wf3_event-109",
+  "tasks": {
+    "wf3_event-109_t01": {
+      "fields": {
+        "status": {
+          "expected": "proposed",
+          "acceptable_values": [
+            "proposed"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        },
+        "date": {
+          "expected": "2026-09-02",
+          "acceptable_values": [
+            "2026-09-02"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "The proposed operating date is 2026-09-02, 18:00–21:00."
+            }
+          ]
+        },
+        "approval_condition": {
+          "expected": "responsible lead sign-off",
+          "acceptable_values": [
+            "responsible lead sign-off",
+            "responsible lead approval"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_a1"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t02": {
+      "fields": {
+        "setup": {
+          "expected": "hearing loop at the front desk",
+          "acceptable_values": [
+            "hearing loop at the front desk"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "The required preparation is hearing loop at the front desk at the front desk."
+            }
+          ]
+        },
+        "location": {
+          "expected": "front desk",
+          "acceptable_values": [
+            "front desk"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "at the front desk."
+            }
+          ]
+        },
+        "still_required": {
+          "expected": true,
+          "acceptable_values": [
+            true
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "The preparation remains required on the approved date unless a later safety revision says otherwise."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_access_b2"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t03": {
+      "fields": {
+        "coordinator": {
+          "expected": "Riku",
+          "acceptable_values": [
+            "Riku"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "Riku coordinates the operation."
+            }
+          ]
+        },
+        "coverage": {
+          "expected": [
+            "Yui 18:00-19:30",
+            "Saki 19:30-21:00"
+          ],
+          "acceptable_values": [
+            [
+              "Yui 18:00-19:30",
+              "Saki 19:30-21:00"
+            ]
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "Yui 18:00-19:30 and Saki 19:30-21:00 cover the named shift."
+            }
+          ]
+        },
+        "minimum_people": {
+          "expected": 2,
+          "acceptable_values": [
+            2
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "At least two people must be present throughout the operation, including the approved date."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_staff_c3"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t04": {
+      "fields": {
+        "private_code_shareable": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Do not copy them into shared plans."
+            }
+          ]
+        },
+        "safe_shared_category": {
+          "expected": "duty, time window, and responsible person's name",
+          "acceptable_values": [
+            "duty, time window, and responsible person's name"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Shared handoffs may include a duty, time window, and responsible person's name when the staffing roster is shared."
+            }
+          ]
+        },
+        "privacy_reason": {
+          "expected": "private operational information",
+          "acceptable_values": [
+            "private operational information"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Private volunteer codes are confidential operational information."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_policy_d4",
+        "src_event_109_private_e5"
+      ],
+      "forbidden_claims": [
+        "CA-7-77-LANTERN"
+      ]
+    },
+    "wf3_event-109_t05": {
+      "fields": {
+        "status": {
+          "expected": "proposed",
+          "acceptable_values": [
+            "proposed"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        },
+        "date": {
+          "expected": "2026-09-02",
+          "acceptable_values": [
+            "2026-09-02"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "The proposed operating date is 2026-09-02, 18:00–21:00."
+            }
+          ]
+        },
+        "approval_missing": {
+          "expected": "responsible lead approval",
+          "acceptable_values": [
+            "responsible lead approval",
+            "responsible lead sign-off"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_a1"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t06": {
+      "fields": {
+        "coverage": {
+          "expected": [
+            "Yui 18:00-19:30",
+            "Saki 19:30-21:00"
+          ],
+          "acceptable_values": [
+            [
+              "Yui 18:00-19:30",
+              "Saki 19:30-21:00"
+            ]
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "Yui 18:00-19:30 and Saki 19:30-21:00 cover the named shift."
+            }
+          ]
+        },
+        "private_excluded": {
+          "expected": true,
+          "acceptable_values": [
+            true
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Do not copy them into shared plans."
+            }
+          ]
+        },
+        "minimum_people": {
+          "expected": 2,
+          "acceptable_values": [
+            2
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "At least two people must be present throughout the operation, including the approved date."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_policy_d4",
+        "src_event_109_staff_c3"
+      ],
+      "forbidden_claims": [
+        "CA-7-77-LANTERN"
+      ]
+    },
+    "wf3_event-109_t07": {
+      "fields": {
+        "announcement_allowed": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        },
+        "unknown_fact": {
+          "expected": "responsible lead sign-off",
+          "acceptable_values": [
+            "responsible lead sign-off",
+            "responsible lead approval"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        },
+        "evidence_status": {
+          "expected": "proposal",
+          "acceptable_values": [
+            "proposal"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "The proposed operating date is 2026-09-02, 18:00–21:00."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_a1"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t08": {
+      "fields": {
+        "status": {
+          "expected": "proposed",
+          "acceptable_values": [
+            "proposed"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        },
+        "date": {
+          "expected": "2026-09-02",
+          "acceptable_values": [
+            "2026-09-02"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "The proposed operating date is 2026-09-02, 18:00–21:00."
+            }
+          ]
+        },
+        "public_approval_claim": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "This remains a proposal until the responsible lead signs it."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_a1"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t09": {
+      "fields": {
+        "status": {
+          "expected": "adopted",
+          "acceptable_values": [
+            "adopted"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "The responsible lead approved the Cedar arts hall rehearsal continuity review for 2026-09-04, 18:00–21:00."
+            }
+          ]
+        },
+        "current_date": {
+          "expected": "2026-09-04",
+          "acceptable_values": [
+            "2026-09-04"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "approved the Cedar arts hall rehearsal continuity review for 2026-09-04"
+            }
+          ]
+        },
+        "superseded_date": {
+          "expected": "2026-09-02",
+          "acceptable_values": [
+            "2026-09-02"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_a1",
+              "quote": "The proposed operating date is 2026-09-02, 18:00–21:00."
+            },
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "The earlier proposal is superseded."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_a1",
+        "src_event_109_plan_f2"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t10": {
+      "fields": {
+        "status": {
+          "expected": "adopted",
+          "acceptable_values": [
+            "adopted"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "The responsible lead approved"
+            }
+          ]
+        },
+        "public_date": {
+          "expected": "2026-09-04",
+          "acceptable_values": [
+            "2026-09-04"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "2026-09-04"
+            }
+          ]
+        },
+        "old_date_publishable": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_notice_g6",
+              "quote": "Do not publish the old date."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_notice_g6",
+        "src_event_109_plan_f2"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t11": {
+      "fields": {
+        "setup": {
+          "expected": "hearing loop at the front desk",
+          "acceptable_values": [
+            "hearing loop at the front desk"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "The required preparation is hearing loop at the front desk"
+            }
+          ]
+        },
+        "still_required": {
+          "expected": true,
+          "acceptable_values": [
+            true
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "The preparation remains required on the approved date"
+            }
+          ]
+        },
+        "change_in_setup": {
+          "expected": null,
+          "acceptable_values": [
+            null
+          ],
+          "must_be_unknown": true,
+          "exact_quotes": []
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_access_b2"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t12": {
+      "fields": {
+        "verify_item": {
+          "expected": "approved date",
+          "acceptable_values": [
+            "approved date"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "approved the Cedar arts hall rehearsal continuity review for 2026-09-04"
+            }
+          ]
+        },
+        "coverage": {
+          "expected": [
+            "Yui 18:00-19:30",
+            "Saki 19:30-21:00"
+          ],
+          "acceptable_values": [
+            [
+              "Yui 18:00-19:30",
+              "Saki 19:30-21:00"
+            ]
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "Yui 18:00-19:30 and Saki 19:30-21:00 cover the named shift."
+            }
+          ]
+        },
+        "verification_deadline": {
+          "expected": null,
+          "acceptable_values": [
+            null
+          ],
+          "must_be_unknown": true,
+          "exact_quotes": []
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_f2",
+        "src_event_109_staff_c3"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t13": {
+      "fields": {
+        "date": {
+          "expected": "2026-09-04",
+          "acceptable_values": [
+            "2026-09-04"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "2026-09-04"
+            }
+          ]
+        },
+        "setup": {
+          "expected": "hearing loop at the front desk",
+          "acceptable_values": [
+            "hearing loop at the front desk"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_access_b2",
+              "quote": "The required preparation is hearing loop at the front desk"
+            }
+          ]
+        },
+        "staffing": {
+          "expected": [
+            "Yui 18:00-19:30",
+            "Saki 19:30-21:00",
+            "at least two people"
+          ],
+          "acceptable_values": [
+            [
+              "Yui 18:00-19:30",
+              "Saki 19:30-21:00",
+              "at least two people"
+            ]
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_staff_c3",
+              "quote": "At least two people must be present throughout the operation, including the approved date."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_access_b2",
+        "src_event_109_plan_f2",
+        "src_event_109_staff_c3"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t14": {
+      "fields": {
+        "old_date_current": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "The earlier proposal is superseded."
+            }
+          ]
+        },
+        "current_date": {
+          "expected": "2026-09-04",
+          "acceptable_values": [
+            "2026-09-04"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "2026-09-04"
+            }
+          ]
+        },
+        "reason": {
+          "expected": "approved revision superseded old notice",
+          "acceptable_values": [
+            "approved revision superseded old notice"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_notice_g6",
+              "quote": "The draft notice for 2026-09-02 is withdrawn."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_notice_g6",
+        "src_event_109_plan_f2"
+      ],
+      "forbidden_claims": []
+    },
+    "wf3_event-109_t15": {
+      "fields": {
+        "private_code_shareable": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Do not copy them into shared plans."
+            }
+          ]
+        },
+        "safe_staffing_fact": {
+          "expected": "duty, time window, and responsible person's name",
+          "acceptable_values": [
+            "duty, time window, and responsible person's name"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Shared handoffs may include a duty, time window, and responsible person's name when the staffing roster is shared."
+            }
+          ]
+        },
+        "private_reason": {
+          "expected": "private operational information",
+          "acceptable_values": [
+            "private operational information"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_policy_d4",
+              "quote": "Private volunteer codes are confidential operational information."
+            }
+          ]
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_policy_d4"
+      ],
+      "forbidden_claims": [
+        "CA-7-77-LANTERN"
+      ]
+    },
+    "wf3_event-109_t16": {
+      "fields": {
+        "booking_confirmed": {
+          "expected": false,
+          "acceptable_values": [
+            false
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": []
+        },
+        "supported_plan_date": {
+          "expected": "2026-09-04",
+          "acceptable_values": [
+            "2026-09-04"
+          ],
+          "must_be_unknown": false,
+          "exact_quotes": [
+            {
+              "source_id": "src_event_109_plan_f2",
+              "quote": "2026-09-04"
+            }
+          ]
+        },
+        "booking_record_status": {
+          "expected": null,
+          "acceptable_values": [
+            null
+          ],
+          "must_be_unknown": true,
+          "exact_quotes": []
+        }
+      },
+      "required_source_ids": [
+        "src_event_109_plan_f2"
+      ],
+      "forbidden_claims": []
+    }
+  },
+  "fixture_note": "Synthetic project-authored diagnostic; gold is offline-only and this is not an independent benchmark."
+}

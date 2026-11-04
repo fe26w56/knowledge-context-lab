@@ -1,0 +1,22 @@
+{
+  "fixture":"phase2-longmemeval-selection-v1",
+  "status":"frozen-before-external-data-retrieval-changes",
+  "source_sha256":"d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+  "source_bytes":277383467,
+  "source_records":500,
+  "dev_cases":7,
+  "final_cases":14,
+  "rule":"question_id ends with _abs -> abstention; otherwise question_type; sort sha256(20261103:+question_id); dev first 1, final next 2 per group",
+  "selection_sha256":"5438df9246ea9a43e5882ba88b294ffd72b4ea8d726aaf97cfd2a41114f1661a",
+  "prepared_v1":"work/longmemeval/prepared-v1",
+  "prepared_hashes":{
+    "dev-public-inputs.json":"cfba8d17ae459e261750c92270e37d4319b03ef494612ce4ee4c8bb6488aed4e",
+    "dev-gold.json":"1259c95e75934847bb9315231b37ff31bf52c15fce6156c3720771eabfe83019",
+    "final-public-inputs.json":"34dc378cb1fec915b4fb3dd6cb73d1862db498825aae6fe4fd4b5fe3d40410be",
+    "final-gold.json":"90419572894144d43935ecb4077d0116dd69c4ff41916a5487407f16dd8d5539"
+  },
+  "oracle_dataset_downloaded":false,
+  "paid_api_calls":0,
+  "upstream_license":"MIT (reported by upstream; verify before redistribution)",
+  "links":["https://github.com/xiaowu0162/LongMemEval","https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned"]
+}

@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v3",
+  "queries": [
+    {
+      "id": "v2f10",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Kestrelの引き継ぎで会話リンク以外に残すものは？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_bf614506112a14",
+        "d_035f06954872db",
+        "d_5f45dcd1933198"
+      ]
+    },
+    {
+      "id": "v2f11",
+      "split": "final",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "LapisのL1とL2を同じ点検間隔として扱える？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "装置L1は200稼働時間ごと、L2は350稼働時間ごとに点検する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_ac1873edf2830c",
+        "d_f076dde58d5fa6",
+        "d_058727d0591e69"
+      ]
+    },
+    {
+      "id": "v2f12",
+      "split": "final",
+      "category": "scope_owner",
+      "request": {
+        "text": "所有者bot_16がMistralの評価メモを参照できる？",
+        "actor": "bot_16",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "教材はshared、受講者の評価メモはownerだけが参照する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_871d0140ecf380",
+        "d_c2172f42752a58",
+        "d_9135fd29902594"
+      ]
+    },
+    {
+      "id": "v2f13",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Nectarは料理名だけ見て注文を確定できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "料理名だけで判断せず、店に材料と調理時の取り扱いを確認してから注文を確定する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_c358522e21611d",
+        "d_91f3aeb30ef137",
+        "d_6e110c62104a35"
+      ]
+    },
+    {
+      "id": "v2f14",
+      "split": "final",
+      "category": "retry",
+      "request": {
+        "text": "Opalの応答が消えた直後に完了へ進めてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "応答が失われたときは同じrequest_keyで照会し、確定版を読めるまで完了にしない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_7e7aa72dce9b2f",
+        "d_f82c70f1a0367c",
+        "d_bd69985c007083"
+      ]
+    },
+    {
+      "id": "v2f15",
+      "split": "final",
+      "category": "long_table",
+      "request": {
+        "text": "Plover表の区分02の閾値と例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "| 区分02 | 6単位 | 例外02を確認 |"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "例外02を確認"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_85e6334dee74be"
+      ]
+    },
+    {
+      "id": "v2f16",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Quill第3便の到着と窓口締切を合わせて判断して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "第3便は18時20分に到着し、駅から窓口まで徒歩11分である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_bcb717641f7b4d",
+        "d_e3a6e86ecbe8e9",
+        "d_ca065a998eb985"
+      ]
+    },
+    {
+      "id": "v2f17",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "Ravenの現在の版競合処理は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "更新はexpected_version一致時だけ適用し、競合時は新しい版を読んで確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_2b0eae2a0a1846",
+        "d_1aaf1c0a52bf3c",
+        "d_0f8e4f0928a602"
+      ]
+    },
+    {
+      "id": "v2f18",
+      "split": "final",
+      "category": "measured_vs_target",
+      "request": {
+        "text": "Sableの16体同時実行待ち時間は測定済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "16体同時実行の待ち時間は未測定で、単独成功から推定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_9980737def80bf",
+        "d_b62c853b241f9b",
+        "d_ee03d344989d60"
+      ]
+    },
+    {
+      "id": "v2f19",
+      "split": "final",
+      "category": "conflict_current_proposal",
+      "request": {
+        "text": "Topazの現行状態と、確定予約表示案の扱いを分けて答えて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。",
+        "空室確認だけで確定予約と表示する案は却下された。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "予約はまだ行っておらず"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_350973c77eb4fd",
+        "d_c7f089c4ce3166",
+        "d_491a23ea8d1645"
+      ],
+      "evidence_sources": {
+        "候補の空室情報は確認時点の値で、予約はまだ行っておらず将来の空室を保証しない。": [
+          "d_350973c77eb4fd",
+          "d_c7f089c4ce3166",
+          "d_491a23ea8d1645"
+        ],
+        "空室確認だけで確定予約と表示する案は却下された。": [
+          "d_350973c77eb4fd",
+          "d_c7f089c4ce3166",
+          "d_491a23ea8d1645"
+        ]
+      }
+    },
+    {
+      "id": "v2f20",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "この架空資料だけでD1の可用性を実測済みと言える？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": []
+    },
+    {
+      "id": "v2f21",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がKestrelのprivate識別語を読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "PRIVATE_V2_10_K7"
+      ]
+    },
+    {
+      "id": "v2f22",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "Nectarの旧確認方法を5月5日時点で答えて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "旧案はメニュー表示だけを根拠にしていたが、2026年5月10日に廃止された。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_c358522e21611d",
+        "d_91f3aeb30ef137",
+        "d_6e110c62104a35"
+      ]
+    },
+    {
+      "id": "v2f23",
+      "split": "final",
+      "category": "paraphrase",
+      "request": {
+        "text": "Ravenの競合時に他botの変更を消す運用か？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "版競合"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_2b0eae2a0a1846",
+        "d_1aaf1c0a52bf3c",
+        "d_0f8e4f0928a602"
+      ]
+    },
+    {
+      "id": "v2f24",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Topazの空室確認だけで予約確定と解釈しない条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "予約状態"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_350973c77eb4fd",
+        "d_c7f089c4ce3166",
+        "d_491a23ea8d1645"
+      ]
+    },
+    {
+      "id": "v2f25",
+      "split": "final",
+      "category": "current_decision",
+      "request": {
+        "text": "LapisのL2点検周期はいくつ？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "点検間隔"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_ac1873edf2830c",
+        "d_f076dde58d5fa6",
+        "d_058727d0591e69"
+      ]
+    },
+    {
+      "id": "v2f26",
+      "split": "final",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Opalの確定版を読めないまま完了扱いできる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "障害完了"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_7e7aa72dce9b2f",
+        "d_f82c70f1a0367c",
+        "d_bd69985c007083"
+      ]
+    },
+    {
+      "id": "v2f27",
+      "split": "final",
+      "category": "unknown",
+      "request": {
+        "text": "実在サービスの契約料金をこのfixtureから返せる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": []
+    },
+    {
+      "id": "v2f28",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "Ploverの要約だけを返す案は採用済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "旧表は例外列を省略していたが、2026年5月10日に廃止された。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_d4461bcd7cd4bc",
+        "d_923d04064aaa86",
+        "d_4482720fe92664"
+      ]
+    },
+    {
+      "id": "v2f29",
+      "split": "final",
+      "category": "condition_variant",
+      "request": {
+        "text": "Kestrelの近似条件で対象を12件に限定する場合の例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "例外10を確認する。"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_f593a413cbe7e8"
+      ],
+      "evidence_sources": {
+        "未解決事項、次の操作、根拠IDと版を引き継ぎ、元会話を読める前提にしない。 近似条件では対象を12件に限定し、例外10を確認する。": [
+          "d_f593a413cbe7e8"
+        ]
+      }
+    }
+  ]
+}

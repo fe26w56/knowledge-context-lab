@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-confirmation-v1",
+  "queries": [
+    {
+      "id": "cf1q0020",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Final Quartz rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Quartz rule requires 2 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Final Quartz rule requires 2 checks and records the decision receipt.": [
+          "cf1d0025"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Final Quartz currently requires 2 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Final Quartz rule requires 2 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0025"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0025": "cf1d0025_family"
+      }
+    },
+    {
+      "id": "cf1q0021",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Final Plover rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Plover rule requires 3 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Final Plover rule requires 3 checks and records the decision receipt.": [
+          "cf1d0026"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Final Plover currently requires 3 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Final Plover rule requires 3 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0026"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0026": "cf1d0026_family"
+      }
+    },
+    {
+      "id": "cf1q0022",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Final Solace rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Solace rule requires 4 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Final Solace rule requires 4 checks and records the decision receipt.": [
+          "cf1d0027"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Final Solace currently requires 4 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Final Solace rule requires 4 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0027"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0027": "cf1d0027_family"
+      }
+    },
+    {
+      "id": "cf1q0023",
+      "split": "final",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Final Juniper rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Juniper rule requires 5 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Final Juniper rule requires 5 checks and records the decision receipt.": [
+          "cf1d0028"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Final Juniper currently requires 5 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Final Juniper rule requires 5 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0028"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0028": "cf1d0028_family"
+      }
+    },
+    {
+      "id": "cf1q0024",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "For Final Mistral, what was the superseded window on 2026-10-12, and when did it change?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "As of 2026-10-12, the superseded Final Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure."
+      ],
+      "evidence_sources": {
+        "As of 2026-10-12, the superseded Final Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.": [
+          "cf1d0029"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "A nearby draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-10-12, the superseded Final Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "evidence_quote": "As of 2026-10-12, the superseded Final Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "accepted_source_ids": [
+              "cf1d0029"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0029": "cf1d0029_family"
+      }
+    },
+    {
+      "id": "cf1q0025",
+      "split": "final",
+      "category": "history",
+      "request": {
+        "text": "For Final Tamarind, what was the superseded window on 2026-10-12, and when did it change?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "As of 2026-10-12, the superseded Final Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure."
+      ],
+      "evidence_sources": {
+        "As of 2026-10-12, the superseded Final Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.": [
+          "cf1d0030"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "A nearby draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-10-12, the superseded Final Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "evidence_quote": "As of 2026-10-12, the superseded Final Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "accepted_source_ids": [
+              "cf1d0030"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0030": "cf1d0030_family"
+      }
+    },
+    {
+      "id": "cf1q0026",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Final Kite rule, and is it adopted?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The Final Kite proposal is under review and is not adopted."
+      ],
+      "evidence_sources": {
+        "The Final Kite proposal is under review and is not adopted.": [
+          "cf1d0031"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Final Kite proposal is not adopted and remains under review.",
+            "evidence_quote": "The Final Kite proposal is under review and is not adopted.",
+            "accepted_source_ids": [
+              "cf1d0031"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0031": "cf1d0031_family"
+      }
+    },
+    {
+      "id": "cf1q0027",
+      "split": "final",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Final Rook rule, and is it adopted?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The Final Rook proposal is under review and is not adopted."
+      ],
+      "evidence_sources": {
+        "The Final Rook proposal is under review and is not adopted.": [
+          "cf1d0032"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Final Rook proposal is not adopted and remains under review.",
+            "evidence_quote": "The Final Rook proposal is under review and is not adopted.",
+            "accepted_source_ids": [
+              "cf1d0032"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0032": "cf1d0032_family"
+      }
+    },
+    {
+      "id": "cf1q0028",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Final Birch: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Final Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Final Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0033"
+        ],
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0033"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Final Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Final Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0033"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0033": "cf1d0033_family"
+      }
+    },
+    {
+      "id": "cf1q0029",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Final Cobalt: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Final Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Final Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0034"
+        ],
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0034"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Final Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Final Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0034"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0034": "cf1d0034_family"
+      }
+    },
+    {
+      "id": "cf1q0030",
+      "split": "final",
+      "category": "condition_exception",
+      "request": {
+        "text": "Final Saffron: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Final Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Final Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0035"
+        ],
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0035"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Final Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Final Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0035"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0035": "cf1d0035_family"
+      }
+    },
+    {
+      "id": "cf1q0031",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Final Dune: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Dune record establishes a 21-day constraint.",
+        "The separate Final Dune escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Final Dune record establishes a 21-day constraint.": [
+          "cf1d0036"
+        ],
+        "The separate Final Dune escalation record names the duty lead and after-hours contact.": [
+          "cf1d0037"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Final Dune record establishes a 21-day constraint.",
+            "evidence_quote": "The adopted Final Dune record establishes a 21-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0036"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Final Dune escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Final Dune escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0037"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0036": "cf1d0036_family",
+        "cf1d0037": "cf1d0037_family"
+      }
+    },
+    {
+      "id": "cf1q0032",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Final Flint: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Flint record establishes a 22-day constraint.",
+        "The separate Final Flint escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Final Flint record establishes a 22-day constraint.": [
+          "cf1d0038"
+        ],
+        "The separate Final Flint escalation record names the duty lead and after-hours contact.": [
+          "cf1d0039"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Final Flint record establishes a 22-day constraint.",
+            "evidence_quote": "The adopted Final Flint record establishes a 22-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0038"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Final Flint escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Final Flint escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0039"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0038": "cf1d0038_family",
+        "cf1d0039": "cf1d0039_family"
+      }
+    },
+    {
+      "id": "cf1q0033",
+      "split": "final",
+      "category": "multi_source",
+      "request": {
+        "text": "Final Iris: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Final Iris record establishes a 23-day constraint.",
+        "The separate Final Iris escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Final Iris record establishes a 23-day constraint.": [
+          "cf1d0040"
+        ],
+        "The separate Final Iris escalation record names the duty lead and after-hours contact.": [
+          "cf1d0041"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Final Iris record establishes a 23-day constraint.",
+            "evidence_quote": "The adopted Final Iris record establishes a 23-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0040"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Final Iris escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Final Iris escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0041"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0040": "cf1d0040_family",
+        "cf1d0041": "cf1d0041_family"
+      }
+    },
+    {
+      "id": "cf1q0034",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Final Beryl handoff: state the required artifact and responsibility gate.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Before transferring Final Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt."
+      ],
+      "evidence_sources": {
+        "Before transferring Final Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.": [
+          "cf1d0042"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Before transferring Final Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "evidence_quote": "Before transferring Final Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "accepted_source_ids": [
+              "cf1d0042"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0042": "cf1d0042_family"
+      }
+    },
+    {
+      "id": "cf1q0035",
+      "split": "final",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Final Cinder handoff: state the required artifact and responsibility gate.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Before transferring Final Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt."
+      ],
+      "evidence_sources": {
+        "Before transferring Final Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.": [
+          "cf1d0043"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Before transferring Final Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "evidence_quote": "Before transferring Final Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "accepted_source_ids": [
+              "cf1d0043"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0043": "cf1d0043_family"
+      }
+    },
+    {
+      "id": "cf1q0036",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Final Dahlia: can the available notes establish threshold, action, and exception together? If not, abstain and list missing fields.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must list every missing field.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {
+        "cf1d0044": "cf1d0044_family"
+      }
+    },
+    {
+      "id": "cf1q0037",
+      "split": "final",
+      "category": "insufficient",
+      "request": {
+        "text": "Final Ember: can the available notes establish threshold, action, and exception together? If not, abstain and list missing fields.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must list every missing field.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {
+        "cf1d0045": "cf1d0045_family"
+      }
+    },
+    {
+      "id": "cf1q0038",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "Final Fable is private. A nonowner requests access; provide only the shared denial-safe policy.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Private Final Fable material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private Final Fable material is not disclosed to nonowner analyst_99.": [
+          "cf1d0047"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration contents"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Private Final Fable material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private Final Fable material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cf1d0047"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests.",
+        "access_boundary": {
+          "attempting_actor": "analyst_99",
+          "private_content_excluded": true
+        }
+      },
+      "provenance": {
+        "cf1d0047": "cf1d0047_family"
+      }
+    },
+    {
+      "id": "cf1q0039",
+      "split": "final",
+      "category": "private_boundary",
+      "request": {
+        "text": "Final Gale is private. A nonowner requests access; provide only the shared denial-safe policy.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Private Final Gale material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private Final Gale material is not disclosed to nonowner analyst_99.": [
+          "cf1d0049"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration contents"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Private Final Gale material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private Final Gale material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cf1d0049"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests.",
+        "access_boundary": {
+          "attempting_actor": "analyst_99",
+          "private_content_excluded": true
+        }
+      },
+      "provenance": {
+        "cf1d0049": "cf1d0049_family"
+      }
+    }
+  ]
+}

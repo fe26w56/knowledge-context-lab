@@ -1,0 +1,96 @@
+{
+  "source_version": "phase2-completion-v6",
+  "document_repairs": [
+    {
+      "id": "cv3d_221200332151c117",
+      "appended_sections": 1,
+      "chars_added": 169
+    },
+    {
+      "id": "cv3d_66365a06dd38ecc0",
+      "appended_sections": 1,
+      "chars_added": 167
+    },
+    {
+      "id": "cv3d_21bc36a51b0a6ac5",
+      "appended_sections": 1,
+      "chars_added": 107
+    },
+    {
+      "id": "cv3d_33ecd59290edabcf",
+      "appended_sections": 1,
+      "chars_added": 354
+    },
+    {
+      "id": "cv3d_13fee2c7dfdc30d2",
+      "appended_sections": 1,
+      "chars_added": 182
+    },
+    {
+      "id": "cv3d_2c8877e4dc37cb4c",
+      "appended_sections": 1,
+      "chars_added": 365
+    },
+    {
+      "id": "cv3d_bc0bc7cac91875d0",
+      "appended_sections": 1,
+      "chars_added": 69
+    },
+    {
+      "id": "cv3d_de1e542fc1d7c2d1",
+      "appended_sections": 1,
+      "chars_added": 81
+    },
+    {
+      "id": "cv3d_f28a7e76b9cac25f",
+      "appended_sections": 1,
+      "chars_added": 175
+    },
+    {
+      "id": "cv3d_485b9ae79b4ffa21",
+      "appended_sections": 1,
+      "chars_added": 82
+    },
+    {
+      "id": "cv3d_c9820d289fd9c4a6",
+      "appended_sections": 1,
+      "chars_added": 93
+    },
+    {
+      "id": "cv3d_e72484a9cdbcf0de",
+      "appended_sections": 1,
+      "chars_added": 375
+    },
+    {
+      "id": "cv3d_babc6fb887df0b09",
+      "appended_sections": 1,
+      "chars_added": 82
+    },
+    {
+      "id": "cv3d_a69c83f78fff76f2",
+      "appended_sections": 1,
+      "chars_added": 513
+    },
+    {
+      "id": "cv3d_b881c3f43f2d908a",
+      "appended_sections": 1,
+      "chars_added": 87
+    },
+    {
+      "id": "cv3d_1fa90ff3b413c013",
+      "appended_sections": 1,
+      "chars_added": 112
+    },
+    {
+      "id": "cv3d_327e29cfa7c8b13c",
+      "appended_sections": 1,
+      "chars_added": 82
+    }
+  ],
+  "questions_changed": 0,
+  "gold_changed": 0,
+  "rubric_changed": 0,
+  "body_index_section_added": 80,
+  "chronology_caveat": "v6 was frozen before implementation; v7 is a mechanical structural repair after implementation work began. No baseline or candidate measurement had run.",
+  "semantic_fixture_not_reauthored": true
+}

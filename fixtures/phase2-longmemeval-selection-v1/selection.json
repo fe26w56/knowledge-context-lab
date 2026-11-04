@@ -1,0 +1,73 @@
+{
+  "source_sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+  "source_bytes": 277383467,
+  "salt": "20261103:",
+  "rule": "question_id ends with _abs -> abstention; otherwise question_type",
+  "dev_per_group": 1,
+  "final_per_group": 2,
+  "groups": {
+    "groups": {
+      "single-session-user": 64,
+      "abstention": 30,
+      "multi-session": 121,
+      "single-session-preference": 30,
+      "temporal-reasoning": 127,
+      "knowledge-update": 72,
+      "single-session-assistant": 56
+    },
+    "selected": {
+      "single-session-user": [
+        "6f9b354f",
+        "b320f3f8",
+        "e01b8e2f"
+      ],
+      "abstention": [
+        "2698e78f_abs",
+        "19b5f2b3_abs",
+        "a96c20ee_abs"
+      ],
+      "multi-session": [
+        "77eafa52",
+        "1c549ce4",
+        "gpt4_15e38248"
+      ],
+      "single-session-preference": [
+        "fca70973",
+        "a89d7624",
+        "06878be2"
+      ],
+      "temporal-reasoning": [
+        "gpt4_88806d6e",
+        "982b5123",
+        "gpt4_b5700ca0"
+      ],
+      "knowledge-update": [
+        "9ea5eabc",
+        "2698e78f",
+        "0ddfec37"
+      ],
+      "single-session-assistant": [
+        "e9327a54",
+        "0e5e2d1a",
+        "18dcd5a5"
+      ]
+    }
+  },
+  "outputs": {
+    "dev": {
+      "count": 7,
+      "public_sha256": "cfba8d17ae459e261750c92270e37d4319b03ef494612ce4ee4c8bb6488aed4e",
+      "gold_sha256": "1259c95e75934847bb9315231b37ff31bf52c15fce6156c3720771eabfe83019"
+    },
+    "final": {
+      "count": 14,
+      "public_sha256": "34dc378cb1fec915b4fb3dd6cb73d1862db498825aae6fe4fd4b5fe3d40410be",
+      "gold_sha256": "90419572894144d43935ecb4077d0116dd69c4ff41916a5487407f16dd8d5539"
+    }
+  },
+  "license": "MIT (LongMemEval repository/dataset; verify terms before redistribution)",
+  "source_links": [
+    "https://github.com/xiaowu0162/LongMemEval",
+    "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned"
+  ]
+}

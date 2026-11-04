@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-candidate-v1",
+  "queries": [
+    {
+      "id": "rcd00",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Quartzの作業記録の保存期限で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "expected_source_ids": [
+        "rel_00_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd00h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Quartzの作業記録の保存期限の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧版では30日保持としていたが、2026年5月10日に置き換えられた。"
+      ],
+      "expected_source_ids": [
+        "rel_00_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "採用版では監査記録を90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd01",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Micaの遠隔会議の録画で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。"
+      ],
+      "expected_source_ids": [
+        "rel_01_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd01h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Micaの遠隔会議の録画の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧運用では発言メモを共有フォルダに置いていたが、2026年5月8日に廃止した。"
+      ],
+      "expected_source_ids": [
+        "rel_01_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "録画の公開範囲はsharedとし、個人の発言メモはprivateに分離する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd02",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Asterの配送窓口の締切で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。"
+      ],
+      "expected_source_ids": [
+        "rel_02_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd02h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Asterの配送窓口の締切の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧締切は18時だったが、2026年5月6日に16時へ変更された。"
+      ],
+      "expected_source_ids": [
+        "rel_02_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "通常便の受付は16時までで、遅延時は窓口の当日掲示を確認する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd03",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Velaの分析ジョブの再実行で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。"
+      ],
+      "expected_source_ids": [
+        "rel_03_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd03h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Velaの分析ジョブの再実行の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧手順では最後の実行結果を上書きしていたが、現在は廃止した。"
+      ],
+      "expected_source_ids": [
+        "rel_03_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd04",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Cinderの温室の温度条件で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。"
+      ],
+      "expected_source_ids": [
+        "rel_04_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd04h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Cinderの温室の温度条件の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "以前は30度で停止としていたが、測定条件の変更で廃止された。"
+      ],
+      "expected_source_ids": [
+        "rel_04_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "温度が32度以上と予想されたら、管理者の当日判断を確認し、自動停止を断定しない。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd05",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Pollenの文書の改訂日で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。"
+      ],
+      "expected_source_ids": [
+        "rel_05_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd05h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Pollenの文書の改訂日の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧規則は全編集で確認日を更新していたが、記録の追跡性のため廃止した。"
+      ],
+      "expected_source_ids": [
+        "rel_05_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "表記だけの修正では確認日を更新せず、根拠の変更時だけ新しい版を作る。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd06",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Nereidの貸出機材の返却で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。"
+      ],
+      "expected_source_ids": [
+        "rel_06_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd06h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Nereidの貸出機材の返却の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧制度は14日以内だったが、2026年5月5日に改めた。"
+      ],
+      "expected_source_ids": [
+        "rel_06_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "機材は貸出から7日以内に返却し、破損があれば返却時の写真を根拠にする。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd07",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Saffronの試験データの匿名化で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。"
+      ],
+      "expected_source_ids": [
+        "rel_07_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd07h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Saffronの試験データの匿名化の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧版では1人確認だったが、2026年5月3日に改訂した。"
+      ],
+      "expected_source_ids": [
+        "rel_07_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd08",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Tundraのバックアップの復元で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。"
+      ],
+      "expected_source_ids": [
+        "rel_08_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd08h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Tundraのバックアップの復元の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧手順は件数確認だけで再開していたが、監査で廃止された。"
+      ],
+      "expected_source_ids": [
+        "rel_08_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd09",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Umberの旅行費用の精算で現在採用している条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。"
+      ],
+      "expected_source_ids": [
+        "rel_09_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    },
+    {
+      "id": "rcd09h",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Umberの旅行費用の精算の旧版を2026年5月5日時点で確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧運用では空欄を無料として集計していたが、誤差のため廃止した。"
+      ],
+      "expected_source_ids": [
+        "rel_09_a"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "立替精算は領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を取り違えず、引用の出典IDを確認する。"
+    }
+  ]
+}

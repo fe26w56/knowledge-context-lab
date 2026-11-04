@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-02T08:59:22.782597+00:00",
+  "corpus_documents": 76,
+  "corpus_sections": 284,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "9c135cf07882f337af69a5db2fe20b110ac081b6f859d856585598c7c68ab326",
+    "dev.json": "951da97f7c75c0a46d1298b479b50bb18072e7589b32090772d82aa99ab93e2f",
+    "final.json": "1613bccc1439f092a25adb880e9368009698494709519093e629bafc5af570bc",
+    "grading.json": "5a2caabed5fd1257f9e3b346644d6f1e4865b06e7d04391b9fa0678a0f43eebc"
+  },
+  "author_exposed_to_existing_implementation": true,
+  "frozen_before_original_implementation": false,
+  "existing_configuration_fixed_before_confirmation": true,
+  "no_baseline_or_candidate_measurement": true,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "all_content_paragraphs_indexed": true,
+  "authoring_reason": "Repair the confirmation design after rejecting two drafts; preserve scope and state fidelity rather than targeting a score.",
+  "revision_of": "fixtures/phase2-confirmation-v3",
+  "corrections_before_measurement": [
+    "Historical documents describe the future review as scheduled, not already approved.",
+    "Draft proposals have no effective date in either prose or section metadata.",
+    "Two drill exception sentences remove duplicate qualifiers; all matching rubric quotes are updated."
+  ]
+}

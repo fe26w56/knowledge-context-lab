@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v2",
+  "queries": [
+    {
+      "id": "v2d00",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "いまのAldrin監査記録の保持条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "監査記録は90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_bca5f9c553deb7",
+        "d_5e3cc0ea1d8fe0",
+        "d_f22c6dde86a4d0"
+      ]
+    },
+    {
+      "id": "v2d01",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "Berylの録画と個人メモの公開範囲を説明して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "会議録画はshared、個人発言メモはprivateに分離する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_a9142882f829a8",
+        "d_e27b8ea20280de",
+        "d_531b086df10d44"
+      ]
+    },
+    {
+      "id": "v2d02",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Cobaltの旧受付締切を5月5日時点で復元して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧締切は18時だったが、2026年5月10日に16時へ変更された。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "通常便の受付は16時までで、遅延時は当日掲示を確認する。"
+      ],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_ea5b94317ae54a",
+        "d_72a2e34762da78",
+        "d_090891dcafa0e7"
+      ]
+    },
+    {
+      "id": "v2d03",
+      "split": "dev",
+      "category": "retry",
+      "request": {
+        "text": "Dahliaで同じjob_keyを異内容で再送した場合は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_237475e2c69110",
+        "d_67b2b1c1b41e44",
+        "d_35c9ca62d38b4f"
+      ]
+    },
+    {
+      "id": "v2d04",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Emberが32度予想のとき自動停止と決めてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "32度以上と予想されたら管理者の当日判断を確認し、自動停止を断定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_a3b49fcb444084",
+        "d_edddd4f70f18e5",
+        "d_f65ffb8916960b"
+      ]
+    },
+    {
+      "id": "v2d05",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "Fjordの確認日を編集ごとに更新する提案は採用された？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "編集者ごとに更新日を変える案は採用されていない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_7dc63348310fa1",
+        "d_36dca995023b7a",
+        "d_a04acc4d698c1b"
+      ]
+    },
+    {
+      "id": "v2d06",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Garnetの返却日数と破損時の根拠をまとめて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_69e146acae9e30",
+        "d_db4f89eda960f5",
+        "d_1e816778581a41"
+      ]
+    },
+    {
+      "id": "v2d07",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がHelioの個別識別語を読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "current",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V2_07_K7"
+      ],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_86fc77cf9f228c",
+        "d_5dc0b2f37ebb94",
+        "d_b3a690bcd35227"
+      ]
+    },
+    {
+      "id": "v2d08",
+      "split": "dev",
+      "category": "long_table",
+      "request": {
+        "text": "Plover表の区分02の閾値と例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "| 区分02 | 6単位 | 例外02を確認 |"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "例外02を確認"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_85e6334dee74be"
+      ]
+    },
+    {
+      "id": "v2d09",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "Juniperの実在サービス料金はこの資料で分かる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_1446c6712f4fc0",
+        "d_2f1a6bcc1f01ac",
+        "d_bf093d8fecad32"
+      ]
+    },
+    {
+      "id": "v2d10",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Aldrinの現行保持条件と、削除前に必要な確認をまとめて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "監査記録は90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_bca5f9c553deb7",
+        "d_5e3cc0ea1d8fe0",
+        "d_f22c6dde86a4d0"
+      ]
+    },
+    {
+      "id": "v2d11",
+      "split": "dev",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "Berylの公開範囲と個人メモの扱いを同時に満たすには？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "会議録画はshared、個人発言メモはprivateに分離する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_a9142882f829a8",
+        "d_e27b8ea20280de",
+        "d_531b086df10d44"
+      ]
+    },
+    {
+      "id": "v2d12",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "Cobaltの実在会社の運賃はこの資料で確定できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_ea5b94317ae54a",
+        "d_72a2e34762da78",
+        "d_090891dcafa0e7"
+      ]
+    },
+    {
+      "id": "v2d13",
+      "split": "dev",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Dahliaの再実行を引き継ぐときjob_keyと内容をどう扱う？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、内容が違えば拒否する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_237475e2c69110",
+        "d_67b2b1c1b41e44",
+        "d_35c9ca62d38b4f"
+      ]
+    },
+    {
+      "id": "v2d14",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "Emberは予報だけで停止を決める運用か？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "32度以上と予想されたら管理者の当日判断を確認し、自動停止を断定しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_a3b49fcb444084",
+        "d_edddd4f70f18e5",
+        "d_f65ffb8916960b"
+      ]
+    },
+    {
+      "id": "v2d15",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "Garnetの30日返却案は現行決定？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "返却期限を30日にする案は申請中である。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_69e146acae9e30",
+        "d_db4f89eda960f5",
+        "d_1e816778581a41"
+      ]
+    },
+    {
+      "id": "v2d16",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Helioの匿名化チェック人数は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_86fc77cf9f228c",
+        "d_5dc0b2f37ebb94",
+        "d_b3a690bcd35227"
+      ]
+    },
+    {
+      "id": "v2d17",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Indigo旧復元手順を5月5日時点で答えて。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧手順は件数確認だけで再開していたが、2026年5月10日に廃止された。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_f4b693ff1430f4",
+        "d_7a2653081fc2b9",
+        "d_60d5d97843aaac"
+      ]
+    },
+    {
+      "id": "v2d18",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Juniperの精算空欄を無料扱いしてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "領収書と利用日をそろえて申請し、空欄を無料とは解釈しない。"
+      ],
+      "forbidden_quotes": [],
+      "condition_quotes": [
+        "無料扱いしない"
+      ],
+      "obsolete_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_1446c6712f4fc0",
+        "d_2f1a6bcc1f01ac",
+        "d_bf093d8fecad32"
+      ]
+    },
+    {
+      "id": "v2d19",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がAldrin private識別語を取得できる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V2_00_K7"
+      ],
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。",
+      "accepted_source_ids": [
+        "d_bca5f9c553deb7",
+        "d_5e3cc0ea1d8fe0",
+        "d_f22c6dde86a4d0"
+      ]
+    }
+  ]
+}

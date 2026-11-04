@@ -1,0 +1,78 @@
+{
+  "schema": "phase2-reuse-validation-v1",
+  "preflight": {
+    "ok": true,
+    "checks": {
+      "python": {
+        "status": "ok",
+        "problems": [],
+        "version": "3.13.12"
+      },
+      "venv": {
+        "status": "ok",
+        "problems": []
+      },
+      "tiktoken": {
+        "status": "ok",
+        "problems": [],
+        "version": "0.14.0"
+      },
+      "o200k_base_cache": {
+        "status": "ok",
+        "problems": []
+      },
+      "o200k_base_load": {
+        "status": "ok",
+        "problems": [],
+        "entries": 199998
+      },
+      "write_probe": {
+        "status": "ok",
+        "problems": []
+      },
+      "phase2_freeze": {
+        "status": "ok",
+        "problems": [],
+        "files": 3
+      },
+      "phase1_protected": {
+        "status": "ok",
+        "problems": [],
+        "files": 9
+      }
+    },
+    "problems": [],
+    "remediation_commands": []
+  },
+  "tests": {
+    "python311": {
+      "count": 319,
+      "result": "PASS",
+      "quiet_summary": "PASS exit=0 duration=6s suppressed=145lines"
+    },
+    "python313": {
+      "count": 319,
+      "result": "PASS",
+      "quiet_summary": "PASS exit=0 duration=5s suppressed=245lines"
+    }
+  },
+  "selected_code_hashes_match": true,
+  "selected_fixture_hashes_match": true,
+  "six_section_order": true,
+  "demo": "PASS exit=0 duration=0s suppressed=52lines",
+  "model_generation_calls": 108,
+  "model_successful_calls": 108,
+  "model_quality_is_not_unit_test_result": true,
+  "public_trace_request_output_usage_and_analysis_match": true,
+  "lifecycle_receipt": "runs/phase2-reuse-lifecycle-v3/receipt.json",
+  "model_root_review": "runs/phase2-reuse-model-root-review-v1/review.json",
+  "packaging": "Recorded separately in runs/phase2-reuse-packaging-v2/receipt.json; no external publication",
+  "new_api_calls_in_validation": 0,
+  "selected_hashes": {
+    "src/context_lab/reviewed_context.py": "0736b97fffbe80b0c538b98148746c282deb5f8cbdb452961a65791507026837",
+    "src/context_lab/workspace.py": "81b1c4f6f1653ec2333c4bc0391a3cc1e0f73ce5e69f6b4ade5268c8b96d8e71",
+    "src/context_lab/store.py": "fc41481825c72993f5debfd7ac1b6cdeec56f1a4946ab156c299cb17bb94bfd7",
+    "src/context_lab/snapshot.py": "a63b2f9806916f2b0b529ed9ddb4d39015b1924130c72afb8896d575146693fd",
+    "scripts/evaluate_reuse.py": "5421217e37cfafe09fa073bb9ad0a94751b78b75c5010bea811da83c2168b8a6"
+  }
+}

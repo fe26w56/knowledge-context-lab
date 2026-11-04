@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-completion-v4",
+  "rubric_schema": {
+    "atomic_claims": "list of {key,value,evidence_quote,accepted_source_ids}",
+    "abstain": "boolean",
+    "required_source_families": "multi-source only"
+  },
+  "source_roles": "roles are visible body claims, not title-only metadata",
+  "authoring_note": "Multi-source and condition requests vary in claim order, exceptions, and comparison structure."
+}

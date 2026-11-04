@@ -1,0 +1,20 @@
+{
+  "schema": "span-compaction-audit-v2",
+  "api_calls": 0,
+  "rows": 90,
+  "unique_parent_payloads": 22,
+  "all_evidence_retained": true,
+  "all_source_set_metadata_preserved": true,
+  "all_inputs_unchanged": true,
+  "original_context_tokens_total": 210316,
+  "compact_context_tokens_total": 186135,
+  "token_reduction_total": 24181,
+  "token_reduction_ratio": 0.11497460963502538,
+  "rows_with_token_reduction": 72,
+  "rows_with_overlap_or_adjacency": 72,
+  "limitations": [
+    "post-hoc payload transformation, not a new model result",
+    "token reduction is JSON/span compaction only, not a DB effect",
+    "rows repeat the same request payloads; do not treat 90 rows as 90 independent examples"
+  ]
+}

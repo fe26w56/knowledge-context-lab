@@ -1,0 +1,272 @@
+[
+  {
+    "id": "final-01",
+    "category": "lookup",
+    "topic_id": "承認門",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "承認門の決定・適用条件・例外・根拠をすべて確認してください。",
+      "承認条件と試験未完了時の例外を根拠付きで確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-01"
+    ],
+    "required_quotes": [
+      "統合試験成功と監査ログ保存後に承認する。",
+      "全件成功と保存確認が必要である。",
+      "試験未完了なら承認しない。",
+      "承認票FI-1で確認した。",
+      "試験項目変更は新版にする。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-02",
+    "category": "conditional",
+    "topic_id": "段階投入",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "段階投入の決定、条件、例外、根拠をすべて確認してください。",
+      "段階投入の観測条件と課金変更の例外を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-02"
+    ],
+    "required_quotes": [
+      "10%を20分観測し失敗率2%未満で50%へ進める。",
+      "通常機能に適用する。",
+      "課金変更は10%から拡大せず財務承認を待つ。",
+      "観測票FI-2で確認した。",
+      "閾値変更は再承認する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-03",
+    "category": "all_items",
+    "topic_id": "在庫色",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "在庫色の決定・適用条件・例外・根拠をすべて確認してください。",
+      "在庫数と払い出し条件を根拠付きで確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-03"
+    ],
+    "required_quotes": [
+      "銀箱は8個、金箱は3個である。",
+      "棚卸日当日の倉庫在庫に適用する。",
+      "金箱は責任者署名後だけ払い出す。",
+      "棚卸票FI-3で確認した。",
+      "数量訂正は差分理由を残す。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-04",
+    "category": "all_items",
+    "topic_id": "問合せ分類",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "問合せ分類の決定、条件、例外、根拠をすべて確認してください。",
+      "分類一覧と複数該当時の扱いを確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-04"
+    ],
+    "required_quotes": [
+      "技術、契約、請求の3分類を使う。",
+      "最初の受付時に1分類を選ぶ。",
+      "複数該当時は契約を優先する。",
+      "分類表FI-4で確認した。",
+      "分類追加はレビューする。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-05",
+    "category": "privacy",
+    "topic_id": "私有承認メモ",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "私有承認メモの決定・条件・例外・根拠を確認してください。",
+      "私有承認メモを非所有者が確認できる範囲を教えてください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-13"
+    ],
+    "required_quotes": [
+      "所有者だけが承認メモを閲覧できる。"
+    ],
+    "answerable": false,
+    "expect_status": "unavailable"
+  },
+  {
+    "id": "final-06",
+    "category": "all_items",
+    "topic_id": "受付一覧",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "受付一覧の決定、条件、例外、根拠をすべて確認してください。",
+      "受付で確認する全項目と同意なしの例外を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-06"
+    ],
+    "required_quotes": [
+      "氏名、契約ID、連絡先、同意の4項目を確認する。",
+      "同意欄が埋まっている場合に進める。",
+      "同意なしは保留する。",
+      "一覧票FI-6で確認した。",
+      "項目追加は版を更新する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-07",
+    "category": "unknown",
+    "topic_id": "未登録照会",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "未登録照会というtopicの結果を資料から確認できますか。",
+      "未登録照会について決定・条件・例外・根拠は確認できますか。"
+    ],
+    "required_source_ids": [],
+    "required_quotes": [],
+    "answerable": false,
+    "expect_status": "unavailable"
+  },
+  {
+    "id": "final-08",
+    "category": "conditional",
+    "topic_id": "地域通知",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "地域通知の決定、条件、例外、根拠をすべて確認してください。",
+      "北部通知の方法と南部に適用しない例外を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-08"
+    ],
+    "required_quotes": [
+      "北部の低緊急度通知は現地時間のメールで送る。",
+      "北部地域の低緊急度に限る。",
+      "南部には適用せず地域台帳を確認する。",
+      "地域票FI-8で確認した。",
+      "境界変更は承認する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-09",
+    "category": "cross_source",
+    "topic_id": "証跡完了",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "証跡完了の決定・条件・例外・根拠を確認してください。",
+      "承認と実施の両IDが必要な完了条件を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-09"
+    ],
+    "required_quotes": [
+      "承認IDと実施IDの両方が揃えば完了とする。",
+      "両IDが同じ案件に紐づくこと。",
+      "片方だけなら完了にしない。",
+      "台帳FI-9で確認した。",
+      "不足資料を照会する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-10",
+    "category": "conditional",
+    "topic_id": "保管期限",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "保管期限の決定、条件、例外、根拠をすべて確認してください。",
+      "機密資料の鍵と期限延長の例外を含めて確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-10"
+    ],
+    "required_quotes": [
+      "試験資料を施錠棚へ90日保管する。",
+      "通常資料に適用する。",
+      "機密資料は別鍵を使い延長には責任者承認が必要。",
+      "保管票FI-10で確認した。",
+      "廃棄前に承認を確認する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-11",
+    "category": "cross_source",
+    "topic_id": "引渡判定",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "引渡判定を2資料横断で、決定・条件・例外・根拠まで確認してください。",
+      "引渡番号の発行条件と受領記録の確定条件を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-14",
+      "rv-fi-15"
+    ],
+    "required_quotes": [
+      "検品合格後に引渡番号を発行する。",
+      "検品票に全測定値があること。",
+      "測定漏れは引渡を保留する。",
+      "検品票FI-14で確認した。",
+      "測定項目変更は新版にする。",
+      "引渡番号を受領記録へ記載する。",
+      "受領者の署名がある場合に確定する。",
+      "番号不一致は担当へ戻す。",
+      "受領票FI-15で確認した。",
+      "署名欄変更はレビューする。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  },
+  {
+    "id": "final-12",
+    "category": "current",
+    "topic_id": "契約更新",
+    "project": "reuse-final",
+    "mode": "current",
+    "variants": [
+      "契約更新の決定、条件、例外、根拠をすべて確認してください。",
+      "更新案内の期限と連絡先不明時の例外を確認してください。"
+    ],
+    "required_source_ids": [
+      "rv-fi-12"
+    ],
+    "required_quotes": [
+      "更新案内は満了日の30日前に送る。",
+      "連絡先が有効な契約に適用する。",
+      "連絡先不明は案内を送らず担当へ戻す。",
+      "契約票FI-12で確認した。",
+      "連絡先訂正を先に記録する。"
+    ],
+    "answerable": true,
+    "expect_status": "available"
+  }
+]

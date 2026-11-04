@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-release-v4",
+  "queries": [
+    {
+      "id": "v4d00",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Argoの現在の保持条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "accepted_source_ids": [
+        "v4_413c032d776e7c5f",
+        "v4_ad11ceecaaed049f",
+        "v4_9da3fcbca9a1366c"
+      ],
+      "evidence_sources": {
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。": [
+          "v4_413c032d776e7c5f",
+          "v4_ad11ceecaaed049f",
+          "v4_9da3fcbca9a1366c"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d01",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "Brimで録画と個人メモの公開範囲をどう分ける？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "会議録画はshared、個人発言メモはprivateに分離する。"
+      ],
+      "accepted_source_ids": [
+        "v4_a0b716eb83873ce3",
+        "v4_05681dc34a719bc8",
+        "v4_00a34d6233b6c966"
+      ],
+      "evidence_sources": {
+        "会議録画はshared、個人発言メモはprivateに分離する。": [
+          "v4_a0b716eb83873ce3",
+          "v4_05681dc34a719bc8",
+          "v4_00a34d6233b6c966"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d02",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Cairnの旧受付締切を5月5日に戻して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧版の受付締切は18時だったが、2026年5月10日に変更された。"
+      ],
+      "accepted_source_ids": [
+        "v4_996c48c2029a7aca",
+        "v4_d378c4f9c545abe1",
+        "v4_9f0c7ace5c322ed6"
+      ],
+      "evidence_sources": {
+        "旧版の受付締切は18時だったが、2026年5月10日に変更された。": [
+          "v4_996c48c2029a7aca",
+          "v4_d378c4f9c545abe1",
+          "v4_9f0c7ace5c322ed6"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "通常便は16時まで受け付け、遅延時は当日掲示を確認する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d03",
+      "split": "dev",
+      "category": "retry",
+      "request": {
+        "text": "Duneの異内容job_key再送はどうなる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。"
+      ],
+      "accepted_source_ids": [
+        "v4_caf906545dfc2665",
+        "v4_bdb3e24dcd236e7f",
+        "v4_a36181cfbcd101f5"
+      ],
+      "evidence_sources": {
+        "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。": [
+          "v4_caf906545dfc2665",
+          "v4_bdb3e24dcd236e7f",
+          "v4_a36181cfbcd101f5"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d04",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Eonの32度予想だけで自動停止を決めてよい？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。"
+      ],
+      "accepted_source_ids": [
+        "v4_d6ae49e1d19b07db",
+        "v4_1ee4061dd4e9bb9c",
+        "v4_002f396eadce7ac2"
+      ],
+      "evidence_sources": {
+        "32度以上の予想時は管理者の当日判断を確認し、自動停止を断定しない。": [
+          "v4_d6ae49e1d19b07db",
+          "v4_1ee4061dd4e9bb9c",
+          "v4_002f396eadce7ac2"
+        ]
+      },
+      "condition_quotes": [
+        "当日判断を確認"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d05",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "Flintの編集者ごと更新案は採用済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "編集者ごと更新案は採用されていない。"
+      ],
+      "accepted_source_ids": [
+        "v4_63d5607499ce0f30",
+        "v4_0215d383308e913a",
+        "v4_9341f310f980976c"
+      ],
+      "evidence_sources": {
+        "編集者ごと更新案は採用されていない。": [
+          "v4_63d5607499ce0f30",
+          "v4_0215d383308e913a",
+          "v4_9341f310f980976c"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d06",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Argoの保管条件とGroveの返却根拠を合わせて確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。",
+        "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。"
+      ],
+      "accepted_source_ids": [
+        "v4_413c032d776e7c5f",
+        "v4_ad11ceecaaed049f",
+        "v4_9da3fcbca9a1366c",
+        "v4_0d99394c739da014",
+        "v4_eba15e12fe8e7eda",
+        "v4_fdfc83a745fc8512"
+      ],
+      "evidence_sources": {
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。": [
+          "v4_413c032d776e7c5f",
+          "v4_ad11ceecaaed049f",
+          "v4_9da3fcbca9a1366c"
+        ],
+        "機材は貸出から7日以内に返却し、破損時は返却時の写真を根拠にする。": [
+          "v4_0d99394c739da014",
+          "v4_eba15e12fe8e7eda",
+          "v4_fdfc83a745fc8512"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d07",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がHaze所有者の個別識別語を読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V4_07_Q8"
+      ],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d08",
+      "split": "dev",
+      "category": "long_table",
+      "request": {
+        "text": "Cedar表の区画02の閾値と例外は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "| 区画02 | 8単位 | 例外区02を確認 |"
+      ],
+      "accepted_source_ids": [
+        "v4_9ca48a515a1803a9"
+      ],
+      "evidence_sources": {
+        "| 区画02 | 8単位 | 例外区02を確認 |": [
+          "v4_9ca48a515a1803a9"
+        ]
+      },
+      "condition_quotes": [
+        "例外区02を確認"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d09",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "Jadeの実在料金はこの資料から分かる？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d10",
+      "split": "dev",
+      "category": "multiple_conditions",
+      "request": {
+        "text": "Argoの保持期間と承認条件を同時に確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。"
+      ],
+      "accepted_source_ids": [
+        "v4_413c032d776e7c5f",
+        "v4_ad11ceecaaed049f",
+        "v4_9da3fcbca9a1366c"
+      ],
+      "evidence_sources": {
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。": [
+          "v4_413c032d776e7c5f",
+          "v4_ad11ceecaaed049f",
+          "v4_9da3fcbca9a1366c"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d11",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Argoの現行決定とBrimの公開方針を同時に整理して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。",
+        "会議録画はshared、個人発言メモはprivateに分離する。"
+      ],
+      "accepted_source_ids": [
+        "v4_413c032d776e7c5f",
+        "v4_ad11ceecaaed049f",
+        "v4_9da3fcbca9a1366c",
+        "v4_a0b716eb83873ce3",
+        "v4_05681dc34a719bc8",
+        "v4_00a34d6233b6c966"
+      ],
+      "evidence_sources": {
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。": [
+          "v4_413c032d776e7c5f",
+          "v4_ad11ceecaaed049f",
+          "v4_9da3fcbca9a1366c"
+        ],
+        "会議録画はshared、個人発言メモはprivateに分離する。": [
+          "v4_a0b716eb83873ce3",
+          "v4_05681dc34a719bc8",
+          "v4_00a34d6233b6c966"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d12",
+      "split": "dev",
+      "category": "condition_variant",
+      "request": {
+        "text": "Argoの近似条件で2件に限定する場合は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。 近似条件では対象を2件に限定し、例外00を確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_cb73a6975a8500a9"
+      ],
+      "evidence_sources": {
+        "採用版は監査記録を90日保持し、削除前に責任者の承認を保存する。 近似条件では対象を2件に限定し、例外00を確認する。": [
+          "v4_cb73a6975a8500a9"
+        ]
+      },
+      "condition_quotes": [
+        "例外00を確認する。"
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d13",
+      "split": "dev",
+      "category": "handoff_constraint",
+      "request": {
+        "text": "Duneの再送判断を引き継ぐときの根拠は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。"
+      ],
+      "accepted_source_ids": [
+        "v4_caf906545dfc2665",
+        "v4_bdb3e24dcd236e7f",
+        "v4_a36181cfbcd101f5"
+      ],
+      "evidence_sources": {
+        "同じjob_keyの同一内容は最初の結果を返し、異なる内容は拒否する。": [
+          "v4_caf906545dfc2665",
+          "v4_bdb3e24dcd236e7f",
+          "v4_a36181cfbcd101f5"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d14",
+      "split": "dev",
+      "category": "current_decision",
+      "request": {
+        "text": "Isle復元後の再開条件は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。"
+      ],
+      "accepted_source_ids": [
+        "v4_e6fff0c5069dc591",
+        "v4_4c7d339d4a2291de",
+        "v4_eab77106280c4f60"
+      ],
+      "evidence_sources": {
+        "復元後は全テーブルの件数と最新revisionを照合してから処理を再開する。": [
+          "v4_e6fff0c5069dc591",
+          "v4_4c7d339d4a2291de",
+          "v4_eab77106280c4f60"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d15",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "Groveの30日案は採用済み？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "30日返却案は申請中である。"
+      ],
+      "accepted_source_ids": [
+        "v4_0d99394c739da014",
+        "v4_eba15e12fe8e7eda",
+        "v4_fdfc83a745fc8512"
+      ],
+      "evidence_sources": {
+        "30日返却案は申請中である。": [
+          "v4_0d99394c739da014",
+          "v4_eba15e12fe8e7eda",
+          "v4_fdfc83a745fc8512"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d16",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "Jade旧精算を5月5日に確認して。",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "history",
+        "as_of": "2026-05-05"
+      },
+      "expected_quotes": [
+        "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。"
+      ],
+      "accepted_source_ids": [
+        "v4_e151d783782552d8",
+        "v4_cff1ad5e88670b85",
+        "v4_d1bbd346531512e3"
+      ],
+      "evidence_sources": {
+        "旧版は空欄を無料として集計していたが、2026年5月10日に廃止された。": [
+          "v4_e151d783782552d8",
+          "v4_cff1ad5e88670b85",
+          "v4_d1bbd346531512e3"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d17",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "bot_01がArgo privateを読める？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_V4_00_Q8"
+      ],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d18",
+      "split": "dev",
+      "category": "paraphrase",
+      "request": {
+        "text": "Haze公開前に必要な確認は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [
+        "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。"
+      ],
+      "accepted_source_ids": [
+        "v4_0feb3c3b178c5f04",
+        "v4_56b4dfe578edf7a0",
+        "v4_c14e86f501467d47"
+      ],
+      "evidence_sources": {
+        "公開前に直接識別子を削除し、匿名化チェックを2人で確認する。": [
+          "v4_0feb3c3b178c5f04",
+          "v4_56b4dfe578edf7a0",
+          "v4_c14e86f501467d47"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    },
+    {
+      "id": "v4d19",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "実在サービスの復元保証は？",
+        "actor": "bot_01",
+        "scope": null,
+        "mode": "search",
+        "as_of": "2026-05-20"
+      },
+      "expected_quotes": [],
+      "accepted_source_ids": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": "必須根拠・条件・時点・公開範囲を確認する。"
+    }
+  ]
+}

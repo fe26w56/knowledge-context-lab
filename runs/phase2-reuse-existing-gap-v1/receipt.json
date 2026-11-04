@@ -1,0 +1,9 @@
+{
+  "scenario": "new source with same explicit topic added after reviewed topic",
+  "before_status": "current",
+  "after_status": "current",
+  "old_payload_still_returned": true,
+  "new_source_in_evidence": false,
+  "api_calls": 0,
+  "note": "Controlled fictional regression, not a production failure"
+}

@@ -1,0 +1,14 @@
+{
+  "split":"final",
+  "tasks":[
+    {"task_id":"f1","request":"Sable輸出一覧の現在の正本、確定時刻、訂正方法を、旧DB記録と区別して説明して。","kind":"current_with_history","gold":{"facts":["LedgerOne","毎日21時","訂正理由と確認者を残す","SheetNorthは9月30日まで"],"source_spans":["fin-sable-main#現在の正本","fin-sable-db#旧DB記録"]}},
+    {"task_id":"f2","request":"Micaの夜間一次応答について、未決定の候補と契約上の最大値を混同せずに整理して。","kind":"unresolved_vs_source","gold":{"facts":["20分または60分は候補","責任者・適用日未記録","契約最大4時間"],"source_spans":["fin-mica-main#未解決の判断","fin-mica-contract#契約応答要件"]}},
+    {"task_id":"f3","request":"Lyraの日次グラフ案は採用済みか。現行仕様、作業チケット、承認状態を分けて答えて。","kind":"approval_state","gold":{"facts":["現行は週次","日次案は未承認","チケット作成は承認ではない"],"source_spans":["fin-lyra-main#現行仕様","fin-lyra-ticket#刷新チケット"]}},
+    {"task_id":"f4","request":"Nova障害でbotが記録する項目と、人が完了判定する理由を、旧手順からの変更も含めて教えて。","kind":"handoff_authority","gold":{"facts":["時刻・影響範囲・未確認点を記録","完了判定は人","旧bot完了扱いは10月5日廃止"],"source_spans":["fin-nova-main#現行手順","fin-nova-main#旧手順"]}},
+    {"task_id":"f5","request":"Sableの現在版と旧運用の版・日付・根拠を確認したい。どのページを正本として扱う？","kind":"source_version","gold":{"facts":["現行は2026-10-02のLedgerOne","旧は2026-09-30までのSheetNorth","根拠SB-14"],"source_spans":["fin-sable-main#根拠","fin-sable-db#旧DB記録"]}},
+    {"task_id":"f6","request":"Micaの責任者が夜間一次応答を60分と決めた場合、未解決状態を更新しつつ契約の4時間を失わない訂正手順を示して。","kind":"correction","gold":{"facts":["decision_statusをadoptedへ更新し適用日を記録","契約最大4時間の参照を保持","旧候補を履歴化"],"source_spans":["fin-mica-main#未解決の判断","fin-mica-contract#契約応答要件"]}},
+    {"task_id":"f7","request":"Lyraの日次案を明示承認後に現行へ昇格するなら、週次仕様との置換関係と適用日をどう残す？","kind":"explicit_approval","gold":{"facts":["承認記録を根拠にする","週次をhistoricalへ、日次の適用日を記録","チケット完了だけでは昇格しない"],"source_spans":["fin-lyra-main#更新条件"]}},
+    {"task_id":"f8","request":"Novaの現行手順をエクスポート・再取り込みしたあとも、10月4日までの旧手順を履歴として参照し、現在の完了判定を誤らない方法を確認して。","kind":"roundtrip","gold":{"facts":["現行は人が完了判定","旧手順は履歴","ページID・版・状態・本文を保持"],"source_spans":["fin-nova-main#完了判定","fin-nova-old#旧手順"]}}
+  ],
+  "operations":[{"op":"replace_page","record_id":"fin-mica-main","page":{"id":"fin-mica-main","title":"Micaサポート｜夜間応答の決定","properties":{"decision_status":"adopted","as_of":"2026-10-10","summary":"夜間一次応答は60分。契約上限4時間は別の根拠として保持する。","category":"サポート"},"body":"# Micaサポート\n\n## 決定\n責任者は2026年10月10日に、夜間一次応答を60分と決定した。適用開始日は同日。\n\n## 根拠の保持\n契約上の最大応答時間は4時間で、社内の60分という運用値を置き換えない。契約ページへの参照を残す。\n\n## 履歴\n20分案は採用せず、未決定状態から更新した。","scope":"shared","owner":"support-bot","edited_at":"2026-10-10T13:00:00Z","incomplete":null},"expected":"contract_source_preserved_and_old_proposal_historical"},{"op":"approve_and_supersede","record_id":"fin-lyra-main","approval":"product-council-2026-10-11","expected":"weekliesuperseded_only_after_explicit_approval"},{"op":"export_import","scope":"final","expected":"page_boundaries_properties_bodies_preserved"}]
+}

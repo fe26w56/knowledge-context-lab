@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-phase2-confirmation-v1",
+  "queries": [
+    {
+      "id": "cf1q0000",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Dev Quartz rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Quartz rule requires 2 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Quartz rule requires 2 checks and records the decision receipt.": [
+          "cf1d0000"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Dev Quartz currently requires 2 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Dev Quartz rule requires 2 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0000"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0000": "cf1d0000_family"
+      }
+    },
+    {
+      "id": "cf1q0001",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Dev Plover rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Plover rule requires 3 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Plover rule requires 3 checks and records the decision receipt.": [
+          "cf1d0001"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Dev Plover currently requires 3 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Dev Plover rule requires 3 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0001"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0001": "cf1d0001_family"
+      }
+    },
+    {
+      "id": "cf1q0002",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Dev Solace rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Solace rule requires 4 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Solace rule requires 4 checks and records the decision receipt.": [
+          "cf1d0002"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Dev Solace currently requires 4 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Dev Solace rule requires 4 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0002"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0002": "cf1d0002_family"
+      }
+    },
+    {
+      "id": "cf1q0003",
+      "split": "dev",
+      "category": "current",
+      "request": {
+        "text": "What is the current adopted Dev Juniper rule, including its checks and receipt?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Juniper rule requires 5 checks and records the decision receipt."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Juniper rule requires 5 checks and records the decision receipt.": [
+          "cf1d0003"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Dev Juniper currently requires 5 checks and records the decision receipt.",
+            "evidence_quote": "The adopted Dev Juniper rule requires 5 checks and records the decision receipt.",
+            "accepted_source_ids": [
+              "cf1d0003"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0003": "cf1d0003_family"
+      }
+    },
+    {
+      "id": "cf1q0004",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "For Dev Mistral, what was the superseded window on 2026-10-12, and when did it change?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "As of 2026-10-12, the superseded Dev Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure."
+      ],
+      "evidence_sources": {
+        "As of 2026-10-12, the superseded Dev Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.": [
+          "cf1d0004"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "A nearby draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-10-12, the superseded Dev Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "evidence_quote": "As of 2026-10-12, the superseded Dev Mistral window was 6 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "accepted_source_ids": [
+              "cf1d0004"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0004": "cf1d0004_family"
+      }
+    },
+    {
+      "id": "cf1q0005",
+      "split": "dev",
+      "category": "history",
+      "request": {
+        "text": "For Dev Tamarind, what was the superseded window on 2026-10-12, and when did it change?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "As of 2026-10-12, the superseded Dev Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure."
+      ],
+      "evidence_sources": {
+        "As of 2026-10-12, the superseded Dev Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.": [
+          "cf1d0005"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [
+        "A nearby draft is not the governing record."
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "As of 2026-10-12, the superseded Dev Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "evidence_quote": "As of 2026-10-12, the superseded Dev Tamarind window was 7 hours; it changed on 2026-10-20 when the record adopted a new procedure.",
+            "accepted_source_ids": [
+              "cf1d0005"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0005": "cf1d0005_family"
+      }
+    },
+    {
+      "id": "cf1q0006",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Dev Kite rule, and is it adopted?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The Dev Kite proposal is under review and is not adopted."
+      ],
+      "evidence_sources": {
+        "The Dev Kite proposal is under review and is not adopted.": [
+          "cf1d0006"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Dev Kite proposal is not adopted and remains under review.",
+            "evidence_quote": "The Dev Kite proposal is under review and is not adopted.",
+            "accepted_source_ids": [
+              "cf1d0006"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0006": "cf1d0006_family"
+      }
+    },
+    {
+      "id": "cf1q0007",
+      "split": "dev",
+      "category": "proposal",
+      "request": {
+        "text": "What is the proposed Dev Rook rule, and is it adopted?",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The Dev Rook proposal is under review and is not adopted."
+      ],
+      "evidence_sources": {
+        "The Dev Rook proposal is under review and is not adopted.": [
+          "cf1d0007"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "The Dev Rook proposal is not adopted and remains under review.",
+            "evidence_quote": "The Dev Rook proposal is under review and is not adopted.",
+            "accepted_source_ids": [
+              "cf1d0007"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0007": "cf1d0007_family"
+      }
+    },
+    {
+      "id": "cf1q0008",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Dev Birch: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Dev Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Dev Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0008"
+        ],
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0008"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 9: threshold 38; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Dev Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Dev Birch, if the measured value reaches 38, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0008"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0008": "cf1d0008_family"
+      }
+    },
+    {
+      "id": "cf1q0009",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Dev Cobalt: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Dev Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Dev Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0009"
+        ],
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0009"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 10: threshold 39; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Dev Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Dev Cobalt, if the measured value reaches 39, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0009"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0009": "cf1d0009_family"
+      }
+    },
+    {
+      "id": "cf1q0010",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "Dev Saffron: quote the threshold, unit, action, and declared-drill exception from the matrix.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "For Dev Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "evidence_sources": {
+        "For Dev Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.": [
+          "cf1d0010"
+        ],
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill.": [
+          "cf1d0010"
+        ]
+      },
+      "condition_quotes": [
+        "Matrix row 11: threshold 40; unit percent; action confirm on-call lead; exception declared drill."
+      ],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "For Dev Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "evidence_quote": "For Dev Saffron, if the measured value reaches 40, unit percent, confirm the on-call lead; exception: a declared drill does not trigger shutdown.",
+            "accepted_source_ids": [
+              "cf1d0010"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0010": "cf1d0010_family"
+      }
+    },
+    {
+      "id": "cf1q0011",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Dev Dune: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Dune record establishes a 21-day constraint.",
+        "The separate Dev Dune escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Dune record establishes a 21-day constraint.": [
+          "cf1d0011"
+        ],
+        "The separate Dev Dune escalation record names the duty lead and after-hours contact.": [
+          "cf1d0012"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Dev Dune record establishes a 21-day constraint.",
+            "evidence_quote": "The adopted Dev Dune record establishes a 21-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0011"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Dev Dune escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Dev Dune escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0012"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0011": "cf1d0011_family",
+        "cf1d0012": "cf1d0012_family"
+      }
+    },
+    {
+      "id": "cf1q0012",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Dev Flint: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Flint record establishes a 22-day constraint.",
+        "The separate Dev Flint escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Flint record establishes a 22-day constraint.": [
+          "cf1d0013"
+        ],
+        "The separate Dev Flint escalation record names the duty lead and after-hours contact.": [
+          "cf1d0014"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Dev Flint record establishes a 22-day constraint.",
+            "evidence_quote": "The adopted Dev Flint record establishes a 22-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0013"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Dev Flint escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Dev Flint escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0014"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0013": "cf1d0013_family",
+        "cf1d0014": "cf1d0014_family"
+      }
+    },
+    {
+      "id": "cf1q0013",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "Dev Iris: state the governing constraint and reconcile it with the separate escalation record.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "The adopted Dev Iris record establishes a 23-day constraint.",
+        "The separate Dev Iris escalation record names the duty lead and after-hours contact."
+      ],
+      "evidence_sources": {
+        "The adopted Dev Iris record establishes a 23-day constraint.": [
+          "cf1d0015"
+        ],
+        "The separate Dev Iris escalation record names the duty lead and after-hours contact.": [
+          "cf1d0016"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "primary",
+            "value": "The adopted Dev Iris record establishes a 23-day constraint.",
+            "evidence_quote": "The adopted Dev Iris record establishes a 23-day constraint.",
+            "accepted_source_ids": [
+              "cf1d0015"
+            ]
+          },
+          {
+            "key": "secondary",
+            "value": "The separate Dev Iris escalation record names the duty lead and after-hours contact.",
+            "evidence_quote": "The separate Dev Iris escalation record names the duty lead and after-hours contact.",
+            "accepted_source_ids": [
+              "cf1d0016"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0015": "cf1d0015_family",
+        "cf1d0016": "cf1d0016_family"
+      }
+    },
+    {
+      "id": "cf1q0014",
+      "split": "dev",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Dev Beryl handoff: state the required artifact and responsibility gate.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Before transferring Dev Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt."
+      ],
+      "evidence_sources": {
+        "Before transferring Dev Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.": [
+          "cf1d0017"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Before transferring Dev Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "evidence_quote": "Before transferring Dev Beryl, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "accepted_source_ids": [
+              "cf1d0017"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0017": "cf1d0017_family"
+      }
+    },
+    {
+      "id": "cf1q0015",
+      "split": "dev",
+      "category": "handoff",
+      "request": {
+        "text": "Prepare the Dev Cinder handoff: state the required artifact and responsibility gate.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Before transferring Dev Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt."
+      ],
+      "evidence_sources": {
+        "Before transferring Dev Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.": [
+          "cf1d0018"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Before transferring Dev Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "evidence_quote": "Before transferring Dev Cinder, attach the unresolved-question list; the handoff owner remains responsible until receipt.",
+            "accepted_source_ids": [
+              "cf1d0018"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests."
+      },
+      "provenance": {
+        "cf1d0018": "cf1d0018_family"
+      }
+    },
+    {
+      "id": "cf1q0016",
+      "split": "dev",
+      "category": "insufficient",
+      "request": {
+        "text": "Dev Dahlia: can the available notes establish threshold, action, and exception together? If not, abstain and list missing fields.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must list every missing field.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {
+        "cf1d0019": "cf1d0019_family"
+      }
+    },
+    {
+      "id": "cf1q0017",
+      "split": "dev",
+      "category": "insufficient",
+      "request": {
+        "text": "Dev Ember: can the available notes establish threshold, action, and exception together? If not, abstain and list missing fields.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [],
+      "evidence_sources": {},
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "rubric": {
+        "atomic_claims": [],
+        "abstain": true,
+        "notes": "A passing abstention must list every missing field.",
+        "missing_information": [
+          "threshold",
+          "action",
+          "exception"
+        ]
+      },
+      "provenance": {
+        "cf1d0020": "cf1d0020_family"
+      }
+    },
+    {
+      "id": "cf1q0018",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "Dev Fable is private. A nonowner requests access; provide only the shared denial-safe policy.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Private Dev Fable material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private Dev Fable material is not disclosed to nonowner analyst_99.": [
+          "cf1d0022"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration contents"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Private Dev Fable material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private Dev Fable material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cf1d0022"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests.",
+        "access_boundary": {
+          "attempting_actor": "analyst_99",
+          "private_content_excluded": true
+        }
+      },
+      "provenance": {
+        "cf1d0022": "cf1d0022_family"
+      }
+    },
+    {
+      "id": "cf1q0019",
+      "split": "dev",
+      "category": "private_boundary",
+      "request": {
+        "text": "Dev Gale is private. A nonowner requests access; provide only the shared denial-safe policy.",
+        "actor": "analyst_01",
+        "scope": "shared",
+        "mode": "search",
+        "as_of": "2026-11-02"
+      },
+      "expected_quotes": [
+        "Private Dev Gale material is not disclosed to nonowner analyst_99."
+      ],
+      "evidence_sources": {
+        "Private Dev Gale material is not disclosed to nonowner analyst_99.": [
+          "cf1d0024"
+        ]
+      },
+      "condition_quotes": [],
+      "obsolete_quotes": [],
+      "forbidden_quotes": [
+        "Private calibration contents"
+      ],
+      "answerable": true,
+      "rubric": {
+        "atomic_claims": [
+          {
+            "key": "claim_1",
+            "value": "Private Dev Gale material is not disclosed to nonowner analyst_99.",
+            "evidence_quote": "Private Dev Gale material is not disclosed to nonowner analyst_99.",
+            "accepted_source_ids": [
+              "cf1d0024"
+            ]
+          }
+        ],
+        "abstain": false,
+        "notes": "Every required condition is explicit in the source; source IDs are grader metadata and never belong in requests.",
+        "access_boundary": {
+          "attempting_actor": "analyst_99",
+          "private_content_excluded": true
+        }
+      },
+      "provenance": {
+        "cf1d0024": "cf1d0024_family"
+      }
+    }
+  ]
+}

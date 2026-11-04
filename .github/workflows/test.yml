@@ -1,0 +1,52 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install package and tokenizer extra
+        run: python -m pip install -e '.[tokens]' build
+      - name: Cache reference tokenizer
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: tokenizer-cache
+          key: tokenizer-o200k-base-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+      - name: Warm reference tokenizer
+        env:
+          TIKTOKEN_CACHE_DIR: ${{ github.workspace }}/tokenizer-cache
+        run: python -c 'import tiktoken; tiktoken.get_encoding("o200k_base")'
+      - name: Run tests
+        env:
+          TIKTOKEN_CACHE_DIR: ${{ github.workspace }}/tokenizer-cache
+        run: python -m unittest discover -s tests -v
+      - name: Run offline lifecycle demo
+        run: python scripts/demo_reviewed_context.py
+      - name: Replay public model evidence without API calls
+        run: >-
+          python scripts/analyze_reuse_model.py
+          --run runs/phase2-reuse-model-public-v1
+          --fixture fixtures/phase2-reuse-v1
+          --output runs/phase2-ci-analysis
+      - name: Build distributions
+        run: python -m build --sdist --wheel
+      - name: Check distribution contents
+        run: python scripts/check_distribution.py --sdist dist/*.tar.gz --wheel dist/*.whl
+

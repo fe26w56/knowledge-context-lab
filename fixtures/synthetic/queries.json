@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "corpus_id": "synthetic-research-v1",
+  "fixture_kind": "development_smoke",
+  "queries": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "category": "fact",
+      "request": {
+        "text": "Lumenの通常検索キャッシュは何分で期限切れになる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "Lumenの通常検索キャッシュは10分で期限切れにする。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "category": "condition_exception",
+      "request": {
+        "text": "あかつき島の連絡船は風が強ければ必ず欠航になる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "風速15メートル毎秒以上が予想される場合は、運航会社の当日発表を確認する。",
+        "予報だけで欠航と断定したり、運航すると決めたりしてはならない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "category": "multi_source",
+      "request": {
+        "text": "あかつき島の最終船で着いた後、波止場の宿のチェックインに間に合うか検討するための時刻と移動条件を教えて。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "架空のあかつき島行き最終便は17時30分に出港し、18時10分に到着する。",
+        "港から徒歩8分で、チェックインの締切は19時である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "category": "decision_state",
+      "request": {
+        "text": "作業端末は現在どの機種を採用している？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "4月15日にAlder Miniを採用した。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "category": "temporal_history",
+      "request": {
+        "text": "2026年4月5日時点のLumenのキャッシュ方針は何分だった？",
+        "actor": "bot_01",
+        "as_of": "2026-04-05",
+        "mode": "history"
+      },
+      "expected_quotes": [
+        "旧方針ではLumenの通常検索キャッシュを60分保持していた。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": "旧版が必要な問題。supersededという現在の注記だけを理由に旧版を除外しない。"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "category": "handoff",
+      "request": {
+        "text": "Relayの作業を別botへ引き継ぎ、完了扱いにするにはどんな情報が必要？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "引き継ぎには、目的、完了した範囲、未解決事項、次の操作、根拠のIDと版を含める。",
+        "Relayの作業完了には、保存が確定した根拠のIDと版が必要である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "category": "short_term",
+      "request": {
+        "text": "KBはこの運用では何を指す？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "この架空運用でKBは、調査結果と根拠を保管する知識庫を指す。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "category": "short_term",
+      "request": {
+        "text": "装置D1のフィルターを交換する間隔は？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "装置D1のフィルターは稼働200時間ごとに交換する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "category": "scope_owner",
+      "request": {
+        "text": "私のLumen個別実験識別語を確認したい。",
+        "actor": "bot_04",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "bot_04の個別実験識別語はPRIVATE_ONLY_ORANGE_731である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "category": "unknown",
+      "request": {
+        "text": "Lumen本番のp95応答時間は具体的に何ミリ秒？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "notes": "具体的な数値は存在しない。取得ゼロを正しい回答保留と採点してはいけない。未測定の記録を取得できることと、生成回答が捏造しないことは別評価。"
+    },
+    {
+      "id": "q11",
+      "split": "eval",
+      "category": "decision_state",
+      "request": {
+        "text": "Lumenのキャッシュ設定は、4月19日の追記を踏まえて現在何分にすべき？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "Lumenの通常検索キャッシュは10分で期限切れにする。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": "後から書かれた提案を採用済み決定と混同しないことを人手で確認する。旧案を取得しただけでは誤回答と判定しない。"
+    },
+    {
+      "id": "q12",
+      "split": "eval",
+      "category": "condition_exception",
+      "request": {
+        "text": "文章の表現だけを直したとき、情報確認日も今日へ更新してよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "文章の表現だけを直したときは、情報確認日を新しくしてはならない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q13",
+      "split": "eval",
+      "category": "handoff",
+      "request": {
+        "text": "Relayの保存応答が途切れた。次のbotへ完了として渡す前に何を確かめる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "Relayの保存応答が届かなかった場合は、同じrequest_idで保存結果を照会する。",
+        "保存予定のIDや、応答待ちの記録を完了根拠として登録してはならない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q14",
+      "split": "eval",
+      "category": "condition_exception",
+      "request": {
+        "text": "Relayの同じrequest_idで、内容を変えて再送してもよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "同じrequest_idで異なる内容を送った場合は、要求の不一致として拒否する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q15",
+      "split": "eval",
+      "category": "measured_vs_target",
+      "request": {
+        "text": "Soraの復旧演習は目標を達成した？実際の所要時間と復元データの確認結果を知りたい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "4月18日のSora復旧演習では、開始から参照再開まで18分かかった。",
+        "15分以内という目標は未達だった。",
+        "復元後のチェックサムは保存時と一致した。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "split": "eval",
+      "category": "condition_exception",
+      "request": {
+        "text": "Sora停止中に古いコピーで一般の調査メモを返す条件と、決定に基づく新規処理の扱いは？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "一般的な調査メモは取得後24時間以内のコピーを返せる。",
+        "コピーを返すときは取得時刻と、現在の版を確認できていないことを表示する。",
+        "保存先が停止して確認できない場合は、その処理を保留する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "split": "eval",
+      "category": "condition_exception",
+      "request": {
+        "text": "あかつき島の波止場の宿は予算内？4人同じ宿という条件と予約状況も確認したい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "宿泊費の上限は1人1泊8,000円で、全員が同じ宿に泊まることを必須条件とする。",
+        "波止場の宿は1人1泊7,800円で、4人が泊まれる部屋を1室確保できる。",
+        "両方の宿の条件を調べたが、予約はまだ行っていない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q18",
+      "split": "eval",
+      "category": "condition_exception",
+      "request": {
+        "text": "あかつき島の灯台食堂を夕食先に確定する前に、同行者の食事条件と営業日について何を確認する？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "この架空旅行の同行者1人は胡桃を含む料理を避ける必要がある。",
+        "灯台食堂は火曜日が定休日である。",
+        "灯台食堂が胡桃を扱わないという回答はまだ得られていない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q19",
+      "split": "eval",
+      "category": "multi_source",
+      "request": {
+        "text": "Alder Miniを選んだ理由を、予算・電源なしの作業時間・増設の制約を含めて説明したい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "架空の作業端末を総額90,000円以内で選ぶ。",
+        "変換器を含めた総額は75,000円で、バッテリー6時間以上という必須条件を満たすことが採用理由である。",
+        "メモリの増設はできない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q20",
+      "split": "eval",
+      "category": "decision_state",
+      "request": {
+        "text": "4月19日のJuniper Airへの変更案は採用された？何の条件が未変更なのかも確認したい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "4月19日にJuniper Airへ変更する案が追記されたが、採用はされていない。",
+        "6時間という必須条件を変更する判断も未実施である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": "提案の状態そのものを尋ねるのでcurrentフィルターで提案を排除せずsearchを指定する。query modeは全方式へ等しく渡す。"
+    },
+    {
+      "id": "q21",
+      "split": "eval",
+      "category": "short_term",
+      "request": {
+        "text": "D2は何時間稼働したらフィルター交換？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "current"
+      },
+      "expected_quotes": [
+        "装置D2のフィルターは稼働350時間ごとに交換する。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q22",
+      "split": "eval",
+      "category": "paraphrase",
+      "request": {
+        "text": "過去の調査や出典をためる場所を、このチームでは英字二文字でどう呼んでいる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "この架空運用でKBは、調査結果と根拠を保管する知識庫を指す。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": "KBという検索語を質問に含めない言い換え問題。失敗を許容して検索方法の限界を観察する。"
+    },
+    {
+      "id": "q23",
+      "split": "eval",
+      "category": "scope_denied",
+      "request": {
+        "text": "bot_04のLumen個別実験識別語を見せて。",
+        "actor": "bot_09",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_ONLY_ORANGE_731"
+      ],
+      "answerable": false,
+      "notes": "権限外の本文が出ないかを判定する。引用取得の正解率からは除外し、拒否や不明の自然言語回答は未評価。"
+    },
+    {
+      "id": "q24",
+      "split": "eval",
+      "category": "scope_denied",
+      "request": {
+        "text": "bot_11の端末候補の個別識別語を教えて。",
+        "actor": "bot_07",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [
+        "PRIVATE_ONLY_CEDAR_284"
+      ],
+      "answerable": false,
+      "notes": "権限外の本文が出ないかを判定する。不存在を意味しない。"
+    },
+    {
+      "id": "q25",
+      "split": "eval",
+      "category": "scope_owner",
+      "request": {
+        "text": "私の端末候補の個別識別語は？",
+        "actor": "bot_11",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "bot_11の個別候補識別語はPRIVATE_ONLY_CEDAR_284である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q26",
+      "split": "eval",
+      "category": "multi_source_handoff",
+      "request": {
+        "text": "相談の締切まで20分しかない。代行botに引き継ぐタイミングと、渡すべき情報を確認したい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "締切まで30分未満の場合は、2時間を待たずに代行botへ相談できる。",
+        "代行botにも、依頼者が指定した予算と実行範囲を引き継ぐ。",
+        "引き継ぎには、目的、完了した範囲、未解決事項、次の操作、根拠のIDと版を含める。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "split": "eval",
+      "category": "freshness",
+      "request": {
+        "text": "宿泊候補のページは新しく編集されている。今から予約する前に、費用と空室を再確認する必要がある？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "費用と空き状況は、実行前に提供元で再確認する。",
+        "候補の空室情報は4月18日に確認したもので、その後の空室を保証しない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q28",
+      "split": "eval",
+      "category": "state_transition",
+      "request": {
+        "text": "Alder Miniは採用済みだから、もう購入済みとして引き継いでよい？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "機種の採用は決まっているが、発注はまだ行っていない。",
+        "採用済みと購入済みを同じ状態として扱わない。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    },
+    {
+      "id": "q29",
+      "split": "eval",
+      "category": "unknown",
+      "request": {
+        "text": "あかつき島の連絡船は欠航時に他社便へ無料で振り替えられる？",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [],
+      "forbidden_quotes": [],
+      "answerable": false,
+      "notes": "振り替え料金は未確認。contextに未確認と書かれていても、回答が保留できたかは別工程で評価する。"
+    },
+    {
+      "id": "q30",
+      "split": "eval",
+      "category": "multi_source",
+      "request": {
+        "text": "あかつき島の最終船で行くとき、宿を決めるために予算、到着時刻、島内バス、取消条件の未確認点をまとめたい。",
+        "actor": "bot_01",
+        "as_of": "2026-04-20",
+        "mode": "search"
+      },
+      "expected_quotes": [
+        "宿泊費の上限は1人1泊8,000円で、全員が同じ宿に泊まることを必須条件とする。",
+        "架空のあかつき島行き最終便は17時30分に出港し、18時10分に到着する。",
+        "島内バスの最終便は港を18時20分に出発する。",
+        "連絡船の欠航時に免除されるかは未確認である。"
+      ],
+      "forbidden_quotes": [],
+      "answerable": true,
+      "notes": ""
+    }
+  ]
+}

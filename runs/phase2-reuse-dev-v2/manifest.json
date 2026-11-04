@@ -1,0 +1,18 @@
+{
+  "schema": "reuse-evaluation-v1",
+  "split": "dev",
+  "fixture_freeze_sha256": "1242e4eb2fd3dbf70dfa225d83e8b131e0107ae71956e46ffbf4e937281db3fe",
+  "code_sha256": {
+    "src/context_lab/reviewed_context.py": "0736b97fffbe80b0c538b98148746c282deb5f8cbdb452961a65791507026837",
+    "src/context_lab/workspace.py": "81b1c4f6f1653ec2333c4bc0391a3cc1e0f73ce5e69f6b4ade5268c8b96d8e71",
+    "src/context_lab/store.py": "fc41481825c72993f5debfd7ac1b6cdeec56f1a4946ab156c299cb17bb94bfd7",
+    "src/context_lab/snapshot.py": "a63b2f9806916f2b0b529ed9ddb4d39015b1924130c72afb8896d575146693fd",
+    "scripts/evaluate_reuse.py": "5421217e37cfafe09fa073bb9ad0a94751b78b75c5010bea811da83c2168b8a6"
+  },
+  "unit": "reference tokens:o200k_base",
+  "instruction": "資料だけを根拠に、決定・条件・例外・根拠・状態を区別して回答してください。資料にないことは不明としてください。",
+  "new_model_calls": 0,
+  "independent_benchmark": false,
+  "source_growth_note": "noise shares projects but uses different topics; both baselines retain the same explicit scope",
+  "pinned_and_fresh_reads_are_reported_separately": true
+}

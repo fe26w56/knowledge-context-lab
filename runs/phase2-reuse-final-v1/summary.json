@@ -1,0 +1,91 @@
+{
+  "rows": 288,
+  "datasets": [
+    {
+      "size": 100,
+      "sources": 100,
+      "import_seconds": 0.1574037503451109,
+      "publish_seconds": 0.12494141701608896,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "c4bc6a42395520034651e83ad2131f851f4733554519003ad32ca3dee8c02a6f"
+      }
+    },
+    {
+      "size": 1000,
+      "sources": 1000,
+      "import_seconds": 1.8963882089592516,
+      "publish_seconds": 0.24646541709080338,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "78e5418b88515b9e580550592ed149e99bf4267b495e2fe56610564a9871a547"
+      }
+    },
+    {
+      "size": 10000,
+      "sources": 10000,
+      "import_seconds": 14.22397229168564,
+      "publish_seconds": 1.6284659169614315,
+      "published": {
+        "published": 96,
+        "skipped": 1
+      },
+      "snapshot_sha256": {
+        "reader": "7bb636a50672b77c6a2566cfc4b18d71084e497e34812420f50e3b9fc5652c8e"
+      }
+    }
+  ],
+  "concurrency": [
+    {
+      "size": 100,
+      "topic_id": "承認門",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.0007203747518360615,
+      "pinned_snapshot_sha256": "c4bc6a42395520034651e83ad2131f851f4733554519003ad32ca3dee8c02a6f",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 0.27143991691991687,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    },
+    {
+      "size": 1000,
+      "topic_id": "承認門",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.0008214577101171017,
+      "pinned_snapshot_sha256": "78e5418b88515b9e580550592ed149e99bf4267b495e2fe56610564a9871a547",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 1.503311041276902,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    },
+    {
+      "size": 10000,
+      "topic_id": "承認門",
+      "pinned_reads": 16,
+      "pinned_seconds": 0.0007332498207688332,
+      "pinned_snapshot_sha256": "7bb636a50672b77c6a2566cfc4b18d71084e497e34812420f50e3b9fc5652c8e",
+      "pinned_payloads_equal": true,
+      "fresh_reads": 16,
+      "fresh_seconds": 14.732434917241335,
+      "fresh_snapshot_hashes": 1,
+      "fresh_payloads_equal": true,
+      "caller_identities": "trusted local strings, not remote authentication"
+    }
+  ],
+  "complete_evidence_rows": 240,
+  "answerable_rows": 240,
+  "status_match_rows": 276,
+  "private_exposure": 0,
+  "stale_exposure": 0,
+  "note": "Synthetic diagnostic; model generation, review creation labor, and human semantic review cost are not measured."
+}

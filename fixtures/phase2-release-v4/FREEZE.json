@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-30T02:20:30.041865+00:00",
+  "author_blind_to_improvement_implementation": true,
+  "frozen_before_valid_measurement": true,
+  "frozen_before_improvement_implementation": false,
+  "independent_benchmark": false,
+  "source_ids_are_grader_metadata": true,
+  "corpus_documents": 86,
+  "corpus_sections": 246,
+  "question_counts": {
+    "dev": 20,
+    "final": 20
+  },
+  "sha256": {
+    "corpus.json": "e459a6c0278940d739c0651f207850af3a202a17c9224ee837b30b9149ac09c3",
+    "dev.json": "42023a7e8f7802f4528084c110d5f9451134522ea5f5d5226e0e4ca59efa0d92",
+    "final.json": "054c42959deecfae152871e82da706c2e77170c22bdc69871b83bce3f99f8032",
+    "grading.json": "f7f476907d5ed8a6109fe0a3a5939d8f7b8a5c89870d5089e7930009f7222f1c"
+  },
+  "dev_table": "Cedar",
+  "final_table": "Willow"
+}

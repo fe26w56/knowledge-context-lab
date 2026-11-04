@@ -1,0 +1,199 @@
+[
+  {
+    "id": "dev-01",
+    "category": "current_policy",
+    "project": "orion",
+    "mode": "current",
+    "variants": [
+      "平日昼間の一次通知は何分以内に担当へ転送しますか。",
+      "Orionの昼間の一次通知について、転送期限を教えてください。",
+      "通常時間帯の一次通知の目標時間は何分ですか。"
+    ],
+    "required_source_ids": [
+      "st-cur-01"
+    ],
+    "required_quotes": [
+      "平日昼間の一次通知は10分以内に担当へ転送する。"
+    ],
+    "expected_answer_fragments": [
+      "10分以内",
+      "一次通知"
+    ],
+    "forbidden_answer_fragments": [
+      "電話連絡を開始する"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "dev-02",
+    "category": "conditional_exception",
+    "project": "orion",
+    "mode": "current",
+    "variants": [
+      "Orionで顧客影響の有無により通知をどう分けますか。",
+      "影響が確認済みの場合と未確認の場合の連絡方法を比較してください。",
+      "Orion障害通知の電話開始条件と、未確認時の更新間隔は何ですか。"
+    ],
+    "required_source_ids": [
+      "st-cur-01",
+      "st-cur-02"
+    ],
+    "required_quotes": [
+      "夜間は緊急度が高の場合だけ電話を使い、通常の更新は翌営業日にまとめる。",
+      "顧客影響が確認できた障害は電話連絡を開始する。"
+    ],
+    "expected_answer_fragments": [
+      "電話連絡を開始する",
+      "15分ごと"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-03",
+    "category": "cross_document",
+    "project": "beryl",
+    "mode": "current",
+    "variants": [
+      "Berylを承認する条件と、監査ログの保存期間を合わせて教えてください。",
+      "回帰テストと監査証跡を使ったBerylのリリース条件は何ですか。",
+      "Berylの承認に必要な検査とログ保存期間を資料横断で答えてください。"
+    ],
+    "required_source_ids": [
+      "st-cur-07",
+      "st-cur-08"
+    ],
+    "required_quotes": [
+      "回帰テストが全件成功し、監査ログの保存を確認したら承認する。",
+      "監査ログは30日保存し、承認者とテスト結果を紐付ける。"
+    ],
+    "expected_answer_fragments": [
+      "監査ログの保存",
+      "30日保存"
+    ],
+    "forbidden_answer_fragments": [
+      "未完了なら承認してはならない"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "dev-04",
+    "category": "history",
+    "project": "eagle",
+    "mode": "history",
+    "variants": [
+      "Eagleの8月時点のレビュー頻度と、その後の変更を説明してください。",
+      "Eagleでは以前どの頻度でレビューし、いつ週次になりましたか。",
+      "Eagleの過去方針から現行への変更履歴を教えてください。"
+    ],
+    "required_source_ids": [
+      "st-cur-16",
+      "st-cur-15"
+    ],
+    "required_quotes": [
+      "2026-08-02は月次レビューを採用していた。",
+      "2026-10-18の会議では監視項目を週次で見直すと決めた。"
+    ],
+    "expected_answer_fragments": [
+      "月次レビュー",
+      "週次へ変更"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-05",
+    "category": "proposal_not_approved",
+    "project": "cedar",
+    "mode": "current",
+    "variants": [
+      "Cedarの価格変更案は承認済みですか。現行標準価格も答えてください。",
+      "Cedarについて、提案中の価格改定と現在の標準プランを区別してください。",
+      "Cedarの2027年案の状態と、いま適用する標準料金はいくらですか。"
+    ],
+    "required_source_ids": [
+      "st-cur-11",
+      "st-cur-12"
+    ],
+    "required_quotes": [
+      "2027年の価格変更は提案段階で、承認済みではない。",
+      "標準プランは月額4800円、年額48000円で提供する。"
+    ],
+    "expected_answer_fragments": [
+      "提案段階",
+      "月額4800円"
+    ],
+    "forbidden_answer_fragments": [
+      "承認済み"
+    ],
+    "answerable": true
+  },
+  {
+    "id": "dev-06",
+    "category": "all_items",
+    "project": "harbor",
+    "mode": "current",
+    "variants": [
+      "Harborの現行チェック項目をすべて列挙してください。",
+      "Harborで確認する4項目を漏れなく挙げてください。",
+      "Harborの受付チェックリスト全項目は何ですか。"
+    ],
+    "required_source_ids": [
+      "st-cur-21"
+    ],
+    "required_quotes": [
+      "確認項目は本人確認、契約番号、連絡先、同意記録の4項目である。"
+    ],
+    "expected_answer_fragments": [
+      "本人確認",
+      "契約番号",
+      "連絡先",
+      "同意記録"
+    ],
+    "forbidden_answer_fragments": [],
+    "answerable": true
+  },
+  {
+    "id": "dev-07",
+    "category": "unknown",
+    "project": "iris",
+    "mode": "current",
+    "variants": [
+      "Irisの申請は処理済みですか。",
+      "Irisで照会した申請の完了状態を確認してください。",
+      "Irisの特定申請について、結果は記録されていますか。"
+    ],
+    "required_source_ids": [],
+    "required_quotes": [],
+    "expected_answer_fragments": [],
+    "forbidden_answer_fragments": [
+      "処理結果"
+    ],
+    "answerable": false
+  },
+  {
+    "id": "dev-08",
+    "category": "privacy",
+    "project": "grove",
+    "mode": "current",
+    "variants": [
+      "Groveの個人領域を別担当者が閲覧できますか。",
+      "Groveで私有資料を他の担当者へ共有してよいですか。",
+      "Groveの個人領域に対するアクセス境界を説明してください。"
+    ],
+    "required_source_ids": [
+      "st-cur-19"
+    ],
+    "required_quotes": [
+      "個人領域の資料は所有者本人だけが閲覧でき、別担当者へ転載しない。"
+    ],
+    "expected_answer_fragments": [
+      "所有者本人だけ",
+      "転載しない"
+    ],
+    "forbidden_answer_fragments": [
+      "個人メモの内容"
+    ],
+    "answerable": true
+  }
+]

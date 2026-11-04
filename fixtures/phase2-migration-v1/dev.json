@@ -1,0 +1,14 @@
+{
+  "split":"dev",
+  "tasks":[
+    {"task_id":"d1","request":"Lumen通知の現在の配信窓口と、再送条件、それを裏付ける資料を教えて。","kind":"current_decision","gold":{"facts":["MailRelay","最大2回","30分間隔"],"evidence":["LM-22","MR-8"],"forbidden":["PushGate"]}},
+    {"task_id":"d2","request":"Orbit保持について、まだ決まっていない点と次に誰が確認する状態かを整理して。","kind":"unresolved_items","gold":{"facts":["180日案は未承認","法務レビュー待ち"],"evidence":["orbit-retention"],"forbidden":["180日を現行決定"]}},
+    {"task_id":"d3","request":"Cedarを公開できる条件と、条件未達時の引き継ぎを確認して。","kind":"current_decision","gold":{"facts":["全テスト成功","脆弱性スキャン0件","レビュー1名以上","Task Cedar-41を未完了"],"evidence":["cedar-release"],"forbidden":["9月15日が判定条件"]}},
+    {"task_id":"d4","request":"Amberの委託先について、共有回答に書ける範囲を教えて。個別連絡先は出さないで。","kind":"visibility_boundary","gold":{"facts":["四半期レビューで契約更新判断","個別連絡先は共有範囲外"],"evidence":["amber-vendor"],"forbidden":["非公開連絡先"]}},
+    {"task_id":"d5","request":"Lumen通知の資料名と版を確認したい。現在版と終了した旧版を区別して。","kind":"source_version","gold":{"facts":["現在版v3","旧版v2","旧版の終了日2026-08-31"],"evidence":["dev-lumen-current","dev-lumen-v2"],"forbidden":[]}},
+    {"task_id":"d6","request":"Cedarの作業メモを更新した後、公開条件の決定を変えずにもう一度取得できるか確認して。","kind":"repeat_retrieval","gold":{"facts":["公開条件は3条件のまま"],"evidence":["cedar-release"],"forbidden":[]}},
+    {"task_id":"d7","request":"Orbitの契約要件と未承認の保持案を同じものとして扱わず、根拠の種類を分けて示して。","kind":"evidence_provenance","gold":{"facts":["契約最低90日","180日案は未承認"],"evidence":["dev-orbit-source","dev-orbit-open"],"forbidden":[]}},
+    {"task_id":"d8","request":"Lumen通知の現行記録をエクスポートして再取り込みしたとき、旧PushGateの履歴も確認できる状態を保って。","kind":"roundtrip_history","gold":{"facts":["現行MailRelay","旧PushGateは履歴"],"evidence":["dev-lumen-current","dev-lumen-v2"],"forbidden":[]}}
+  ],
+  "operations":[{"op":"update","record_id":"dev-cedar-note","new_text":"9月15日は確認予定であり公開条件ではない。","expected":"current_decision_unchanged"},{"op":"export_import","scope":"dev","expected":"record_ids_versions_states_preserved"}]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "phase2-model-quality-regression-v1",
+  "purpose": "Single synthetic regression payload required by test_model_quality",
+  "source_run": "runs/phase2-completion-final-v1/payloads.jsonl",
+  "source_file_sha256": "d901869df21243312114e5152319cce014bed451e02d7bfd27e5620261451ee4",
+  "selection": {
+    "size": 80,
+    "method": "B",
+    "variant": "selected",
+    "budget": 4000,
+    "query_id_is_from_frozen_fixture": true
+  },
+  "selected_row_sha256": "16a243d28db720e9f5f4256ffdd9ae37d1e38601716ecb4c721ad434b6dc7f2f",
+  "source_row_count": 2880,
+  "private_data": false,
+  "external_api_call": false,
+  "note": "The full raw payload log is not redistributed; this exact row preserves the existing test semantics.",
+  "selected_row_count": 1,
+  "selected_row_hash_excludes_trailing_newline": true,
+  "selected_file_sha256": "dad441a80852654b372fd34ba5ed9ced7d31e7de6252294f42caeb134f922669"
+}
