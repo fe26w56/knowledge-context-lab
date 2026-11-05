@@ -19,13 +19,47 @@ from uuid import UUID
 
 from context_lab.bot_client import BotClient
 from context_lab.bot_receiver import BotReceiver
-from context_lab.handoff_delta import snapshot_digest
+from context_lab.handoff_delta import make_update, snapshot_digest
 from context_lab.hub_service import HubService, create_app, private_read
 from context_lab.notion_hub import NotionHub
 
 
 REPO = Path(__file__).resolve().parents[1]
 MARKER = "KCL_ACCEPTANCE_MARKER_2026_11_05"
+
+
+def _canonical_json(value: dict) -> str:
+    """The MCP text whose reference-token count is recorded in receipts."""
+    return json.dumps(value, ensure_ascii=False, sort_keys=True,
+                      separators=(",", ":"))
+
+
+def _reference_tokens(value: dict) -> int:
+    # Keep this independent of application token helpers: the acceptance
+    # receipt is intended to be reproducible with the public tiktoken API.
+    import tiktoken
+    return len(tiktoken.get_encoding("o200k_base").encode_ordinary(
+        _canonical_json(value)))
+
+
+class _ReadChangesCapture:
+    """Remote proxy retaining the exact decoded read_changes envelopes."""
+    def __init__(self, remote):
+        self.remote = remote
+        self.responses: list[dict] = []
+
+    def call(self, name: str, arguments: dict) -> dict:
+        result = self.remote.call(name, arguments)
+        if name == "read_changes":
+            if not isinstance(result, dict) or not isinstance(result.get("receipt"), str):
+                raise RuntimeError("read_changes returned no durable receipt")
+            if result.get("page_id") != arguments.get("page_id"):
+                raise RuntimeError("read_changes returned the wrong page")
+            self.responses.append(result)
+        return result
+
+    def __getattr__(self, name):
+        return getattr(self.remote, name)
 
 
 def _uuid(value: str) -> str:
@@ -264,7 +298,17 @@ def main(argv: list[str] | None = None) -> int:
             data["url"] = url
             path.write_text(json.dumps(data))
             path.chmod(0o600)
-        clients = [BotClient(path) for path in client_paths]
+        # Keep the decoded server envelopes so the receipt can prove the token
+        # count from each real page_id/receipt pair, rather than a reconstructed
+        # packet or a guessed receipt.
+        from context_lab.bot_client import RemoteHub
+        captures: list[_ReadChangesCapture] = []
+        clients = []
+        for path in client_paths:
+            config_data = json.loads(path.read_text())
+            capture = _ReadChangesCapture(RemoteHub(config_data["url"], config_data["token"]))
+            captures.append(capture)
+            clients.append(BotClient(path, remote=capture))
         for client in clients[:5]:
             client.sync_page(created_page)
         v1_group = [(client.receiver.local_page(created_page) or {})["body/" + created_page]
@@ -303,11 +347,37 @@ def main(argv: list[str] | None = None) -> int:
                 raise RuntimeError("reader baselines changed before final synchronization")
         expected_body = body.replace(marker, final_marker, 1)
         delivery_modes = {"delta": 0, "snapshot": 0}
-        for client, previous in zip(clients, expected_baselines):
+        final_tokens = {"all_full": 0, "legacy": 0, "automatic": 0}
+        for client, previous, capture in zip(clients, expected_baselines, captures, strict=True):
+            before_reads = len(capture.responses)
             sync_result = client.sync_page(created_page)
-            mode = sync_result["packet"]["mode"]
-            if mode != ("snapshot" if previous is None else "delta"):
-                raise RuntimeError("final delivery did not use this reader's saved baseline")
+            if len(capture.responses) != before_reads + 1:
+                raise RuntimeError("final sync did not capture exactly one read_changes envelope")
+            offer = capture.responses[-1]
+            previous_pages = None if previous is None else {"body/" + created_page: previous}
+            current_pages = {"body/" + created_page: expected_body}
+            principal = client.identity["actor"]
+            scope = client.identity["scope"]
+            expected_base = (None if previous_pages is None else
+                             snapshot_digest(previous_pages, principal=principal, scope=scope))
+            forced_full = make_update(None, current_pages, principal=principal, scope=scope,
+                                      expected_base=None)
+            legacy = make_update(previous_pages, current_pages, principal=principal, scope=scope,
+                                 expected_base=expected_base)
+            actual = offer["packet"]
+            forced_envelope = {"page_id": offer["page_id"], "receipt": offer["receipt"],
+                               "packet": forced_full}
+            legacy_envelope = {"page_id": offer["page_id"], "receipt": offer["receipt"],
+                              "packet": legacy}
+            forced_tokens = _reference_tokens(forced_envelope)
+            legacy_tokens = _reference_tokens(legacy_envelope)
+            expected = forced_envelope if previous_pages is None or forced_tokens < legacy_tokens else legacy_envelope
+            if offer != expected or sync_result.get("acknowledged") is not True:
+                raise RuntimeError("final offer was not the smallest valid response or was not acknowledged")
+            final_tokens["all_full"] += forced_tokens
+            final_tokens["legacy"] += legacy_tokens
+            final_tokens["automatic"] += _reference_tokens(offer)
+            mode = actual["mode"]
             delivery_modes[mode] += 1
             page = client.receiver.local_page(created_page) or {}
             final_body = page.get("body/" + created_page, "")
@@ -360,6 +430,8 @@ def main(argv: list[str] | None = None) -> int:
         receipt = {"status": "pass", "created_test_pages": len(created) - int(bool(args.recover_first_create)),
                    "reconciled_prior_pages": int(bool(args.recover_first_create)),
                    "delivery_modes": delivery_modes,
+                   "final_read_changes_tokens": final_tokens,
+                   "read_changes_encoding": "o200k_base",
                    "reader_count": len(clients), "bounded_discovered_pages": len(discovered),
                    "pre_sync_baselines": {"v1": 5, "v2": 6, "unread": 5},
                    "partial_update_preserved_unrelated_line": True,

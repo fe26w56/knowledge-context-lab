@@ -1,5 +1,7 @@
 # knowledge-context-lab：Notion移行候補とPhase 4の検証結果
 
+2026-11-05の追加結果：[共有Hubの全文・差分自動選択：16体での比較と再現方法](hub-transfer-evaluation.md)。以下は過去の評価記録です。
+
 2026-11-03。ローカル候補0.7.0rc2。外部公開・本番移行は未実施。前段階の結果は[Phase 3保存版](phase-3-workflow-findings.md)と[Phase 2保存版](phase-2-confirmation-findings.md)に保持する。
 
 ## 結論

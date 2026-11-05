@@ -19,7 +19,7 @@ import sqlite3
 from urllib.parse import urlsplit
 from uuid import UUID
 
-from .reader_handoff import ReaderHandoff
+from .reader_handoff import ReaderHandoff, reference_token_counter, serialize_reply
 
 
 def private_read(path: Path) -> str:
@@ -109,6 +109,7 @@ class HubService:
         token = private_read(Path(config["token_file"])).strip() if gateway_factory is None else None
         self.bots = {}
         limiter = RateLimiter()
+        count_tokens = reference_token_counter()
         identities = set()
         for raw in config["bots"]:
             bot = dict(raw)
@@ -124,7 +125,8 @@ class HubService:
             gateway = gateway_factory(bot["roots"]) if gateway_factory else NotionHub(token=token, roots=bot["roots"], limiter=limiter)
             bot["gateway"] = gateway
             bot["handoff"] = ReaderHandoff(self.state / "readers", source=self.source, actor=bot["actor"],
-                                            reader=bot["reader"], scope="shared", current=gateway.current)
+                                            reader=bot["reader"], scope="shared", current=gateway.current,
+                                            count_tokens=count_tokens)
             self.bots[digest] = bot
         if not self.bots:
             raise ValueError("at least one bot credential is required")
@@ -170,7 +172,7 @@ def create_app(service: HubService):
     from starlette.responses import JSONResponse
 
     principal = ContextVar("hub_bot", default=None)
-    server = MCPServer("knowledge-context-hub", instructions="Use per-page deltas and durable bot-side application before acknowledgement.")
+    server = MCPServer("knowledge-context-hub", instructions="Apply each snapshot or delta durably before acknowledging it.")
 
     async def call(name, args):
         bot = principal.get()
@@ -194,9 +196,9 @@ def create_app(service: HubService):
         return await call("discover", {})
 
     @server.tool(structured_output=False)
-    async def read_changes(page_id: str, fresh: bool = False) -> dict:
-        """Get changes since this bot last durably acknowledged this page."""
-        return await call("read_changes", {"page_id": page_id, "fresh": fresh})
+    async def read_changes(page_id: str, fresh: bool = False) -> str:
+        """Return the smaller full or delta JSON offer; fresh requests always get a snapshot."""
+        return serialize_reply(await call("read_changes", {"page_id": page_id, "fresh": fresh}))
 
     @server.tool(structured_output=False)
     async def ack_changes(page_id: str, receipt: str, head: str) -> dict:

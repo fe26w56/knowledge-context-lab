@@ -201,10 +201,10 @@ class BotReceiver:
                     raise ValueError("fresh read did not return a snapshot")
                 fresh = True
             base = None if fresh or previous is None else previous
-            self._stage(page_id, offer, base)
+            updated = self._stage(page_id, offer, base)
             self._ack(page_id, offer["receipt"], packet["head"])
             return {"page_id": page_id, "head": packet["head"],
-                    "changed": packet.get("mode") == "snapshot" or bool(packet.get("purge") or packet.get("added") or packet.get("patches")),
+                    "changed": updated != previous,
                     "acknowledged": True, "packet": copy.deepcopy(packet)}
 
     def sync(self, page_id: str, fresh: bool = False) -> dict[str, Any]:

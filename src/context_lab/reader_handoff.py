@@ -13,9 +13,21 @@ from typing import Callable
 from .handoff_delta import make_update, snapshot_digest
 
 
+def serialize_reply(reply: dict) -> str:
+    """The JSON text carried by the hub's read_changes MCP result."""
+    return json.dumps(reply, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
+def reference_token_counter() -> Callable[[str], int]:
+    import tiktoken
+    encoding = tiktoken.get_encoding("o200k_base")
+    return lambda text: len(encoding.encode_ordinary(text))
+
+
 class ReaderHandoff:
     def __init__(self, directory: Path, *, source: str, actor: str, reader: str,
-                 scope: str, current: Callable[[str], dict[str, str]]):
+                 scope: str, current: Callable[[str], dict[str, str]],
+                 count_tokens: Callable[[str], int] | None = None):
         if not all(isinstance(v, str) and v.strip() for v in (source, actor, reader, scope)):
             raise ValueError("source, actor, reader, and scope must identify a persistent reader")
         directory.mkdir(mode=0o700, parents=True, exist_ok=True)
@@ -27,6 +39,7 @@ class ReaderHandoff:
         fd = os.open(self.path, os.O_CREAT | os.O_RDWR | os.O_NOFOLLOW, 0o600)
         os.close(fd)
         self.actor, self.scope, self.current = actor, scope, current
+        self.count_tokens = count_tokens
         with self._transaction() as db:
             db.execute("""CREATE TABLE IF NOT EXISTS reader_state (
                 page_id TEXT PRIMARY KEY,
@@ -63,13 +76,24 @@ class ReaderHandoff:
             # until the reader acknowledges a new snapshot.
             packet = make_update(previous, pages, principal=self.actor,
                                  scope=self.scope, expected_base=row["accepted_head"])
-            receipt = row["offered_id"]
-            if packet["head"] != row["offered_head"] or packet["mode"] != row["offered_mode"]:
-                receipt = uuid.uuid4().hex
+            # Bind both candidates to the same receipt. A forced fresh read
+            # supersedes a pending delta even if the upstream head is identical.
+            reuse = packet["head"] == row["offered_head"] and not (snapshot and row["offered_mode"] == "delta")
+            receipt = row["offered_id"] if reuse else uuid.uuid4().hex
+            offer = {"page_id": page_id, "receipt": receipt, "packet": packet}
+            mode = packet["mode"]
+            if mode == "delta" and self.count_tokens is not None:
+                full = {**offer, "packet": {"mode": "snapshot", "head": packet["head"], "pages": pages}}
+                if self.count_tokens(serialize_reply(full)) < self.count_tokens(serialize_reply(offer)):
+                    offer = full
+                    # A cheap snapshot is not a lost-baseline request. A later
+                    # revision may again use the reader's acknowledged base.
+                    mode = "auto_snapshot"
+            if not reuse or mode != row["offered_mode"]:
                 db.execute("""UPDATE reader_state SET offered_pages=?, offered_id=?,
                               offered_head=?, offered_mode=? WHERE page_id=?""",
-                           (json.dumps(pages, ensure_ascii=False), receipt, packet["head"], packet["mode"], page_id))
-            return {"page_id": page_id, "receipt": receipt, "packet": packet}
+                           (json.dumps(pages, ensure_ascii=False), receipt, packet["head"], mode, page_id))
+            return offer
 
     def acknowledge(self, *, page_id: str, receipt: str, head: str) -> dict:
         if not all(isinstance(v, str) and v for v in (page_id, receipt, head)):

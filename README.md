@@ -2,15 +2,17 @@
 
 **Evidence-preserving context retrieval for local AI agents.** Keep original sources, return reviewed source ranges for known topics, and withhold stale context when supporting documents change.
 
-Development preview **0.7.0rc4.dev1** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
+Development preview **0.7.0rc4.dev2** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
 
-## Notion Hub development preview (0.7.0rc4.dev1)
+## Notion Hub development preview (0.7.0rc4.dev2)
 
-The `[hub]` extra provides a shared HTTP hub, a durable bot client, and guarded Notion operations for a single persistent Linux/macOS host. Install from the dev1 wheel or checkout with `python -m pip install '.[hub]'`; assign each bot its own client credentials and reader identity.
+The `[hub]` extra provides a shared HTTP hub, a durable bot client, and guarded Notion operations for a single persistent Linux/macOS host. Install from the dev2 wheel or checkout with `python -m pip install '.[hub]'`; assign each bot its own client credentials and reader identity.
 
-[Notion Hub operations](docs/notion-hub-operations.md) · [dev1 wheel](releases/0.7.0rc4.dev1/knowledge_context_lab-0.7.0rc4.dev1-py3-none-any.whl)
+The shared hub measures the complete snapshot and delta replies and sends the smaller one. In a controlled 16-reader test this used 37.2% fewer delivery tokens than always sending a snapshot and 2.3% fewer than always sending deltas to returning readers. [Evidence and reproduction](docs/hub-transfer-evaluation.md).
 
-## Per-agent Notion handoffs
+[Notion Hub operations](docs/notion-hub-operations.md) · [dev2 wheel](releases/0.7.0rc4.dev2/knowledge_context_lab-0.7.0rc4.dev2-py3-none-any.whl)
+
+## Standalone stdio reader (legacy delta policy)
 
 Each agent keeps its own acknowledged version of each page. `read_changes` returns a full first read or a delta since that agent's last receipt. `ack_changes` records successful delivery after the host has retained and verified the result. Configure a separate reader ID for each agent. The stdio server runs on the MCP host and stores receipts on its persistent disk.
 

@@ -126,7 +126,7 @@ def stdio_server(client: BotClient):
 
     @server.tool(structured_output=False)
     async def sync_page(page_id: str, fresh: bool = False) -> dict:
-        """Apply and durably save a page delta, then acknowledge it. Use get_page for full context."""
+        """Verify and save the selected snapshot or delta, then acknowledge it. Use get_page for full context."""
         return await invoke("sync_page", dict(page_id=page_id, fresh=fresh))
 
     @server.tool(structured_output=False)

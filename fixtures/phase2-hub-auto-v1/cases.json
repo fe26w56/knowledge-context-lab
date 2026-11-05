@@ -1,0 +1,8 @@
+{
+  "protocol": "Three deliveries of the same authorized final records: always a full reply; delta for valid retained state, full otherwise; smallest complete read_changes JSON reply in o200k_base tokens. Cold or explicitly fresh readers require a snapshot. Use the same receipt and head across each comparison. Reconstruct and acknowledge all. Distinct bot principals 00..15: 5 version 1, 6 version 2, 5 unread. Equal weight to every case, repeat the same 16 clients for every case. Compare final delivery and report warm-up separately. Measure compact UTF-8 JSON with sorted keys and no whitespace (reference tokens, excluding surrounding transport).",
+  "template": "Line {n}: project {label} assigned team {n % 7} to review the conditions and record the delivery date.\n",
+  "dev": [["DevMemo",1,"tail"],["DevGuide",40,"tail"]],
+  "final": [["Brief",1,"tail"],["Notice",2,"rewrite"],["Checklist",7,"middle"],["NewRule",12,"unchanged"],["Meeting",26,"rewrite"],["Runbook",64,"ends"],["Handbook",192,"middle"],["Archive",256,"rewrite"]],
+  "edits": {"tail":"append a version-specific decision line; v3 keeps the v2 line and appends one more","middle":"replace the middle line with a version-specific decision","ends":"replace first and last lines with version-specific decisions","rewrite":"replace every line with different version-specific text","unchanged":"all three versions are identical"},
+  "additional_regression": "Replay the already opened real Notion acceptance short page and its retained states with the original receipts. Confirm the prior 3241 and 3321 totals before calculating automatic selection. This is a separate diagnostic."
+}

@@ -1,0 +1,2745 @@
+{
+  "method": "Final-only replay of saved synthetic hub offers in real BotClient/BotReceiver and actual MCP sync_page tool renderer; no model API or HTTP, excludes host prompts and tool schemas.",
+  "model_calls": 0,
+  "encoding": "o200k_base",
+  "renders": 384,
+  "reader_page_pairs": 128,
+  "automatic_exceeds_min_rendered_pairs": 0,
+  "totals": {
+    "full": 170946,
+    "legacy": 113812,
+    "auto": 110738
+  },
+  "by_case": {
+    "Brief": {
+      "full": 3404,
+      "legacy": 3959,
+      "auto": 3404
+    },
+    "Notice": {
+      "full": 3240,
+      "legacy": 4063,
+      "auto": 3240
+    },
+    "Checklist": {
+      "full": 5008,
+      "legacy": 4453,
+      "auto": 4453
+    },
+    "NewRule": {
+      "full": 7116,
+      "legacy": 4477,
+      "auto": 4477
+    },
+    "Meeting": {
+      "full": 7918,
+      "legacy": 8773,
+      "auto": 7918
+    },
+    "Runbook": {
+      "full": 24930,
+      "legacy": 11186,
+      "auto": 11186
+    },
+    "Handbook": {
+      "full": 67312,
+      "legacy": 24042,
+      "auto": 24042
+    },
+    "Archive": {
+      "full": 52018,
+      "legacy": 52859,
+      "auto": 52018
+    }
+  },
+  "rows": [
+    {
+      "reader": "bot-00",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 215,
+      "sha256": "2e79f07246b75f07e73230700f7d74e07b567b25331b7b698204e6a46eec4a57"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 213,
+      "sha256": "3f1e87d2a747b31091a38d9e5b6b13e5abe48058effcddb23475955546dbbb92"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 306,
+      "sha256": "4882fe6c7b60e61d5e3259a2dc700a1a693cebbfcf4e93b355dffeb5dbd8f26a"
+    },
+    {
+      "reader": "bot-00",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 445,
+      "sha256": "db7d037f8b9e282922e9cd73b5327ecea3aeb17a76e891f6a4656a950096e40a"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 501,
+      "sha256": "12b8e1d7ff9aae4056537520263340c459b6e7ca1027d8da20350c6628fc7e47"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1554,
+      "sha256": "8966f5974206f1b9307319e9af362373002ddb4381e467b0053fc5ec0e6feb67"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4213,
+      "sha256": "b13b8f238fa304dd1e9f5c0c9fa98337a1c9a1bdee9028f80417a80bc2764444"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3252,
+      "sha256": "5fe91c219a0fa05c5b4a168ddce2814731f59b24221b702111c35debaf1c5241"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 217,
+      "sha256": "f9de7cebb796bbecb8945f6e2261bdbe0c292064c7574b0cca3bb5bf8fe52b5f"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 205,
+      "sha256": "d3e5acfb598ec5627ab51aba096501da0064aa16718653da7c52e9d1a971a2d8"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 310,
+      "sha256": "5fcca35a00eab9004161fb3243ef11b1ddcce31a58e93950523e9ad924ef4b12"
+    },
+    {
+      "reader": "bot-01",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 447,
+      "sha256": "d4a5f650fa5ab0212a579bad46bf5ac4e5c4790ec807ce59e19988b2353059cd"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 491,
+      "sha256": "4a1639c6edbe0621c1e5161714b0e3b38784719c7d3e73b8c81588265eb15f5a"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1560,
+      "sha256": "73e0d658c1bb087382d8e8ed8f58f48aacc5a4614840319fe9c5a6febe4dccb2"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "d2e112eb9263092f73078ea392e97abf6ef9a3da7d7a6e296bb449e29804d7f8"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3258,
+      "sha256": "58e22657c3b7fe80d16ce1783ca50b179826c64a7d233f9647a0483d70975ed0"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 219,
+      "sha256": "a9c8cbc39617b5c71ee3326800c8135b02be93f2bec9c5fae9bc3659831255db"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 209,
+      "sha256": "7bfdcffd1aa17dd5dbfabe5306e37fecef22096df3e77a0e6c4ad55b13d539f4"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 310,
+      "sha256": "bbd8f82fe718d00d7c25a5ad0b49629c476364cb60b54a7990e1ca48b203a7ce"
+    },
+    {
+      "reader": "bot-02",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 445,
+      "sha256": "4469d2f33b49ad3f7bd59994b8fc58258b9968ba5718c18839049cc094d97487"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 491,
+      "sha256": "c86141e9f83e02c8fab41818d9c1b221f31eb302e0d5ce41e23d8b0c60806574"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1564,
+      "sha256": "7d3d79f4fa86554bc0081989751b17728301ab9cd7eed752b7c0454f67c0cb5a"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4201,
+      "sha256": "fdf76d7d54d239712cf8a00e59c665800058a7afda87d17623e4ffab3399e937"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3248,
+      "sha256": "7bdedd941e609a27ea7da43540c5e54810f319b55da11e8d6437b9c4b39ce45a"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 207,
+      "sha256": "246e32c5ff2cca95d951bb71757e48d51614b8c567e23a4c5ac5129c1babec90"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 201,
+      "sha256": "610e6d2352581adae50e124b734500d09b82c712bd9aec45284c0639188f1749"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 312,
+      "sha256": "aa614daf5b6281e21968577333c0ffddb9e86fed6a35dfbabe3ff4409d353248"
+    },
+    {
+      "reader": "bot-03",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 441,
+      "sha256": "b3cc22988e7b97ff179417f93fb4ec4d4535ed37f8c6943bb940e7c8df8b7676"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 495,
+      "sha256": "f620ce25508e10d25cf71fc55a1cdfa01e47002070cb00ff7a82acb8bf73d669"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1566,
+      "sha256": "a92bf38d14ad56655369c3ec3737f079d322b44db50624f5519c36aee1c48ef5"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "33a86d0db482c13f83c5d7adf1a9828e72eb5538f3f0de0ab54a19e9b488ad43"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3250,
+      "sha256": "aa15d4957753967f7c27f70c621dfc9f28a5fd53c1af581c46cf11d08401d170"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 221,
+      "sha256": "e7cd2a6ffb9e4a52b6e2ea64a1933625215310500889f0c881d5f1f9c0794d5a"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 203,
+      "sha256": "e1341d7ba67b4cb7f7f18d0bcc98b43163f09aa7d482c41ab86a0f2be39d98fb"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 302,
+      "sha256": "712dc36bc47bf475dad0cb344498cce26928c7039de6b39edaee3c27b4c1be10"
+    },
+    {
+      "reader": "bot-04",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 449,
+      "sha256": "507a726ff42276d94b2c1edd8ef1a5d04b56ede29db1e96fd6bc29a8bd0b779e"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 497,
+      "sha256": "9fa40557699ade987039ab3660aad8b1d56f4b1c45131e71c8e046b6e096bd3e"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1556,
+      "sha256": "e25bc64037f7a3cfc6a3b7b6010a9ac768f7e8d665baee6b05f69d368ac57dd4"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4209,
+      "sha256": "b0d654048baccaa2523e01aece92a8a5493699449b7c7cd11c2868f5201b77a2"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3256,
+      "sha256": "cab610a121dd79897471075ddf3332ef2590f22451fa21ac5052033750da3b96"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 197,
+      "sha256": "2431dd7a20cf93a47ef4722a65d0972b2abe3c1aa182a7282f6c6c48e16082e5"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 199,
+      "sha256": "ffbb353f75a12fa2ca2af3d691a218239620bda4e6de5d55e1bdba2696cd34c8"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 316,
+      "sha256": "a8c6f495d448bd62452cc7f9b2e89e6e2fc3637b6176c3f59b6c3b7fd247394c"
+    },
+    {
+      "reader": "bot-05",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 437,
+      "sha256": "e6ab8b1d95af78d777f884d358e0b67c7ddc50890711c876fe283a708c0ae552"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 493,
+      "sha256": "e2273aed28a9df3178aee9c5babc7bacd8ec4a05708de630604b7b33700577fd"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1562,
+      "sha256": "3dff1c03b8507ceba8c2edde2638eb835cdf72f31364ef8f65e556196c4a1cf1"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "e5bbf4a877c11041dfa9e0ce4c07f796b838c892d1e013ed6e276c559fe34fe9"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3246,
+      "sha256": "b83749e121358313b3efcef9031986b3a21e4d9de08b372dc3c9f6c59ed81652"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 209,
+      "sha256": "5f551f4d72a3229daaa7f6e68ae88717e3869b4b741cfb2f0e224ef2006bbdf0"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 197,
+      "sha256": "9cbbd20d58669c2b4199477c1391e352619e4aebfe497cd69111a0f627212d65"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 324,
+      "sha256": "e11132140a900b763e955f62a223164a392aeb9c8361896bf37ebe74b0465bec"
+    },
+    {
+      "reader": "bot-06",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 453,
+      "sha256": "961b39db6a12957b5904863c0f9915664d2b6d97f46b8995fdd9b1b2b2058847"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 497,
+      "sha256": "424db087b209f58f8c5296b085a21891205f6d2010fee82e8c2c237c70af2d38"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1556,
+      "sha256": "57ce4312807d4140903b81753117f8e693baab0a1b932fb6345ff862bfc6bfff"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "eea409a90a192659e5b8ac8ae7eb241c255725b85747f348c0ce5c46b533506b"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3250,
+      "sha256": "6ef9126ca7157f88e84e8285d70564e0d2fb65a413513c6679776b7f96c34526"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 207,
+      "sha256": "2e87c82c2abcf1681b64ce3c1aa15fac48b7567cb517d8b82ae5d071cb9712c9"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 203,
+      "sha256": "db9bde68c152b464795645093e8bbca5796f0075be310bffc64964b1d36742ab"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 310,
+      "sha256": "6a5e8af0928949b2684738c8c67d01cb8cd9544ca73c2000235e76197f792db0"
+    },
+    {
+      "reader": "bot-07",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 447,
+      "sha256": "59441af13d94e7fbe8abf26ff2cb0ed95e6ae9d17140cce8c27da1a8ff7cb52a"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 491,
+      "sha256": "9eb28999fe1ca132ba5878cc803813eea0a1bf9e2405d803b26a422fe433bcf2"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1548,
+      "sha256": "993fe1b7ef911d92aa185b532d44a4cea30eb2af14d735501c1f588792dba168"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4201,
+      "sha256": "1befc68bd1ebabc5621a19d39f42c9977a12abc4536512f026ba2c561911cabe"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3244,
+      "sha256": "cdde3942ddbc07031c2bfcc08f3456699c18eb95622340134d1407ddd0613964"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 215,
+      "sha256": "233f2d39cbb6bd8b997d1d523b15fc784cd826410af03e2115084dde44f9d6d7"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 191,
+      "sha256": "d755fbb1a5bdacd97c50bc4489473ccd0af4b8dd6975c78c5c1fa566b9484bee"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 310,
+      "sha256": "ed4054657b6da695ecbec3dadf19bdd1635661a85ab7d971a1fb7c81935a8b42"
+    },
+    {
+      "reader": "bot-08",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 447,
+      "sha256": "0314b6e30411a062980d2873ab1f6d679c08dd0abf551d737b5ae17492a9b798"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 503,
+      "sha256": "c21a5e1d3ede4fb3c563728b9c368bae96cae6900c111b3e356ac5d8b7527c8f"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1566,
+      "sha256": "946a9379b8fa651989248891c76bf87bede96b990e98c759928b87fe95145621"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4209,
+      "sha256": "a2267c4095d1139ca7cc8eabcd911748b9d68f6a1008224e91c3489441a3c53a"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3248,
+      "sha256": "90ba5aa102a8995b75991433f884671e6c70143a53a2b7ab37096f8f13f478dc"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 207,
+      "sha256": "09af4554da2269de6c565ad92d2796187f2d1c20dda4eb42c30e1ded27a1ec40"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 201,
+      "sha256": "850364c89803fba0ea37182394987e0493c390e3213792dda91c111399ae9976"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 314,
+      "sha256": "b2b71e0d978e972eab59a15b3769820d07953459ad7223a16df183f5190c3ff4"
+    },
+    {
+      "reader": "bot-09",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 443,
+      "sha256": "a66cde0ea29a3df713b6af6b4839aeb065b993eff4fa532c8330cbfd9c4b8596"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 499,
+      "sha256": "9462eefddea33a0229a761e764e662f3633d61e08ab7f622acf7f3bceabb1d8c"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1554,
+      "sha256": "c5838eda018a5a6634da430bfd0e866c2ece313dddf835abc9f1be29423ca08c"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4209,
+      "sha256": "6ba58c2d71f3a7a7895944c73fe6efb38dcab2d203fbe9bfd4354cd4f438c9a3"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3250,
+      "sha256": "f8276923e9129f41b71a55bafc2448f6f31190388e3a78e6f0a4acb77196e313"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 211,
+      "sha256": "fa8d3be5c8dc5c6f8cb352f07d4b0680a7d11991b3192744df4849062e2b26a1"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 199,
+      "sha256": "9fe2df84e13cdcb7a95627321bf754cebc5c963c0d3ed87127f00afcf26b7a11"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 314,
+      "sha256": "b5843632c20db5868f5a5df17341a74b45bbedb291ab26e2a530dc6b08b1584a"
+    },
+    {
+      "reader": "bot-10",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 443,
+      "sha256": "5a41114f1a28b37c2ee6c1eda28a14da39761e42f63b8b06bdacfddd41a5c031"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 491,
+      "sha256": "6e008c06d77fdb382a7a6a5e2bcec1bccb0d9ff1120fd3df36e56e42d34ab3d3"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1554,
+      "sha256": "7fe6cd2eefabc7b93cea365585df63b997236ccb6bf2813bf86aa3f372e5d8c0"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4203,
+      "sha256": "fd786098747a8865a348c73715da3de84ab0df8b9478a3970fe3d6cb3fadd841"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3256,
+      "sha256": "2955a8fe984e805e1556ea1a8c6ca5769bb298fc47019f6888e07e550722276b"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 211,
+      "sha256": "697497728469e8d2c8a4b42c538a9d86678d8981dd4f043d335f832042117f35"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 205,
+      "sha256": "0edfed610ce70c73d27ad0cb1fe67320f9e3b7d5235550c0005ffbc3423c367b"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 320,
+      "sha256": "98cf588b753986964b6942e7709a75c3c0ce7ca8a3435b16d9210c28c0b54646"
+    },
+    {
+      "reader": "bot-11",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 443,
+      "sha256": "b52d0cc35bda096236074216eb3b51b3ad1f21cf2c5fd22dd526839b2b6f57c5"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 487,
+      "sha256": "e6d1e4387ad64668293178653018fbd6a6aaf526ec88f39264d9bc2d0f0c0a46"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1564,
+      "sha256": "8de04d6428dffd4a3b157e9b8dabba45e51a6bad08bf79f0cf181269595c3c05"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4219,
+      "sha256": "d3dd8844c8d1b31753391046bfa395c630d56d11ed0ae0dfd42443c47ba937dd"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3256,
+      "sha256": "1478ab2f092861d0c0bc3dff2597a659c41ba705f5ebd39c52c472a573b29112"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 213,
+      "sha256": "096d1d6cb87e3611d8e384e6db60296a9328fde4cdb93940a37ca80b292b89e7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 209,
+      "sha256": "e70304b5fc3b3a450023521adcb0b6374a94bcf3a6a82f24fd7f0b7afc88f5ee"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 314,
+      "sha256": "758da820875e8cc8527d180fea7d3301713d0ad011d5879953321401abb55925"
+    },
+    {
+      "reader": "bot-12",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 449,
+      "sha256": "dadf4f6b872244748d1983c96de9aea415f9c65b1d9584a3fff6f50c3e03c527"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 493,
+      "sha256": "04c1a186c20669b3c961a2f42c83310e106c9618374cfa3d5d9ea4be9801f3b3"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1560,
+      "sha256": "12e9c77a7212e0a96c5f35b916e0a39345cb7c9820af9c78336f4cc26c8cf9d2"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "98feb91fd816050a7895969cb6f59389219a074230a85b6fc4ae8580cf1df9c7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3258,
+      "sha256": "d99e23df2e608f1495240d5b8ab896247b0929c94bcf4d44dfefa012020b9387"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 225,
+      "sha256": "7262f94bb5f6933c8267eab112b63bc8d69ce840fa74bdeb91f150801fadd2fc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 201,
+      "sha256": "5cae8d72f13a1ce4333f13152565c6f20e4caeb79347d9414015efab5d57a543"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 318,
+      "sha256": "9dd66d8a5acf927ae0777591131e16dd891cc16f028eb06270cf38306aad14d6"
+    },
+    {
+      "reader": "bot-13",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 445,
+      "sha256": "173a7dbe4d50d01c95f76ba914c493f524a69a1b9b674328f89df74837466f74"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 503,
+      "sha256": "42f27e21e6f3d27d64b2f12108eebc1f626b6d55482a19bfa012f10916248ca5"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1570,
+      "sha256": "4146f9d0fc5f301de9f043e2bab69ac4950a8113a33ccdd06c590403d7b062d9"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4205,
+      "sha256": "4492bf8a2d8c6e74125a33986a104b167f0ac55eddcefadc6e6efc28cb9604dc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3254,
+      "sha256": "6d835781338ebb7995594e386236a1129ed9fa1cdf7555209049507de5325da4"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 221,
+      "sha256": "e74a5e174412c3d4a582e8fab43ba9108c2ad22075560128174cb3eff5c5291d"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 193,
+      "sha256": "688ce65e0aecd608352e9dca03223e39b36ac8982169d460a0dd214fda851bd3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 306,
+      "sha256": "bc2637a9beccc3410ce02d15a2ef60b2b8686e3e74a8328a30943bc34578dfc3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 439,
+      "sha256": "132c5f5edef9804b2cdd728e5d4b1b2bf297757a06df2859bd6dc5285d904fe1"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 497,
+      "sha256": "6d9415fad02b1ace675aafdd23400cbafcc949030034309d2c61c78015707339"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1546,
+      "sha256": "fe2ded5d1d85734bdd8e519de1b522067e5355e3e0ba0c896c58c2bd26326c0b"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4211,
+      "sha256": "c99f84944e9b5d2fe5beb5ff3f441187efbf65d50d6fcf7b70bd40fc9a8fa5cb"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3250,
+      "sha256": "8a8c52446fc065424a1963870886a476796c7291aaccc1f8b1fe1ebccfd39d31"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Brief",
+      "arm": "full",
+      "tokens": 209,
+      "sha256": "9c3804bc3f5b86adcd37dd99d40b8206c613b61e8dd5d93664da2e7c0a0b14cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Notice",
+      "arm": "full",
+      "tokens": 211,
+      "sha256": "7b2fc6cefdf80e7fb4a4f63ac39b85a50a75224bf9ce39196c863ed98c622d75"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Checklist",
+      "arm": "full",
+      "tokens": 322,
+      "sha256": "ec15c0b80a04dd0b62a66f69638decb57d9a83b3c953d83a2b18cbd2542a59cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "NewRule",
+      "arm": "full",
+      "tokens": 443,
+      "sha256": "5e4751f65e40278828b0594a34a6e8a99ebf55faa791b45d4c25e8b4387ede9a"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Meeting",
+      "arm": "full",
+      "tokens": 489,
+      "sha256": "ec0dea22e741ae790bdd1e50704d52842f6dbccca6d69d898b96372bf9441a6c"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Runbook",
+      "arm": "full",
+      "tokens": 1550,
+      "sha256": "ce57be26dc76ecb4d461bf703ef345e6ed93b4297eb9c5fa3897f8f0a0a37ac7"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Handbook",
+      "arm": "full",
+      "tokens": 4207,
+      "sha256": "fc9399532464ab0773a88a2c12585b999d8ae4cb246f42e7f1979d124d55a942"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Archive",
+      "arm": "full",
+      "tokens": 3242,
+      "sha256": "a432cdd20a6d4aca9a087eaddc99e806b18acd6d363f0f34eb0507afba17e28c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 277,
+      "sha256": "0acd4091a0767d8b5682602a52a0c099e37caffa91aca4f48cbe577bf3afcf0c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 285,
+      "sha256": "6977abe263a6547aad818cf13f200aba740bb20d758d17bb92f81418de001251"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 260,
+      "sha256": "42f7ba8a90ab295819d7fef7567420ef61d0f476d41e135b725076c1c45b8316"
+    },
+    {
+      "reader": "bot-00",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 205,
+      "sha256": "5726ff6aee1372c87ae530141d7d8c263f7b6dc75fe5da1477c539d0352c4d7c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 583,
+      "sha256": "6e33d6dc2cf4af69989fef92e0c9a2dab43b71b7d44787a6213f1f0d3adfb752"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 303,
+      "sha256": "b1038115fd02a79e25cf64da43032d0ea3e1c11b791ca7464e09cd24f6c55c0c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 279,
+      "sha256": "a91ccdcaf37d8c47189fa016b985ea44c687d30ab3c11294f9e0a99c09613841"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3328,
+      "sha256": "b7b29e6ace29e8b53453dfd2b7d030f39933f474536e5a7611076003d6b853ca"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 267,
+      "sha256": "cdfcfcda4376dd31fad91c276c4d0f83a2d74eed2919d088c4fe2c29ec1b0453"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 281,
+      "sha256": "2fc9c107c57e091339fda9e4923598a12e07adabc87ba700fd69fbfd768a09e9"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 261,
+      "sha256": "54fa0481defdddee46fb85de3de7ad105b374e36661e99096332739d48c180d4"
+    },
+    {
+      "reader": "bot-01",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 208,
+      "sha256": "404501324bd0abb0fd42737199a0947537ff617cddcfa3c82a98b228bdac9a1e"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 569,
+      "sha256": "f4efcc9c1791409590451d3b2f510184a1518dae04ce6e207492b856447bdb60"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 311,
+      "sha256": "a9987ac9930e1c0d031c3d1233eb0ee8c9fdb19a6021a0898d551a6ffa2295df"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 268,
+      "sha256": "6645360b57e9031675f6118d8c16697b12fb7c1c41efd4c34700392d87a187aa"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3329,
+      "sha256": "8da45a9c3b6d8f025b6c21e63ba9f50cb037113ef4c8fcd13a232d7d07141fbb"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 274,
+      "sha256": "0107b341391bc7a3bb3bbf7903c91ccb7bd1699cfaabaf127268066c39c49b5d"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 287,
+      "sha256": "8ab003e2a6a651f7597d9bb94a51dd1aa4d59ef2788d59397099be9cdf190e9a"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 258,
+      "sha256": "f1fa77b4d954e43e2e47497e816054d8326383a8a82e9661b6484732a0d5657c"
+    },
+    {
+      "reader": "bot-02",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 205,
+      "sha256": "9e4e014433a9dfb89c4e0684c9b80bdfa75116cfdfecbab34215ef3b73b0a12f"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 565,
+      "sha256": "e4e5badd0b5a508bacb613804c1c7d9787ab8b596dbe3a53a1728e773810421d"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 312,
+      "sha256": "c03bead6f8a51a60de2148ad152f8dacd20ecd7923bca2ea793e16fa2a600993"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 267,
+      "sha256": "9fb7887e0f3a541fb39bf5b2d7537b7aae245d0453ad5552c963ad343c65794a"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3323,
+      "sha256": "1f050540ce484c0debd71f8a22b5f952bbc6a9b0aa61f67f4f73bf42720fa50d"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 258,
+      "sha256": "655e621a5b99f6c4c82309332c8a553039d4732091980910b1fe2f6d68d9b278"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 273,
+      "sha256": "cb9dfd6491a40238b69595dcba8cc0857698f3d7386bb8937c151784a35e3a90"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 261,
+      "sha256": "ca86814180c57a862e165e7fe4964bc4d2a1f18330add58b4ed7b911cb28fcad"
+    },
+    {
+      "reader": "bot-03",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 199,
+      "sha256": "75787b378377858dc0985ecfa8a611a5ad0d28b9b8a965a83ed67dafebfbe42d"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 570,
+      "sha256": "4c3b7d4557b9fd45ce509ba21fc5597e5835c688aeeadf63e893abdb0935c4cd"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 316,
+      "sha256": "8ef970d855e594099dc50a3fb80477540522d649d1a134b0e527c6452cccb812"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 273,
+      "sha256": "12021b04b15d7bae97be09a1ec2c45467d787a4721363fec387e068244917c5c"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3327,
+      "sha256": "5f5b3bc5511b5bbddce2bce6d92358aa6ea2b1514381c2c32fc6ddfcc3674f43"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 277,
+      "sha256": "67e8d7d394d34b0cbdd7eeae8c4322bfacfafad63e688682d0c58313c25be48f"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 276,
+      "sha256": "72447925587785efcc50583cf76f284960808332825c72df28f90a6bd6c6b378"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 254,
+      "sha256": "dc0dba880decf88abeb00ba4894cf1abda4d31c7e9971e1d386b8880848a179f"
+    },
+    {
+      "reader": "bot-04",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 211,
+      "sha256": "6408c582c9da0b711f0eb9cc63a6a92eba792da7a448223fc8d75901457475af"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 573,
+      "sha256": "4eceec26e07edbb8d15a4d8b6525894b31ca51662dfc5c3c0ded6782f5120ff6"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 306,
+      "sha256": "f7c9f64115894731a802cc90591d59e7cda84e246bd0593454c6f9d28882d887"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 274,
+      "sha256": "8a522aa98a0f4ee962d1d434bf12d374dff31df2a90a4bc378978322f00c9a69"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3335,
+      "sha256": "e5bb6cae3584b9906b14bb582c8b0433c36236bd0da82886b7d674a1097ba385"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 245,
+      "sha256": "55674c75d2ab37ff6d957db26188e10416b4b603e82d44b83bc67ded8fd5a0d3"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 275,
+      "sha256": "3d03369990287bafb61756a2955593055953d687f10420c423861dabddef0249"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 266,
+      "sha256": "111e3e3f011c68b3fa5e02151eed85460fe77a0b54186c8dc710744c17e06f6e"
+    },
+    {
+      "reader": "bot-05",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 193,
+      "sha256": "34d9344cd12a55ef45945d273b7dfc196ce7008952d85ee3239ccc00d4d02604"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 570,
+      "sha256": "1e2c2f27f164be2160d178311e74ffd1dcad8c6a050dd1f749fafd810a48fb10"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 315,
+      "sha256": "c8670350912fb1a6987cd4eb1b0ef23d801a90197c4e5c8f12c683fbbcbac28a"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 274,
+      "sha256": "35a8ad1e9eb66404642e64455d9541aa5ae2ab22c3a07d0fe696d2d2b8ef68a0"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3329,
+      "sha256": "e2fee7861bf631dc36bad129bddccfd36e8d7bcd8414e103da3cdb62d4526b25"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 255,
+      "sha256": "591ee0f392d018d59501a22ce32aa2736eddb5d343bae9f0a5c97a367ba1dcc5"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 272,
+      "sha256": "372e6fbba3fe891da3a120f5c2e16da817d4abce96e2b8d4356b12116333d7d4"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 272,
+      "sha256": "4da544445f0a27fc8dd16ad516016325770001e12c3d49a2b1b6e55c736e0b38"
+    },
+    {
+      "reader": "bot-06",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 217,
+      "sha256": "42980a636132751d39a039bb87333e5d022a22f5327dbabc30fee1822c8e31e0"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 574,
+      "sha256": "594e06bda571607360500769aa00fa6a4f36bd3fee20336bedc45835f73b68d4"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 303,
+      "sha256": "976627e0a19b5bc8dab191635b9a597933dd712baca2f0ae8ad79c5e57385d0b"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 271,
+      "sha256": "b84e3c7a47876749f5aff351e194047dea4f928525cc9ea6ad2d55320c403601"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3323,
+      "sha256": "2d563c4868e9505813fda21be29289f765a1102f1eb08084c15f90c0995cf9c0"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 247,
+      "sha256": "b257997796fde903c77b52ae8428e04bfb997aefc04b969f857100d211113244"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 278,
+      "sha256": "c16f89035f95296a3e27cf109d24e785c2a3e6d209e6323e62a2040d411f7b6a"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 263,
+      "sha256": "8b01c416fc600d167863350d74b2ec20de6f57f658047988b7b31ffb5acd1a00"
+    },
+    {
+      "reader": "bot-07",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 208,
+      "sha256": "d3bb0136052db1241b2f2291a9173b8abbc4e094600659abae539382c7f56d5e"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 569,
+      "sha256": "0dce97e91d0a0e590b34f0044f746b4a2fffdf2399f3c73d89d859110961ff03"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 302,
+      "sha256": "b70bb470eacfcde962c7ca13e459f67976d6cff7d605cd4d4e2cba903792c9fe"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 268,
+      "sha256": "38c84ccd6f9dcbc2bfb8facbac19eff713c45a51a6fd9b5cf3a6c16941348e5c"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3318,
+      "sha256": "46e1c2a80b34da7c21867ecba4a014a9b0ad36fa3f340832bbc0b08eda518673"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 262,
+      "sha256": "5ad13b8b837a8dbcba4bc2da56e83c74ff5493bca24d25e6261afc6abbb27def"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 267,
+      "sha256": "0cc4b7a540cedff6c6cf431c8f457a0e09a38deb71aef35283dfaf519b8f3d67"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 253,
+      "sha256": "db853c5de5c28a5ef02fdbab5e13b8717ccaa32ef1c33d75c42d1441067b3dc5"
+    },
+    {
+      "reader": "bot-08",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 208,
+      "sha256": "4435d958c0e309942a268ce3ad298432feadde8553815857633853ed865cf2ac"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 585,
+      "sha256": "277b7f71e89d4cb3facbf937cdd298ff47b91d16cfca9d577da7ebe2cac2efef"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 319,
+      "sha256": "b6b9460558df1a2d67bdb82e08c966fa70566e4dbb9aad54764633e83b4f9c71"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 275,
+      "sha256": "f84a55a27a37a26ff339744f5ba6057153d21b91563e0877bc89b723268e174c"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3329,
+      "sha256": "fc0feba11073a95879f821c6c87cd4f4d0ed6ba9e1fef27176f19b79c7e21486"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 259,
+      "sha256": "faa957001c1bc6576bca0a708c450cb093981a27f2f4c999ecbd7e730919d4bc"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 277,
+      "sha256": "bdd5d46ab5e8cd0cf0f477aedc5b921b8bed01e84ef8475904b5b1d59efab9f1"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 263,
+      "sha256": "642a0ab89d33ffa49783449ee46a1ea9aeaddc301305086ea5835202f4d626b5"
+    },
+    {
+      "reader": "bot-09",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 202,
+      "sha256": "df314533146172c91caaa4868f8f1297c3c6de7867fdfe2a85c534f90797c776"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 579,
+      "sha256": "c567ee561eda6267358025aaf27d8011322f8cd19ae9576967e46b01f734896d"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 305,
+      "sha256": "4b6be23346ab55d3bf315a9833d70bc128428b2974e1a900b0a45f7c04f37aec"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 274,
+      "sha256": "53a12e5f0e75d24c62d5943af2811110f8622528bc5d67244ce2d83ac6be807b"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3324,
+      "sha256": "9b4361084ec1775b72b2c7f1637779796659ea156c7a47fb3b6bdfa2f924353f"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 259,
+      "sha256": "95ede6329cc28603d2e30c0e5b6350e4a4273a7968f1c80869ee0f4a90d5a09d"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 273,
+      "sha256": "097d0dc78a58d65eac51b2b03bff0a41026a0e832c95ea016c232ba27c4dd433"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 262,
+      "sha256": "62377ed3f9de0c10e4d532c2dcec461d40acd6227e6fff55236ea5fcff1beaae"
+    },
+    {
+      "reader": "bot-10",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 202,
+      "sha256": "c1351ccb5ff18f97f4ea05d674204ae1a072797a6521bbb633091f7822d8794c"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 567,
+      "sha256": "63c87554005d8c8755b31f9e4c45a31a14cc77451b5d41ca754915af7093da9e"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 304,
+      "sha256": "d673cab1ac2459c4f4bdd2411e81e9de14c41d4c38d588f1f9adadf007bb6860"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 272,
+      "sha256": "c5c3b01a45593b2e615dbc187129c830a16e370b177eb051f4882c76f2235d61"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3334,
+      "sha256": "6edddb4f84d13af7030c145d9439a326cf49dcd620e600f4bba1b6431a74c0ab"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 211,
+      "sha256": "697497728469e8d2c8a4b42c538a9d86678d8981dd4f043d335f832042117f35"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 205,
+      "sha256": "0edfed610ce70c73d27ad0cb1fe67320f9e3b7d5235550c0005ffbc3423c367b"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 320,
+      "sha256": "98cf588b753986964b6942e7709a75c3c0ce7ca8a3435b16d9210c28c0b54646"
+    },
+    {
+      "reader": "bot-11",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 443,
+      "sha256": "b52d0cc35bda096236074216eb3b51b3ad1f21cf2c5fd22dd526839b2b6f57c5"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 487,
+      "sha256": "e6d1e4387ad64668293178653018fbd6a6aaf526ec88f39264d9bc2d0f0c0a46"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 1564,
+      "sha256": "8de04d6428dffd4a3b157e9b8dabba45e51a6bad08bf79f0cf181269595c3c05"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 4219,
+      "sha256": "d3dd8844c8d1b31753391046bfa395c630d56d11ed0ae0dfd42443c47ba937dd"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3256,
+      "sha256": "1478ab2f092861d0c0bc3dff2597a659c41ba705f5ebd39c52c472a573b29112"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 213,
+      "sha256": "096d1d6cb87e3611d8e384e6db60296a9328fde4cdb93940a37ca80b292b89e7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 209,
+      "sha256": "e70304b5fc3b3a450023521adcb0b6374a94bcf3a6a82f24fd7f0b7afc88f5ee"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 314,
+      "sha256": "758da820875e8cc8527d180fea7d3301713d0ad011d5879953321401abb55925"
+    },
+    {
+      "reader": "bot-12",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 449,
+      "sha256": "dadf4f6b872244748d1983c96de9aea415f9c65b1d9584a3fff6f50c3e03c527"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 493,
+      "sha256": "04c1a186c20669b3c961a2f42c83310e106c9618374cfa3d5d9ea4be9801f3b3"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 1560,
+      "sha256": "12e9c77a7212e0a96c5f35b916e0a39345cb7c9820af9c78336f4cc26c8cf9d2"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 4205,
+      "sha256": "98feb91fd816050a7895969cb6f59389219a074230a85b6fc4ae8580cf1df9c7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3258,
+      "sha256": "d99e23df2e608f1495240d5b8ab896247b0929c94bcf4d44dfefa012020b9387"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 225,
+      "sha256": "7262f94bb5f6933c8267eab112b63bc8d69ce840fa74bdeb91f150801fadd2fc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 201,
+      "sha256": "5cae8d72f13a1ce4333f13152565c6f20e4caeb79347d9414015efab5d57a543"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 318,
+      "sha256": "9dd66d8a5acf927ae0777591131e16dd891cc16f028eb06270cf38306aad14d6"
+    },
+    {
+      "reader": "bot-13",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 445,
+      "sha256": "173a7dbe4d50d01c95f76ba914c493f524a69a1b9b674328f89df74837466f74"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 503,
+      "sha256": "42f27e21e6f3d27d64b2f12108eebc1f626b6d55482a19bfa012f10916248ca5"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 1570,
+      "sha256": "4146f9d0fc5f301de9f043e2bab69ac4950a8113a33ccdd06c590403d7b062d9"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 4205,
+      "sha256": "4492bf8a2d8c6e74125a33986a104b167f0ac55eddcefadc6e6efc28cb9604dc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3254,
+      "sha256": "6d835781338ebb7995594e386236a1129ed9fa1cdf7555209049507de5325da4"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 221,
+      "sha256": "e74a5e174412c3d4a582e8fab43ba9108c2ad22075560128174cb3eff5c5291d"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 193,
+      "sha256": "688ce65e0aecd608352e9dca03223e39b36ac8982169d460a0dd214fda851bd3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 306,
+      "sha256": "bc2637a9beccc3410ce02d15a2ef60b2b8686e3e74a8328a30943bc34578dfc3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 439,
+      "sha256": "132c5f5edef9804b2cdd728e5d4b1b2bf297757a06df2859bd6dc5285d904fe1"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 497,
+      "sha256": "6d9415fad02b1ace675aafdd23400cbafcc949030034309d2c61c78015707339"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 1546,
+      "sha256": "fe2ded5d1d85734bdd8e519de1b522067e5355e3e0ba0c896c58c2bd26326c0b"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 4211,
+      "sha256": "c99f84944e9b5d2fe5beb5ff3f441187efbf65d50d6fcf7b70bd40fc9a8fa5cb"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3250,
+      "sha256": "8a8c52446fc065424a1963870886a476796c7291aaccc1f8b1fe1ebccfd39d31"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Brief",
+      "arm": "legacy",
+      "tokens": 209,
+      "sha256": "9c3804bc3f5b86adcd37dd99d40b8206c613b61e8dd5d93664da2e7c0a0b14cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Notice",
+      "arm": "legacy",
+      "tokens": 211,
+      "sha256": "7b2fc6cefdf80e7fb4a4f63ac39b85a50a75224bf9ce39196c863ed98c622d75"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Checklist",
+      "arm": "legacy",
+      "tokens": 322,
+      "sha256": "ec15c0b80a04dd0b62a66f69638decb57d9a83b3c953d83a2b18cbd2542a59cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "NewRule",
+      "arm": "legacy",
+      "tokens": 443,
+      "sha256": "5e4751f65e40278828b0594a34a6e8a99ebf55faa791b45d4c25e8b4387ede9a"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Meeting",
+      "arm": "legacy",
+      "tokens": 489,
+      "sha256": "ec0dea22e741ae790bdd1e50704d52842f6dbccca6d69d898b96372bf9441a6c"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Runbook",
+      "arm": "legacy",
+      "tokens": 1550,
+      "sha256": "ce57be26dc76ecb4d461bf703ef345e6ed93b4297eb9c5fa3897f8f0a0a37ac7"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Handbook",
+      "arm": "legacy",
+      "tokens": 4207,
+      "sha256": "fc9399532464ab0773a88a2c12585b999d8ae4cb246f42e7f1979d124d55a942"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Archive",
+      "arm": "legacy",
+      "tokens": 3242,
+      "sha256": "a432cdd20a6d4aca9a087eaddc99e806b18acd6d363f0f34eb0507afba17e28c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 215,
+      "sha256": "2e79f07246b75f07e73230700f7d74e07b567b25331b7b698204e6a46eec4a57"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 213,
+      "sha256": "3f1e87d2a747b31091a38d9e5b6b13e5abe48058effcddb23475955546dbbb92"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 260,
+      "sha256": "42f7ba8a90ab295819d7fef7567420ef61d0f476d41e135b725076c1c45b8316"
+    },
+    {
+      "reader": "bot-00",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 205,
+      "sha256": "5726ff6aee1372c87ae530141d7d8c263f7b6dc75fe5da1477c539d0352c4d7c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 501,
+      "sha256": "12b8e1d7ff9aae4056537520263340c459b6e7ca1027d8da20350c6628fc7e47"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 303,
+      "sha256": "b1038115fd02a79e25cf64da43032d0ea3e1c11b791ca7464e09cd24f6c55c0c"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 279,
+      "sha256": "a91ccdcaf37d8c47189fa016b985ea44c687d30ab3c11294f9e0a99c09613841"
+    },
+    {
+      "reader": "bot-00",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3252,
+      "sha256": "5fe91c219a0fa05c5b4a168ddce2814731f59b24221b702111c35debaf1c5241"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 217,
+      "sha256": "f9de7cebb796bbecb8945f6e2261bdbe0c292064c7574b0cca3bb5bf8fe52b5f"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 205,
+      "sha256": "d3e5acfb598ec5627ab51aba096501da0064aa16718653da7c52e9d1a971a2d8"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 261,
+      "sha256": "54fa0481defdddee46fb85de3de7ad105b374e36661e99096332739d48c180d4"
+    },
+    {
+      "reader": "bot-01",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 208,
+      "sha256": "404501324bd0abb0fd42737199a0947537ff617cddcfa3c82a98b228bdac9a1e"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 491,
+      "sha256": "4a1639c6edbe0621c1e5161714b0e3b38784719c7d3e73b8c81588265eb15f5a"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 311,
+      "sha256": "a9987ac9930e1c0d031c3d1233eb0ee8c9fdb19a6021a0898d551a6ffa2295df"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 268,
+      "sha256": "6645360b57e9031675f6118d8c16697b12fb7c1c41efd4c34700392d87a187aa"
+    },
+    {
+      "reader": "bot-01",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3258,
+      "sha256": "58e22657c3b7fe80d16ce1783ca50b179826c64a7d233f9647a0483d70975ed0"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 219,
+      "sha256": "a9c8cbc39617b5c71ee3326800c8135b02be93f2bec9c5fae9bc3659831255db"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 209,
+      "sha256": "7bfdcffd1aa17dd5dbfabe5306e37fecef22096df3e77a0e6c4ad55b13d539f4"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 258,
+      "sha256": "f1fa77b4d954e43e2e47497e816054d8326383a8a82e9661b6484732a0d5657c"
+    },
+    {
+      "reader": "bot-02",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 205,
+      "sha256": "9e4e014433a9dfb89c4e0684c9b80bdfa75116cfdfecbab34215ef3b73b0a12f"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 491,
+      "sha256": "c86141e9f83e02c8fab41818d9c1b221f31eb302e0d5ce41e23d8b0c60806574"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 312,
+      "sha256": "c03bead6f8a51a60de2148ad152f8dacd20ecd7923bca2ea793e16fa2a600993"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 267,
+      "sha256": "9fb7887e0f3a541fb39bf5b2d7537b7aae245d0453ad5552c963ad343c65794a"
+    },
+    {
+      "reader": "bot-02",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3248,
+      "sha256": "7bdedd941e609a27ea7da43540c5e54810f319b55da11e8d6437b9c4b39ce45a"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 207,
+      "sha256": "246e32c5ff2cca95d951bb71757e48d51614b8c567e23a4c5ac5129c1babec90"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 201,
+      "sha256": "610e6d2352581adae50e124b734500d09b82c712bd9aec45284c0639188f1749"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 261,
+      "sha256": "ca86814180c57a862e165e7fe4964bc4d2a1f18330add58b4ed7b911cb28fcad"
+    },
+    {
+      "reader": "bot-03",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 199,
+      "sha256": "75787b378377858dc0985ecfa8a611a5ad0d28b9b8a965a83ed67dafebfbe42d"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 495,
+      "sha256": "f620ce25508e10d25cf71fc55a1cdfa01e47002070cb00ff7a82acb8bf73d669"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 316,
+      "sha256": "8ef970d855e594099dc50a3fb80477540522d649d1a134b0e527c6452cccb812"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 273,
+      "sha256": "12021b04b15d7bae97be09a1ec2c45467d787a4721363fec387e068244917c5c"
+    },
+    {
+      "reader": "bot-03",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3250,
+      "sha256": "aa15d4957753967f7c27f70c621dfc9f28a5fd53c1af581c46cf11d08401d170"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 221,
+      "sha256": "e7cd2a6ffb9e4a52b6e2ea64a1933625215310500889f0c881d5f1f9c0794d5a"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 203,
+      "sha256": "e1341d7ba67b4cb7f7f18d0bcc98b43163f09aa7d482c41ab86a0f2be39d98fb"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 254,
+      "sha256": "dc0dba880decf88abeb00ba4894cf1abda4d31c7e9971e1d386b8880848a179f"
+    },
+    {
+      "reader": "bot-04",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 211,
+      "sha256": "6408c582c9da0b711f0eb9cc63a6a92eba792da7a448223fc8d75901457475af"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 497,
+      "sha256": "9fa40557699ade987039ab3660aad8b1d56f4b1c45131e71c8e046b6e096bd3e"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 306,
+      "sha256": "f7c9f64115894731a802cc90591d59e7cda84e246bd0593454c6f9d28882d887"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 274,
+      "sha256": "8a522aa98a0f4ee962d1d434bf12d374dff31df2a90a4bc378978322f00c9a69"
+    },
+    {
+      "reader": "bot-04",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3256,
+      "sha256": "cab610a121dd79897471075ddf3332ef2590f22451fa21ac5052033750da3b96"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 197,
+      "sha256": "2431dd7a20cf93a47ef4722a65d0972b2abe3c1aa182a7282f6c6c48e16082e5"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 199,
+      "sha256": "ffbb353f75a12fa2ca2af3d691a218239620bda4e6de5d55e1bdba2696cd34c8"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 266,
+      "sha256": "111e3e3f011c68b3fa5e02151eed85460fe77a0b54186c8dc710744c17e06f6e"
+    },
+    {
+      "reader": "bot-05",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 193,
+      "sha256": "34d9344cd12a55ef45945d273b7dfc196ce7008952d85ee3239ccc00d4d02604"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 493,
+      "sha256": "e2273aed28a9df3178aee9c5babc7bacd8ec4a05708de630604b7b33700577fd"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 315,
+      "sha256": "c8670350912fb1a6987cd4eb1b0ef23d801a90197c4e5c8f12c683fbbcbac28a"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 274,
+      "sha256": "35a8ad1e9eb66404642e64455d9541aa5ae2ab22c3a07d0fe696d2d2b8ef68a0"
+    },
+    {
+      "reader": "bot-05",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3246,
+      "sha256": "b83749e121358313b3efcef9031986b3a21e4d9de08b372dc3c9f6c59ed81652"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 209,
+      "sha256": "5f551f4d72a3229daaa7f6e68ae88717e3869b4b741cfb2f0e224ef2006bbdf0"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 197,
+      "sha256": "9cbbd20d58669c2b4199477c1391e352619e4aebfe497cd69111a0f627212d65"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 272,
+      "sha256": "4da544445f0a27fc8dd16ad516016325770001e12c3d49a2b1b6e55c736e0b38"
+    },
+    {
+      "reader": "bot-06",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 217,
+      "sha256": "42980a636132751d39a039bb87333e5d022a22f5327dbabc30fee1822c8e31e0"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 497,
+      "sha256": "424db087b209f58f8c5296b085a21891205f6d2010fee82e8c2c237c70af2d38"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 303,
+      "sha256": "976627e0a19b5bc8dab191635b9a597933dd712baca2f0ae8ad79c5e57385d0b"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 271,
+      "sha256": "b84e3c7a47876749f5aff351e194047dea4f928525cc9ea6ad2d55320c403601"
+    },
+    {
+      "reader": "bot-06",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3250,
+      "sha256": "6ef9126ca7157f88e84e8285d70564e0d2fb65a413513c6679776b7f96c34526"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 207,
+      "sha256": "2e87c82c2abcf1681b64ce3c1aa15fac48b7567cb517d8b82ae5d071cb9712c9"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 203,
+      "sha256": "db9bde68c152b464795645093e8bbca5796f0075be310bffc64964b1d36742ab"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 263,
+      "sha256": "8b01c416fc600d167863350d74b2ec20de6f57f658047988b7b31ffb5acd1a00"
+    },
+    {
+      "reader": "bot-07",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 208,
+      "sha256": "d3bb0136052db1241b2f2291a9173b8abbc4e094600659abae539382c7f56d5e"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 491,
+      "sha256": "9eb28999fe1ca132ba5878cc803813eea0a1bf9e2405d803b26a422fe433bcf2"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 302,
+      "sha256": "b70bb470eacfcde962c7ca13e459f67976d6cff7d605cd4d4e2cba903792c9fe"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 268,
+      "sha256": "38c84ccd6f9dcbc2bfb8facbac19eff713c45a51a6fd9b5cf3a6c16941348e5c"
+    },
+    {
+      "reader": "bot-07",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3244,
+      "sha256": "cdde3942ddbc07031c2bfcc08f3456699c18eb95622340134d1407ddd0613964"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 215,
+      "sha256": "233f2d39cbb6bd8b997d1d523b15fc784cd826410af03e2115084dde44f9d6d7"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 191,
+      "sha256": "d755fbb1a5bdacd97c50bc4489473ccd0af4b8dd6975c78c5c1fa566b9484bee"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 253,
+      "sha256": "db853c5de5c28a5ef02fdbab5e13b8717ccaa32ef1c33d75c42d1441067b3dc5"
+    },
+    {
+      "reader": "bot-08",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 208,
+      "sha256": "4435d958c0e309942a268ce3ad298432feadde8553815857633853ed865cf2ac"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 503,
+      "sha256": "c21a5e1d3ede4fb3c563728b9c368bae96cae6900c111b3e356ac5d8b7527c8f"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 319,
+      "sha256": "b6b9460558df1a2d67bdb82e08c966fa70566e4dbb9aad54764633e83b4f9c71"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 275,
+      "sha256": "f84a55a27a37a26ff339744f5ba6057153d21b91563e0877bc89b723268e174c"
+    },
+    {
+      "reader": "bot-08",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3248,
+      "sha256": "90ba5aa102a8995b75991433f884671e6c70143a53a2b7ab37096f8f13f478dc"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 207,
+      "sha256": "09af4554da2269de6c565ad92d2796187f2d1c20dda4eb42c30e1ded27a1ec40"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 201,
+      "sha256": "850364c89803fba0ea37182394987e0493c390e3213792dda91c111399ae9976"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 263,
+      "sha256": "642a0ab89d33ffa49783449ee46a1ea9aeaddc301305086ea5835202f4d626b5"
+    },
+    {
+      "reader": "bot-09",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 202,
+      "sha256": "df314533146172c91caaa4868f8f1297c3c6de7867fdfe2a85c534f90797c776"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 499,
+      "sha256": "9462eefddea33a0229a761e764e662f3633d61e08ab7f622acf7f3bceabb1d8c"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 305,
+      "sha256": "4b6be23346ab55d3bf315a9833d70bc128428b2974e1a900b0a45f7c04f37aec"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 274,
+      "sha256": "53a12e5f0e75d24c62d5943af2811110f8622528bc5d67244ce2d83ac6be807b"
+    },
+    {
+      "reader": "bot-09",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3250,
+      "sha256": "f8276923e9129f41b71a55bafc2448f6f31190388e3a78e6f0a4acb77196e313"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 211,
+      "sha256": "fa8d3be5c8dc5c6f8cb352f07d4b0680a7d11991b3192744df4849062e2b26a1"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 199,
+      "sha256": "9fe2df84e13cdcb7a95627321bf754cebc5c963c0d3ed87127f00afcf26b7a11"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 262,
+      "sha256": "62377ed3f9de0c10e4d532c2dcec461d40acd6227e6fff55236ea5fcff1beaae"
+    },
+    {
+      "reader": "bot-10",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 202,
+      "sha256": "c1351ccb5ff18f97f4ea05d674204ae1a072797a6521bbb633091f7822d8794c"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 491,
+      "sha256": "6e008c06d77fdb382a7a6a5e2bcec1bccb0d9ff1120fd3df36e56e42d34ab3d3"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 304,
+      "sha256": "d673cab1ac2459c4f4bdd2411e81e9de14c41d4c38d588f1f9adadf007bb6860"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 272,
+      "sha256": "c5c3b01a45593b2e615dbc187129c830a16e370b177eb051f4882c76f2235d61"
+    },
+    {
+      "reader": "bot-10",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3256,
+      "sha256": "2955a8fe984e805e1556ea1a8c6ca5769bb298fc47019f6888e07e550722276b"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 211,
+      "sha256": "697497728469e8d2c8a4b42c538a9d86678d8981dd4f043d335f832042117f35"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 205,
+      "sha256": "0edfed610ce70c73d27ad0cb1fe67320f9e3b7d5235550c0005ffbc3423c367b"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 320,
+      "sha256": "98cf588b753986964b6942e7709a75c3c0ce7ca8a3435b16d9210c28c0b54646"
+    },
+    {
+      "reader": "bot-11",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 443,
+      "sha256": "b52d0cc35bda096236074216eb3b51b3ad1f21cf2c5fd22dd526839b2b6f57c5"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 487,
+      "sha256": "e6d1e4387ad64668293178653018fbd6a6aaf526ec88f39264d9bc2d0f0c0a46"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 1564,
+      "sha256": "8de04d6428dffd4a3b157e9b8dabba45e51a6bad08bf79f0cf181269595c3c05"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 4219,
+      "sha256": "d3dd8844c8d1b31753391046bfa395c630d56d11ed0ae0dfd42443c47ba937dd"
+    },
+    {
+      "reader": "bot-11",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3256,
+      "sha256": "1478ab2f092861d0c0bc3dff2597a659c41ba705f5ebd39c52c472a573b29112"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 213,
+      "sha256": "096d1d6cb87e3611d8e384e6db60296a9328fde4cdb93940a37ca80b292b89e7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 209,
+      "sha256": "e70304b5fc3b3a450023521adcb0b6374a94bcf3a6a82f24fd7f0b7afc88f5ee"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 314,
+      "sha256": "758da820875e8cc8527d180fea7d3301713d0ad011d5879953321401abb55925"
+    },
+    {
+      "reader": "bot-12",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 449,
+      "sha256": "dadf4f6b872244748d1983c96de9aea415f9c65b1d9584a3fff6f50c3e03c527"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 493,
+      "sha256": "04c1a186c20669b3c961a2f42c83310e106c9618374cfa3d5d9ea4be9801f3b3"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 1560,
+      "sha256": "12e9c77a7212e0a96c5f35b916e0a39345cb7c9820af9c78336f4cc26c8cf9d2"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 4205,
+      "sha256": "98feb91fd816050a7895969cb6f59389219a074230a85b6fc4ae8580cf1df9c7"
+    },
+    {
+      "reader": "bot-12",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3258,
+      "sha256": "d99e23df2e608f1495240d5b8ab896247b0929c94bcf4d44dfefa012020b9387"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 225,
+      "sha256": "7262f94bb5f6933c8267eab112b63bc8d69ce840fa74bdeb91f150801fadd2fc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 201,
+      "sha256": "5cae8d72f13a1ce4333f13152565c6f20e4caeb79347d9414015efab5d57a543"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 318,
+      "sha256": "9dd66d8a5acf927ae0777591131e16dd891cc16f028eb06270cf38306aad14d6"
+    },
+    {
+      "reader": "bot-13",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 445,
+      "sha256": "173a7dbe4d50d01c95f76ba914c493f524a69a1b9b674328f89df74837466f74"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 503,
+      "sha256": "42f27e21e6f3d27d64b2f12108eebc1f626b6d55482a19bfa012f10916248ca5"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 1570,
+      "sha256": "4146f9d0fc5f301de9f043e2bab69ac4950a8113a33ccdd06c590403d7b062d9"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 4205,
+      "sha256": "4492bf8a2d8c6e74125a33986a104b167f0ac55eddcefadc6e6efc28cb9604dc"
+    },
+    {
+      "reader": "bot-13",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3254,
+      "sha256": "6d835781338ebb7995594e386236a1129ed9fa1cdf7555209049507de5325da4"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 221,
+      "sha256": "e74a5e174412c3d4a582e8fab43ba9108c2ad22075560128174cb3eff5c5291d"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 193,
+      "sha256": "688ce65e0aecd608352e9dca03223e39b36ac8982169d460a0dd214fda851bd3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 306,
+      "sha256": "bc2637a9beccc3410ce02d15a2ef60b2b8686e3e74a8328a30943bc34578dfc3"
+    },
+    {
+      "reader": "bot-14",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 439,
+      "sha256": "132c5f5edef9804b2cdd728e5d4b1b2bf297757a06df2859bd6dc5285d904fe1"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 497,
+      "sha256": "6d9415fad02b1ace675aafdd23400cbafcc949030034309d2c61c78015707339"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 1546,
+      "sha256": "fe2ded5d1d85734bdd8e519de1b522067e5355e3e0ba0c896c58c2bd26326c0b"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 4211,
+      "sha256": "c99f84944e9b5d2fe5beb5ff3f441187efbf65d50d6fcf7b70bd40fc9a8fa5cb"
+    },
+    {
+      "reader": "bot-14",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3250,
+      "sha256": "8a8c52446fc065424a1963870886a476796c7291aaccc1f8b1fe1ebccfd39d31"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Brief",
+      "arm": "auto",
+      "tokens": 209,
+      "sha256": "9c3804bc3f5b86adcd37dd99d40b8206c613b61e8dd5d93664da2e7c0a0b14cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Notice",
+      "arm": "auto",
+      "tokens": 211,
+      "sha256": "7b2fc6cefdf80e7fb4a4f63ac39b85a50a75224bf9ce39196c863ed98c622d75"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Checklist",
+      "arm": "auto",
+      "tokens": 322,
+      "sha256": "ec15c0b80a04dd0b62a66f69638decb57d9a83b3c953d83a2b18cbd2542a59cd"
+    },
+    {
+      "reader": "bot-15",
+      "case": "NewRule",
+      "arm": "auto",
+      "tokens": 443,
+      "sha256": "5e4751f65e40278828b0594a34a6e8a99ebf55faa791b45d4c25e8b4387ede9a"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Meeting",
+      "arm": "auto",
+      "tokens": 489,
+      "sha256": "ec0dea22e741ae790bdd1e50704d52842f6dbccca6d69d898b96372bf9441a6c"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Runbook",
+      "arm": "auto",
+      "tokens": 1550,
+      "sha256": "ce57be26dc76ecb4d461bf703ef345e6ed93b4297eb9c5fa3897f8f0a0a37ac7"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Handbook",
+      "arm": "auto",
+      "tokens": 4207,
+      "sha256": "fc9399532464ab0773a88a2c12585b999d8ae4cb246f42e7f1979d124d55a942"
+    },
+    {
+      "reader": "bot-15",
+      "case": "Archive",
+      "arm": "auto",
+      "tokens": 3242,
+      "sha256": "a432cdd20a6d4aca9a087eaddc99e806b18acd6d363f0f34eb0507afba17e28c"
+    }
+  ]
+}

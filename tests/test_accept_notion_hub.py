@@ -112,7 +112,10 @@ class AcceptanceOrchestrationTest(unittest.TestCase):
             self.assertEqual(receipt["created_test_pages"], 2)
             self.assertEqual(receipt["reader_count"], 16)
             self.assertEqual(receipt["pre_sync_baselines"], {"v1": 5, "v2": 6, "unread": 5})
-            self.assertEqual(receipt["delivery_modes"], {"delta": 11, "snapshot": 5})
+            self.assertEqual(sum(receipt["delivery_modes"].values()), receipt["reader_count"])
+            totals = receipt["final_read_changes_tokens"]
+            self.assertGreater(totals["automatic"], 0)
+            self.assertLessEqual(totals["automatic"], min(totals["all_full"], totals["legacy"]))
             self.assertTrue(receipt["lost_ack_restart_recovered"])
             mutations = json.loads((output / "mutations.json").read_text())
             self.assertEqual(len(mutations), 4)

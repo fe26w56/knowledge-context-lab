@@ -46,6 +46,12 @@ include runs/phase2-span-compaction-v3/summary.json
 include runs/phase2-span-compaction-v3/rows.json
 include runs/phase2-reuse-validation-v1/receipt.json
 
+include fixtures/phase2-hub-auto-v1/FREEZE.sha256
+include runs/phase2-hub-auto-v2/summary.json
+include runs/phase2-hub-auto-v2/manifest.json
+include runs/phase2-hub-auto-previous-short-v1/receipt.json
+include runs/phase2-hub-auto-tool-text-v1/receipt.json
+
 prune .phase1-original
 prune .venv
 prune tokenizer-cache

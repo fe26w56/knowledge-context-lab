@@ -1,0 +1,24 @@
+{
+  "method": "Recorded receipt IDs; actual ReaderHandoff and BotReceiver; final state read via Notion HTTPS for each reader",
+  "tokenizer": "o200k_base",
+  "unit": "compact read_changes JSON tokens",
+  "verified_and_acknowledged": 16,
+  "historical_versions": {
+    "v1": 5,
+    "v2": 6,
+    "unread": 5
+  },
+  "body_tokens": 71,
+  "totals": {
+    "full": 3241,
+    "legacy": 3321,
+    "auto": 3241
+  },
+  "modes": {
+    "snapshot": 16,
+    "delta": 0
+  },
+  "live_page_reads": 16,
+  "notion_writes": 0,
+  "model_calls": 0
+}

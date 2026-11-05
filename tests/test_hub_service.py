@@ -181,6 +181,25 @@ class HubHTTPTests(unittest.TestCase):
             b.call("create_page", {"parent_id": ROOT, "title": "test", "markdown": "x", "request_id": "one"})
         self.assertEqual(self.creates, [])
 
+    def test_http_read_returns_the_exact_text_used_for_token_selection(self):
+        import anyio
+        from mcp import ClientSession
+        from mcp.client.streamable_http import streamable_http_client, httpx2
+
+        async def read():
+            async with httpx2.AsyncClient(headers={"Authorization": "Bearer synthetic-0"}) as http:
+                async with streamable_http_client(self.url, http_client=http) as streams:
+                    async with ClientSession(streams[0], streams[1]) as session:
+                        await session.initialize()
+                        result = await session.call_tool("read_changes", {"page_id": ROOT})
+            self.assertFalse(result.is_error)
+            self.assertEqual(len(result.content), 1)
+            text = result.content[0].text
+            offer = json.loads(text)
+            self.assertEqual(offer["packet"]["pages"]["body/" + ROOT], self.pages[ROOT])
+            self.assertEqual(text, json.dumps(offer, ensure_ascii=False, sort_keys=True, separators=(",", ":")))
+        anyio.run(read)
+
     def test_16_http_readers_with_different_baselines_reconstruct_and_restart(self):
         from context_lab.bot_client import BotClient
         clients = [BotClient(self.client_config(i)) for i in range(16)]

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0rc4.dev2 — token-aware Notion handoffs
+
+- Select the smaller complete snapshot or delta reply for each acknowledged page. First reads and explicit recovery requests still receive a snapshot.
+- Report actual changes independently of delivery format. [16-reader results and reproduction](docs/hub-transfer-evaluation.md).
+
 ## 0.7.0rc4.dev1 — Notion Hub development preview
 
 - Add the scoped shared Hub service, durable bot client, guarded Notion operations and synthetic integration tests.
