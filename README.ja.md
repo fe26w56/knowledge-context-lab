@@ -1,10 +1,16 @@
 # Knowledge Context Lab
 
-AIエージェントに渡す根拠を、原文・版・条件・例外とともに保つローカルPythonライブラリです。開発プレビュー 0.7.0rc4.dev0、MITライセンス。
+AIエージェントに渡す根拠を、原文・版・条件・例外とともに保つローカルPythonライブラリです。開発プレビュー 0.7.0rc4.dev1、MITライセンス。
+
+## Notion Hub 開発プレビュー（0.7.0rc4.dev1）
+
+`[hub]` 追加機能には、永続ディスクを使う Linux/macOS の単一ホスト向け共有 HTTP hub、bot クライアント、Notion 操作用の保護付き処理を含みます。dev1 wheel またはチェックアウトから `python -m pip install '.[hub]'` で導入し、bot ごとに接続資格情報と reader ID を分けます。
+
+[Notion Hub 運用ガイド](docs/notion-hub-operations.md) · [dev1 wheel](releases/0.7.0rc4.dev1/knowledge_context_lab-0.7.0rc4.dev1-py3-none-any.whl)
 
 同じNotion接続でも、AIごと・ページごとに最後に受領した版を保存します。未読なら全文、既読ならそのAIが受け取った版からの差分を返します。エージェントが受領を確定するまで既読版は進みません。MCPホストがPythonを起動し、受領履歴を永続ディスクに持ちます。[設定と使用例](docs/workspace-handoff.md#agent-facing-mcp) · [インストール用wheel](releases/0.7.0rc4.dev0/knowledge_context_lab-0.7.0rc4.dev0-py3-none-any.whl)
 
-既知のテーマに対して確認済み原文範囲を返し、関連資料の訂正・追加を検知したfresh snapshotでは古い内容を返さず再確認待ちにします。人の内容確認を自動で証明するものではなく、自由文からのテーマ特定やNotion自動同期は含みません。
+既知のテーマに対して確認済み原文範囲を返し、関連資料の訂正・追加を検知したfresh snapshotでは古い内容を返さず再確認待ちにします。この検索方式は、利用者が指定したテーマと確認済みの原文範囲を使います。
 
 ```sh
 python3.11 -m venv .venv

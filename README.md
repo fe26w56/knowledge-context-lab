@@ -2,7 +2,13 @@
 
 **Evidence-preserving context retrieval for local AI agents.** Keep original sources, return reviewed source ranges for known topics, and withhold stale context when supporting documents change.
 
-Development preview **0.7.0rc4.dev0** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
+Development preview **0.7.0rc4.dev1** · Python 3.11+ · [MIT](LICENSE) · [日本語](README.ja.md)
+
+## Notion Hub development preview (0.7.0rc4.dev1)
+
+The `[hub]` extra provides a shared HTTP hub, a durable bot client, and guarded Notion operations for a single persistent Linux/macOS host. Install from the dev1 wheel or checkout with `python -m pip install '.[hub]'`; assign each bot its own client credentials and reader identity.
+
+[Notion Hub operations](docs/notion-hub-operations.md) · [dev1 wheel](releases/0.7.0rc4.dev1/knowledge_context_lab-0.7.0rc4.dev1-py3-none-any.whl)
 
 ## Per-agent Notion handoffs
 

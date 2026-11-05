@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0rc4.dev1 — Notion Hub development preview
+
+- Add the scoped shared Hub service, durable bot client, guarded Notion operations and synthetic integration tests.
+- Add setup and bounded acceptance-test commands; see [Notion Hub operations](docs/notion-hub-operations.md).
+
+
 ## 0.7.0rc4.dev0 — per-reader handoffs
 
 - Add read-only MCP tools for page changes and independent acknowledgements per reader.

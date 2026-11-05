@@ -1,5 +1,8 @@
 # Local handoff deltas
 
+The `0.7.0rc4.dev1` development preview also includes the [Notion Hub operations guide](notion-hub-operations.md). For that mode, install the dev1 wheel with the `[hub]` extra on one persistent Linux/macOS host, and use distinct client credentials and reader IDs for each bot. The reader-only handoff mode below remains independently usable.
+
+
 ## Agent-facing MCP
 
 Install the [wheel](../releases/0.7.0rc4.dev0/knowledge_context_lab-0.7.0rc4.dev0-py3-none-any.whl) in a Python 3.11+ environment, or run `python -m pip install .` from the checked-out repository.

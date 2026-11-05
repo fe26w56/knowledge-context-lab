@@ -13,7 +13,7 @@ FORBIDDEN_PARTS = {
     ".git", ".codex", ".agents", ".aws", "__pycache__",
 }
 FORBIDDEN_SUFFIXES = {".sqlite", ".sqlite3", ".sqlite-shm", ".sqlite-wal", ".db", ".zip", ".tar", ".gz"}
-SECRET = re.compile(rb"sk-[A-Za-z0-9]{24,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")
+SECRET = re.compile(rb"sk-[A-Za-z0-9]{24,}|(?:ntn_|secret_)[A-Za-z0-9]{24,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")
 # Match filesystem paths, not URL paths such as
 # ``https://example.invalid/private/contact`` in a fictional fixture.
 PRIVATE_OR_RUNTIME_PATH = re.compile(rb"(?:^|[\s\"'])/(?:Users|private|tmp)/")

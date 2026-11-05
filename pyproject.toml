@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "knowledge-context-lab"
-version = "0.7.0rc4.dev0"
+version = "0.7.0rc4.dev1"
 description = "Offline evaluation harness for evidence-preserving agent context retrieval"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -25,6 +25,7 @@ Issues = "https://github.com/fe26w56/knowledge-context-lab/issues"
 
 [project.optional-dependencies]
 tokens = ["tiktoken==0.14.0"]
+hub = ["mcp==2.3.0", "uvicorn==0.54.0"]
 
 [project.scripts]
 context-lab = "context_lab.evaluate:main"
@@ -35,6 +36,8 @@ context-lab-release-eval = "context_lab.release_eval:main"
 context-lab-workflow = "context_lab.workflow_eval:main"
 context-lab-workspace = "context_lab.workspace_cli:main"
 context-lab-workspace-mcp = "context_lab.workspace_mcp:main"
+context-lab-hub = "context_lab.hub_service:main"
+context-lab-bot = "context_lab.bot_client:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

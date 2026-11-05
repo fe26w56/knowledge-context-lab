@@ -1,5 +1,7 @@
 # Initial public preview scope
 
+The `0.7.0rc4.dev1` development preview adds only the scoped Notion Hub runtime modules, setup/acceptance scripts, related tests, CI dependency wiring and [Notion Hub operations guide](notion-hub-operations.md). The earlier reader handoff mode remains available separately. The dev1 wheel is built from this staged source.
+
 The 0.7.0rc4.dev0 update adds the reader MCP, its required delta library, tests and [setup guide](workspace-handoff.md). The following scope describes the earlier 0.7.0rc3 preview.
 
 The first public source tree is an explicit export of the research workspace. The workspace itself contains private-copy references, credentials outside the project, local databases, Python environments, rejected development attempts and very large intermediate traces. It is not a directory to upload wholesale.

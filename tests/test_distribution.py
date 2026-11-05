@@ -36,9 +36,11 @@ class DistributionChecksTests(unittest.TestCase):
         self.assertEqual("sdist", result["kind"])
 
     def test_sdist_content_secret_is_rejected(self):
-        path = self._sdist(extra={"docs/bad.md": b"token sk-" + b"a" * 40})
-        with self.assertRaisesRegex(ValueError, "credential-like content"):
-            check_archive(path)
+        for prefix in (b"sk-", b"ntn_", b"secret_"):
+            with self.subTest(prefix=prefix):
+                path = self._sdist(extra={"docs/bad.md": b"token " + prefix + b"a" * 40})
+                with self.assertRaisesRegex(ValueError, "credential-like content"):
+                    check_archive(path)
 
     def test_sdist_private_runtime_path_is_rejected(self):
         path = self._sdist(extra={"docs/path.md": b"runtime: /" + b"tmp/kcl-work\n"})
